@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- DW6 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Buffet Planeta da Alegria</title>
+<link rel="stylesheet" href="emx_nav_left.css" type="text/css">
+// -->
+<script language=javascript>
+function EnviaDados()
+{
+	//document.Orcamento.action='';
+
+	if (document.Orcamento.nome.value == '')
+	{
+		alert('Informe seu nome');
+		document.Orcamento.nome.focus();
+		return;
+	}
+
+	if (document.Orcamento.email.value == '')
+	{
+		alert('Informe seu e-mail');
+		document.Orcamento.email.focus();
+		return;
+	}
+	
+	if (document.Orcamento.tel.value == '')
+	{
+		alert('Informe seu Telefone');
+		document.Orcamento.tel.focus();
+		return;
+	}
+
+	if (document.Orcamento.data.value == '')
+	{
+		alert('Informe a Data da Festa');
+		document.Orcamento.data.focus();
+		return;
+	}
+
+	if (document.Orcamento.hora.value == '')
+	{
+		alert('Informe a Hora da Festa');
+		document.Orcamento.hora.focus();
+		return;
+	}
+
+	if (document.Orcamento.veiculo.value == '')
+	{
+		alert('Informe o meio de comunicação pelo qual conheceu o buffet');
+		document.Orcamento.veiculo.focus();
+		return;
+	}
+
+	//document.Orcamento.action='http://www.twi.com.br/cgi-bin/formmail3.cgi';
+	//document.Orcamento.submit();
+}
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #006633}
+body {
+	background-color: #0000CC;
+}
+.style2 {	color: #FFFF00;
+	font-weight: bold;
+	font-size: xx-large;
+}
+.style14 {color: #009900}
+.style9 {color: #FF0000; }
+-->
+</style>
+</head>
+<body> 
+<div class="skipLinks">skip to: <A href="#content">page content</A> | <A href="pageNav">links on this page</A> | <A href="#globalNav">site navigation</A> | <A href="#siteInfo">footer (site information)</A> </div><!-- end masthead -->
+<div id="pagecell1"><!--pagecell1--> 
+  <IMG id=tl height=6 alt="" src="tl_curve_white.gif" width=6> <IMG id=tr height=6 alt="" src="tr_curve_white.gif" width=6> 
+  <div id="breadCrumb">
+    <div id="breadCrumb"> </div>
+    <div id="pageName">
+      <h2><span class="style14" style="COLOR: mediumblue">Orçamento</span></h2>
+    </div>
+  </div> 
+  <div id="pageNav"> 
+    <div id="sectionLinks"> 
+      <A href="Index.html">Página Inicial</A>
+      <A href="Ambientes.html">Ambientes</A>
+      <A href="Decoracoes.html">Decorações</A>
+      <A href="Orcamento.html">Orçamento</A>
+      <A href="Brinquedos.html">Brinquedos</A>
+      <A href="Cardapio.html">Cardápio</A>
+      <A href="Localizacao.html">Localização</A>
+      <A href="mailto:planetadaalegria@planetadaalegria.com.br">Fale Conosco</A>
+    </div> 
+    <div class="relatedLinks"> 
+      <h3>&nbsp;</h3>
+    </div> 
+  </div> 
+<FORM method="post" action="http://www.twi.com.br/cgi-bin/formmail3.cgi" id=Orcamento name=Orcamento onsubmit='EnviaDados()'>
+	<TABLE width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr valign=top> 
+			<td width=90>Nome</td>
+			<td><INPUT name="nome" size="40" maxlength="40" ></td>
+		</tr>
+		<tr valign=top> 
+			<td width=90 height="22">E-mail </td>
+			<td><INPUT name="email" size="30" maxlength="30"></td>
+		</tr>
+		<tr valign=top> 
+			<td width=90 height="22">Telefone </td>
+			<td> 
+				<INPUT name="dddtel" size="1" maxlength="2">
+				<INPUT name="tel" size="9" maxlength="9">
+			</td>
+		</tr>		
+		<tr valign=top> 
+			<td>Data Festa</td>
+			<td>
+				<INPUT name="data" id="data" size="10" maxlength="10" >&nbsp;&nbsp;Qtde Pessoas 
+				<INPUT id="qtde" maxLength=3 size=3 name="qtde">&nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+		<tr valign=top> 
+			<td width=90>Horário</td>
+			<td>
+				<input type="radio" name="hora" id="hora" value="12:00" border="0">12:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="hora" id="hora" value="19:00" border="0">19:00
+			</td>
+		</tr>
+		<tr valign=middle> 
+			<td width=90>Como conheceu o site ?</td>
+			<td>
+				<input type="radio" name="veiculo" id="veiculo" value="Guias" border="0">Guias&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="veiculo" id="veiculo" value="Buscapé" border="0">Buscapé&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="veiculo" id="veiculo" value="Outros" border="0">Outros
+				<INPUT name="Outros" id="Outros" size="30" maxlength="30" >
+			</td>
+			<td>
+				
+			</td>			
+		</tr>
+		<tr valign=top> 
+			<td width=90></td>
+			<td>&nbsp; </td>
+		</tr>
+		<tr valign=top> 
+			<td width=90>&nbsp; </td>
+			<td>
+				<INPUT type="submit" value="Enviar" name="submit">
+				<INPUT type="reset"  value="Limpar" name="reset">
+			</td>
+		</tr>
+	</TABLE>
+
+	<INPUT type="hidden" name="recipient" value="planetadaalegria@planetadaalegria.com.br">
+	<INPUT type="hidden" name="required" value="nome,email,data,hora,qtde">
+	<INPUT type="hidden" name="subject" value="WEB - Pesquisa de Preco">
+	<INPUT type="hidden" name="redirect" value="http://www.planetadaalegria.com.br/">
+</FORM>  
+</div><!--end pagecell1--> 
+<br> 
+ 
+<span class="style2"><span class="style14">Buffet</span> <span class="style9">Planeta</span> <span class="style9">da</span> <span class="style9">Alegria</span></span>
+</body>
+</html>

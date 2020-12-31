@@ -1,0 +1,7 @@
+Line 124: Class CURRENCYEDITLib.CurrencyEdit of control txtValor was not a loaded control class.
+Line 147: Class CURRENCYEDITLib.CurrencyEdit of control txtHonorarios was not a loaded control class.
+Line 170: Class CURRENCYEDITLib.CurrencyEdit of control txtAcrescimo was not a loaded control class.
+Line 193: Class CURRENCYEDITLib.CurrencyEdit of control txtMulta was not a loaded control class.
+Line 216: Class CURRENCYEDITLib.CurrencyEdit of control TxtJuros was not a loaded control class.
+Line 239: Class CURRENCYEDITLib.CurrencyEdit of control txtValorReceita was not a loaded control class.
+Line 262: Class DATEEDITLib.DateEdit of control datVencimento was not a loaded control class.

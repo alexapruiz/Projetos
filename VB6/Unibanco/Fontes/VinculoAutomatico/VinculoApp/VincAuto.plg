@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VincAuto - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1AE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VincAuto.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\FONTES\VinculoAutomatico\VinculoApp\Vinculador.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1AE.tmp" 
+Creating temporary file "C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1AF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VincAuto.pdb" /debug /machine:I386 /out:"Debug/VincAuto.exe" /pdbtype:sept 
+.\Debug\GetAgContaDeposito.obj
+.\Debug\GetCapaVincular.obj
+.\Debug\GetControleCapa.obj
+.\Debug\GetDataProc.obj
+.\Debug\GetDocOcorrencia.obj
+.\Debug\GetDocumentos.obj
+.\Debug\GetDocumentoTransmitido.obj
+.\Debug\GetIdDoctoAjuste.obj
+.\Debug\GetValoresParametro.obj
+.\Debug\StdAfx.obj
+.\Debug\VincAuto.obj
+.\Debug\VincAutoDlg.obj
+.\Debug\Vinculador.obj
+.\Debug\VincAuto.res
+]
+Creating command line "link.exe @C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1AF.tmp"
+<h3>Output Window</h3>
+Compiling...
+Vinculador.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1B0.tmp" with contents
+[
+/nologo /o"Debug/VincAuto.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\GetAgContaDeposito.sbr
+.\Debug\GetCapaVincular.sbr
+.\Debug\GetControleCapa.sbr
+.\Debug\GetDataProc.sbr
+.\Debug\GetDocOcorrencia.sbr
+.\Debug\GetDocumentos.sbr
+.\Debug\GetDocumentoTransmitido.sbr
+.\Debug\GetIdDoctoAjuste.sbr
+.\Debug\GetValoresParametro.sbr
+.\Debug\VincAuto.sbr
+.\Debug\VincAutoDlg.sbr
+.\Debug\Vinculador.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\junior\CONFIG~1\Temp\RSP1B0.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VincAuto.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

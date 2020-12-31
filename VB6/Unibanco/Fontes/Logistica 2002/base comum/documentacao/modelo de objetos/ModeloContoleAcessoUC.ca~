@@ -1,0 +1,787 @@
+
+(object Petal
+    version    	44
+    _written   	"Rose 7.0.9420.17"
+    charSet    	0)
+
+(object Class_Category "Módulo de Controle de Acesso"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    attributes 	(list Attribute_Set
+	(object Attribute
+	    tool       	"sc"
+	    name       	"SourceControlSpec"
+	    value      	(value Text 
+|"$/Marketing/Documentacao/Modelagem de objetos", DAAAAAAA
+	    )))
+    quid       	"3BCC4379033A"
+    documentation 	
+|Descrição:
+|----------------
+|   Para acessar o sistema todo o usuário deverá fornecer um login e senha.
+|
+|Sequencia normal de eventos:
+|-----------------------------------------------
+|     1. O usuário preenche os campos login e senha na tela de login.
+|      2. O sistema verifica se o login e senha informado são corretos.
+|      3. O sistema exibe para o usuário uma mensagem de boas vindas
+|
+|Sequencia alternativa de enventos (1):
+|------------------------------------------------------------
+|       1. O login ou senha informados são inválidos
+|       2. O sistema exibe uma mensagem de erro informado ao usuário para redigitar o login e senha.
+|       3. O sistema permite 3 tentativas de login inválidas, no 4 º erro será auditado no sistema o erro de acesso, e a aplicação será abortada. 
+|
+|Sequencia alternativa de enventos (2):
+|------------------------------------------------------------
+|       1. O login e senha informados são válidos, porém o usuário não tem permissão de acesso ao módulo.
+|       2. O sistema exibirá uma mensagem de erro advertindo ao usuário que o módulo em questão não é acessível para ele.
+|        3. O sistema será abortado.
+|
+    
+    stereotype 	"organization unit"
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object UseCase "Cadastra usuário"
+	    quid       	"3BCF6210024A"
+	    visible_modules 	(list dependency_list
+		(object Dependency_Relationship
+		    quid       	"3BE83C900033"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários"
+		    quidu      	"3BD5BEB101BD")))
+	(object UseCase "Altera usuário"
+	    quid       	"3BCF621901C1")
+	(object UseCase "Exclui usuário"
+	    quid       	"3BCF622002E3")
+	(object UseCase "Valida credenciais de acesso"
+	    quid       	"3BCF6230010F")
+	(object UseCase "Obtem Permissoes de Acesso"
+	    quid       	"3BD5BAE7024E")
+	(object UseCase "Cadastra Aplicativos"
+	    quid       	"3BD5BE5501CE")
+	(object UseCase "Cadastra Módulos"
+	    quid       	"3BD5BE700386"
+	    visible_modules 	(list dependency_list
+		(object Dependency_Relationship
+		    quid       	"3BE83C9B0205"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Aplicativos"
+		    quidu      	"3BD5BE5501CE")))
+	(object UseCase "Cadastra Submódulos"
+	    quid       	"3BD5BE850390"
+	    visible_modules 	(list dependency_list
+		(object Dependency_Relationship
+		    quid       	"3BE83CA40321"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Módulos"
+		    quidu      	"3BD5BE700386")))
+	(object UseCase "Cadastra Grupo de usuários"
+	    quid       	"3BD5BEB101BD")
+	(object UseCase "Cadastra Permissoes"
+	    quid       	"3BD5BED302E8"
+	    visible_modules 	(list dependency_list
+		(object Dependency_Relationship
+		    quid       	"3BE83CBB03BA"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos"
+		    quidu      	"3BD5BE850390")
+		(object Dependency_Relationship
+		    quid       	"3BE83CD2011E"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários"
+		    quidu      	"3BD5BEB101BD")))
+	(object Association "$UNNAMED$0"
+	    quid       	"3BCF6247039D"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"3BCF62480272"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Valida credenciais de acesso"
+		    quidu      	"3BCF6230010F"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$2"
+		    quid       	"3BCF6248027C"
+		    supplier   	"Use Case View::Usuario do sistema"
+		    quidu      	"3BC5B57B035C")))
+	(object Association "$UNNAMED$3"
+	    quid       	"3BCF625302AA"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$4"
+		    quid       	"3BCF625400E9"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Altera usuário"
+		    quidu      	"3BCF621901C1"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$5"
+		    quid       	"3BCF625400EA"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$6"
+	    quid       	"3BCF625601B4"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$7"
+		    quid       	"3BCF625603D1"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra usuário"
+		    quidu      	"3BCF6210024A"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$8"
+		    quid       	"3BCF625603DB"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$9"
+	    quid       	"3BCF62580243"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$10"
+		    quid       	"3BCF6259012C"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Exclui usuário"
+		    quidu      	"3BCF622002E3"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$11"
+		    quid       	"3BCF6259012D"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$12"
+	    quid       	"3BD5BB13026F"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$13"
+		    quid       	"3BD5BB140249"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Obtem Permissoes de Acesso"
+		    quidu      	"3BD5BAE7024E"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$14"
+		    quid       	"3BD5BB14024A"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Valida credenciais de acesso"
+		    quidu      	"3BCF6230010F")))
+	(object Association "$UNNAMED$15"
+	    quid       	"3BD5BE620028"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$16"
+		    quid       	"3BD5BE62028B"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Aplicativos"
+		    quidu      	"3BD5BE5501CE"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$17"
+		    quid       	"3BD5BE62028C"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$18"
+	    quid       	"3BD5BE7D0063"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$19"
+		    quid       	"3BD5BE7D02A8"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Módulos"
+		    quidu      	"3BD5BE700386"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$20"
+		    quid       	"3BD5BE7D02A9"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$21"
+	    quid       	"3BD5BE81024A"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$22"
+		    quid       	"3BD5BE82010B"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Aplicativos"
+		    quidu      	"3BD5BE5501CE"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$23"
+		    quid       	"3BD5BE82010C"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Módulos"
+		    quidu      	"3BD5BE700386")))
+	(object Association "$UNNAMED$24"
+	    quid       	"3BD5BE8F029A"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$25"
+		    quid       	"3BD5BE90024B"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos"
+		    quidu      	"3BD5BE850390"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$26"
+		    quid       	"3BD5BE90024C"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$27"
+	    quid       	"3BD5BEAB007E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$28"
+		    quid       	"3BD5BEAB03BD"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Módulos"
+		    quidu      	"3BD5BE700386"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$29"
+		    quid       	"3BD5BEAB03C7"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos"
+		    quidu      	"3BD5BE850390")))
+	(object Association "$UNNAMED$30"
+	    quid       	"3BD5BEBD021E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$31"
+		    quid       	"3BD5BEBE00C1"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários"
+		    quidu      	"3BD5BEB101BD"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$32"
+		    quid       	"3BD5BEBE00C2"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$33"
+	    quid       	"3BD5BEC201AD"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$34"
+		    quid       	"3BD5BEC2038E"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários"
+		    quidu      	"3BD5BEB101BD"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$35"
+		    quid       	"3BD5BEC2038F"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra usuário"
+		    quidu      	"3BCF6210024A")))
+	(object Association "$UNNAMED$36"
+	    quid       	"3BD5BEDE0370"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$37"
+		    quid       	"3BD5BEDF0281"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Permissoes"
+		    quidu      	"3BD5BED302E8"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$38"
+		    quid       	"3BD5BEDF028B"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$39"
+	    quid       	"3BD5BEE6000A"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$40"
+		    quid       	"3BD5BEE60353"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos"
+		    quidu      	"3BD5BE850390"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$41"
+		    quid       	"3BD5BEE6035D"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Permissoes"
+		    quidu      	"3BD5BED302E8")))
+	(object Association "$UNNAMED$42"
+	    quid       	"3BD5BF12005E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$43"
+		    quid       	"3BD5BF130109"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários"
+		    quidu      	"3BD5BEB101BD"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$44"
+		    quid       	"3BD5BF13010A"
+		    supplier   	"Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos"
+		    quidu      	"3BD5BE850390"))))
+    logical_presentations 	(list unit_reference_list
+	(object UseCaseDiagram "Main"
+	    quid       	"3BCC746C02CB"
+	    title      	"Main"
+	    zoom       	100
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	0
+	    origin_y   	1400
+	    items      	(list diagram_item_list
+		(object Label @1
+		    location   	(480, 144)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	TRUE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    nlines     	1
+		    max_width  	600
+		    label      	"Módulo de Controle de Acesso")
+		(object ClassView "Class" "Use Case View::Usuario do sistema" @2
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(336, 368)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@2
+			location   	(336, 528)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	373
+			justify    	0
+			label      	"Usuario do sistema")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3BC5B57B035C"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Obtem Permissoes de Acesso" @3
+		    location   	(1472, 368)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@3
+			location   	(1472, 506)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obtem Permissoes de Acesso")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BAE7024E"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Valida credenciais de acesso" @4
+		    location   	(880, 368)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@4
+			location   	(880, 506)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Valida credenciais de acesso")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BCF6230010F"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$0" @5
+		    location   	(581, 368)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BCF6247039D"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$1" @6
+			    Parent_View 	@5
+			    location   	(245, -48)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BCF62480272"
+			    client     	@5
+			    supplier   	@4
+			    line_style 	0)
+			(object RoleView "$UNNAMED$2" @7
+			    Parent_View 	@5
+			    location   	(245, -48)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BCF6248027C"
+			    client     	@5
+			    supplier   	@2
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$12" @8
+		    location   	(1175, 368)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BB13026F"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$13" @9
+			    Parent_View 	@8
+			    location   	(295, 48)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BB140249"
+			    client     	@8
+			    supplier   	@3
+			    line_style 	0)
+			(object RoleView "$UNNAMED$14" @10
+			    Parent_View 	@8
+			    location   	(295, 48)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BB14024A"
+			    client     	@8
+			    supplier   	@4
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra Aplicativos" @11
+		    location   	(1120, 1376)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@11
+			location   	(1120, 1514)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra Aplicativos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BE5501CE"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra usuário" @12
+		    location   	(1088, 752)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@12
+			location   	(1088, 890)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra usuário")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BCF6210024A"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra Módulos" @13
+		    location   	(720, 1424)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@13
+			location   	(720, 1562)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra Módulos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BE700386"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra Permissoes" @14
+		    location   	(720, 2016)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@14
+			location   	(720, 2154)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra Permissoes")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BED302E8"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra Grupo de usuários" @15
+		    location   	(1536, 1472)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@15
+			location   	(1536, 1610)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra Grupo de usuários")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BEB101BD"
+		    height     	118)
+		(object UseCaseView "Use Case View::Módulo de Controle de Acesso::Cadastra Submódulos" @16
+		    location   	(208, 1616)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@16
+			location   	(208, 1754)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Cadastra Submódulos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3BD5BE850390"
+		    height     	118)
+		(object ClassView "Class" "Use Case View::Supervisor" @17
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(352, 928)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@17
+			location   	(352, 1088)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	325
+			justify    	0
+			label      	"Supervisor")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3CD6B66402DA"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object InheritView "" @18
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BC5D4D502C7"
+		    client     	@17
+		    supplier   	@2
+		    line_style 	0)
+		(object AssociationViewNew "$UNNAMED$15" @19
+		    location   	(714, 1138)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BE620028"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$16" @20
+			    Parent_View 	@19
+			    location   	(362, 210)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE62028B"
+			    client     	@19
+			    supplier   	@11
+			    line_style 	0)
+			(object RoleView "$UNNAMED$17" @21
+			    Parent_View 	@19
+			    location   	(362, 210)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE62028C"
+			    client     	@19
+			    supplier   	@17
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$6" @22
+		    location   	(692, 842)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BCF625601B4"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$7" @23
+			    Parent_View 	@22
+			    location   	(356, -22)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BCF625603D1"
+			    client     	@22
+			    supplier   	@12
+			    line_style 	0)
+			(object RoleView "$UNNAMED$8" @24
+			    Parent_View 	@22
+			    location   	(356, -22)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BCF625603DB"
+			    client     	@22
+			    supplier   	@17
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$18" @25
+		    location   	(602, 1266)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BE7D0063"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$19" @26
+			    Parent_View 	@25
+			    location   	(250, 338)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE7D02A8"
+			    client     	@25
+			    supplier   	@13
+			    line_style 	0)
+			(object RoleView "$UNNAMED$20" @27
+			    Parent_View 	@25
+			    location   	(250, 338)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE7D02A9"
+			    client     	@25
+			    supplier   	@17
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$36" @28
+		    location   	(564, 1562)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BEDE0370"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$37" @29
+			    Parent_View 	@28
+			    location   	(212, 634)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BEDF0281"
+			    client     	@28
+			    supplier   	@14
+			    line_style 	0)
+			(object RoleView "$UNNAMED$38" @30
+			    Parent_View 	@28
+			    location   	(212, 634)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BEDF028B"
+			    client     	@28
+			    supplier   	@17
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$30" @31
+		    location   	(917, 1186)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BEBD021E"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$31" @32
+			    Parent_View 	@31
+			    location   	(565, 258)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BEBE00C1"
+			    client     	@31
+			    supplier   	@15
+			    line_style 	0)
+			(object RoleView "$UNNAMED$32" @33
+			    Parent_View 	@31
+			    location   	(565, 258)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BEBE00C2"
+			    client     	@31
+			    supplier   	@17
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$24" @34
+		    location   	(258, 1362)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BD5BE8F029A"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$25" @35
+			    Parent_View 	@34
+			    location   	(-94, 434)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE90024B"
+			    client     	@34
+			    supplier   	@16
+			    line_style 	0)
+			(object RoleView "$UNNAMED$26" @36
+			    Parent_View 	@34
+			    location   	(-94, 434)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3BD5BE90024C"
+			    client     	@34
+			    supplier   	@17
+			    line_style 	0)))
+		(object DependencyView "" @37
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BE83C900033"
+		    client     	@12
+		    supplier   	@15
+		    line_style 	0)
+		(object DependencyView "" @38
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BE83CA40321"
+		    client     	@16
+		    supplier   	@13
+		    line_style 	0)
+		(object DependencyView "" @39
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BE83CBB03BA"
+		    client     	@14
+		    supplier   	@16
+		    line_style 	0)
+		(object DependencyView "" @40
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BE83CD2011E"
+		    client     	@14
+		    supplier   	@15
+		    line_style 	0)
+		(object DependencyView "" @41
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3BE83C9B0205"
+		    client     	@13
+		    supplier   	@11
+		    vertices   	(list Points
+			(829, 1587)
+			(863, 1634)
+			(958, 1539))
+		    line_style 	0)))))

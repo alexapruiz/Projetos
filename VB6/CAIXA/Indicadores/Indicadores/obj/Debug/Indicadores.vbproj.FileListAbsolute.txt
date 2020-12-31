@@ -1,0 +1,41 @@
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.Form1.resources
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.Resources.resources
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.vbproj.GenerateResource.Cache
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\bin\Debug\Indicadores.exe
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\bin\Debug\Indicadores.pdb
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\bin\Debug\Indicadores.xml
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.exe
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.xml
+D:\Projetos\CAIXA\Indicadores\Indicadores\Indicadores\obj\Debug\Indicadores.pdb
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.exe
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.xml
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.pdb
+C:\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.exe
+C:\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.pdb
+C:\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.xml
+C:\Projetos\Indicadores\Indicadores\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.Form1.resources
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.Resources.resources
+C:\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.vbproj.GenerateResource.Cache
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.exe
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.xml
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.pdb
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\ResolveAssemblyReference.cache
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.Form1.resources
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.Resources.resources
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Debug\Indicadores.vbproj.GenerateResource.Cache
+C:\Alex\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.exe
+C:\Alex\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.pdb
+C:\Alex\Projetos\Indicadores\Indicadores\bin\Debug\Indicadores.xml
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\bin\Debug\Indicadores.exe
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\bin\Debug\Indicadores.pdb
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\bin\Debug\Indicadores.xml
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.vbprojAssemblyReference.cache
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.Form1.resources
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.Resources.resources
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.vbproj.GenerateResource.cache
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.vbproj.CoreCompileInputs.cache
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.exe
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.xml
+D:\Pessoal\Projetos Alex\CAIXA\Indicadores\Indicadores\obj\Debug\Indicadores.pdb

@@ -1,0 +1,7 @@
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\obj\Debug\WCFVideos.Servico.csprojResolveAssemblyReference.cache
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\bin\Debug\WCFVideos.Servico.dll
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\bin\Debug\WCFVideos.Servico.pdb
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\bin\Debug\WCFVideos.Contratos.dll
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\bin\Debug\WCFVideos.Contratos.pdb
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\obj\Debug\WCFVideos.Servico.dll
+c:\Projetos\Projects\WCFVideos\WCFVideos.Servico\obj\Debug\WCFVideos.Servico.pdb

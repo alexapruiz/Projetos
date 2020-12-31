@@ -1,0 +1,12 @@
+Line 15: Class BemaFiscalWebCtl.BemaFiscalWeb of control Bema was not a loaded control class.
+Line 64: Class MSFlexGridLib.MSFlexGrid of control Grid was not a loaded control class.
+Line 70: The property name _ExtentX in Grid is invalid.
+Line 71: The property name _ExtentY in Grid is invalid.
+Line 72: The property name _Version in Grid is invalid.
+Line 73: The property name Rows in Grid is invalid.
+Line 74: The property name Cols in Grid is invalid.
+Line 75: The property name FixedRows in Grid is invalid.
+Line 76: The property name FixedCols in Grid is invalid.
+Line 77: The property name Redraw in Grid is invalid.
+Line 78: The property name HighLight in Grid is invalid.
+Line 79: The property name ScrollBars in Grid is invalid.

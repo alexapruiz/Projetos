@@ -1,0 +1,1997 @@
+if not exists (select * from sysusers where name = N'mdi' and uid < 16382)
+	EXEC sp_grantdbaccess N'mdi', N'mdi'
+GO
+
+exec sp_addrolemember N'db_owner', N'mdi'
+GO
+
+CREATE TABLE [dbo].[Acao] (
+	[Acao] [tinyint] NOT NULL ,
+	[Descricao] [varchar] (50) NOT NULL 
+)
+GO
+
+CREATE TABLE [dbo].[Agencia] (
+	[Agencia] [smallint] NOT NULL ,
+	[Lacre] [decimal](8, 0) NOT NULL ,
+	[QtdInformada] [int] NOT NULL ,
+	[QtdGravada] [int] NULL ,
+	[Identificador] [char] (10) NULL ,
+	[HoraChegada] [char] (5) NULL ,
+	[HoraCadastrada] [char] (5) NOT NULL ,
+	[idEnv_Mal] [char] (1) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[LogErro] (
+	[Data] [datetime] NOT NULL ,
+	[Erro] [int] NULL ,
+	[Descricao] [varchar] (255) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Ocorrencia] (
+	[Ocorrencia] [decimal](5, 0) NOT NULL ,
+	[Descricao] [varchar] (82) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Parametro] (
+	[DataProcessamento] [int] NOT NULL ,
+	[Hm_Abertura] [smalldatetime] NOT NULL ,
+	[Hm_Fechamento] [smalldatetime] NULL ,
+	[AgenciaCentral] [numeric](4, 0) NOT NULL ,
+	[AgenciaApresentante] [numeric](4, 0) NOT NULL ,
+	[Tm_Pendente] [int] NOT NULL ,
+	[Tm_Atualizacao] [int] NOT NULL ,
+	[Dir_Dados] [varchar] (255) NOT NULL ,
+	[Dir_Imagens] [varchar] (255) NOT NULL ,
+	[Dir_Trabalho] [varchar] (255) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[StatusCapa] (
+	[Status] [char] (1) NOT NULL ,
+	[Descricao] [varchar] (50) NOT NULL 
+)
+GO
+
+CREATE TABLE [dbo].[StatusDocumento] (
+	[Status] [char] (1) NOT NULL ,
+	[Descricao] [varchar] (50) NOT NULL 
+)
+GO
+
+CREATE TABLE [dbo].[StatusLote] (
+	[Status] [char] (1) NOT NULL ,
+	[Descricao] [varchar] (50) NOT NULL 
+)
+GO
+
+CREATE TABLE [dbo].[TipoDocto] (
+	[TipoDocto] [smallint] NOT NULL ,
+	[Nome] [varchar] (30) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Log] (
+	[DataProcessamento] [int] NOT NULL ,
+	[IdCapa] [int] NULL ,
+	[IdDocto] [int] NULL ,
+	[Data] [datetime] NOT NULL ,
+	[Login] [varchar] (10) NOT NULL ,
+	[Acao] [tinyint] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[Lote] (
+	[DataProcessamento] [int] NOT NULL ,
+	[IdLote] [int] NOT NULL ,
+	[Status] [char] (1) NOT NULL ,
+	[Prioridade] [smallint] NOT NULL ,
+	[HoraAtual] [datetime] NULL 
+)
+GO
+
+CREATE TABLE [dbo].[Capa] (
+	[DataProcessamento] [int] NOT NULL ,
+	[IdCapa] [int] IDENTITY (1, 1) NOT NULL ,
+	[IdLote] [int] NOT NULL ,
+	[idEnv_Mal] [char] (1) NOT NULL ,
+	[Capa] [numeric](18, 0) NOT NULL ,
+	[Num_Malote] [numeric](11, 0) NULL ,
+	[AgOrig] [smallint] NOT NULL ,
+	[Status] [char] (1) NOT NULL ,
+	[DataCriacao] [smalldatetime] NOT NULL ,
+	[Ocorrencia] [decimal](5, 0) NULL ,
+	[Duplicidade] [numeric](1, 0) NULL ,
+	[HoraAtual] [datetime] NULL 
+)
+GO
+
+CREATE TABLE [dbo].[Documento] (
+	[DataProcessamento] [int] NOT NULL ,
+	[IdDocto] [int] IDENTITY (1, 1) NOT NULL ,
+	[IdCapa] [int] NOT NULL ,
+	[OrdemCaptura] [smallint] NOT NULL ,
+	[TipoDocto] [smallint] NOT NULL ,
+	[Leitura] [varchar] (48) NULL ,
+	[Frente] [varchar] (20) NOT NULL ,
+	[Verso] [varchar] (20) NOT NULL ,
+	[Status] [char] (1) NOT NULL ,
+	[Ordem] [char] (1) NULL 
+)
+GO
+
+ALTER TABLE [dbo].[Acao] WITH NOCHECK ADD 
+	CONSTRAINT [PK_Acao] PRIMARY KEY  CLUSTERED 
+	(
+		[Acao]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[StatusCapa] WITH NOCHECK ADD 
+	CONSTRAINT [PK_STATUSCAPA] PRIMARY KEY  CLUSTERED 
+	(
+		[Status]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[StatusDocumento] WITH NOCHECK ADD 
+	CONSTRAINT [PK_STATUSDOCUMENTO] PRIMARY KEY  CLUSTERED 
+	(
+		[Status]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[StatusLote] WITH NOCHECK ADD 
+	CONSTRAINT [PK_STATUSLOTE] PRIMARY KEY  CLUSTERED 
+	(
+		[Status]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[Lote] WITH NOCHECK ADD 
+	CONSTRAINT [PK_Lote] PRIMARY KEY  CLUSTERED 
+	(
+		[DataProcessamento],
+		[IdLote]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[Capa] WITH NOCHECK ADD 
+	CONSTRAINT [PK_Capa] PRIMARY KEY  CLUSTERED 
+	(
+		[DataProcessamento],
+		[IdCapa]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[Documento] WITH NOCHECK ADD 
+	CONSTRAINT [PK_Documento] PRIMARY KEY  CLUSTERED 
+	(
+		[DataProcessamento],
+		[IdDocto]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[Ocorrencia] WITH NOCHECK ADD 
+	CONSTRAINT [PK_Ocorrencia] PRIMARY KEY  NONCLUSTERED 
+	(
+		[Ocorrencia]
+	)  ON [PRIMARY] 
+GO
+
+ALTER TABLE [dbo].[TipoDocto] WITH NOCHECK ADD 
+	CONSTRAINT [PK_TipoDocto] PRIMARY KEY  NONCLUSTERED 
+	(
+		[TipoDocto]
+	)  ON [PRIMARY] 
+GO
+
+ CREATE  INDEX [IndDataIdCapa] ON [dbo].[Documento]([DataProcessamento], [IdCapa]) ON [PRIMARY]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Acao]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Agencia]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[LogErro]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Ocorrencia]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Parametro]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[StatusCapa]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[StatusDocumento]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[StatusLote]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[TipoDocto]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Log]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Lote]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Capa]  TO [mdi]
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[Documento]  TO [mdi]
+GO
+
+ALTER TABLE [dbo].[Log] ADD 
+	CONSTRAINT [FK_LOG_REF_15195_ACAO] FOREIGN KEY 
+	(
+		[Acao]
+	) REFERENCES [dbo].[Acao] (
+		[Acao]
+	)
+GO
+
+ALTER TABLE [dbo].[Lote] ADD 
+	CONSTRAINT [FK_LOTE_REF_8852_STATUSLO] FOREIGN KEY 
+	(
+		[Status]
+	) REFERENCES [dbo].[StatusLote] (
+		[Status]
+	)
+GO
+
+ALTER TABLE [dbo].[Capa] ADD 
+	CONSTRAINT [FK_CAPA_REF_21052_OCORRENC] FOREIGN KEY 
+	(
+		[Ocorrencia]
+	) REFERENCES [dbo].[Ocorrencia] (
+		[Ocorrencia]
+	),
+	CONSTRAINT [FK_CAPA_REF_4584_LOTE] FOREIGN KEY 
+	(
+		[DataProcessamento],
+		[IdLote]
+	) REFERENCES [dbo].[Lote] (
+		[DataProcessamento],
+		[IdLote]
+	),
+	CONSTRAINT [FK_CAPA_REF_8846_STATUSCA] FOREIGN KEY 
+	(
+		[Status]
+	) REFERENCES [dbo].[StatusCapa] (
+		[Status]
+	)
+GO
+
+ALTER TABLE [dbo].[Documento] ADD 
+	CONSTRAINT [FK_DOCUMENT_REF_4541_TIPODOCT] FOREIGN KEY 
+	(
+		[TipoDocto]
+	) REFERENCES [dbo].[TipoDocto] (
+		[TipoDocto]
+	),
+	CONSTRAINT [FK_DOCUMENT_REF_4572_CAPA] FOREIGN KEY 
+	(
+		[DataProcessamento],
+		[IdCapa]
+	) REFERENCES [dbo].[Capa] (
+		[DataProcessamento],
+		[IdCapa]
+	),
+	CONSTRAINT [FK_DOCUMENT_REF_8858_STATUSDO] FOREIGN KEY 
+	(
+		[Status]
+	) REFERENCES [dbo].[StatusDocumento] (
+		[Status]
+	)
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetAllAgenf    Script Date: 17/11/00 11:22:09 ******/
+CREATE PROCEDURE MDIAG_GetAllAgenf
+AS
+Select  '0035' As agefscdagen,
+ 'Santos' As agefsnoagen
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetAllAgenf]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_AtualizaAgencia    Script Date: 17/11/00 11:22:09 ******/
+CREATE PROCEDURE MDIAG_AtualizaAgencia
+
+	@pAgenciaApresentante		Numeric(5)
+
+AS
+
+	UPDATE Parametro
+		Set AgenciaApresentante = @pAgenciaApresentante
+
+	Return @@Error
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_AtualizaAgencia]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_EncerraMovimento
+	@pDataProcessamento	Int
+AS
+
+Declare @Erro	Int
+
+	Select @Erro = 0
+
+	/*----------------------------------------------------------------
+	   Atualiza hora de fechamento no parametro
+	----------------------------------------------------------------*/
+	UPDATE Parametro
+		SET Hm_Fechamento	= GETDATE()
+	WHERE DataProcessamento 	= @pDataProcessamento
+
+
+	Select @Erro = @@Error
+
+	Return @Erro
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetTodasOcorrencia    Script Date: 17/11/00 11:22:09 ******/
+CREATE PROCEDURE MDIAG_GetTodasOcorrencia
+
+As
+
+	Select	Ocorrencia,
+		Descricao
+	  From 	Ocorrencia 
+	 Order 	by  Ocorrencia asc
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetTodasOcorrencia]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_InsereLogErro    Script Date: 17/11/00 11:22:09 ******/
+CREATE Procedure MDIAG_InsereLogErro
+  @Erro            		int,
+  @Descricao       	varchar(255)
+As
+Begin Transaction
+  INSERT INTO LogErro(
+                       Data,
+                       Erro,
+                       Descricao )
+              values(
+                       GetDate(),
+                      @Erro,
+                      @Descricao )
+  If @@Error = 0 Begin
+    Commit Transaction
+  End
+  Else Begin
+    Rollback Transaction
+  End
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_InsereLogErro]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_LerParametro    Script Date: 17/11/00 11:22:09 ******/
+CREATE PROCEDURE MDIAG_LerParametro
+AS
+	Select	DataProcessamento,
+		Hm_Abertura,
+		Hm_Fechamento,
+		AgenciaCentral,
+		AgenciaApresentante,
+		TM_Pendente,
+		TM_Atualizacao,
+		Dir_Dados,
+		Dir_Imagens,
+		Dir_Trabalho
+	  From	Parametro
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_LerParametro]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_ObtemAgencias
+
+AS
+
+
+	SELECT 	Agencia,
+		Lacre,
+		QtdInformada,
+		HoraCadastrada,
+		IdEnv_Mal
+	  FROM	Agencia
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_AtualizaStatusLote    Script Date: 17/11/00 11:22:09 ******/
+CREATE Procedure MDIAG_AtualizaStatusLote
+	 @DataProcessamento		int
+	,@IdLote             		int
+	,@Status             		char(1)
+
+As
+
+Declare @Erro           int
+Declare @LinhasAfetadas int
+
+Begin Transaction
+
+	Update Lote Set
+		Status 			= @Status,
+		HoraAtual 		= GetDate()
+	 Where 	DataProcessamento	= @DataProcessamento
+		And IdLote              = @IdLote
+
+	Select 	@Erro 		= @@Error,
+		@LinhasAfetadas = @@RowCount
+
+	If @LinhasAfetadas <> 1 or @Erro <> 0 
+		Begin 	
+			RollBack Transaction
+   			Return(1)	
+		End
+
+Commit Transaction
+Return(0)
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_AtualizaStatusLote]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetLoteContQualidade    Script Date: 17/11/00 11:22:09 ******/
+CREATE PROCEDURE MDIAG_GetLoteContQualidade
+	@DataProc	Int,
+	@Intervalo	Int
+As
+
+	(
+	SELECT IdLote, Status
+	  FROM Lote 
+	 WHERE DataProcessamento = @DataProc
+	   And IdLote            > 0
+	   And Status            = '0'
+	)
+	UNION ALL
+	(
+	SELECT IdLote, Status
+	  FROM Lote 
+	 WHERE DataProcessamento = @DataProc
+	   And IdLote            > 0
+	   And Status            = '1'
+	   And DateDiff(Second, HoraAtual, GetDate()) > @Intervalo
+	)
+	Order By IdLote
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetLoteContQualidade]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_InsereLog    Script Date: 17/11/00 11:22:09 ******/
+CREATE Procedure MDIAG_InsereLog
+	@DataProc int,
+	@IdCapa   int,
+	@IdDocto  int,
+	@Usuario  Char(10),
+	@Acao     tinyint
+As
+
+Begin Transaction
+	Insert Into Log
+		(DataProcessamento,
+		 IdCapa,
+		 IdDocto,
+		 Data,
+		 Login,
+		 Acao)
+	Values
+		(@DataProc,
+		 @IdCapa,
+		 @IdDocto,
+		 GetDate(),
+		 @Usuario,
+		 @Acao)
+
+if @@Error = 0 begin
+	Commit Transaction
+end
+else begin
+	Rollback Transaction
+end
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_InsereLog]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_InsereLote    Script Date: 17/11/00 11:22:09 ******/
+CREATE Proc MDIAG_InsereLote
+	@DataProcessamento		int,
+	@Prioridade			smallint,
+	@Agencia			int,
+	@IdLote 			int Output
+
+as
+
+Begin Transaction
+
+	--------------------------------------------------------------------------------------------------
+	-- Busca ultimo Lote da Agenica
+	Select 	@IdLote = IsNull((Max(IdLote)+1),
+		@Agencia * 100000 + 1)
+	  From	Lote 
+	 Where	IdLote between (@Agencia * 100000)
+	   And ((@Agencia + 1) * 100000)
+	   And  DataProcessamento = @DataProcessamento
+	--------------------------------------------------------------------------------------------------
+	-- Grava Lote
+	Insert Lote (  DataProcessamento, IdLote, Status, Prioridade )
+	     Values ( @DataProcessamento, @IdLote, '3', @Prioridade )
+	if @@Error = 0
+	Begin
+		Commit Transaction
+		Return(0)
+	End
+	Else Begin
+		select @IdLote = -1
+		RollBack Transaction
+		Return(1)
+	End
+	--------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_InsereLote]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_ObtemLog
+	@pDataProcessamento	Int,
+	@pIdCapa		Int,
+	@pIdDocto		Int
+
+AS
+
+
+	If (@pIdCapa Is Not NULL) OR (@pIdCapa <> 0) Begin
+		/*--------------------------------------------
+		   Seleção dos logs das capas
+		--------------------------------------------*/
+		SELECT	'G' AS TipoRegistro,
+			Data,
+			Login,
+			Acao	
+		  FROM	LOG
+		 WHERE	DataProcessamento 	= @pDataProcessamento
+		   AND	IdCapa			= @pIdCapa
+		   AND	IdDocto			= 0
+
+	End
+	Else Begin
+		/*-----------------------------------------------------
+		   Seleção dos logs dos documentos
+		------------------------------------------------------*/
+		SELECT	'G' AS TipoRegistro,
+			Data,
+			Login,
+			Acao	
+		  FROM	LOG
+		 WHERE	DataProcessamento 	= @pDataProcessamento
+		   AND	IdDocto			= @pIdDocto
+	End
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_ObtemLotesExportacao
+	@pDataProcessamento	Int
+
+AS
+
+
+	SELECT	'L' AS TipoRegistro,
+		IdLote,
+		Status,
+		Prioridade
+	  FROM	LOTE
+	 WHERE	DataProcessamento = @pDataProcessamento
+	   AND	IdLote > 0
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_RemoveLote    Script Date: 17/11/00 11:22:10 ******/
+CREATE Proc MDIAG_RemoveLote
+	@DataProcessamento	int,
+	@IdLote 			int 
+
+as
+
+	Begin Transaction
+
+	--------------------------------------------------------------------------------------------------
+	-- Deleta Lote
+	DELETE FROM Lote
+	 WHERE DataProcessamento = @DataProcessamento
+	   And IdLote            = @IdLote
+	if @@Error = 0 Begin
+		Commit Transaction
+		Return(0)
+	End
+	Else Begin
+		RollBack Transaction
+		Return(1)
+	End
+	-------------------------------------------------------------------------------------------------- 
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_RemoveLote]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_VerificaLoteDisponivel    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_VerificaLoteDisponivel
+	@DataProc	Int,
+	@IdLote		Int,
+	@Intervalo	Int
+
+As
+
+Declare	@Count		Int,
+	@Error		Int,
+	@m_Status	Char(1),
+	@m_Dif		Int
+
+	SELECT 	@m_Status = Status,
+		@m_Dif = DateDiff(second, HoraAtual, GetDate())
+	  FROM 	Lote
+	 WHERE	DataProcessamento 	= @DataProc
+	   AND	IdLote			= @IdLote
+
+	Select @Error = @@Error, @Count = @@RowCount
+
+	if @Error <> 0 Begin
+		Return(2)
+	End
+	Else If @Count = 0 Begin
+		Return(1)
+	End
+	Else If (@m_Status = "0") Or (@m_Status = "1" And @m_Dif >= @Intervalo) Begin
+		Return(0)
+	End
+	Else Begin
+		Return(1)
+	End
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_VerificaLotePendente
+	@pDataProcessamento	Int
+
+AS
+
+
+
+	/*-------------------------------------------------------------------------------------------
+	   Se existir mais de um lote com status <> 2 não pode continuar
+	-------------------------------------------------------------------------------------------*/
+
+	If Exists(SELECT 1
+		    FROM LOTE
+		   WHERE DataProcessamento 	= @pDataProcessamento
+		     AND IdLote			> 0
+		     AND Status			<> 2) Begin
+		Return (1)
+	End
+	Else
+		/*---------------------------------------------
+		   Caso contrario pode continuar
+		---------------------------------------------*/
+		Return (0)
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_CapturaCapa    Script Date: 17/11/00 11:22:10 ******/
+CREATE Proc MDIAG_CapturaCapa
+	@DataProcessamento		Int,
+	@IdLote 			Int,
+	@idEnv_Mal			Char(1),
+	@Capa				Numeric(18),
+	@AgOrig				Smallint,
+	@IdCapa 			Int Output
+
+as
+
+Declare @Status    char(1)
+
+	-- Verifica se capa virtual (9)
+        if @Capa = 9 Begin
+		------------------------------------------------------------------------------------------
+		Insert Capa (DataProcessamento,	IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+				Status, DataCriacao, Duplicidade )
+	              Values(  @DataProcessamento, @IdLote, @idEnv_Mal, @Capa, 0, @AgOrig, 
+				'1', GetDate(), 0 )
+		if @@Error = 0 Begin
+			Select @IdCapa = @@Identity
+		End
+		if @@Error = 0 Begin
+			Return(0)
+		End
+		Else Begin
+			Return(1)
+		End
+        End
+
+	-- Verifica se nao existe a Capa 
+	if not exists ( Select 1
+			  From Capa 
+			 Where DataProcessamento 	= @DataProcessamento
+			   And Capa 			= @Capa
+			   And Status not in 		  ('F','D','P')) Begin
+		------------------------------------------------------------------------------------------
+		Insert Capa ( 	DataProcessamento, IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+				Status, DataCriacao, Duplicidade )
+	              Values(  @DataProcessamento, @IdLote, @idEnv_Mal, @Capa, 0, @AgOrig, 
+				'1', GetDate(), 0 )
+		if @@Error = 0 Begin
+			Select @IdCapa = @@Identity
+		End
+		if @@Error = 0 Begin
+			Return(0)
+		End
+		Else Begin
+			Return(1)
+		End
+	End
+	Else Begin
+
+		-- Ja existe capa com mesmo DataProc + Capa
+		------------------------------------------------------------------------------------------
+		Select	@IdCapa			= IdCapa,
+			@Status			= Status
+		  From	Capa 
+		 Where	DataProcessamento 	= @DataProcessamento
+		   And	Capa 			= @Capa
+		   And	Status not in 		('F','D','P')
+
+		-- Se o Status for Capa Cadastrada entao atualiza Capa
+		if @Status = '0' Begin
+			Update Capa Set 
+				IdLote 			= @IdLote,
+				Status 			= '1' 
+		   	 Where DataProcessamento	= @DataProcessamento
+			   And IdCapa 			= @IdCapa
+		End
+		Else Begin
+			Insert Capa ( DataProcessamento, IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+					Status, DataCriacao, Duplicidade )
+	                Values      ( @DataProcessamento, @idLote, @idEnv_Mal, @Capa, 0, @AgOrig, 
+				'1', GetDate(), 1 )
+
+			if @@Error = 0 Begin
+				Select @IdCapa = @@Identity
+			End
+		End
+		if @@Error = 0 Begin
+			Return(0)
+		End
+		Else Begin
+			Return(1)
+		End
+	End
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_CapturaCapa]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetAgenciasCapa    Script Date: 17/11/00 11:22:10 ******/
+
+/****** Object:  Stored Procedure dbo.GetAgenciasCapa    Script Date: 03/11/00 18:02:43 ******/
+/****** Object:  Stored Procedure dbo.GetAgenciasCapa    Script Date: 14/09/00 13:02:06 ******/
+/****** Object:  Stored Procedure dbo.GetAgenciasCapa    Script Date: 15/08/00 13:54:53 ******/
+CREATE PROCEDURE MDIAG_GetAgenciasCapa
+
+	@Capa		Numeric(18),
+	@DataProc	Int,
+	@AgOrig		Smallint,
+	@idCapa		Int
+
+AS
+
+	if @AgOrig Is Null
+		SELECT	Cap.IdCapa,
+			Cap.AgOrig,
+			Cap.IdLote,
+			Cap.Status,
+			Stc.Descricao,
+			Cap.Num_Malote,
+			Ocorrencia,
+			Cap.Idenv_Mal
+		  FROM	Capa Cap, StatusCapa Stc 
+		 WHERE	Cap.Capa		= @Capa
+		   And  Cap.dataprocessamento	= @dataProc
+		   And	Cap.Status             	= Stc.Status
+		ORDER BY Cap.AgOrig
+
+	Else
+		SELECT	Cap.IdCapa,
+			Cap.AgOrig,
+			Cap.IdLote,
+			Cap.Status,
+			Stc.Descricao,
+			Cap.Num_Malote,
+			Ocorrencia,
+			Cap.IdEnv_Mal
+		  FROM	Capa Cap, StatusCapa Stc 
+		 WHERE 	Cap.IdCapa		= @idCapa
+		   And	Cap.dataprocessamento	= @dataProc		 
+		   And	Cap.Status		= Stc.Status
+		ORDER BY Cap.AgOrig
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetAgenciasCapa]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetMaloteExpedicao_oc    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetMaloteExpedicao_oc
+	@DataProc	Int,
+	@NumMalote	Numeric(11)
+
+As
+
+	SELECT	Capa,IdCapa, IdLote, IdEnv_Mal,Idcapa, Num_Malote, 
+		AgOrig,Status, Status as StatusAnt, 
+		DateDiff(second, HoraAtual, GetDate()) as Intervalo,
+		IsNull(Ocorrencia, 0) as Ocorrencia
+	  FROM	Capa
+	 WHERE 	DataProcessamento 	= @DataProc
+	   And	Num_Malote		= @NumMalote
+	   And	Status in 		('0','P')
+	 ORDER	By Capa,AgOrig
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetMaloteExpedicao_oc]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetMudaStatus    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetMudaStatus
+	@Status			VarChar (1),
+	@NOcorrencia		Decimal(5),
+	@DataProcessamento	Int,
+	@IdCapa		Int
+
+AS
+
+Update Capa
+	Set Status 	= @Status,
+	Ocorrencia 	= @NOcorrencia
+Where 	IdCapa 		= @IdCapa
+And   	DataProcessamento = @DataProcessamento
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetMudaStatus]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetRecuperaStatus    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetRecuperaStatus
+
+	@DataProc	Int,
+	@NumMalote	Numeric(11),
+	@Idcapa	Int,
+	@Capa		Numeric(18)
+
+As
+
+	If @Capa is null 
+		Select 	Capa.IdCapa, Capa.IdLote, Capa.IdEnv_Mal, Capa.Capa,Idcapa, Capa.Num_Malote, 
+			Capa.AgOrig, Capa.Status, Capa.Status as StatusAnt,status.Descricao ,
+			DateDiff(second, HoraAtual, GetDate()) as Intervalo,
+			IsNull(Ocorrencia, 0) as Ocorrencia
+		From	Capa Capa, StatusCapa Status
+		Where 	Capa.DataProcessamento 	= @DataProc  	And
+			Capa.Num_Malote        	= @NumMalote 	And
+			Capa.Status            		= Status.Status 	And
+			Capa.Idcapa		= @Idcapa   
+		Order 	By Capa.Capa, Capa.AgOrig
+	Else
+		Select 	Capa.IdCapa, Capa.IdLote, Capa.IdEnv_Mal, Capa.Capa,Idcapa, Capa.Num_Malote, 
+			Capa.AgOrig, Capa.Status, Capa.Status as StatusAnt,status.Descricao ,
+			DateDiff(second, HoraAtual, GetDate()) as Intervalo,
+			IsNull(Ocorrencia, 0) as Ocorrencia
+		From	Capa Capa, StatusCapa Status
+		Where	Capa.DataProcessamento 	= @DataProc  	And
+			Capa.Capa  		= @Capa	And
+			Capa.Status		= Status.Status
+		Order	By Capa.Capa, Capa.AgOrig
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetRecuperaStatus]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetTodasCapas    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetTodasCapas 
+
+	@DataProcessamento		Int,
+	@IdCapa				Numeric(18),
+	@idEnvMal			VarChar(1)
+
+As
+
+Declare 	@Erro           Int,
+	@LinhasAfetadas int
+
+	-------------------------------------------------------------------------------------------------
+	-- Busca Todas Capas de Malote ou Envelope Cadastradas
+	-------------------------------------------------------------------------------------------------
+
+	if @IdCapa Is Null
+		Select	Distinct(Capa),IdCapa,Status,Ocorrencia
+		  From	Capa
+		 Where	DataProcessamento  = @DataProcessamento
+		   And	IdEnv_Mal          = @idEnvMal
+		 Order 	By Capa
+
+	Else
+		Select	Distinct(Capa),IdCapa,Status,Ocorrencia
+		  From	Capa
+		 Where  DataProcessamento = @dataProcessamento
+		   And	IdEnv_Mal         = @idEnvMal 
+		   And	IdCapa            = @IdCapa 
+		 Order  By Capa
+
+
+	Select 	@Erro		= @@Error,
+		@LinhasAfetadas	= @@Rowcount
+
+
+	If @LinhasAfetadas = 0 or @Erro <> 0
+		Return(1)
+
+	Return(0)
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetTodasCapas]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetTodasCapas_Oc    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetTodasCapas_Oc 
+
+	@DataProcessamento	Int,
+	@idEnvMal		VarChar(1),		
+	@IdCapa			Numeric(18), 
+	@AgOrig			Smallint
+
+As
+
+Declare	@Erro		Int,
+	@LinhasAfetadas	Int
+
+	-------------------------------------------------------------------------------------------------
+	-- Busca Tod as Capas de Malote ou Envelope Cadastradas
+	-------------------------------------------------------------------------------------------------
+
+	If @IdCapa Is Null
+		Select 	Distinct(Capa),IdCapa
+		  From Capa
+		 Where	DataProcessamento = @dataProcessamento
+		   And	IdEnv_Mal         = @idEnvMal 
+		   And  Status            = '0'
+		 Order By Capa
+	Else
+		Select Distinct(Capa),IdCapa
+		  From Capa
+		 Where  dataProcessamento = @dataProcessamento
+		   And  IdEnv_Mal         = @idEnvMal 
+		   And  Capa              = @IdCapa 
+		   And  AgOrig            = @AgOrig 
+		   And  Status            = '0'
+		 Order By Capa
+
+	Select 	@Erro           	= @@Error,
+		@LinhasAfetadas 	= @@Rowcount
+
+	If @LinhasAfetadas = 0 or @Erro <> 0
+		   Return(1)
+
+
+	Return(0)
+
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetTodasCapas_Oc]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE Procedure MDIAG_GetTotalCapa
+	@DataProc   	int,
+	@IdEnv_Mal  	char(1)
+
+As
+
+if @IdEnv_Mal = 'T' Begin
+
+	Select Count(*) as Total
+	  From Capa (NOLOCK)
+	 Where DataProcessamento = @DataProc
+
+End
+Else Begin
+
+	Select Count(*) as Total
+	  From Capa (NOLOCK)
+	 Where DataProcessamento = @DataProc
+	   And IdEnv_Mal         = @IdEnv_Mal
+
+End
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetTotalCapa]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_InsereCapa    Script Date: 17/11/00 11:22:10 ******/
+-----------------------------------------------------------------------------------------------------------
+CREATE Proc MDIAG_InsereCapa
+	@DataProcessamento 	Int,
+	@IdLote   		Int,
+	@idEnv_Mal  		Char(1),
+	@Capa			Numeric(18),
+	@Num_Malote		Numeric(11),
+	@AgOrig		Smallint,
+	@Status			Char(1),
+	@IdCapa		Int OUTPUT
+As
+
+Begin Transaction
+--------------------------------------------------------------------------------------------------
+	if @AgOrig <> 0 Begin
+		-- Verifica se nao existe a Capa 
+		if not exists (Select 1
+				 From Capa 
+				Where DataProcessamento = @DataProcessamento
+				  And AgOrig   		= @AgOrig
+				  And Capa     		= @Capa
+				  And Status not in 	('D','F')) Begin
+			------------------------------------------------------------------------------------------
+			Insert Capa (  DataProcessamento, IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+				       Status, DataCriacao, Duplicidade )
+			                Values(  @DataProcessamento, @idLote, @idEnv_Mal, @Capa, @Num_Malote, @AgOrig, 
+				              @Status, GetDate(), 0 )
+			if @@Error = 0 Begin
+				Select @IdCapa = @@Identity
+			End
+			if @@Error = 0 Begin
+				Commit Transaction
+				Return(0)
+			End
+			Else Begin
+				Rollback Transaction
+				Return(2)
+			End
+		End
+		Else Begin
+		-- Ja existe capa com mesmo DataProc + AgOrig + Capa
+			Rollback Transaction
+			Return(1)
+		End
+	End
+	Else Begin
+		-- AgOrig = 0
+		-- Verifica se nao existe a Capa 
+		if not exists (Select 1
+				 From Capa 
+				Where DataProcessamento 	= @DataProcessamento
+				  And Capa   			= @Capa
+				  And Status not in 		('D','F')) Begin
+			------------------------------------------------------------------------------------------
+			Insert Capa (  DataProcessamento, IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+				        Status, DataCriacao, Duplicidade )
+			          Values(  @DataProcessamento, @idLote, @idEnv_Mal, @Capa, @Num_Malote, @AgOrig, 
+				         @Status, GetDate(), 0 )
+			if @@Error = 0 Begin
+				Select @IdCapa = @@Identity
+			End
+			if @@Error = 0 Begin
+				Commit Transaction
+				Return(0)
+			End
+			Else Begin
+				Rollback Transaction
+				Return(2)
+			End
+		End
+		Else Begin
+			-- Ja existe capa com mesmo DataProc + Capa
+			------------------------------------------------------------------------------------------
+			Insert Capa (  DataProcessamento, IdLote, idEnv_Mal, Capa, Num_Malote, AgOrig, 
+				        Status, DataCriacao, Duplicidade )
+			Values(@DataProcessamento, @idLote, @idEnv_Mal, @Capa, @Num_Malote, @AgOrig, 
+			               @Status, GetDate(), @@RowCount )
+			if @@Error = 0 Begin
+				Select @IdCapa = @@Identity
+			End
+			if @@Error = 0 Begin
+				Commit Transaction
+				Return(0)
+			End
+			Else Begin
+				Rollback Transaction
+				Return(2)
+			End
+		End
+	End
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_InsereCapa]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_LimpaMovimento    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_LimpaMovimento
+	@pDataProcessamento 	Int
+AS
+
+Declare @Erro Int
+	 Begin Transaction LimpaMovimento
+	 /*-----------------------------------
+	    Limpa tabela Documento
+	 -----------------------------------*/
+	 Truncate Table UbbMDI..Documento
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-----------------------------------
+	    Limpa tabela Capa
+	 -----------------------------------*/
+	 Delete From UbbMDI..Capa
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-----------------------------------
+	    Limpa tabela Lote
+	 -----------------------------------*/
+	 Delete From UbbMDI..Lote
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-----------------------------------
+	    Limpa tabela Agencia
+	 -----------------------------------*/
+	 Truncate Table UbbMDI..Agencia
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-----------------------------------
+	    Limpa tabela Log
+	 -----------------------------------*/
+	 Truncate Table UbbMDI..Log
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-----------------------------------
+	    Limpa tabela LogErro
+	 -----------------------------------*/
+	 Truncate Table UbbMDI..LogErro
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*-------------------------------------------------------------------------------------------
+	    Inserção do Lote 0
+	 -------------------------------------------------------------------------------------------*/
+	 Insert Into Lote
+	 Values
+	 (@pDataProcessamento, 0, '0','0',GETDATE())
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+	 /*------------------------------------------------------------------------------------------
+	    Atualização na tabela Parametro
+	 -------------------------------------------------------------------------------------------*/
+	 Update Parametro Set
+	  DataProcessamento  = @pDataProcessamento,
+	  Hm_Abertura  = GETDATE(),
+	  Hm_Fechamento = NULL
+	 Select @Erro = @@Error
+	 If @Erro <> 0 Goto lbl_Erro
+
+	 Commit Transaction LimpaMovimento
+
+	 Update Statistics UbbMDI..Agencia
+	 Update Statistics UbbMDI..Capa
+	 Update Statistics UbbMDI..Documento
+	 Update Statistics UbbMDI..Log
+	 Update Statistics UbbMDI..LogErro
+	 Update Statistics UbbMDI..Lote
+lbl_Erro:
+	 If @Erro <> 0 RollBack Transaction LimpaMovimento
+ 
+	 Return @Erro
+
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_LimpaMovimento]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_ObtemCapasLote
+	@pDataProcessamento	Int,
+	@pIdLote		Int
+
+AS
+
+
+	SELECT	'C' AS TipoRegistro,
+		IdCapa,
+		IdLote,
+		IdEnv_Mal,
+		Capa,
+		Num_Malote,
+		AgOrig,
+		Status,
+		IsNull(Ocorrencia,0) AS Ocorrencia,
+		Duplicidade
+	  FROM	CAPA
+	 WHERE	DataProcessamento 	= @pDataProcessamento
+	   AND 	IdLote			= @pIdLote
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_RemoveCapa    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_RemoveCapa
+	@DataProcessamento	Int,
+	@IdCapa		Int
+
+As
+
+	Begin Transaction
+
+	--------------------------------------------------------------------------------------------------
+	-- Deleta Capa
+	DELETE 	FROM Capa
+	 WHERE	DataProcessamento 	= @DataProcessamento
+	   And  IdCapa			= @IdCapa
+	if @@Error = 0 Begin
+		Commit Transaction
+		Return(0)
+	End
+	Else Begin
+		RollBack Transaction
+		Return(1)
+	End
+	-------------------------------------------------------------------------------------------------- 
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_TotalizaAgencia
+	@pAgencia	SmallInt,
+	@pLacre	Decimal(8)
+AS
+
+
+Declare @vTotal_Env		Int
+Declare @vTotal_Mal		Int
+Declare @vEnv_HoraCadastrada	Char(5)
+Declare @vMal_HoraCadastrada	Char(5)
+Declare @Erro			Int
+
+
+	Select @Erro = 0
+
+	/*--------------------------
+	   Insere Envelope
+	--------------------------*/
+	SELECT	@vTotal_Env 		= Count(CP.IdEnv_Mal),
+		@vEnv_HoraCadastrada 	= Convert(Char(5),Max(CP.DataCriacao),108)
+	  FROM 	CAPA CP
+	 WHERE 	CP.IdEnv_Mal = 'E'
+
+	If Exists(Select 1
+		    From Agencia
+		   Where IdEnv_Mal = 'E'
+		     AND QtdInformada = @vTotal_Env) Begin
+		UPDATE Agencia	SET
+			Agencia		=	@pAgencia,
+			Lacre		=	@pLacre,
+			QtdInformada	=	@vTotal_Env,
+			HoraCadastrada	=	@vEnv_HoraCadastrada
+		WHERE	QtdInformada	= 	@vTotal_Env
+		  AND	IdEnv_Mal	=	'E'
+
+		Select @Erro = @@Error
+		If @Erro <> 0 Goto lbl_Erro
+	End
+	Else Begin		If @vTotal_Env > 0 Begin
+			INSERT INTO Agencia
+			(Agencia,	Lacre,		QtdInformada,	HoraCadastrada,		IdEnv_Mal)
+			VALUES
+			(@pAgencia,	@pLacre,	@vTotal_Env,	@vEnv_HoraCadastrada,	'E')
+
+			Select @Erro = @@Error
+		End
+
+		If @Erro <> 0 Goto lbl_Erro
+	End
+
+	/*---------------------------
+	   Insere Malote
+	---------------------------*/
+
+	SELECT @vTotal_Mal 		= Count(CP.IdEnv_Mal),
+		@vMal_HoraCadastrada 	= Convert(Char(5),Max(CP.DataCriacao),108)
+	  FROM CAPA CP
+	 WHERE CP.IdEnv_Mal = 'M'
+
+	If Exists(Select 1 From Agencia Where IdEnv_Mal = 'M' AND QtdInformada = @vTotal_Mal) Begin
+		UPDATE	Agencia	SET
+			Agencia		=	@pAgencia,
+			Lacre		=	@pLacre,
+			QtdInformada	=	@vTotal_Mal,
+			HoraCadastrada	=	@vMal_HoraCadastrada
+		 WHERE	QtdInformada	=	@vTotal_Mal
+		   AND	IdEnv_Mal	=	'M'
+
+		Select @Erro = @@Error
+	End
+	Else Begin
+		if @vTotal_Mal > 0 Begin
+			INSERT INTO Agencia
+			(Agencia,	Lacre,		QtdInformada,	HoraCadastrada,		IdEnv_Mal)
+			VALUES
+			(@pAgencia,	@pLacre,	@vTotal_Mal,	@vMal_HoraCadastrada,	'M')
+
+			Select @Erro = @@Error
+		End
+	End
+
+lbl_Erro:
+
+
+	Return @Erro
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_CapturaDocumento    Script Date: 17/11/00 11:22:10 ******/
+CREATE Procedure MDIAG_CapturaDocumento
+	@DataProcessamento		Int,
+	@IdCapa 			Int,
+	@TipoDocto			Smallint,
+	@Leitura			Varchar(48),
+	@Frente				Varchar(20),
+	@Verso				Varchar(20),
+	@Ordem				Char(1),
+	@OrdemCaptura			Int,
+	@IdDocto			Int          Output
+
+AS
+
+	Declare @Error                  int
+
+	/*--------------------------------------------------------------
+	  Simplesmente insere na tabela documento com a ordem de captura
+	--------------------------------------------------------------*/
+	Insert into Documento (	DataProcessamento, 	IdCapa, 	TipoDocto, 	Leitura,
+				Frente,			Verso,		Status,		Ordem,
+				OrdemCaptura)
+
+                     values (	@DataProcessamento, 	@IdCapa, 	@TipoDocto, 	@Leitura, 
+				@Frente, 		@Verso, 	'0',		@Ordem,
+			 	@OrdemCaptura)
+
+
+	Select @Error = @@Error, @IdDocto = @@Identity
+
+	If @Error = 0 Begin
+		Return(0)
+	End
+	Else Begin
+		Return(1)
+	End
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_CapturaDocumento]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_GetDocumentoContQualidade    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_GetDocumentoContQualidade
+	@DataProc	Int,
+	@IdLote		Int
+As
+
+
+	SELECT	D.IdDocto, D.IdCapa, D.TipoDocto, D.Frente, D.Verso, IsNull(D.Leitura, '') AS Leitura, D.Ordem
+	  FROM	Documento D, Capa C (NOLOCK)
+	 WHERE	D.DataProcessamento 	= @DataProc
+	   And	D.IdCapa		= C.IdCapa
+	   And	C.IdLote		= @IdLote
+	 ORDER BY IdDocto
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE Procedure MDIAG_GetEstatistica
+@DataProc		int,
+@IdEnv_Mal		char(1)
+
+As
+
+if @IdEnv_Mal = 'T' Begin   -- Todos
+
+	SELECT 	Count(Distinct(C.IdCapa)) as QtdCapa, Count(D.IdDocto) as QtdDoc, C.Status
+	  FROM 	Capa C (NOLOCK) Left Outer Join Documento D (NOLOCK INDEX = IndDataIdCapa) on (D.IdCapa = C.IdCapa And
+		D.DataProcessamento = C.DataProcessamento) 
+	 WHERE	C.DataProcessamento = @DataProc
+	 GROUP BY C.Status
+
+End
+Else Begin
+
+	SELECT 	Count(Distinct(C.IdCapa)) as QtdCapa, Count(D.IdDocto) as QtdDoc, C.Status
+	  FROM 	Capa C (NOLOCK) Left Outer Join Documento D (NOLOCK INDEX = IndDataIdCapa) on (D.IdCapa = C.IdCapa And
+		D.DataProcessamento = C.DataProcessamento)
+	 WHERE	C.DataProcessamento 	= @DataProc
+	   And	C.IdEnv_Mal 		= @IdEnv_Mal
+	 GROUP BY C.Status
+
+End
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetEstatistica]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE Procedure MDIAG_GetTotalDocumento
+	@DataProc   	int,
+	@IdEnv_Mal  	char(1)
+
+As
+
+if @IdEnv_Mal = 'T' Begin
+
+	Select Count(*) as Total 
+	  From Documento (NOLOCK)
+	 Where DataProcessamento = @DataProc
+
+End
+Else Begin
+
+	Select Count(*) as Total 
+	  From Documento D, Capa C (NOLOCK)
+	 Where D.DataProcessamento = @DataProc
+	   And C.DataProcessamento = @DataProc
+	   And D.IdCapa            = C.IdCapa
+	   And C.IdEnv_Mal         = @IdEnv_Mal
+
+End
+
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+GRANT  EXECUTE  ON [dbo].[MDIAG_GetTotalDocumento]  TO [mdi]
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE PROCEDURE MDIAG_ObtemDocumentosCapa
+	@pDataProcessamento	Int,
+	@pIdCapa		Int
+AS
+
+
+	SELECT	'D' AS TipoRegistro,
+		IdDocto,
+		OrdemCaptura,
+		TipoDocto,
+		Leitura,
+		Frente,
+		Verso,
+		Status,
+		Ordem
+	  FROM	DOCUMENTO
+	 WHERE	DataProcessamento 	= @pDataProcessamento And
+	   		IdCapa			= @pIdCapa
+	Order By OrdemCaptura
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+/****** Object:  Stored Procedure dbo.MDIAG_RemoveDocumento    Script Date: 17/11/00 11:22:10 ******/
+CREATE PROCEDURE MDIAG_RemoveDocumento
+	@DataProcessamento	Int,
+	@IdDocto		Int
+As
+
+Declare	@TipoDocto		SmallInt,
+	@Erro			Int,
+	@LinhasAfetadas		Int
+
+---------------------------------------------------
+--Seleciona o Tipo do Documento que serah removido
+---------------------------------------------------
+	SELECT @TipoDocto = TipoDocto
+	  FROM Documento
+	 WHERE DataProcessamento = @DataProcessamento
+	   And IdDocto           = @IdDocto
+
+	Select @Erro           = @@Error
+	      ,@LinhasAfetadas = @@Rowcount
+
+	If @LinhasAfetadas <> 1  or @Erro <> 0       -- Linha nao encontrada ou erro 
+	   Return(1)
+
+
+	Begin Transaction
+
+	----------------------------------------------------------------------------	
+	-- Remove o Documento da sua tabela especifica, se houver (ver comentarios)
+	----------------------------------------------------------------------------
+
+
+	-- TipoDocto = 0 (DOCUMENTO INDEFINIDO) soh estah na tabela de Documento
+	-- TipoDocto = 1 (CAPA MALOTE EMPRESA) soh apaga da tabela de Documento
+
+
+	If @TipoDocto in (2,3)        -- DEPOSITO CONTA CORRENTE E DEPOSITO CONTA POUPANCA        
+           	Delete Deposito 
+	     	 Where DataProcessamento = @DataProcessamento
+	     	   And IdDocto           = @IdDocto
+  
+	Else If @TipoDocto = 4        -- ADCC                           
+ 	     Delete ADCC 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto in (5,6,7) -- CHEQUE UBB SACADO (PAGTO), CHEQUE TERCEIRO (PAGTO), 
+                                    -- CHEQUE DEPOSITO      
+  	     Delete Cheque 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto IN (8, 9, 24, 25, 26) -- CONCESSIONARIA VALOR REAL,
+                                               -- CONCESSIONARIA VALOR INDEXADO
+                                               -- TRIBUTOS MUNICIPAIS, TRIBUTOS ESTADUAIS,
+                                               -- TRIBUTOS FEDERAIS
+	     Delete CBIndex
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto IN (10,28,29,30,31)    -- FICHA COMPENSACAO, UNICOBRANCA UBB,
+                                                -- COBRANCA IMEDIATA UBB, COBRANCA ESPECIAL UBB
+                                                -- COBRANCA TERCEIROS
+	     Delete FichaCompensacao 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto IN (11,19) -- INSS e GRPS - nao existem mais
+	     Goto TrataErro
+
+	Else If @TipoDocto = 12       -- TITULOS (TERCEIROS SEM CB) 
+	     Delete Titulo 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 13       -- COBRANCA REGISTRADA (SEM CB)   
+   	     Delete CobrancaRegistrada 
+     	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 14       -- COBRANCA ESPECIAL (SEM CB)     
+	     Delete CobrancaEspecial
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 15       -- DARM                           
+	     Delete Darm 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 16       -- DARF PRETO                     
+	     Delete DarfPreto 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 17       -- DARF SIMPLES                   
+	     Delete DarfSimples 
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 18       -- GARE                           
+	     Delete Gare
+
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+
+	-- 19 - GRPS nao existe mais, ver tratamento junto com 11 - INSS
+
+	Else If @TipoDocto IN (20, 21, 22, 23) -- AGUA, GAS, LUZ, TELEFONE
+	     Delete ArrecadacaoEletronica
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+
+	Else If @TipoDocto = 27       -- ARRECADACAO CONVENCIONAL
+	     Delete ArrecadacaoConvencional
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	-- 28 - UNICOBRANCA UBB, 29 - COBRANCA IMEDIATA UBB, 30 - COBRANCA ESPECIAL UBB
+      -- 31 - COBRANCA TERCEIROS estao tratados acima na Ficha de Compensacao
+
+	Else If @TipoDocto IN (32,34) -- AJUSTE CREDITO DEPOSITO, CREDITO AUTOMATICO                           
+	     Delete AjusteCredito
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto IN (33,38) -- AJUSTE DEBITO DEPOSITO, DEBITO AUTOMATICO                           
+	     Delete AjusteDebito
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 35      -- GPS                            
+	     Delete GPS
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 36      -- CARTAOAVULSO                   
+	     Delete CartaoAvulso
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+	Else If @TipoDocto = 37      -- OCT                            
+ 	     Delete OCT
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+  
+      -- 38 - DEBITO AUTOMATICO estah tratado acima no AjusteDebito                      
+	-- 39 - CAPA OCT, soh apaga na Tabela Documento
+	Else If @TipoDocto = 40      -- FGTS
+ 	     Delete FGTS
+	      Where DataProcessamento = @DataProcessamento
+	        And IdDocto           = @IdDocto
+
+   Select @Erro           = @@Error
+         ,@LinhasAfetadas = @@Rowcount
+
+   -----------------------------------------------------------------------------------------
+   -- Se não removeu da Tabela específica e o documento não for 0,1 ou 39, que soh estao na 
+   -- tabela Documento, o Tipo de Documento não existe ou ocorreu um erro -> TrataErro
+   -----------------------------------------------------------------------------------------
+   If (@LinhasAfetadas <> 1 and @TipoDocto not in (0,1,39)) or @Erro <> 0 
+	Goto TrataErro
+
+   -------------------------------
+   -- Remove da Tabela Documento
+   -------------------------------
+   Delete Documento 
+    Where DataProcessamento = @DataProcessamento
+      And IdDocto           = @IdDocto
+
+   Select @Erro = @@Error
+         ,@LinhasAfetadas = @@Rowcount
+
+   ---------------------------------------
+   -- Se tudo OK, Commit, senao RollBack
+   ---------------------------------------
+   If @LinhasAfetadas = 1 and @Erro = 0 Begin
+		Commit Transaction
+   		Return(0)
+   End
+   
+
+TrataErro:
+   Begin
+	RollBack Transaction
+   	Return(1)
+   End
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+

@@ -1,0 +1,22 @@
+Faixa Salarial: Analista Junior
+	P1 - R$ 2.469,31
+	P2 - R$ 2.686,01
+	P3 - R$ 2.921,72
+	P4 - R$ 3.178,13
+	P5 - R$ 3.457,03 
+
+ 
+Faixa Salarial: Analista Pleno					
+ 	P1 - R$ 3.392,79
+	P2 - R$ 3.690,53
+	P3 - R$ 4.014,40
+	P4 - R$ 4.366,69
+	P5 - R$ 4.749,91	 
+
+
+Faixa Salarial: Analista Senior
+	P1 - R$ 4.093,88 
+	P2 - R$ 4.453,15 
+	P3 - R$ 4.843,94 
+	P4 - R$ 5.269,03 
+	P5 - R$ 5.731,43 

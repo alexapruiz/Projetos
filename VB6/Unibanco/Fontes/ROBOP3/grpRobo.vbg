@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=ROBO.VBP
+Project=Lib\DBMDI.vbp
+Project=Lib\DBUBB.vbp

@@ -1,0 +1,45 @@
+Line 127: Class DATEEDITLib.DateEdit of control txtDataEntradaBordero was not a loaded control class.
+Line 168: Class UbbEdt.UbbEdit of control txtAgencia was not a loaded control class.
+Line 278: Class UbbEdt.UbbEdit of control txtValorDeposito was not a loaded control class.
+Line 311: Class DATEEDITLib.DateEdit of control txtDataDeposito was not a loaded control class.
+Line 352: Class UbbEdt.UbbEdit of control txtContaCorrente was not a loaded control class.
+Line 383: Class UbbEdt.UBBValid of control UBBValid1 was not a loaded control class.
+Line 133: The property name _Version in txtDataEntradaBordero is invalid.
+Line 134: The property name _ExtentX in txtDataEntradaBordero is invalid.
+Line 135: The property name _ExtentY in txtDataEntradaBordero is invalid.
+Line 136: The property name _StockProps in txtDataEntradaBordero is invalid.
+Line 174: The property name _ExtentX in txtAgencia is invalid.
+Line 175: The property name _ExtentY in txtAgencia is invalid.
+Line 176: The property name TextColor in txtAgencia is invalid.
+Line 185: The property name TitleFont in txtAgencia is invalid.
+Line 194: The property name TextFont in txtAgencia is invalid.
+Line 195: The property name FieldType in txtAgencia is invalid.
+Line 196: The property name TextMaxNumChars in txtAgencia is invalid.
+Line 197: The property name Title in txtAgencia is invalid.
+Line 284: The property name _ExtentX in txtValorDeposito is invalid.
+Line 285: The property name _ExtentY in txtValorDeposito is invalid.
+Line 286: The property name TextColor in txtValorDeposito is invalid.
+Line 295: The property name TitleFont in txtValorDeposito is invalid.
+Line 304: The property name TextFont in txtValorDeposito is invalid.
+Line 305: The property name FieldType in txtValorDeposito is invalid.
+Line 306: The property name TextMaxNumChars in txtValorDeposito is invalid.
+Line 308: The property name Title in txtValorDeposito is invalid.
+Line 309: The property name AutoNextControl in txtValorDeposito is invalid.
+Line 317: The property name _Version in txtDataDeposito is invalid.
+Line 318: The property name _ExtentX in txtDataDeposito is invalid.
+Line 319: The property name _ExtentY in txtDataDeposito is invalid.
+Line 320: The property name _StockProps in txtDataDeposito is invalid.
+Line 358: The property name _ExtentX in txtContaCorrente is invalid.
+Line 359: The property name _ExtentY in txtContaCorrente is invalid.
+Line 360: The property name TextColor in txtContaCorrente is invalid.
+Line 369: The property name TitleFont in txtContaCorrente is invalid.
+Line 378: The property name TextFont in txtContaCorrente is invalid.
+Line 379: The property name FieldType in txtContaCorrente is invalid.
+Line 380: The property name TextMaxNumChars in txtContaCorrente is invalid.
+Line 381: The property name Title in txtContaCorrente is invalid.
+Line 386: The property name _ExtentX in UBBValid1 is invalid.
+Line 387: The property name _ExtentY in UBBValid1 is invalid.
+Line 388: The property name Banco in UBBValid1 is invalid.
+Line 389: The property name ColorOK in UBBValid1 is invalid.
+Line 390: The property name Campo12 in UBBValid1 is invalid.
+Line 391: The property name Campo13 in UBBValid1 is invalid.

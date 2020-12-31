@@ -1,0 +1,12 @@
+Private Sub SU_carrega_grid_classe()
+
+    Dim Db As New ConectaDB
+
+    If Not Db.Init("DBNCREDI..PR_FIG_PES_S13192") Then Exit Sub
+
+    If Not Db.ParametroOUT("@Erro", 0, SQLINT4%) Then Exit Sub
+
+    If Not Db.Execute Then Exit Sub
+
+    Call Db.PreencheGrid(gr_controle, 6)
+End Sub

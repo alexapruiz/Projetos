@@ -1,0 +1,8 @@
+VBGROUP 5.0
+Project=Recepcao\MDI_Recepcao.vbp
+Project=Classes\Classes.vbp
+Project=RegistroOcorrencia\MDI_RegistroOcorrencia.vbp
+Project=ControleQualidade\MDI_ControleQualidade.vbp
+StartupProject=MDI_AG\MDI_AG.vbp
+Project=ControlGeracao\MDI_ControleGeracao.vbp
+Project=Estatistica\MDI_Estatistica.vbp

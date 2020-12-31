@@ -1,0 +1,7 @@
+Line 19: Class DATEEDITLib.DateEdit of control TxtPeriodo was not a loaded control class.
+Line 42: Class CURRENCYEDITLib.CurrencyEdit of control TxtReceita was not a loaded control class.
+Line 155: Class CURRENCYEDITLib.CurrencyEdit of control TxtPrincipal was not a loaded control class.
+Line 179: Class CURRENCYEDITLib.CurrencyEdit of control TxtMulta was not a loaded control class.
+Line 203: Class CURRENCYEDITLib.CurrencyEdit of control TxtJuros was not a loaded control class.
+Line 227: Class CURRENCYEDITLib.CurrencyEdit of control TxtPercentual was not a loaded control class.
+Line 251: Class CURRENCYEDITLib.CurrencyEdit of control TxtValor was not a loaded control class.

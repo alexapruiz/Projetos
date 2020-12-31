@@ -1,0 +1,133 @@
+<html>
+<title>pygame.font</title>
+<body bgcolor=#aaeebb text=#000000 link=#331111 vlink=#331111>
+
+
+<table cellspacing=3 width=100%><tr><td bgcolor=#00000>
+<table width=100%><tr><td bgcolor=c2fc20 align=center>
+    <a href=http://www.pygame.org>
+    <img src=../pygame_tiny.gif border=0 width=200 height=60></a><br>
+    <b>pygame&nbsp;&nbsp;&nbsp;documentation</b>
+</td><td bgcolor=6aee28 align=center valign=top width=100%>
+
+	||&nbsp;
+	<a href=http://www.pygame.org>Home</a> &nbsp;||&nbsp;
+	<a href=../index.html>Help Contents</a> &nbsp;||
+	<br>&nbsp;<br>
+
+|| <a href=pygame.html>pygame</a> || 
+<a href=pygame_cdrom.html>cdrom</a> || 
+<a href=pygame_constants.html>constants</a> || 
+<a href=pygame_display.html>display</a> || 
+<a href=pygame_draw.html>draw</a> || 
+<a href=pygame_event.html>event</a> ||<br>
+|| <a href=pygame_font.html>font</a> || 
+<a href=pygame_image.html>image</a> || 
+<a href=pygame_joystick.html>joystick</a> || 
+<a href=pygame_key.html>key</a> || 
+<a href=pygame_mixer.html>mixer</a> || 
+<a href=pygame_mixer_music.html>mixer_music</a> ||<br>
+|| <a href=pygame_mouse.html>mouse</a> || 
+<a href=pygame_movie.html>movie</a> || 
+<a href=pygame_sndarray.html>sndarray</a> || 
+<a href=pygame_surfarray.html>surfarray</a> || 
+<a href=pygame_time.html>time</a> || 
+<a href=pygame_transform.html>transform</a> ||<br>
+&nbsp;<br>|| <a href=CD.html>CD</a> || 
+<a href=Channel.html>Channel</a> || 
+<a href=Clock.html>Clock</a> || 
+<a href=Font.html>Font</a> || 
+<a href=Joystick.html>Joystick</a> || 
+<a href=Movie.html>Movie</a> ||<br>
+|| <a href=Rect.html>Rect</a> || 
+<a href=Sound.html>Sound</a> || 
+<a href=Surface.html>Surface</a> ||<br>
+&nbsp;<br>|| <a href=pygame_cursors.html>cursors</a> || 
+<a href=pygame_sprite.html>sprite</a> ||<br>
+
+
+</td></tr></table></td></tr></table>
+<br>
+<h2 align=center>pygame.font</h2>
+The font module allows for rendering TrueType fonts into a new
+Surface object. This module is optional and requires SDL_ttf as a
+dependency. You may want to check for pygame.font to import and
+initialize before attempting to use the module.
+<br>&nbsp;<br>
+Most of the work done with fonts are done by using the actual
+Font objects. The module by itself only has routines to
+initialize the module and create Font objects with
+<a href=#Font>pygame.font.Font()</a>.
+
+<hr>
+
+<table>
+<tr><td><a href=#Font>Font</a></td><td> -
+create a new font object</td></tr>
+
+
+<tr><td><a href=#get_default_font>get_default_font</a></td><td> -
+get the name of the default font</td></tr>
+
+
+<tr><td><a href=#get_init>get_init</a></td><td> -
+get status of font module initialization</td></tr>
+
+
+<tr><td><a href=#init>init</a></td><td> -
+initialize the display module</td></tr>
+
+
+<tr><td><a href=#quit>quit</a></td><td> -
+uninitialize the font module</td></tr>
+
+
+</table>
+
+<hr>
+
+<a name=Font><font size=+2><b>Font
+</b></font><br><font size=+1><tt>
+pygame.font.Font(file, size) -> Font
+</tt></font><ul>
+This will create a new font object. The given file must be a
+filename to a TTF file. The font loader does not work with python
+file-like objects. The size represents the height of the font in
+pixels. The file argument can be 'None', which will use a plain
+default font.
+</ul><br>&nbsp;<br>
+
+<a name=get_default_font><font size=+2><b>get_default_font
+</b></font><br><font size=+1><tt>
+pygame.font.get_default_font() -> string
+</tt></font><ul>
+returns the name for the default truetype font.
+</ul><br>&nbsp;<br>
+
+<a name=get_init><font size=+2><b>get_init
+</b></font><br><font size=+1><tt>
+pygame.font.get_init() -> bool
+</tt></font><ul>
+Returns true if the font module is currently intialized.
+</ul><br>&nbsp;<br>
+
+<a name=init><font size=+2><b>init
+</b></font><br><font size=+1><tt>
+pygame.font.init() -> None
+</tt></font><ul>
+Manually initialize the font module. Will raise an exception if
+it cannot be initialized. It is safe to call this function if
+font is currently initialized.
+</ul><br>&nbsp;<br>
+
+<a name=quit><font size=+2><b>quit
+</b></font><br><font size=+1><tt>
+pygame.font.quit() -> none
+</tt></font><ul>
+Manually uninitialize SDL's video subsystem. It is safe to call
+this if font is currently not initialized.
+</ul><br>&nbsp;<br>
+
+
+<hr>
+</body></html>

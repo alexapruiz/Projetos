@@ -1,0 +1,10 @@
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Hosting.exe.config
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Hosting.exe
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Hosting.pdb
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Contratos.dll
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Servico.dll
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Contratos.pdb
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\bin\Debug\WCFVideos.Servico.pdb
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\obj\Debug\WCFVideos.Hosting.csprojResolveAssemblyReference.cache
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\obj\Debug\WCFVideos.Hosting.exe
+c:\Projetos\Projects\WCFVideos\WCFVideos.Hosting\obj\Debug\WCFVideos.Hosting.pdb

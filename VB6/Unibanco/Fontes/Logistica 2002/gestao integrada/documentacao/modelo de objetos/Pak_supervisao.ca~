@@ -1,0 +1,445 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object Class_Category "Modulo de supervisao"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3CD6C6F7037A"
+    documentation 	
+|Descrição:
+|-----------------
+|Módulo que permitirá ao usuário auditar informações sobre pedidos e manter os parâmetros do sistema.
+|
+|
+|Sequencia normal de eventos (Auditoria):
+|--------------------------------------------------------------------------
+|1. O usuário seleciona um pedido a ser auditado.
+|2. O sistema exibe as informações de auditoria (em tela).
+|3. O sistema deverá disponibilizar opção de impressão dos dados auditados.
+|
+|
+|Sequencia Alternativa de eventos Auditoria (1) :
+|--------------------------------------------------------------------------
+|1. O usuário seleciona um código de pedido que não existe.
+|2. O sistema deverá exibir mensagem informando a não existência do pedido.
+|3. O sistema deverá limpar os controles para a digitação de novo pedido.
+|
+|
+|Sequencia normal de eventos (Parâmetros) :
+|--------------------------------------------------------------------------
+|1. O sistema exibe os parâmetros do sistema.
+|2. O usuário poderá alterar os valores dos parâmetros
+|3. O sistema deverá gravar os novos valores.
+|
+|
+|Sequencia Alternativa de eventos Parametros (1) :
+|--------------------------------------------------------------------------
+|1. O usuário informa um parâmetro com valor inválido.
+|2. O sistema deverá exibir mensagem informando ao usuário qual campo possui valor inválido.
+|3. O sistema deverá manter o foco no campo até que o usuário informe um valor válido ou saia da aplicação.
+|
+    
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object UseCase "Auditar Transações"
+	    quid       	"3CD6C75F0212"
+	    documentation 	
+|Descrição:
+|-----------------
+|Caso de uso que consulta as principais ações auditadas no sistema. São elas:
+|
+|a) ações por usuário por data de produção ou período de produção.
+|b) ações por grupo de usuários  por data de produção ou período de produção.
+|c) ocorrências de não entrega + usuário + motivo por data de produção ou período de produção.
+|d) pedidos recebidos (quatidades) + usuários por data de produção ou período de produção.
+|e) pedidos realizados (quantidades) + usuários por data de produção ou período de produção.
+|f) pedidos com problemas de fabricação + usuários por data de produção ou período de produção.
+|g) pedidos gerados por erro de fabricação + usuários por data de produção ou período de produção.
+|
+|
+|Seqüência normal de eventos:
+|------------------------------------------------
+|01) É exibida uma tela com as opções, acima, de visualização do dados auditados.
+|02) Supervisor seleciona uma das opções, preenchendo os dados para pesquisa:
+|-Item a:  informar a data de produção ou o período + o nome do usuário .
+|
+|-Item b:  informar a data de produção ou o período + o nome do grupo de usuários.
+| 
+|-Item c: informar a data de produção ou o período + tipo de ocorrência (se não preencher deverá trazer todas) + usuário (se não preencher deverá trazer todos).
+|
+|-Item d: informar a data de produção ou o período + usuário.
+|
+|-Item e: informar a data de produção ou o período + usuário.
+|
+|-Item f: informar a data de produção ou o período + usuário (se não preencher deverá trazer todos).
+|
+|-Item g: informar a data de produção ou o período + usuário (se não preencher deverá trazer todos).
+|
+|Seqüência eventual de eventos:
+|------------------------------------------------
+|01) Não preenchimento de campos obrigatórios: mensagem de erro padrão (sem o nome do campo).
+|02) Data ou período inválido: mensagem de erro informando " data inválida".
+	    )
+	(object UseCase "Parametrizar Sistema"
+	    quid       	"3CD6C76A00F0"
+	    documentation 	
+|Descrição:
+|-----------------
+|Caso de uso que inclui, altera e consulta os parâmetros do sistema.
+|
+|a) Número ideal de dias para a fabricação de um determinado produto (cada produto terá um parâmetro).
+|b) Número ideal de dias para a entrega de um determinado produto (cada produto terá um parâmetro).
+|c) Número ideal de dias para a solução de pedidos enviados à CSP.
+|d) Diretórios para troca de arquivos entre fabricantes, entregadores e fragmentadores com o Unibanco.
+|e) Quantidade de tentativas de entrega.
+| f ) Período de Custódia por tipo de tangível.
+|
+|
+|Seqüência Normal de Eventos:
+|------------------------------------------------
+|1. O sistema deverá exibir todos os parâmetros agrupados por categoria.
+|2. O usuário poderá alterar os valores e gravar as informações na base de dados.
+|3. O usuário poderá abandonar a tela de parâmetros a qualquer momento, sem que as alterações sejam aplicadas.
+|
+|
+|Seqüência Alternativa de Eventos:
+|------------------------------------------------
+|1. O usuário digita algum valor inválido para um determinado parâmetro.
+|2. O sistema deverá exibir uma mensagem informando ao usuário qual parâmetro possui valor inválido.
+|
+	    )
+	(object UseCase "Alterar Situação de Lotes"
+	    quid       	"3CFFB8C30294")
+	(object UseCase "Regerar Arquivos de Atualização"
+	    quid       	"3CFFB95701DA")
+	(object Association "$UNNAMED$0"
+	    quid       	"3CD6C7960082"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"3CD6C7970154"
+		    supplier   	"Use Case View::Modulo de supervisao::Auditar Transações"
+		    quidu      	"3CD6C75F0212"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$2"
+		    quid       	"3CD6C7970155"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$3"
+	    quid       	"3CD6C79A01D6"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$4"
+		    quid       	"3CD6C79B02DA"
+		    supplier   	"Use Case View::Modulo de supervisao::Parametrizar Sistema"
+		    quidu      	"3CD6C76A00F0"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$5"
+		    quid       	"3CD6C79B02DB"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$6"
+	    quid       	"3CFFB8F40259"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$7"
+		    quid       	"3CFFB8F50323"
+		    supplier   	"Use Case View::Modulo de supervisao::Alterar Situação de Lotes"
+		    quidu      	"3CFFB8C30294"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$8"
+		    quid       	"3CFFB8F50325"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA")))
+	(object Association "$UNNAMED$9"
+	    quid       	"3CFFB9770259"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$10"
+		    quid       	"3CFFB97802C8"
+		    supplier   	"Use Case View::Modulo de supervisao::Regerar Arquivos de Atualização"
+		    quidu      	"3CFFB95701DA"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$11"
+		    quid       	"3CFFB97802CA"
+		    supplier   	"Use Case View::Supervisor"
+		    quidu      	"3CD6B66402DA"))))
+    logical_presentations 	(list unit_reference_list
+	(object UseCaseDiagram "visão da supervisão"
+	    quid       	"3CD6C74F014A"
+	    title      	"visão da supervisão"
+	    zoom       	100
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	0
+	    origin_y   	0
+	    items      	(list diagram_item_list
+		(object UseCaseView "Use Case View::Modulo de supervisao::Auditar Transações" @1
+		    location   	(320, 1088)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@1
+			location   	(320, 1226)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Auditar Transações")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD6C75F0212"
+		    height     	118)
+		(object UseCaseView "Use Case View::Modulo de supervisao::Parametrizar Sistema" @2
+		    location   	(1136, 464)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@2
+			location   	(1136, 602)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Parametrizar Sistema")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD6C76A00F0"
+		    height     	118)
+		(object Label @3
+		    location   	(159, 128)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	TRUE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    nlines     	1
+		    max_width  	600
+		    label      	"Visão package de Supervisão")
+		(object UseCaseView "Use Case View::Modulo de supervisao::Alterar Situação de Lotes" @4
+		    location   	(1296, 752)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@4
+			location   	(1296, 890)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Alterar Situação de Lotes")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB8C30294"
+		    height     	118)
+		(object ClassView "Class" "Use Case View::Supervisor" @5
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(320, 464)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@5
+			location   	(320, 624)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	343
+			justify    	0
+			label      	"Supervisor")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3CD6B66402DA"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object AssociationViewNew "$UNNAMED$0" @6
+		    location   	(320, 861)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD6C7960082"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$1" @7
+			    Parent_View 	@6
+			    location   	(-288, 461)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD6C7970154"
+			    client     	@6
+			    supplier   	@1
+			    line_style 	0)
+			(object RoleView "$UNNAMED$2" @8
+			    Parent_View 	@6
+			    location   	(-288, 461)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD6C7970155"
+			    client     	@6
+			    supplier   	@5
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$3" @9
+		    location   	(700, 464)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD6C79A01D6"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$4" @10
+			    Parent_View 	@9
+			    location   	(92, 64)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD6C79B02DA"
+			    client     	@9
+			    supplier   	@2
+			    line_style 	0)
+			(object RoleView "$UNNAMED$5" @11
+			    Parent_View 	@9
+			    location   	(92, 64)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD6C79B02DB"
+			    client     	@9
+			    supplier   	@5
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$6" @12
+		    location   	(781, 597)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB8F40259"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$7" @13
+			    Parent_View 	@12
+			    location   	(461, 133)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB8F50323"
+			    client     	@12
+			    supplier   	@4
+			    line_style 	0)
+			(object RoleView "$UNNAMED$8" @14
+			    Parent_View 	@12
+			    location   	(461, 133)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB8F50325"
+			    client     	@12
+			    supplier   	@5
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Modulo de supervisao::Regerar Arquivos de Atualização" @15
+		    location   	(1040, 1056)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@15
+			location   	(1040, 1194)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Regerar Arquivos de Atualização")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB95701DA"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$9" @16
+		    location   	(693, 770)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB9770259"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$10" @17
+			    Parent_View 	@16
+			    location   	(373, 306)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB97802C8"
+			    client     	@16
+			    supplier   	@15
+			    line_style 	0)
+			(object RoleView "$UNNAMED$11" @18
+			    Parent_View 	@16
+			    location   	(373, 306)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB97802CA"
+			    client     	@16
+			    supplier   	@5
+			    line_style 	0)))))))

@@ -1,0 +1,13 @@
+Line 465: Class CURRENCYEDITLib.CurrencyEdit of control txtValor was not a loaded control class.
+Line 552: Class LeadLib.Lead of control Lead1 was not a loaded control class.
+Line 471: The property name _Version in txtValor is invalid.
+Line 472: The property name _ExtentX in txtValor is invalid.
+Line 473: The property name _ExtentY in txtValor is invalid.
+Line 474: The property name _StockProps in txtValor is invalid.
+Line 486: The property name MaxLength in txtValor is invalid.
+Line 559: The property name _Version in Lead1 is invalid.
+Line 560: The property name _ExtentX in Lead1 is invalid.
+Line 561: The property name _ExtentY in Lead1 is invalid.
+Line 562: The property name _StockProps in Lead1 is invalid.
+Line 568: The property name BitmapDataPath in Lead1 is invalid.
+Line 569: The property name AnnDataPath in Lead1 is invalid.

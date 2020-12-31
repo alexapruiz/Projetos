@@ -1,0 +1,10 @@
+Cripto = 0, 0, 0, 0, C
+CalculoDigito = 0, 0, 0, 0, C
+MensagemErro = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+GLOBAIS = 81, 81, 494, 519, 
+TiposDados = 0, 0, 0, 0, C
+Password = 108, 108, 521, 546, , 0, 0, 0, 0, C
+Importacao = 135, 135, 548, 573, Z, 0, 0, 0, 0, C
+AguardarRobo = 27, 27, 440, 465, , 0, 0, 0, 0, C
+Tipos_ControleGeracao = 0, 0, 0, 0, C
+Principal = 54, 54, 467, 492, , 0, 0, 0, 0, C

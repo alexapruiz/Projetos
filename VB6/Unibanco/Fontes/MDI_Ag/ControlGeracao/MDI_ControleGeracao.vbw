@@ -1,0 +1,7 @@
+frmControleGeracao = 27, 27, 440, 465, C, 0, 0, 0, 0, C
+TiposDados = 0, 0, 0, 0, C
+CalculoDigito = 0, 0, 0, 0, C
+MensagemErro = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ControleGeracao = 88, 88, 552, 408, C
+Tipos_ControleGeracao = 0, 0, 0, 0, C
+GLOBAIS = 54, 54, 467, 492, C

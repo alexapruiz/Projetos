@@ -1,0 +1,25 @@
+USE [VENDAS]
+GO
+
+/****** Object:  Table [dbo].[TIPO_MEMORIA]    Script Date: 25/08/2020 19:43:29 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[TIPO_MEMORIA]') AND type in (N'U'))
+DROP TABLE [dbo].[TIPO_MEMORIA]
+GO
+
+/****** Object:  Table [dbo].[TIPO_MEMORIA]    Script Date: 25/08/2020 19:43:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TIPO_MEMORIA](
+	[ID_TIPO_MEMORIA] [int] NOT NULL,
+	[DSC_TIPO_MEMORIA] [nchar](5) NOT NULL,
+	[VELOCIDADE] [int] NOT NULL
+)
+GO
+
+INSERT INTO TIPO_MEMORIA ([ID_TIPO_MEMORIA] , [DSC_TIPO_MEMORIA] , [VELOCIDADE] ) VALUES (8,'DDR4',2133)
+GO
+

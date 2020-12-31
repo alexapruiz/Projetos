@@ -1,0 +1,8 @@
+SCC = This is a Source Code Control file
+
+[Classes.vbp]
+SCC_Aux_Path = "\\Mdi_nt2\DRIVE_D\Projetos\MDI_Ubb\SourceSafe"
+SCC_Project_Name = "$/MDI_AG/Classes", SIAAAAAA
+[MDI_Classes.vbp]
+SCC_Project_Name=this project is not under source code control
+SCC_Aux_Path=<This is an empty string for the mssccprj.scc file>

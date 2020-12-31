@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VipsDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPF1C1.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VIPSDLL_EXPORTS" /Fp"Release/VipsDll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Vagner\Fontes\VipsDll 2.1\VipsDll.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPF1C1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPF1C2.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/VipsDll.pdb" /map:"Release/VipsDll.map" /machine:I386 /def:".\VipsDll.def" /out:"Release/VipsDll.dll" /implib:"Release/VipsDll.lib" 
+".\Release\StdAfx.obj"
+".\Release\VipsDll.obj"
+".\Release\Script1.res"
+".\vipsgrim.lib"
+".\vipsdrv.lib"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPF1C2.TMP"
+<h3>Output Window</h3>
+Compiling...
+VipsDll.cpp
+Linking...
+   Creating library Release/VipsDll.lib and object Release/VipsDll.exp
+
+
+
+<h3>Results</h3>
+VipsDll.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

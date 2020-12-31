@@ -1,0 +1,13 @@
+ClsCaixa = 0, 0, 0, 0, C
+clsParametro = 135, 135, 618, 574, C
+frmPrincipal = 135, 135, 513, 573, C, 81, 81, 459, 519, C
+FrmPassword = 135, 135, 480, 573, C, 108, 108, 486, 546, C
+frmComunica = 162, 162, 645, 601, C, 135, 135, 513, 573, C
+frmCarga = 54, 54, 399, 492, C, 162, 162, 540, 600, C
+frmShow = 189, 189, 1020, 628, C, 189, 189, 567, 627, C
+frmMensagemErro = 0, 0, 831, 439, C, 216, 216, 594, 654, C
+basCripto = 0, 0, 0, 0, C
+basDbGrpFuncoes = 27, 27, 858, 466, C
+basProcessa = 27, 27, 405, 465, 
+basFuncoes = 54, 54, 765, 492, Z
+basGauge = 0, 0, 0, 0, C

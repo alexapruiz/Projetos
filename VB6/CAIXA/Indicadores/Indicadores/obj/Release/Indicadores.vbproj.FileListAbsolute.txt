@@ -1,0 +1,4 @@
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Release\ResolveAssemblyReference.cache
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Release\Indicadores.Form1.resources
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Release\Indicadores.Resources.resources
+C:\Alex\Projetos\Indicadores\Indicadores\obj\Release\Indicadores.vbproj.GenerateResource.Cache

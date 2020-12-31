@@ -1,0 +1,191 @@
+dsquery group -samid "nomedogrupo" | dsget group -members > Membros.txt
+dsget group "CN=GroupName,DC=domain,DC=name,DC=com" -members
+dsget group "DN_do_Grupo,ou=Nome_da_OU,dc=Nome_NetBios_do_Domínio,dc=Nome_de_Domínio" -expand -members > arquivo.txt
+dsquery group "dc=dominio,dc=com,dc=br" -scope subtree -name %1 | dsget group -members | dsget user -samid -email > lista.txt
+
+Get-ADGroup -filter * | select name
+Get-ADGroupMember “nomedogrupo” -recursive
+Get-ADGroupMember “Grupo Teste” -recursive | Out-File c:\MembrosGrupoTeste.html
+Get-QADMemberOf -Identity  | ft name,modificationdate,grouptype -autosize |out-file c:\listMemberOf.txt
+
+
+https://tekniblog.wordpress.com/active-directory/dsadd-dsget-dsmod-dsquery/dsquery/
+
+https://analistaderedes.wordpress.com/2012/02/22/comandos-dsquery-e-dsget/
+https://pypi.org/project/pyad/
+
+https://www.100security.com.br/ad-lista
+
+http://www.linhadecodigo.com.br/artigo/3052/listando-membros-de-grupos-com-o-dsget.aspx
+
+------
+Python
+
+from pyad import *
+
+pyad.set_defaults (ldap_server = "dc1.domain.com", username = "service_account", password = "mypassword")
+user = pyad.aduser.ADUser.from_cn ("myuser")
+
+from pyad import aduser
+user1 = aduser.ADUser.from_dn ("cn = myuser, ou = staff, dc = domain, dc = com")
+user2 = aduser.ADUser.from_cn ("myuser")
+user3 = aduser.ADUser .from_guid ("XXX-XXX-XXX")
+
+from pyad import pyad
+user = pyad.from_cn ("user1")
+computer = pyad.from_dn ("cn = WS1, ou = Estações de trabalho, dc = domínio, dc = com ")
+group = pyad.from_guid (" XXX-XXX-XXX ")
+
+user1 = ADUser.from_cn ("myuser1")
+user2 = ADUser.from_cn ("myuser2")
+group = ADGroup.from_dn ("staff")
+
+group.add_members ([user1, user2])
+#para o usuário em group.get_members ():
+print user1.description
+------
+
+
+List all groups in the domain and all members of the groups
+' ***************************** 
+' * List All Groups in the Domain and 
+' * List All Members of each Group 
+' *  
+' * Output to a text file on the user's desktop in the format: 
+' * group name <tab> type <tab> member name <tab> type 
+' * Prompt for text file name. 
+' * Written by James Anderson, July 2009 
+' ***************************** 
+' Variables 
+Const MY_DOMAIN = "dc=fabricam,dc=com" 
+' ***************************** 
+' Start Main 
+On Error Resume Next 
+Const ADS_SCOPE_SUBTREE = 2 
+Const ADS_GROUP_TYPE_GLOBAL_GROUP = &h2 
+Const ADS_GROUP_TYPE_LOCAL_GROUP = &h4 
+Const ADS_GROUP_TYPE_UNIVERSAL_GROUP = &h8 
+Const ADS_GROUP_TYPE_SECURITY_ENABLED = &h80000000 
+Const E_ADS_PROPERTY_NOT_FOUND = &h8000500D 
+Const MYPROMPT = "Enter the Output filename (i.e. Groups.txt) that will be saved on your desktop:" 
+Const ForReading = 1, ForWriting = 2, ForAppending = 8 
+Set objFSO = CreateObject("Scripting.FileSystemObject") 
+ 
+' Setup the output file 
+If UCase( Right( WScript.FullName, 12 ) ) = "\CSCRIPT.EXE" Then 
+  WScript.StdOut.Write MYPROMPT & " " 
+  strMyFileName = WScript.StdIn.ReadLine 
+Else 
+  strMyFileName = InputBox( MYPROMPT ) 
+End If 
+if strMyFileName = "" then 
+  wscript.quit 
+end if 
+Set WshShell = CreateObject("WScript.Shell") 
+Set WshSysEnv = WshShell.Environment("PROCESS") 
+strMyFileName = WshSysEnv("USERPROFILE") & "\Desktop\" & strMyFileName 
+Set WshSysEnv = nothing 
+Set WshShell = nothing 
+if objFSO.FileExists(strMyFileName) then 
+  'objFSO.DeleteFile(strMyFileName) 
+  wscript.echo "That filename already exists" 
+  wscript.quit 
+end if 
+ 
+' Get a recordset of groups in AD 
+Set objMyOutput = objFSO.OpenTextFile(strMyFileName, ForWriting, True) 
+Set objConnection = CreateObject("ADODB.Connection") 
+Set objCommand =   CreateObject("ADODB.Command") 
+objConnection.Provider = "ADsDSOObject" 
+objConnection.Open "Active Directory Provider" 
+Set objCommand.ActiveConnection = objConnection 
+objCommand.Properties("Page Size") = 1000 
+objCommand.Properties("Searchscope") = ADS_SCOPE_SUBTREE  
+objCommand.CommandText = _ 
+    "SELECT ADsPath, Name FROM 'LDAP://" & MY_DOMAIN & "' WHERE objectCategory='group'"  
+Set objRecordSet = objCommand.Execute 
+objRecordSet.MoveFirst 
+ 
+' For each Group, Get group properties 
+Do Until objRecordSet.EOF 
+  Set objGroup = GetObject(objRecordSet.Fields("ADsPath").Value) 
+  strGroupName = objRecordSet.Fields("Name").Value 
+  If objGroup.GroupType AND ADS_GROUP_TYPE_LOCAL_GROUP Then 
+    strGroupDesc = "Domain local " 
+  ElseIf objGroup.GroupType AND ADS_GROUP_TYPE_GLOBAL_GROUP Then 
+    strGroupDesc = "Global " 
+  ElseIf objGroup.GroupType AND ADS_GROUP_TYPE_UNIVERSAL_GROUP Then 
+    strGroupDesc = "Universal " 
+  Else 
+    strGroupDesc = "Unknown " 
+  End If 
+  If objGroup.GroupType AND ADS_GROUP_TYPE_SECURITY_ENABLED Then 
+    strGroupDesc = strGroupDesc & "Security group" 
+  Else 
+    strGroupDesc = strGroupDesc & "Distribution group" 
+  End If 
+ 
+  ' Check if there are members 
+  err.clear 
+  arrMemberOf = objGroup.GetEx("Member") 
+  If Err.Number = E_ADS_PROPERTY_NOT_FOUND then 
+    ' Write a line to the outputfile with group properties and no members 
+    objMyOutput.WriteLine(strGroupName & vbtab & strGroupDesc & vbtab & "<null>" & vbtab & "<null>") 
+  Else 
+    ' For each group member, get member properties 
+    For Each strMemberOf in arrMemberOf 
+      Set objMember = GetObject("LDAP://" & strMemberOf) 
+      strMemberName = right(objMember.Name,len(objMember.Name)-3) 
+      ' Write a line to the outputfile with group and member properties 
+      objMyOutput.WriteLine(strGroupName & vbtab & strGroupDesc & vbtab & strMemberName & vbtab & objMember.Class) 
+      set objMember = nothing 
+    Next 
+  End If 
+  objRecordSet.MoveNext 
+  Set objGroup = nothing 
+Loop 
+objMyOutput.close 
+wscript.echo "Done!"
+
+
+------------------------------
+
+
+
+#------------------------------------------------
+# Script para Obter os usuarios dos grupos do AD
+#------------------------------------------------
+# Atualize o filtro baseado nos codigos abaixo
+# -----------------------------------------------
+# 2 Global distribution group
+# 4 Domain local distribution group
+# 8 Universal distribution group
+# -2147483646 Global security group
+# -2147483644 Domain local security group
+# -2147483640 Universal security group
+# http://portal.sivarajan.com/2010/08/list-group-members-in-active.html
+#-------------------------------------------------
+
+if(@(get-module | where-object {$_.Name -eq "ActiveDirectory"} ).count -eq 0) {import-module ActiveDirectory}
+
+$OutPutFile = New-Item -type file -force "C:\GroupDetails.csv"
+
+$ObjFilter = "(&(objectCategory=Group)(|(groupType=2)(groupType=4)(groupType=8)))"
+$objSearch = New-Object System.DirectoryServices.DirectorySearcher
+$objSearch.SearchRoot = "LDAP://dc=corp.caixa.gov.br,DC=gov" #Substitua pela raiz do dominio.
+$objSearch.PageSize  = 10000
+$objSearch.Filter = $ObjFilter
+
+$Results = $objSearch.FindAll()
+
+foreach ($Result in $Results){
+      $Item = $Result.Properties
+      Write-host $Item.cn
+      $Item.cn | Out-File $OutPutFile -encoding ASCII -append
+
+foreach ($Member in $Item.member){
+        Write-host "$Member"
+        $Member | Out-File $OutPutFile -encoding ASCII -append
+}
+
+  }

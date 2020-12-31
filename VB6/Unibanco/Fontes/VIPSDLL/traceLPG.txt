@@ -1,0 +1,4 @@
+avant VipsGrab_ChargeFonctionsDipixLPG
+avant Ptr_DPK_InitPCK
+avant Ptr_DPK_PCKSelectXPG
+avant Ptr_DPK_InitXPG

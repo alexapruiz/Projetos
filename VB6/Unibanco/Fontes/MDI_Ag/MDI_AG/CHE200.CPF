@@ -1,0 +1,72 @@
+;
+;                            Copyright (C) 1995
+;                     DIPIX TECHNOLOGIES INCORPORATED
+
+
+[FPG]
+CameraName              =LORAL 1350CRD1
+ComPortCount            =1
+BytesPerPort            =4
+SDIBSW0                 =0x00
+SDIBSW1                 =0x00
+SDIBSW2                 =0x00
+ICPLFile1               =A11997.JED
+ICPLFile2               =A11998.JED
+ModuleType              =P_MODULE_TYPE_FPGACM
+
+
+[FRAME TIMING]
+PixelsPerClock          =1
+BitsPerPixel            =8
+LineSize                =1060
+FieldSize               =1426
+HVideoStart             =420
+HVideoActive            =640
+VVideoStart             =26
+VVideoActive            =1400
+EndOfFrame              =1
+EndOfLine		=1
+HClampStart             =5
+HClampActive            =5
+;HClampStart             =14
+;HClampActive            =2
+HSubSampleDuty		=1
+HSubSamplePeriod	=1
+
+[CAMERA CONTROL]
+;CameraInputLutLoad	=P_LUT_LINEAR
+FrameCount              =1
+MultiImageGrab          =P_SINGLE_IMAGE_GRAB
+CameraType              =P_CAMERATYPE_LINESCAN
+ImageFormat             =P_IMAGE_FORMAT_RASTER
+NumFields               =1
+LineSyncPeriod          =125
+TimeOutPeriod           =0	
+TriggerIn		=P_TRIGGER_EXTERNAL_ALL
+
+[CAMERA MODULE]
+CameraNumber            =1
+LineValidSync           =P_SYNC_SYNCHRONOUS
+LineValidPolarity       =P_POLARITY_ACTIVE_HIGH
+;LineValidPolarity       =P_POLARITY_ACTIVE_LOW
+PixelSignalFormat       =P_SIGNAL_FORMAT_RS422
+VideoSource             =P_INPUT_VID0
+CameraGain              =2650
+CameraOffset            =2840
+ClockSelect             =P_CLOCKSRC_0
+Clock0Format            =P_SIGNAL_FORMAT_RS422
+ClockPolarity           =P_POLARITY_FALLING_EDGE
+ClockDelay              =P_CLOCK_DELAY_NONE
+OscillatorType          =P_OSCILLATOR_VARIABLE
+OscillatorFrequency     =10.0
+IOFormatIn01            =P_SIGNAL_FORMAT_RS422
+IOFormatIn23            =P_SIGNAL_FORMAT_RS422
+IOFormatIn45            =P_SIGNAL_FORMAT_RS422
+IOFormatIn67            =P_SIGNAL_FORMAT_RS422
+IOFormatOut01           =P_SIGNAL_FORMAT_RS422
+IOFormatOut23           =P_SIGNAL_FORMAT_RS422
+IOFormatOut45           =P_SIGNAL_FORMAT_RS422
+IOFormatOut67           =P_SIGNAL_FORMAT_RS422
+TriggerPolarity		=P_POLARITY_ACTIVE_HIGH
+TriggerSelect		=P_INPUT_IN2
+TriggerSync		=P_SYNC_SYNCHRONOUS

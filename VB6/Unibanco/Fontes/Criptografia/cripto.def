@@ -1,0 +1,8 @@
+LIBRARY     Encripta
+DESCRIPTION 'DLL Criptografia Backoffice'
+HEAPSIZE    256
+STACKSIZE   256
+
+EXPORTS
+    Encripta			@1
+

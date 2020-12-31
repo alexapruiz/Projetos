@@ -1,0 +1,24 @@
+D:\Projetos\CentralMoveis\Fontes\bin\CentralMoveis.exe
+D:\Projetos\CentralMoveis\Fontes\bin\CentralMoveis.xml
+D:\Projetos\CentralMoveis\Fontes\obj\Release\ResolveAssemblyReference.cache
+D:\Projetos\CentralMoveis\Fontes\obj\Release\CentralMoveis.Clientes.resources
+D:\Projetos\CentralMoveis\Fontes\obj\Release\CentralMoveis.vbproj.GenerateResource.Cache
+D:\Projetos\CentralMoveis\Fontes\obj\Release\CentralMoveis.exe
+D:\Projetos\CentralMoveis\Fontes\obj\Release\CentralMoveis.xml
+D:\Projetos\CentralMoveis\Fontes\obj\Release\CentralMoveis.Fornecedores.resources
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\Interop.MSComDlg.dll
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\Interop.MSFlexGridLib.dll
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\AxInterop.MSComDlg.dll
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\AxInterop.MSFlexGridLib.dll
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\CentralMoveis.vbproj.ResolveComReference.cache
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\CentralMoveis.exe
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\CentralMoveis.xml
+G:\Projetos Alex\CentralMoveis\Fontes\bin\CentralMoveis.exe
+G:\Projetos Alex\CentralMoveis\Fontes\bin\CentralMoveis.xml
+G:\Projetos Alex\CentralMoveis\Fontes\bin\Interop.MSComDlg.dll
+G:\Projetos Alex\CentralMoveis\Fontes\bin\Interop.MSFlexGridLib.dll
+G:\Projetos Alex\CentralMoveis\Fontes\bin\AxInterop.MSComDlg.dll
+G:\Projetos Alex\CentralMoveis\Fontes\bin\AxInterop.MSFlexGridLib.dll
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\ResolveAssemblyReference.cache
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\CentralMoveis.Clientes.resources
+G:\Projetos Alex\CentralMoveis\Fontes\obj\Release\CentralMoveis.vbproj.GenerateResource.Cache

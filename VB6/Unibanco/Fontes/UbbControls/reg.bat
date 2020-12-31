@@ -1,0 +1,12 @@
+regsvr32 BarStat.ocx /S
+regsvr32 Ubb3dPie.ocx /S
+regsvr32 UbbEdit.ocx /S
+regsvr32 UBBFileV.ocx /S
+regsvr32 UbbFtp.ocx /S
+regsvr32 UBBLabel.ocx /S
+regsvr32 UbbLVImg.ocx /S
+regsvr32 UBBPrnImg.ocx /S
+regsvr32 UbbTGraph.ocx /S
+regsvr32 bcci.dll /S
+regsvr32 CurrencyEdit.ocx /S
+regsvr32 DateEdit.ocx /S

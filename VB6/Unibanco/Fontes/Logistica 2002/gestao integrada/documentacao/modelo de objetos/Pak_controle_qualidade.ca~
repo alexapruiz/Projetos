@@ -1,0 +1,982 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object Class_Category "Sistema de controle de qualidade do fabricante"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3CC574370261"
+    documentation 	
+|Descrição:
+|----------------
+|
+|Sistema deverá aferir dados de pedidos de fabricação por fabricante contra os dados de problemas de fabricação e perda de período de fabricação por fabricante.
+|
+|Sistema deverá informar a provisão de pediodos (ou matéria prima??) do Unibanco para o fabricantes. (da onde....)
+|
+|Sistema deverá realizar consultas a dados de estoque do fabricante (espec....; como; ....)
+|
+|Exemplo:
+|Controlar número de pedidos num período x 
+|fabricados e entregues no prazo ou
+|fabricados e entregues fora do prazo
+|não fabricados
+|
+|
+    
+    visible_categories 	(list visibility_relationship_list
+	(object Visibility_Relationship
+	    quid       	"3CC575BE002E"
+	    supplier   	"Use Case View::Sistema de gestao de entregas"
+	    quidu      	"3CC574BE0000"))
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object UseCase "Obter Cota por Fabricante"
+	    quid       	"3CD2E71C017C"
+	    documentation 	
+|Descrição:
+|-----------------
+|
+|Seqüência normal de eventos:
+|------------------------------------------------
+|
+|
+	    )
+	(object UseCase "Obter Desempenho por Fabricante"
+	    quid       	"3CD2E740019A"
+	    documentation 	
+|Descrição:
+|-----------------
+|
+|Seqüência normal de eventos:
+|------------------------------------------------
+|
+|
+	    
+	    visible_modules 	(list dependency_list
+		(object Dependency_Relationship
+		    quid       	"3CD2E9AC01D6"
+		    supplier   	"Use Case View::Sistema de gestao de entregas"
+		    quidu      	"3CC574BE0000")))
+	(object UseCase "Obter cota disponível no fabricante"
+	    quid       	"3CD2E8C20172"
+	    documentation 	
+|Descrição:
+|-----------------
+|
+|Seqüência normal de eventos:
+|------------------------------------------------
+|
+|
+	    )
+	(object UseCase "Gerar Previsão por Fabricante"
+	    quid       	"3CD2EA6303CA"
+	    documentation 	
+|Descrição:
+|-----------------
+|
+|Seqüência normal de eventos:
+|------------------------------------------------
+|
+|
+|
+	    )
+	(object UseCase "Obter Desempenho Geral dos Entregadores"
+	    quid       	"3CFFB1710269")
+	(object UseCase "Obter Desempenho por Entregador"
+	    quid       	"3CFFB1910142")
+	(object UseCase "Obter Histórico por Movimento"
+	    quid       	"3CFFB232011E")
+	(object Association "$UNNAMED$0"
+	    quid       	"3CD2E998001E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"3CD2E9990316"
+		    supplier   	"Use Case View::Fabricante"
+		    quidu      	"3CC576F9032C"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$2"
+		    quid       	"3CD2E9990384"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter cota disponível no fabricante"
+		    quidu      	"3CD2E8C20172")))
+	(object Association "$UNNAMED$3"
+	    quid       	"3CD2E9C3035C"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$4"
+		    quid       	"3CD2E9C502A8"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter cota disponível no fabricante"
+		    quidu      	"3CD2E8C20172"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$5"
+		    quid       	"3CD2E9C502A9"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$6"
+	    quid       	"3CD2E9D200C8"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$7"
+		    quid       	"3CD2E9D40046"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Cota por Fabricante"
+		    quidu      	"3CD2E71C017C"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$8"
+		    quid       	"3CD2E9D40047"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$9"
+	    quid       	"3CD2E9E603C0"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$10"
+		    quid       	"3CD2E9E80226"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho por Fabricante"
+		    quidu      	"3CD2E740019A"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$11"
+		    quid       	"3CD2E9E80227"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$12"
+	    quid       	"3CD2EA7A00DC"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$13"
+		    quid       	"3CD2EA7B02BC"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$14"
+		    quid       	"3CD2EA7B02BD"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Gerar Previsão por Fabricante"
+		    quidu      	"3CD2EA6303CA")))
+	(object Association "$UNNAMED$15"
+	    quid       	"3CD2EA7F02C6"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$16"
+		    quid       	"3CD2EA800398"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter cota disponível no fabricante"
+		    quidu      	"3CD2E8C20172"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$17"
+		    quid       	"3CD2EA800399"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Gerar Previsão por Fabricante"
+		    quidu      	"3CD2EA6303CA")))
+	(object Association "$UNNAMED$18"
+	    quid       	"3CD2EA83033E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$19"
+		    quid       	"3CD2EA840366"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Cota por Fabricante"
+		    quidu      	"3CD2E71C017C"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$20"
+		    quid       	"3CD2EA840367"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Gerar Previsão por Fabricante"
+		    quidu      	"3CD2EA6303CA")))
+	(object Association "$UNNAMED$21"
+	    quid       	"3CD2F8EA02F8"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$22"
+		    quid       	"3CD2F8EE0334"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Gerar Previsão por Fabricante"
+		    quidu      	"3CD2EA6303CA"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$23"
+		    quid       	"3CD2F8EE0335"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$24"
+	    quid       	"3CFFB18D01A1"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$25"
+		    quid       	"3CFFB18E0076"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho Geral dos Entregadores"
+		    quidu      	"3CFFB1710269"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$26"
+		    quid       	"3CFFB18E0078"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$27"
+	    quid       	"3CFFB1E002B9"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$28"
+		    quid       	"3CFFB1E101C0"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho por Entregador"
+		    quidu      	"3CFFB1910142"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$29"
+		    quid       	"3CFFB1E101CB"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5")))
+	(object Association "$UNNAMED$30"
+	    quid       	"3CFFB24C01BB"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$31"
+		    quid       	"3CFFB24D00E1"
+		    supplier   	"Use Case View::Sistema de controle de qualidade do fabricante::Obter Histórico por Movimento"
+		    quidu      	"3CFFB232011E"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$32"
+		    quid       	"3CFFB24D00E3"
+		    supplier   	"Use Case View::Gestor"
+		    quidu      	"3CC578C601B5"))))
+    logical_presentations 	(list unit_reference_list
+	(object UseCaseDiagram "visão do controle de  qualidade"
+	    quid       	"3CC57BB40280"
+	    title      	"visão do controle de  qualidade"
+	    zoom       	95
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	0
+	    origin_y   	1310
+	    items      	(list diagram_item_list
+		(object Label @1
+		    location   	(144, 16)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	TRUE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    nlines     	1
+		    max_width  	944
+		    label      	"Visão do package controle de qualidade")
+		(object CategoryView "Use Case View::Sistema de gestao de entregas" @2
+		    location   	(960, 272)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@2
+			location   	(758, 188)
+			fill_color 	13434879
+			nlines     	2
+			max_width  	404
+			justify    	0
+			label      	"Sistema de gestao de entregas")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CC574BE0000"
+		    width      	416
+		    height     	180)
+		(object ClassView "Class" "Use Case View::Fabricante" @3
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(208, 432)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@3
+			location   	(208, 592)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	633
+			justify    	0
+			label      	"Fabricante")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3CC576F9032C"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object DependencyView "" @4
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CC57B6C0167"
+		    client     	@3
+		    supplier   	@2
+		    line_style 	0)
+		(object UseCaseView "Use Case View::Sistema de gestao de entregas::Consultar Pedidos" @5
+		    location   	(736, 576)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@5
+			location   	(736, 714)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Consultar Pedidos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2D01D008C")
+		(object AssociationViewNew "" @6
+		    location   	(445, 494)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2D4280096"
+		    roleview_list 	(list RoleViews
+			(object RoleView "" @7
+			    Parent_View 	@6
+			    location   	(-851, -66)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object SegLabel @8
+				Parent_View 	@7
+				location   	(311, 415)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				hidden     	TRUE
+				anchor     	1
+				anchor_loc 	1
+				nlines     	1
+				max_width  	450
+				justify    	0
+				label      	""
+				pctDist    	0.800000
+				height     	42
+				orientation 	1)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2D429035D"
+			    client     	@6
+			    supplier   	@3
+			    line_style 	0)
+			(object RoleView "" @9
+			    Parent_View 	@6
+			    location   	(-851, -66)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object SegLabel @10
+				Parent_View 	@9
+				location   	(601, 495)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				hidden     	TRUE
+				anchor     	1
+				anchor_loc 	1
+				nlines     	1
+				max_width  	450
+				justify    	0
+				label      	""
+				pctDist    	0.800000
+				height     	42
+				orientation 	0)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2D429035C"
+			    client     	@6
+			    supplier   	@5
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho por Fabricante" @11
+		    location   	(1760, 1008)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@11
+			location   	(1760, 1146)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter Desempenho por Fabricante")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2E740019A"
+		    height     	118)
+		(object DependencyView "" @12
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2E9AC01D6"
+		    client     	@11
+		    supplier   	@2
+		    line_style 	0)
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter cota disponível no fabricante" @13
+		    location   	(224, 1168)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@13
+			location   	(224, 1306)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter cota disponível no fabricante")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2E8C20172"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$0" @14
+		    location   	(215, 884)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2E998001E"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$1" @15
+			    Parent_View 	@14
+			    location   	(-73, -204)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9990316"
+			    client     	@14
+			    supplier   	@3
+			    line_style 	0)
+			(object RoleView "$UNNAMED$2" @16
+			    Parent_View 	@14
+			    location   	(-73, -204)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9990384"
+			    client     	@14
+			    supplier   	@13
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter Cota por Fabricante" @17
+		    location   	(1248, 896)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@17
+			location   	(1248, 1034)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter Cota por Fabricante")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2E71C017C"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Gerar Previsão por Fabricante" @18
+		    location   	(816, 1040)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@18
+			location   	(816, 1178)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Gerar Previsão por Fabricante")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2EA6303CA"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$12" @19
+		    location   	(786, 881)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2EA7A00DC"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$13" @20
+			    Parent_View 	@19
+			    location   	(34, -159)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA7B02BC"
+			    client     	@19
+			    supplier   	@5
+			    line_style 	0)
+			(object RoleView "$UNNAMED$14" @21
+			    Parent_View 	@19
+			    location   	(34, -159)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA7B02BD"
+			    client     	@19
+			    supplier   	@18
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$15" @22
+		    location   	(449, 1116)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2EA7F02C6"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$16" @23
+			    Parent_View 	@22
+			    location   	(-303, 76)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA800398"
+			    client     	@22
+			    supplier   	@13
+			    line_style 	0)
+			(object RoleView "$UNNAMED$17" @24
+			    Parent_View 	@22
+			    location   	(-303, 76)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA800399"
+			    client     	@22
+			    supplier   	@18
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$18" @25
+		    location   	(977, 983)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2EA83033E"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$19" @26
+			    Parent_View 	@25
+			    location   	(225, -57)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA840366"
+			    client     	@25
+			    supplier   	@17
+			    line_style 	0)
+			(object RoleView "$UNNAMED$20" @27
+			    Parent_View 	@25
+			    location   	(225, -57)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2EA840367"
+			    client     	@25
+			    supplier   	@18
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho Geral dos Entregadores" @28
+		    location   	(1696, 1536)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@28
+			location   	(1696, 1674)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter Desempenho Geral dos Entregadores")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB1710269"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter Desempenho por Entregador" @29
+		    location   	(1408, 1952)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@29
+			location   	(1408, 2090)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter Desempenho por Entregador")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB1910142"
+		    height     	118)
+		(object ClassView "Class" "Use Case View::Gestor" @30
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(976, 1536)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@30
+			location   	(976, 1696)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	358
+			justify    	0
+			label      	"Gestor")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3CC578C601B5"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object AssociationViewNew "$UNNAMED$9" @31
+		    location   	(1276, 1332)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2E9E603C0"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$10" @32
+			    Parent_View 	@31
+			    location   	(508, 84)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9E80226"
+			    client     	@31
+			    supplier   	@11
+			    line_style 	0)
+			(object RoleView "$UNNAMED$11" @33
+			    Parent_View 	@31
+			    location   	(508, 84)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9E80227"
+			    client     	@31
+			    supplier   	@30
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$3" @34
+		    location   	(716, 1407)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2E9C3035C"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$4" @35
+			    Parent_View 	@34
+			    location   	(-52, 159)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9C502A8"
+			    client     	@34
+			    supplier   	@13
+			    line_style 	0)
+			(object RoleView "$UNNAMED$5" @36
+			    Parent_View 	@34
+			    location   	(-52, 159)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9C502A9"
+			    client     	@34
+			    supplier   	@30
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$6" @37
+		    location   	(1090, 1256)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2E9D200C8"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$7" @38
+			    Parent_View 	@37
+			    location   	(322, 8)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9D40046"
+			    client     	@37
+			    supplier   	@17
+			    line_style 	0)
+			(object RoleView "$UNNAMED$8" @39
+			    Parent_View 	@37
+			    location   	(322, 8)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2E9D40047"
+			    client     	@37
+			    supplier   	@30
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$21" @40
+		    location   	(907, 1327)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CD2F8EA02F8"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$22" @41
+			    Parent_View 	@40
+			    location   	(-69, -321)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2F8EE0334"
+			    client     	@40
+			    supplier   	@18
+			    line_style 	0)
+			(object RoleView "$UNNAMED$23" @42
+			    Parent_View 	@40
+			    location   	(-69, -321)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CD2F8EE0335"
+			    client     	@40
+			    supplier   	@30
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$24" @43
+		    location   	(1309, 1536)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB18D01A1"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$25" @44
+			    Parent_View 	@43
+			    location   	(333, -112)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB18E0076"
+			    client     	@43
+			    supplier   	@28
+			    line_style 	0)
+			(object RoleView "$UNNAMED$26" @45
+			    Parent_View 	@43
+			    location   	(333, -112)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB18E0078"
+			    client     	@43
+			    supplier   	@30
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$27" @46
+		    location   	(1189, 1741)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB1E002B9"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$28" @47
+			    Parent_View 	@46
+			    location   	(219, 93)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB1E101C0"
+			    client     	@46
+			    supplier   	@29
+			    line_style 	0)
+			(object RoleView "$UNNAMED$29" @48
+			    Parent_View 	@46
+			    location   	(219, 93)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB1E101CB"
+			    client     	@46
+			    supplier   	@30
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Sistema de controle de qualidade do fabricante::Obter Histórico por Movimento" @49
+		    location   	(352, 1616)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@49
+			location   	(352, 1754)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Obter Histórico por Movimento")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB232011E"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$30" @50
+		    location   	(688, 1570)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB24C01BB"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$31" @51
+			    Parent_View 	@50
+			    location   	(-288, -78)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB24D00E1"
+			    client     	@50
+			    supplier   	@49
+			    line_style 	0)
+			(object RoleView "$UNNAMED$32" @52
+			    Parent_View 	@50
+			    location   	(-288, -78)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB24D00E3"
+			    client     	@50
+			    supplier   	@30
+			    line_style 	0)))))))

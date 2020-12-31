@@ -1,0 +1,88 @@
+Metadata-Version: 1.1
+Name: dataview
+Version: 1.0.5
+Summary: A module that allows you to create views of your sequences or its slices
+Home-page: https://github.com/damamaty/dataview
+Author: Dmitriy Kirichenko
+Author-email: damamaty@gmail.com
+License: MIT
+Description: ========
+        dataview
+        ========
+        
+        **dataview** is a module that allows you to create views of your sequences or its slices
+        
+        Install
+        -------
+        
+        .. code-block::
+        
+            pip install dataview
+        
+        To upgrade a previous installation, use:
+        
+        .. code-block::
+        
+            pip install dataview
+        
+        Usage && Examples
+        -----------------
+        
+        .. code-block::
+        
+            >>> from dataview import DataView
+            >>> # You have some data, it can be any sequence (str, list, bytes, tuple, etc..)
+            >>> source_data = list(range(5))
+            >>> # DataView is just a pointer to your source_data and start/stop/step
+            >>> DataView(source_data)
+            [0, 1, 2, 3, 4]
+            >>> DataView(source_data, 3)
+            [0, 1, 2]
+            >>> DataView(source_data, 1, 5)
+            [1, 2, 3, 4]
+            >>> DataView(source_data, None, None, -1)
+            [4, 3, 2, 1, 0]
+            >>> # You can use slices (completely the same way as list slices)
+            >>> DataView(source_data)[::-1]
+            [4, 3, 2, 1, 0]
+            >>> # Slice return a new DataView object, that points to the previous DataView
+            >>> DataView(source_data)[::-1][2:4]
+            [2, 1]
+            >>> # You can change start/stop/step anytime
+            >>> view = DataView(source_data, 0, 1)
+            >>> view.start = 1
+            >>> view.stop = 2
+            >>> view
+            [1]
+            >>> # View always points to actual data
+            >>> source_data[1] = 2
+            >>> view
+            [2]
+            >>> # You can change a view source data
+            >>> view.data = list(range(5))
+            >>> view
+            [1]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+Keywords: list slice
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

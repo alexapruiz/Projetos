@@ -1,0 +1,17 @@
+
+[Project]
+Name=SGB
+Description=
+Directory=C:\Projetos\Buffet\SGB\Projeto Logico\Requisitos\SGB\SGB.rqs
+Owner=Unknown
+Owner Key=2
+GUID={CF53E349-508F-44DA-9462-3500D80AF724}
+Key=1
+Revision number=1.0000
+Prefix=
+
+[Documents]
+1=GlossaryGLS
+2=Requirements Management PlanRMP
+3=VisionVIS
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<!-- 
+  Visual Studio global web project settings.
+-->
+<VisualWebDeveloper>
+
+  <comReferences>
+    <reference Name="interop.msdatasrc" ID="{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}\1.0\0"/>
+    <reference Name="interop.msdatareportlib" ID="{642AC760-AAB4-11D0-8494-00A0C90DC8A9}\1.0\0"/>
+  </comReferences>
+</VisualWebDeveloper>

@@ -1,0 +1,2196 @@
+
+(object Petal
+    version    	45
+    _written   	"Rose 7.5.0103.1920"
+    charSet    	0)
+
+(object Class_Category "Sistema de interfaceamento com produtos"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3CC5763600CB"
+    stereotype 	"subsystem"
+    visible_modules 	(list dependency_list
+	(object Dependency_Relationship
+	    quid       	"3CD2D19A00A0"
+	    supplier   	"Use Case View::FT"
+	    quidu      	"3CD2D1420000")
+	(object Dependency_Relationship
+	    quid       	"3CE4FCC902EE"
+	    supplier   	"Use Case View::VC"
+	    quidu      	"3CE4FC9300A0")
+	(object Dependency_Relationship
+	    quid       	"3CE4FCE8023A"
+	    supplier   	"Use Case View::KT"
+	    quidu      	"3CE4FCD6003C"))
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object UseCase "Informar Lotes Solicitados"
+	    quid       	"3CE502DC0280")
+	(object UseCase "Informar Situação dos Pedidos"
+	    quid       	"3CE503B300E6")
+	(object UseCase "Informar Pedidos Rejeitados"
+	    quid       	"3CE507510226")
+	(object UseCase "Informar Histórico por Pedido"
+	    quid       	"3CE508470122")
+	(object UseCase "Informar Lotes com Problemas de Fabricação"
+	    quid       	"3CE5087602E4")
+	(object UseCase "Atualizar Pedidos"
+	    quid       	"3CE579F70153")
+	(object UseCase "Informar Dados de Reentrega"
+	    quid       	"3CEA60000276")
+	(object UseCase "Informar Pedidos Recebidos"
+	    quid       	"3CFFB09E0335")
+	(object Association "$UNNAMED$0"
+	    quid       	"3CE5047402A8"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"3CE50475037A"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Lotes Solicitados"
+		    quidu      	"3CE502DC0280"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$2"
+		    quid       	"3CE50475037B"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C")))
+	(object Association "$UNNAMED$3"
+	    quid       	"3CE5077D01EA"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$4"
+		    quid       	"3CE5077F005A"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Pedidos Rejeitados"
+		    quidu      	"3CE507510226"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$5"
+		    quid       	"3CE5077F00BE"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C")))
+	(object Association "$UNNAMED$6"
+	    quid       	"3CE50867005A"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$7"
+		    quid       	"3CE5086800F0"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Histórico por Pedido"
+		    quidu      	"3CE508470122"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$8"
+		    quid       	"3CE5086800F1"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C")))
+	(object Association "$UNNAMED$9"
+	    quid       	"3CE5089A029E"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$10"
+		    quid       	"3CE5089B03A2"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Lotes com Problemas de Fabricação"
+		    quidu      	"3CE5087602E4"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$11"
+		    quid       	"3CE5089B03A3"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C")))
+	(object Association "$UNNAMED$12"
+	    quid       	"3CE57A0D010F"
+	    stereotype 	"include"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$13"
+		    quid       	"3CE57A0D03C2"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$14"
+		    quid       	"3CE57A0D03C4"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos Recebidos"
+		    quidu      	"3CD2D1FB024E")))
+	(object Association "$UNNAMED$15"
+	    quid       	"3CE57A1201A3"
+	    stereotype 	"include"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$16"
+		    quid       	"3CE57A1300D2"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$17"
+		    quid       	"3CE57A1300D4"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Informar Pedidos Relizados"
+		    quidu      	"3CD2D2980208")))
+	(object Association "$UNNAMED$18"
+	    quid       	"3CE57A1500D5"
+	    stereotype 	"include"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$19"
+		    quid       	"3CE57A1600A4"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$20"
+		    quid       	"3CE57A1600A6"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Informar Erros de Fabricação"
+		    quidu      	"3CD2D21B030C")))
+	(object Association "$UNNAMED$21"
+	    quid       	"3CEA60240000"
+	    stereotype 	"include"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$22"
+		    quid       	"3CEA60250104"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$23"
+		    quid       	"3CEA60250140"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Dados de Reentrega"
+		    quidu      	"3CEA60000276")))
+	(object Association "$UNNAMED$24"
+	    quid       	"3CFFB03B030A"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$25"
+		    quid       	"3CFFB03C0293"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$26"
+		    quid       	"3CFFB03C029D"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Situação dos Pedidos"
+		    quidu      	"3CE503B300E6")))
+	(object Association "$UNNAMED$27"
+	    quid       	"3CFFB0AD0391"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$28"
+		    quid       	"3CFFB0AE0284"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$29"
+		    quid       	"3CFFB0AE028F"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Informar Pedidos Recebidos"
+		    quidu      	"3CFFB09E0335")))
+	(object Association "$UNNAMED$30"
+	    quid       	"3CFFB12F00FA"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$31"
+		    quid       	"3CFFB130011A"
+		    supplier   	"Use Case View::FT"
+		    quidu      	"3CD2D1420000"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$32"
+		    quid       	"3CFFB130012E"
+		    supplier   	"Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos"
+		    quidu      	"3CE579F70153")))
+	(object Association "$UNNAMED$33"
+	    quid       	"3CFFB1320376"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$34"
+		    quid       	"3CFFB133027D"
+		    supplier   	"Use Case View::FT"
+		    quidu      	"3CD2D1420000"
+		    is_navigable 	TRUE)
+		(object Role "$UNNAMED$35"
+		    quid       	"3CFFB1330291"
+		    supplier   	"Use Case View::Sistema de gestao de entregas::Consultar Pedidos"
+		    quidu      	"3CD2D01D008C"))))
+    statemachine 	(object State_Machine "diagrama de atividades atual do FT"
+	quid       	"3CDC362D028A"
+	states     	(list States
+	    (object State "Solicitação de talão"
+		quid       	"3CDC364700BE"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC3CE1038E"
+			supplier   	"ContaCorrente"
+			quidu      	"3CDC386C0226"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3CE10391"))
+		    (object State_Transition
+			quid       	"3CDC3CE6008C"
+			supplier   	"Rede de agências"
+			quidu      	"3CDC36630104"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3CE6008F"))
+		    (object State_Transition
+			quid       	"3CDC3CEA038E"
+			supplier   	"ATM"
+			quidu      	"3CDC382E010E"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3CEA0391"))
+		    (object State_Transition
+			quid       	"3CDC3CF4008C"
+			supplier   	"RAT"
+			quidu      	"3CDC385E00A0"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3CF4008F"))
+		    (object State_Transition
+			quid       	"3CDC3CFF015E"
+			supplier   	"30 horas"
+			quidu      	"3CDC364D000A"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3CFF0161"))
+		    (object State_Transition
+			quid       	"3CDC3D030208"
+			supplier   	"HomeBaking"
+			quidu      	"3CDC36570186"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3D03020B")))
+		type       	"StartState")
+	    (object ActivityState "30 horas"
+		quid       	"3CDC364D000A"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC3696029E"
+			supplier   	"FT"
+			quidu      	"3CDC36730046"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC369602A1"))
+		    (object State_Transition
+			quid       	"3CDC36B20384"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC36B20387"))))
+	    (object ActivityState "HomeBaking"
+		quid       	"3CDC36570186"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC36AD0316"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC36AD0319"))))
+	    (object ActivityState "Rede de agências"
+		quid       	"3CDC36630104"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC36B70190"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC36B70193"))))
+	    (object ActivityState "FT"
+		quid       	"3CDC36730046"
+		documentation 	
+|O sistema FT armazena as informações em um banco de dados DB2 durante 3 meses à partir da data de solicitação.
+|
+|
+|Após o recebimento das solicitações, as remessas são divididas em:
+|· A fabricar.
+|· Rejeitados.
+|
+|
+		
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC37A402A8"
+			supplier   	"Xerox"
+			quidu      	"3CDC379A00BE"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC37A402AB"))
+		    (object State_Transition
+			quid       	"3CDC38AE0050"
+			supplier   	"Base de rejeitados"
+			quidu      	"3CDC38A1029E"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC38AE0053")))
+		statemachine 	(object State_Machine "State/Activity Model6"
+		    quid       	"3CDC3A1900BE"
+		    states     	(list States
+			(object ActivityState "Rejeirta pedidos inconsistentes"
+			    quid       	"3CDC3A1900BF"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3C7D0078"
+				    supplier   	"Atualiza base de rejeitados"
+				    quidu      	"3CDC3C6901C2"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3C7D007B"))
+				(object State_Transition
+				    quid       	"3CDC3D4E00A0"
+				    supplier   	":Xerox:Informa o fabricado"
+				    quidu      	"3CDC38BB0105"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3D4E00A3"))))
+			(object ActivityState "Envia pedidos de fabricação"
+			    quid       	"3CDC3A390064"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3D780122"
+				    supplier   	"Xerox"
+				    quidu      	"3CDC379A00BE"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3D780125"))))
+			(object ActivityState "Gera novo AR"
+			    quid       	"3CDC3A7D017C"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3DAF0334"
+				    supplier   	":Xerox:Informa o fabricado"
+				    quidu      	"3CDC38BB0105"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3DAF0337"))))
+			(object ActivityState "Registra não fabricado e gera novo pedido"
+			    quid       	"3CDC3ADA024E"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3DDB00A0"
+				    supplier   	"Xerox"
+				    quidu      	"3CDC379A00BE"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3DDB00A3"))))
+			(object ActivityState "Registra fragmentados"
+			    quid       	"3CDC3B7C0154"))
+		    partitions 	(list Partitions)
+		    objects    	(list Objects)
+		    statediagrams 	(list StateDiagrams)))
+	    (object SynchronizationState "$UNNAMED$36"
+		quid       	"3CDC36A9026C"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC36C2006E"
+			supplier   	"FT"
+			quidu      	"3CDC36730046"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC36C20071"))))
+	    (object ActivityState "Xerox"
+		quid       	"3CDC379A00BE"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC37D801E0"
+			supplier   	"Correio"
+			quidu      	"3CDC37B201D6"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC37D801E3"))
+		    (object State_Transition
+			quid       	"3CDC37DC021C"
+			supplier   	"Courier"
+			quidu      	"3CDC37B9006E"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC37DC021F"))
+		    (object State_Transition
+			quid       	"3CDC37F7029E"
+			supplier   	"FT"
+			quidu      	"3CDC36730046"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC37F702A1")))
+		statemachine 	(object State_Machine "State/Activity Model4"
+		    quid       	"3CDC38BB0104"
+		    states     	(list States
+			(object ActivityState "Informa o fabricado"
+			    quid       	"3CDC38BB0105"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3D9F029E"
+				    supplier   	"FT"
+				    quidu      	"3CDC36730046"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3D9F02A1"))))
+			(object ActivityState "Informa não fabricado e faz novo pedido"
+			    quid       	"3CDC38C6012C"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3DD50078"
+				    supplier   	":FT:Registra não fabricado e gera novo pedido"
+				    quidu      	"3CDC3ADA024E"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3DD5007B"))))
+			(object ActivityState "Solicita novo AR"
+			    quid       	"3CDC39480280"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3E300082"
+				    supplier   	":FT:Gera novo AR"
+				    quidu      	"3CDC3A7D017C"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E300085"))))
+			(object ActivityState "Fragmenta"
+			    quid       	"3CDC39500226"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3E3F01C2"
+				    supplier   	":FT:Registra fragmentados"
+				    quidu      	"3CDC3B7C0154"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E3F01C5")))))
+		    partitions 	(list Partitions)
+		    objects    	(list Objects)
+		    statediagrams 	(list StateDiagrams)))
+	    (object ActivityState "Correio"
+		quid       	"3CDC37B201D6"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC3F2401B8"
+			supplier   	"FT"
+			quidu      	"3CDC36730046"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC3F2401BB")))
+		statemachine 	(object State_Machine "State/Activity Model7"
+		    quid       	"3CDC3BD80122"
+		    states     	(list States
+			(object ActivityState "Informa entregas realizadas"
+			    quid       	"3CDC3BD80123"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3F150000"
+				    supplier   	"Xerox"
+				    quidu      	"3CDC379A00BE"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3F150003"))))
+			(object ActivityState "..
+..."
+			    quid       	"3CDC3C00014B"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3F3F0316"
+				    supplier   	"Xerox"
+				    quidu      	"3CDC379A00BE"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3F3F0319")))))
+		    partitions 	(list Partitions)
+		    objects    	(list Objects)
+		    statediagrams 	(list StateDiagrams)))
+	    (object ActivityState "Courier"
+		quid       	"3CDC37B9006E"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC37EA00A0"
+			supplier   	"Xerox"
+			quidu      	"3CDC379A00BE"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC37EA00A3")))
+		statemachine 	(object State_Machine "State/Activity Model5"
+		    quid       	"3CDC397202C6"
+		    states     	(list States
+			(object ActivityState "Informa entregas realizadas"
+			    quid       	"3CDC397202C7"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3E5B02E4"
+				    supplier   	"FT"
+				    quidu      	"3CDC36730046"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E5B02E7"))))
+			(object ActivityState "Falecimento"
+			    quid       	"3CDC39F8015E"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3E820316"
+				    supplier   	":Xerox:Fragmenta"
+				    quidu      	"3CDC39500226"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E820319"))))
+			(object ActivityState "Informa tentativas"
+			    quid       	"3CDC399600FA"
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"3CDC3E6303D4"
+				    supplier   	":FT:Registra fragmentados"
+				    quidu      	"3CDC3B7C0154"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E6303D7"))
+				(object State_Transition
+				    quid       	"3CDC3E6C0226"
+				    supplier   	"FT"
+				    quidu      	"3CDC36730046"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3E6C0229"))
+				(object State_Transition
+				    quid       	"3CDC3EB40118"
+				    supplier   	":Xerox:Solicita novo AR"
+				    quidu      	"3CDC39480280"
+				    sendEvent  	(object sendEvent
+					quid       	"3CDC3EB4011B")))))
+		    partitions 	(list Partitions)
+		    objects    	(list Objects)
+		    statediagrams 	(list StateDiagrams)))
+	    (object ActivityState "ATM"
+		quid       	"3CDC382E010E"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC3858037A"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC385803B6"))))
+	    (object ActivityState "RAT"
+		quid       	"3CDC385E00A0"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC387A00E6"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC387A00E9"))))
+	    (object ActivityState "ContaCorrente"
+		quid       	"3CDC386C0226"
+		transitions 	(list transition_list
+		    (object State_Transition
+			quid       	"3CDC38840262"
+			supplier   	"$UNNAMED$36"
+			quidu      	"3CDC36A9026C"
+			sendEvent  	(object sendEvent
+			    quid       	"3CDC38840265"))))
+	    (object ActivityState "Base de rejeitados"
+		quid       	"3CDC38A1029E")
+	    (object State "Atualiza base de rejeitados"
+		quid       	"3CDC3C6901C2"
+		type       	"EndState"))
+	partitions 	(list Partitions)
+	objects    	(list Objects)
+	statediagrams 	(list StateDiagrams
+	    (object ActivityDiagram "processo atual do FT"
+		quid       	"3CDC362E0280"
+		title      	"processo atual do FT"
+		zoom       	85
+		max_height 	28350
+		max_width  	21600
+		origin_x   	515
+		origin_y   	905
+		items      	(list diagram_item_list
+		    (object Swimlane "" @1
+			line_color 	3342489
+			width      	450)
+		    (object StateView "StartState" "Solicitação de talão" @2
+			Parent_View 	@1
+			location   	(1040, 272)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@2
+			    location   	(1082, 242)
+			    nlines     	2
+			    max_width  	600
+			    label      	"Solicitação de talão")
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"3CDC364700BE"
+			autoResize 	TRUE)
+		    (object ActivityStateView "30 horas" @3
+			Parent_View 	@1
+			location   	(640, 848)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@3
+			    location   	(640, 853)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"30 horas")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC364D000A"
+			height     	106
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @4
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3CFF015E"
+			client     	@2
+			supplier   	@3
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "HomeBaking" @5
+			Parent_View 	@1
+			location   	(248, 912)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@5
+			    location   	(248, 917)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"HomeBaking")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC36570186"
+			height     	106
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @6
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3D030208"
+			client     	@2
+			supplier   	@5
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Rede de agências" @7
+			Parent_View 	@1
+			location   	(960, 736)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@7
+			    location   	(960, 741)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Rede de agências")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC36630104"
+			height     	106
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @8
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3CE6008C"
+			client     	@2
+			supplier   	@7
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "FT" @9
+			Parent_View 	@1
+			location   	(1488, 1776)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@9
+			    location   	(1488, 1278)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	1967
+			    justify    	0
+			    label      	"FT")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC36730046"
+			width      	2739
+			height     	1104
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Rejeirta pedidos inconsistentes" @10
+			Parent_View 	@9
+			location   	(1624, 1472)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@10
+			    location   	(1624, 1474)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	372
+			    justify    	0
+			    label      	"Rejeirta pedidos inconsistentes")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3A1900BF"
+			width      	478
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Envia pedidos de fabricação" @11
+			Parent_View 	@9
+			location   	(1384, 1600)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@11
+			    location   	(1384, 1602)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Envia pedidos de fabricação")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3A390064"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Gera novo AR" @12
+			Parent_View 	@9
+			location   	(1016, 1792)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@12
+			    location   	(1016, 1794)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Gera novo AR")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3A7D017C"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Registra não fabricado e gera novo pedido" @13
+			Parent_View 	@9
+			location   	(1808, 1984)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@13
+			    location   	(1808, 1986)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	438
+			    justify    	0
+			    label      	"Registra não fabricado e gera novo pedido")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3ADA024E"
+			width      	544
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Registra fragmentados" @14
+			Parent_View 	@9
+			location   	(728, 2112)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@14
+			    location   	(728, 2114)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Registra fragmentados")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3B7C0154"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Xerox" @15
+			Parent_View 	@1
+			location   	(1488, 3152)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@15
+			    location   	(1390, 2735)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	1977
+			    justify    	0
+			    label      	"Xerox")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC379A00BE"
+			width      	2841
+			height     	1242
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Informa o fabricado" @16
+			Parent_View 	@15
+			location   	(1008, 2832)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@16
+			    location   	(1008, 2834)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Informa o fabricado")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC38BB0105"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @17
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3D9F029E"
+			client     	@16
+			supplier   	@9
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @18
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3DAF0334"
+			client     	@12
+			supplier   	@16
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Informa não fabricado e faz novo pedido" @19
+			Parent_View 	@15
+			location   	(1686, 2944)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@19
+			    location   	(1686, 2946)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	414
+			    justify    	0
+			    label      	"Informa não fabricado e faz novo pedido")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC38C6012C"
+			width      	520
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @20
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3DD50078"
+			client     	@19
+			supplier   	@13
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Solicita novo AR" @21
+			Parent_View 	@15
+			location   	(1294, 3264)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@21
+			    location   	(1294, 3266)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Solicita novo AR")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC39480280"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @22
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3E300082"
+			client     	@21
+			supplier   	@12
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Fragmenta" @23
+			Parent_View 	@15
+			location   	(786, 3424)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@23
+			    location   	(786, 3426)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Fragmenta")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC39500226"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @24
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3E3F01C2"
+			client     	@23
+			supplier   	@14
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @25
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3DDB00A0"
+			client     	@13
+			supplier   	@15
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Correio" @26
+			Parent_View 	@1
+			location   	(3568, 1632)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@26
+			    location   	(3568, 1425)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	725
+			    justify    	0
+			    label      	"Correio")
+			icon_style 	"Label"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC37B201D6"
+			width      	1109
+			height     	523
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Informa entregas realizadas" @27
+			Parent_View 	@26
+			location   	(3568, 1584)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@27
+			    location   	(3568, 1544)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	456
+			    justify    	0
+			    label      	"Informa entregas realizadas")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3BD80123"
+			width      	618
+			height     	191
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "..
+..." @28
+			Parent_View 	@26
+			location   	(3632, 1792)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@28
+			    location   	(3632, 1793)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	
+|..
+|...
+			    )
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC3C00014B"
+			height     	106
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @29
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3F3F0316"
+			client     	@28
+			supplier   	@15
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @30
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC37D801E0"
+			client     	@15
+			supplier   	@26
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @31
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3F2401B8"
+			client     	@26
+			supplier   	@9
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Courier" @32
+			Parent_View 	@1
+			location   	(3792, 3264)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@32
+			    location   	(3808, 2976)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	959
+			    justify    	0
+			    label      	"Courier")
+			icon_style 	"Label"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC37B9006E"
+			width      	1533
+			height     	808
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Informa entregas realizadas" @33
+			Parent_View 	@32
+			location   	(3872, 2992)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@33
+			    location   	(3872, 2994)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	346
+			    justify    	0
+			    label      	"Informa entregas realizadas")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC397202C7"
+			width      	452
+			annotation 	1
+			autoResize 	TRUE)
+		    (object ActivityStateView "Falecimento" @34
+			Parent_View 	@32
+			location   	(3936, 3456)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@34
+			    location   	(3936, 3458)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Falecimento")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC39F8015E"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @35
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3E820316"
+			client     	@34
+			supplier   	@23
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @36
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC37DC021C"
+			client     	@15
+			supplier   	@32
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "ATM" @37
+			Parent_View 	@1
+			location   	(1680, 736)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@37
+			    location   	(1680, 741)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"ATM")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC382E010E"
+			height     	106
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @38
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3CEA038E"
+			client     	@2
+			supplier   	@37
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "RAT" @39
+			Parent_View 	@1
+			location   	(2192, 832)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@39
+			    location   	(2192, 838)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"RAT")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC385E00A0"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @40
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3CF4008C"
+			client     	@2
+			supplier   	@39
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "ContaCorrente" @41
+			Parent_View 	@1
+			location   	(1248, 624)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@41
+			    location   	(1248, 630)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"ContaCorrente")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC386C0226"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @42
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3CE1038E"
+			client     	@2
+			supplier   	@41
+			line_style 	0
+			x_offset   	FALSE)
+		    (object StateView "EndState" "Atualiza base de rejeitados" @43
+			Parent_View 	@1
+			location   	(2672, 896)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@43
+			    location   	(2726, 854)
+			    nlines     	2
+			    max_width  	600
+			    label      	"Atualiza base de rejeitados")
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"3CDC3C6901C2"
+			autoResize 	TRUE)
+		    (object TransView "" @44
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3C7D0078"
+			client     	@10
+			supplier   	@43
+			line_style 	0
+			x_offset   	FALSE)
+		    (object SynchronizationView "$UNNAMED$36" @45
+			location   	(1040, 1104)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@45
+			    location   	(1202, 1035)
+			    nlines     	2
+			    max_width  	300
+			    label      	"")
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"3CDC36A9026C"
+			autoResize 	TRUE
+			sync_flow_direction 	1
+			sync_is_horizontal 	TRUE)
+		    (object TransView "" @46
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC36AD0316"
+			client     	@5
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @47
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC36B20384"
+			client     	@3
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @48
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC36B70190"
+			client     	@7
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @49
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC36C2006E"
+			client     	@45
+			supplier   	@9
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @50
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3858037A"
+			client     	@37
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @51
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC387A00E6"
+			client     	@39
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @52
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC38840262"
+			client     	@41
+			supplier   	@45
+			line_style 	0
+			x_offset   	FALSE)
+		    (object ActivityStateView "Informa tentativas" @53
+			Parent_View 	@32
+			location   	(3872, 3296)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@53
+			    location   	(3872, 3298)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	269
+			    justify    	0
+			    label      	"Informa tentativas")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"3CDC399600FA"
+			annotation 	1
+			autoResize 	TRUE)
+		    (object TransView "" @54
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3E6C0226"
+			client     	@53
+			supplier   	@9
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @55
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3EB40118"
+			client     	@53
+			supplier   	@21
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @56
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3E5B02E4"
+			client     	@33
+			supplier   	@9
+			line_style 	0
+			x_offset   	FALSE)
+		    (object TransView "" @57
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"3CDC3D780122"
+			client     	@11
+			supplier   	@15
+			line_style 	0
+			x_offset   	FALSE)))))
+    logical_presentations 	(list unit_reference_list
+	(object UseCaseDiagram "visão do sistema de interfaceamento com produtos"
+	    quid       	"3CE4FD51035C"
+	    title      	"visão do sistema de interfaceamento com produtos"
+	    zoom       	91
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	1030
+	    origin_y   	610
+	    items      	(list diagram_item_list
+		(object Label @58
+		    location   	(288, 96)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	TRUE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    nlines     	1
+		    max_width  	1089
+		    label      	"Visão do Sistema de Interfaceamento com Produtos")
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Lotes Solicitados" @59
+		    location   	(448, 560)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@59
+			location   	(448, 698)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Lotes Solicitados")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CE502DC0280"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Pedidos Rejeitados" @60
+		    location   	(1264, 352)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@60
+			location   	(1264, 490)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Pedidos Rejeitados")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CE507510226"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Histórico por Pedido" @61
+		    location   	(1952, 608)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@61
+			location   	(1952, 746)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Histórico por Pedido")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CE508470122"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de gestao de entregas::Informar Erros de Fabricação" @62
+		    location   	(448, 1232)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@62
+			location   	(448, 1370)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Erros de Fabricação")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2D21B030C")
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Dados de Reentrega" @63
+		    location   	(1808, 1856)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@63
+			location   	(1808, 1994)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Dados de Reentrega")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CEA60000276"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de gestao de entregas::Informar Pedidos Relizados" @64
+		    location   	(1248, 2016)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@64
+			location   	(1248, 2154)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Pedidos Relizados")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2D2980208")
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Situação dos Pedidos" @65
+		    location   	(2096, 1232)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@65
+			location   	(2096, 1370)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Situação dos Pedidos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CE503B300E6")
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Informar Pedidos Recebidos" @66
+		    location   	(576, 1760)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@66
+			location   	(576, 1898)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Informar Pedidos Recebidos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CFFB09E0335"
+		    height     	118)
+		(object UseCaseView "Use Case View::Sistema de interfaceamento com produtos::Atualizar Pedidos" @67
+		    location   	(1248, 1232)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@67
+			location   	(1248, 1370)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Atualizar Pedidos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CE579F70153"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$18" @68
+		    location   	(847, 1232)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	(object SegLabel @69
+			Parent_View 	@68
+			location   	(830, 1208)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			anchor     	10
+			anchor_loc 	1
+			nlines     	1
+			max_width  	450
+			justify    	0
+			label      	"<<include>>"
+			pctDist    	0.233333
+			height     	25
+			orientation 	0)
+		    line_color 	3342489
+		    quidu      	"3CE57A1500D5"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$19" @70
+			    Parent_View 	@68
+			    location   	(-113, -1056)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE57A1600A4"
+			    client     	@68
+			    supplier   	@67
+			    line_style 	0)
+			(object RoleView "$UNNAMED$20" @71
+			    Parent_View 	@68
+			    location   	(-113, -1056)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE57A1600A6"
+			    client     	@68
+			    supplier   	@62
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$21" @72
+		    location   	(1575, 1596)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	(object SegLabel @73
+			Parent_View 	@72
+			location   	(1575, 1592)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			anchor     	10
+			anchor_loc 	1
+			nlines     	1
+			max_width  	450
+			justify    	0
+			label      	"<<include>>"
+			pctDist    	0.500000
+			height     	5
+			orientation 	0)
+		    line_color 	3342489
+		    quidu      	"3CEA60240000"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$22" @74
+			    Parent_View 	@72
+			    location   	(-729, -740)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CEA60250104"
+			    client     	@72
+			    supplier   	@67
+			    line_style 	0)
+			(object RoleView "$UNNAMED$23" @75
+			    Parent_View 	@72
+			    location   	(-729, -740)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CEA60250140"
+			    client     	@72
+			    supplier   	@63
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$15" @76
+		    location   	(1248, 1676)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	(object SegLabel @77
+			Parent_View 	@76
+			location   	(1246, 1717)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			anchor     	10
+			anchor_loc 	1
+			nlines     	1
+			max_width  	450
+			justify    	0
+			label      	"<<include>>"
+			pctDist    	0.466667
+			height     	41
+			orientation 	1)
+		    line_color 	3342489
+		    quidu      	"3CE57A1201A3"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$16" @78
+			    Parent_View 	@76
+			    location   	(-960, -708)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE57A1300D2"
+			    client     	@76
+			    supplier   	@67
+			    line_style 	0)
+			(object RoleView "$UNNAMED$17" @79
+			    Parent_View 	@76
+			    location   	(-960, -708)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE57A1300D4"
+			    client     	@76
+			    supplier   	@64
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$24" @80
+		    location   	(1671, 1232)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB03B030A"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$25" @81
+			    Parent_View 	@80
+			    location   	(-265, -64)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB03C0293"
+			    client     	@80
+			    supplier   	@67
+			    line_style 	0)
+			(object RoleView "$UNNAMED$26" @82
+			    Parent_View 	@80
+			    location   	(-265, -64)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB03C029D"
+			    client     	@80
+			    supplier   	@65
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$27" @83
+		    location   	(862, 1532)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB0AD0391"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$28" @84
+			    Parent_View 	@83
+			    location   	(286, -228)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB0AE0284"
+			    client     	@83
+			    supplier   	@67
+			    line_style 	0)
+			(object RoleView "$UNNAMED$29" @85
+			    Parent_View 	@83
+			    location   	(286, -228)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB0AE028F"
+			    client     	@83
+			    supplier   	@66
+			    line_style 	0)))
+		(object UseCaseView "Use Case View::Sistema de gestao de entregas::Consultar Pedidos" @86
+		    location   	(1216, 752)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@86
+			location   	(1216, 890)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"Consultar Pedidos")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"3CD2D01D008C")
+		(object AssociationViewNew "$UNNAMED$0" @87
+		    location   	(902, 670)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CE5047402A8"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$1" @88
+			    Parent_View 	@87
+			    location   	(102, -578)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE50475037A"
+			    client     	@87
+			    supplier   	@59
+			    line_style 	0)
+			(object RoleView "$UNNAMED$2" @89
+			    Parent_View 	@87
+			    location   	(102, -578)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE50475037B"
+			    client     	@87
+			    supplier   	@86
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$3" @90
+		    location   	(1231, 604)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CE5077D01EA"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$4" @91
+			    Parent_View 	@90
+			    location   	(463, -564)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE5077F005A"
+			    client     	@90
+			    supplier   	@60
+			    line_style 	0)
+			(object RoleView "$UNNAMED$5" @92
+			    Parent_View 	@90
+			    location   	(463, -564)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE5077F00BE"
+			    client     	@90
+			    supplier   	@86
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$6" @93
+		    location   	(1582, 677)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CE50867005A"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$7" @94
+			    Parent_View 	@93
+			    location   	(814, -491)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE5086800F0"
+			    client     	@93
+			    supplier   	@61
+			    line_style 	0)
+			(object RoleView "$UNNAMED$8" @95
+			    Parent_View 	@93
+			    location   	(814, -491)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CE5086800F1"
+			    client     	@93
+			    supplier   	@86
+			    line_style 	0)))
+		(object ClassView "Class" "Use Case View::FT" @96
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(2176, 912)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@96
+			location   	(2176, 1072)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	411
+			justify    	0
+			label      	"FT")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"3CD2D1420000"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object AssociationViewNew "$UNNAMED$30" @97
+		    location   	(1736, 1060)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB12F00FA"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$31" @98
+			    Parent_View 	@97
+			    location   	(488, -172)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB130011A"
+			    client     	@97
+			    supplier   	@96
+			    line_style 	0)
+			(object RoleView "$UNNAMED$32" @99
+			    Parent_View 	@97
+			    location   	(488, -172)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB130012E"
+			    client     	@97
+			    supplier   	@67
+			    line_style 	0)))
+		(object AssociationViewNew "$UNNAMED$33" @100
+		    location   	(1720, 832)
+		    font       	(object Font
+			size       	10
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"3CFFB1320376"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$34" @101
+			    Parent_View 	@100
+			    location   	(504, 80)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB133027D"
+			    client     	@100
+			    supplier   	@96
+			    line_style 	0)
+			(object RoleView "$UNNAMED$35" @102
+			    Parent_View 	@100
+			    location   	(504, 80)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"3CFFB1330291"
+			    client     	@100
+			    supplier   	@86
+			    line_style 	0)))))))

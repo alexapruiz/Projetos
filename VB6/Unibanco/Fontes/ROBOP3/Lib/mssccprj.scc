@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[DBMDI.vbp]
+SCC_Aux_Path =\\mdi_nt1\drive_e\Projetos\MDI_Ubb\SourceSafe\Documentos,
+SCC_Project_Name =this project is not under source code control
+
+[DBUBB.vbp]
+SCC_Aux_Path =\\mdi_nt1\drive_e\Projetos\MDI_Ubb\SourceSafe\Documentos,
+SCC_Project_Name ="$/MDI_UBB/Fontes/ROBOP3/Lib", KBBAAAAA

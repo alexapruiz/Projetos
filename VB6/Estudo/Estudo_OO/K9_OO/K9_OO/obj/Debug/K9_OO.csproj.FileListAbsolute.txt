@@ -1,0 +1,6 @@
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\bin\Debug\K9_OO.exe.config
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\obj\Debug\K9_OO.csprojResolveAssemblyReference.cache
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\bin\Debug\K9_OO.exe
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\bin\Debug\K9_OO.pdb
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\obj\Debug\K9_OO.exe
+C:\Projetos\Projects\Estudo_OO\K9_OO\K9_OO\obj\Debug\K9_OO.pdb

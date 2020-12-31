@@ -1,0 +1,12 @@
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\mySqlNet.exe
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\mySqlNet.pdb
+D:\Projetos\Exemplos VB.NET\P1\bin\mySqlNet.exe
+D:\Projetos\Exemplos VB.NET\P1\bin\mySqlNet.pdb
+D:\Projetos\Exemplos VB.NET\P1\bin\mySqlNet.xml
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\mySqlNet.Form1.resources
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\mySqlNet.vbproj.GenerateResource.Cache
+D:\Projetos\Exemplos VB.NET\P1\obj\Debug\mySqlNet.xml
+D:\Projetos\CentralMoveis\Fontes\obj\Debug\mySqlNet.exe
+D:\Projetos\CentralMoveis\Fontes\obj\Debug\mySqlNet.xml
+D:\Projetos\CentralMoveis\Fontes\obj\Debug\mySqlNet.pdb

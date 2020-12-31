@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=Biblio\Biblio.vbp
+StartupProject=Aplicativo\Captura.vbp
+Project=Scanner\SCANNER.vbp

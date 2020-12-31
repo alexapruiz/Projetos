@@ -1,0 +1,113 @@
+Line 138: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaCoordMalote was not a loaded control class.
+Line 285: Class CURRENCYEDITLib.CurrencyEdit of control txtInferior was not a loaded control class.
+Line 325: Class CURRENCYEDITLib.CurrencyEdit of control txtAjusteContabil was not a loaded control class.
+Line 367: Class CURRENCYEDITLib.CurrencyEdit of control txtValorCompensaNovo_Mal was not a loaded control class.
+Line 408: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaUBBMal was not a loaded control class.
+Line 447: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaUBBEnv was not a loaded control class.
+Line 486: Class CURRENCYEDITLib.CurrencyEdit of control TxtValorMaxDifLancto was not a loaded control class.
+Line 527: Class CURRENCYEDITLib.CurrencyEdit of control TxtMaxADCC was not a loaded control class.
+Line 585: Class CURRENCYEDITLib.CurrencyEdit of control txtCompensaMal was not a loaded control class.
+Line 652: Class CURRENCYEDITLib.CurrencyEdit of control txtAjusteAutoMal was not a loaded control class.
+Line 693: Class CURRENCYEDITLib.CurrencyEdit of control txtAjusteManualMal was not a loaded control class.
+Line 734: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaMal was not a loaded control class.
+Line 776: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaDepMal was not a loaded control class.
+Line 817: Class CURRENCYEDITLib.CurrencyEdit of control txtCompensaEnv was not a loaded control class.
+Line 884: Class CURRENCYEDITLib.CurrencyEdit of control txtAjusteAutoEnv was not a loaded control class.
+Line 926: Class CURRENCYEDITLib.CurrencyEdit of control txtAjusteManualEnv was not a loaded control class.
+Line 967: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaEnv was not a loaded control class.
+Line 1009: Class CURRENCYEDITLib.CurrencyEdit of control txtAlcadaDepEnv was not a loaded control class.
+Line 145: The property name _Version in txtAlcadaCoordMalote is invalid.
+Line 146: The property name _ExtentX in txtAlcadaCoordMalote is invalid.
+Line 147: The property name _ExtentY in txtAlcadaCoordMalote is invalid.
+Line 148: The property name _StockProps in txtAlcadaCoordMalote is invalid.
+Line 160: The property name MaxLength in txtAlcadaCoordMalote is invalid.
+Line 292: The property name _Version in txtInferior is invalid.
+Line 293: The property name _ExtentX in txtInferior is invalid.
+Line 294: The property name _ExtentY in txtInferior is invalid.
+Line 295: The property name _StockProps in txtInferior is invalid.
+Line 307: The property name MaxLength in txtInferior is invalid.
+Line 332: The property name _Version in txtAjusteContabil is invalid.
+Line 333: The property name _ExtentX in txtAjusteContabil is invalid.
+Line 334: The property name _ExtentY in txtAjusteContabil is invalid.
+Line 335: The property name _StockProps in txtAjusteContabil is invalid.
+Line 347: The property name MaxLength in txtAjusteContabil is invalid.
+Line 349: The property name Locked in txtAjusteContabil is invalid.
+Line 374: The property name _Version in txtValorCompensaNovo_Mal is invalid.
+Line 375: The property name _ExtentX in txtValorCompensaNovo_Mal is invalid.
+Line 376: The property name _ExtentY in txtValorCompensaNovo_Mal is invalid.
+Line 377: The property name _StockProps in txtValorCompensaNovo_Mal is invalid.
+Line 389: The property name MaxLength in txtValorCompensaNovo_Mal is invalid.
+Line 415: The property name _Version in txtAlcadaUBBMal is invalid.
+Line 416: The property name _ExtentX in txtAlcadaUBBMal is invalid.
+Line 417: The property name _ExtentY in txtAlcadaUBBMal is invalid.
+Line 418: The property name _StockProps in txtAlcadaUBBMal is invalid.
+Line 429: The property name MaxLength in txtAlcadaUBBMal is invalid.
+Line 454: The property name _Version in txtAlcadaUBBEnv is invalid.
+Line 455: The property name _ExtentX in txtAlcadaUBBEnv is invalid.
+Line 456: The property name _ExtentY in txtAlcadaUBBEnv is invalid.
+Line 457: The property name _StockProps in txtAlcadaUBBEnv is invalid.
+Line 468: The property name MaxLength in txtAlcadaUBBEnv is invalid.
+Line 493: The property name _Version in TxtValorMaxDifLancto is invalid.
+Line 494: The property name _ExtentX in TxtValorMaxDifLancto is invalid.
+Line 495: The property name _ExtentY in TxtValorMaxDifLancto is invalid.
+Line 496: The property name _StockProps in TxtValorMaxDifLancto is invalid.
+Line 508: The property name MaxLength in TxtValorMaxDifLancto is invalid.
+Line 534: The property name _Version in TxtMaxADCC is invalid.
+Line 535: The property name _ExtentX in TxtMaxADCC is invalid.
+Line 536: The property name _ExtentY in TxtMaxADCC is invalid.
+Line 537: The property name _StockProps in TxtMaxADCC is invalid.
+Line 549: The property name MaxLength in TxtMaxADCC is invalid.
+Line 551: The property name Locked in TxtMaxADCC is invalid.
+Line 592: The property name _Version in txtCompensaMal is invalid.
+Line 593: The property name _ExtentX in txtCompensaMal is invalid.
+Line 594: The property name _ExtentY in txtCompensaMal is invalid.
+Line 595: The property name _StockProps in txtCompensaMal is invalid.
+Line 607: The property name MaxLength in txtCompensaMal is invalid.
+Line 659: The property name _Version in txtAjusteAutoMal is invalid.
+Line 660: The property name _ExtentX in txtAjusteAutoMal is invalid.
+Line 661: The property name _ExtentY in txtAjusteAutoMal is invalid.
+Line 662: The property name _StockProps in txtAjusteAutoMal is invalid.
+Line 674: The property name MaxLength in txtAjusteAutoMal is invalid.
+Line 700: The property name _Version in txtAjusteManualMal is invalid.
+Line 701: The property name _ExtentX in txtAjusteManualMal is invalid.
+Line 702: The property name _ExtentY in txtAjusteManualMal is invalid.
+Line 703: The property name _StockProps in txtAjusteManualMal is invalid.
+Line 715: The property name MaxLength in txtAjusteManualMal is invalid.
+Line 742: The property name _Version in txtAlcadaMal is invalid.
+Line 743: The property name _ExtentX in txtAlcadaMal is invalid.
+Line 744: The property name _ExtentY in txtAlcadaMal is invalid.
+Line 745: The property name _StockProps in txtAlcadaMal is invalid.
+Line 756: The property name MaxLength in txtAlcadaMal is invalid.
+Line 758: The property name Locked in txtAlcadaMal is invalid.
+Line 783: The property name _Version in txtAlcadaDepMal is invalid.
+Line 784: The property name _ExtentX in txtAlcadaDepMal is invalid.
+Line 785: The property name _ExtentY in txtAlcadaDepMal is invalid.
+Line 786: The property name _StockProps in txtAlcadaDepMal is invalid.
+Line 798: The property name MaxLength in txtAlcadaDepMal is invalid.
+Line 824: The property name _Version in txtCompensaEnv is invalid.
+Line 825: The property name _ExtentX in txtCompensaEnv is invalid.
+Line 826: The property name _ExtentY in txtCompensaEnv is invalid.
+Line 827: The property name _StockProps in txtCompensaEnv is invalid.
+Line 838: The property name MaxLength in txtCompensaEnv is invalid.
+Line 840: The property name Locked in txtCompensaEnv is invalid.
+Line 891: The property name _Version in txtAjusteAutoEnv is invalid.
+Line 892: The property name _ExtentX in txtAjusteAutoEnv is invalid.
+Line 893: The property name _ExtentY in txtAjusteAutoEnv is invalid.
+Line 894: The property name _StockProps in txtAjusteAutoEnv is invalid.
+Line 906: The property name MaxLength in txtAjusteAutoEnv is invalid.
+Line 933: The property name _Version in txtAjusteManualEnv is invalid.
+Line 934: The property name _ExtentX in txtAjusteManualEnv is invalid.
+Line 935: The property name _ExtentY in txtAjusteManualEnv is invalid.
+Line 936: The property name _StockProps in txtAjusteManualEnv is invalid.
+Line 948: The property name MaxLength in txtAjusteManualEnv is invalid.
+Line 975: The property name _Version in txtAlcadaEnv is invalid.
+Line 976: The property name _ExtentX in txtAlcadaEnv is invalid.
+Line 977: The property name _ExtentY in txtAlcadaEnv is invalid.
+Line 978: The property name _StockProps in txtAlcadaEnv is invalid.
+Line 989: The property name MaxLength in txtAlcadaEnv is invalid.
+Line 991: The property name Locked in txtAlcadaEnv is invalid.
+Line 1016: The property name _Version in txtAlcadaDepEnv is invalid.
+Line 1017: The property name _ExtentX in txtAlcadaDepEnv is invalid.
+Line 1018: The property name _ExtentY in txtAlcadaDepEnv is invalid.
+Line 1019: The property name _StockProps in txtAlcadaDepEnv is invalid.
+Line 1031: The property name MaxLength in txtAlcadaDepEnv is invalid.

@@ -1,0 +1,22 @@
+LIBRARY       "VIPSDLL.DLL"
+
+EXPORTS
+
+VIPS_Init                    @1    PRIVATE
+VIPS_Done                    @2    PRIVATE
+VIPS_SetComPort              @3    PRIVATE
+VIPS_SetResolution           @4    PRIVATE
+VIPS_SetReader               @5    PRIVATE
+VIPS_SetBoxes                @6    PRIVATE
+VIPS_SetMaxDocBox            @7    PRIVATE
+VIPS_SetBoxDefault           @8    PRIVATE
+VIPS_SetImageType            @9    PRIVATE
+VIPS_SetCompress             @10   PRIVATE
+VIPS_SetCutBords             @11   PRIVATE
+VIPS_SetImageDirectory       @12   PRIVATE
+VIPS_SetCameraFile           @13   PRIVATE
+VIPS_Captura                 @14   PRIVATE
+VIPS_Recaptura               @15   PRIVATE
+VIPS_Reset                   @16   PRIVATE
+
+

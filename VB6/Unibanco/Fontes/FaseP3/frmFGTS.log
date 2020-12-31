@@ -1,0 +1,5 @@
+Line 18: Class DATEEDITLib.DateEdit of control dtData_Validade was not a loaded control class.
+Line 266: Class CURRENCYEDITLib.CurrencyEdit of control txtValorTotal was not a loaded control class.
+Line 291: Class CURRENCYEDITLib.CurrencyEdit of control txtValorMulta was not a loaded control class.
+Line 315: Class CURRENCYEDITLib.CurrencyEdit of control txtValorJAM was not a loaded control class.
+Line 339: Class CURRENCYEDITLib.CurrencyEdit of control txtValorDeposito was not a loaded control class.

@@ -1,0 +1,11 @@
+Line 47: Class MSFlexGridLib.MSFlexGrid of control Grid was not a loaded control class.
+Line 53: The property name _ExtentX in Grid is invalid.
+Line 54: The property name _ExtentY in Grid is invalid.
+Line 55: The property name _Version in Grid is invalid.
+Line 56: The property name Rows in Grid is invalid.
+Line 57: The property name Cols in Grid is invalid.
+Line 58: The property name FixedCols in Grid is invalid.
+Line 59: The property name ScrollTrack in Grid is invalid.
+Line 60: The property name HighLight in Grid is invalid.
+Line 61: The property name ScrollBars in Grid is invalid.
+Line 62: The property name SelectionMode in Grid is invalid.

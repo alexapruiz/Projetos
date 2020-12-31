@@ -1,0 +1,17 @@
+
+[Project]
+Name=Project 1
+Description=
+Directory=D:\Projetos\Buffet\SGB\Documentos\Requisitos\Project 1\Project 1.rqs
+Owner=Unknown
+Owner Key=3
+GUID={E5CF6998-CCBD-40FA-800D-A7BAD1772150}
+Key=1
+Revision number=1.0000
+Prefix=
+
+[Documents]
+1=Glossary|GLS
+2=Requirements Management Plan|RMP
+3=Vision|VIS
+
