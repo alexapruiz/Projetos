@@ -1,6 +1,7 @@
 #Abrindo um arquivo no modo Write
 #arquivo = open('palavras.txt', 'w')
 
+
 #Abrindo um arquivo no modo Append
 arquivo = open("palavras.txt", "w")
 
