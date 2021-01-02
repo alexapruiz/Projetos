@@ -8,7 +8,8 @@ class Ship():
         self.screen = screen
 
         #Carrega a imagem da espaçonave e obtém seu rect
-        caminho = os.getcwd() + '\\Jogos\\Alien_Invasion\\imagens\\'
+        caminho = os.getcwd() + '\\imagens\\'
+        print(caminho + 'ship.bmp')
         self.image = pygame.image.load(caminho + 'ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()

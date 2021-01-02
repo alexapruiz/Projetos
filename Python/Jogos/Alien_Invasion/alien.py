@@ -11,7 +11,7 @@ class Alien(Sprite):
         self.ai_settings = ai_settings
 
         # Carrega a imagem do alienígena e define seu atributo rect
-        caminho = os.getcwd() + '\\Jogos\\Alien_Invasion\\imagens\\'
+        caminho = os.getcwd() + '\\imagens\\'
         self.image = pygame.image.load(caminho + 'alien.bmp')
         self.rect = self.image.get_rect()
 
