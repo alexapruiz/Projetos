@@ -1,0 +1,37 @@
+Line 55: Class Threed.SSCommand of control CmdEsquerda was not a loaded control class.
+Line 75: Class Threed.SSPanel of control PnlSerpente was not a loaded control class.
+Line 102: Class Threed.SSCommand of control CmdDescer was not a loaded control class.
+Line 114: Class Threed.SSCommand of control CmdSubir was not a loaded control class.
+Line 126: Class Threed.SSCommand of control CmdDireita was not a loaded control class.
+Line 138: Class Threed.SSCommand of control CmdPause was not a loaded control class.
+Line 61: The property name _Version in CmdEsquerda is invalid.
+Line 62: The property name _ExtentX in CmdEsquerda is invalid.
+Line 63: The property name _ExtentY in CmdEsquerda is invalid.
+Line 64: The property name _StockProps in CmdEsquerda is invalid.
+Line 55: Property Picture in CmdEsquerda could not be set.
+Line 81: The property name _Version in PnlSerpente is invalid.
+Line 82: The property name _ExtentX in PnlSerpente is invalid.
+Line 83: The property name _ExtentY in PnlSerpente is invalid.
+Line 84: The property name _StockProps in PnlSerpente is invalid.
+Line 108: The property name _Version in CmdDescer is invalid.
+Line 109: The property name _ExtentX in CmdDescer is invalid.
+Line 110: The property name _ExtentY in CmdDescer is invalid.
+Line 111: The property name _StockProps in CmdDescer is invalid.
+Line 102: Property Picture in CmdDescer could not be set.
+Line 120: The property name _Version in CmdSubir is invalid.
+Line 121: The property name _ExtentX in CmdSubir is invalid.
+Line 122: The property name _ExtentY in CmdSubir is invalid.
+Line 123: The property name _StockProps in CmdSubir is invalid.
+Line 114: Property Picture in CmdSubir could not be set.
+Line 132: The property name _Version in CmdDireita is invalid.
+Line 133: The property name _ExtentX in CmdDireita is invalid.
+Line 134: The property name _ExtentY in CmdDireita is invalid.
+Line 135: The property name _StockProps in CmdDireita is invalid.
+Line 126: Property Picture in CmdDireita could not be set.
+Line 144: The property name _Version in CmdPause is invalid.
+Line 145: The property name _ExtentX in CmdPause is invalid.
+Line 146: The property name _ExtentY in CmdPause is invalid.
+Line 147: The property name _StockProps in CmdPause is invalid.
+Line 148: The property name Caption in CmdPause is invalid.
+Line 159: The property name Font3D in CmdPause is invalid.
+Line 138: Property Picture in CmdPause could not be set.
