@@ -1,4 +1,5 @@
 import numpy as np
+import Box2D
 
 class Vertice:
     def __init__(self, rotulo, distancia_objetivo):
