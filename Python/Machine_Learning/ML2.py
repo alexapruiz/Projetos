@@ -8,7 +8,7 @@ porco1 = [0,1,0]
 porco2 = [0,0,0]
 porco3 = [0,1,0]
 
-cachorro1 = [0,1,1]
+cachorro1 = [0,0,0]
 cachorro2 = [1,0,1]
 cachorro3 = [1,1,1]
 
