@@ -1,31 +1,27 @@
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
-# Caracteristicas
-# Tem pelo longo
-# Tem perna curta
-# Faz au au
-porco1 = [0,1,0]
-porco2 = [0,0,0]
-porco3 = [0,1,0]
 
-cachorro1 = [0,0,0]
-cachorro2 = [1,0,1]
-cachorro3 = [1,1,1]
+# Informações
+# Fuma
+# Bebe
+# Obeso
 
-treinox = [porco1,porco2,porco3,cachorro1,cachorro2,cachorro3]
-treinoy = [1,1,1,0,0,0] # 1 - porco, 0 - cachorro
+pessoa1 = [1,1,1,1]
+pessoa2 = [1,1,1,0]
+pessoa3 = [1,1,0,0]
+pessoa4 = [1,0,0,0]
+pessoa5 = [0,0,0,1]
+pessoa6 = [0,0,1,1]
+pessoa7 = [0,1,1,1]
+pessoa8 = [1,1,1,1]
+pessoa9 = [0,0,0,0]
+
+treinox = [pessoa1,pessoa2,pessoa3,pessoa4,pessoa5,pessoa6,pessoa7,pessoa8,pessoa9]
+treinoy = [1,0,0,0,0,0,0,1,0] #1 - tem doenca coração, 0 - não tem doença coração
 
 modelo = LinearSVC()
 modelo.fit(treinox,treinoy)
 
-misterio1 = [1,1,1]
-misterio2 = [1,1,0]
-misterio3 = [0,1,1]
-
-teste_x = [misterio1,misterio2,misterio3]
-teste_y = [0,0,0]
-
-previsoes = modelo.predict(teste_x)
+previsoes = modelo.predict(treinox)
 print(previsoes)
-
-print(accuracy_score(teste_y, previsoes) * 100)
+print(accuracy_score(treinoy, previsoes) * 100)
