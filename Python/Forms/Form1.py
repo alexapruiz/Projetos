@@ -48,7 +48,7 @@ class Ball(pygame.sprite.Sprite):
 def load_image(name):
     """carrega uma imagem na memoria, e retorna a imagem e o seu rect (retangulo)"""
     #fullname = os.path.join('images', name)
-    fullname = os.getcwd() + '\\Forms\\images\\'
+    fullname = os.getcwd() + '\\images\\'
     image = pygame.image.load(fullname + str(name))
     print('image : ' + fullname + str(name))
     return image, image.get_rect()
