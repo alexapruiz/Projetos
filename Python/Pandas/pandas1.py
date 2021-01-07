@@ -4,7 +4,7 @@ import pandas as pd
 colunas = ['id','idade','genero','altura','peso','pressao_min','pressao_max','colesterol','glicemia','fumante','alcool','atividade_fisica','doenca_coracao']
 
 #Abrindo um arquivo csv
-arquivo = 'c:\\projetos\python\\cardio_train.csv'
+arquivo = 'c:\\projetos\_Arquivos\\Cardio\\cardio_original.csv'
 #dados = pd.read_csv(arquivo, header=1, sep=';', names=colunas, low_memory=False, dtype={"id": int, "idade": int, "genero":int, "altura":int, "peso":float, "pressao_min":int, "pressao_max":int, "colesterol":int, "glicemia":int, "fumante":int, "alcool":int, "atividade_fisica":int, "doenca_coracao":int})
 dados = pd.read_csv(arquivo, header=1, sep=';', names=colunas, low_memory=False)
 #df = pd.DataFrame(dados)
@@ -40,3 +40,5 @@ print("Qtde de Pressão Alta (acima de 15): " + str(dados[(dados.pressao_max > 1
 print("Qtde de Pressão Alta e Coração OK: " + str(dados[(dados.pressao_max > 150) & (dados.doenca_coracao == 0)].count()[0]))
 print("Qtde de Cardíacos com Pressão Alta (acima de 15): " + str(dados[(dados.doenca_coracao == 1) & (dados.pressao_max > 150)].count()[0]))
 print("Qtde de Fumantes Saudáveis (Sem doenças / sintomas): " + str(dados[(dados.fumante == 1) & (dados.doenca_coracao == 0) & (dados.pressao_max <= 120) & (dados.colesterol == 1) & (dados.glicemia == 1) ].count()[0]))
+
+print('Idade Média: ' + str(dados['idade'].mean()))
