@@ -1,3 +1,4 @@
+<<<<<<< HEAD:_Transfer/DESC_SP.txt
 versioned object base "\SIABE"
   created 2008-03-10T15:21:25-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
   VOB family feature level: 5
@@ -1892,11 +1893,11 @@ versioned object base "\SIFMP"
   ACLs enabled: No
   Attributes:
     FeatureLevel = 5
-versioned object base "\SIGCB_ECOBRANÇA"
+versioned object base "\SIGCB_ECOBRANï¿½A"
   created 2011-08-15T08:58:45-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
   VOB family feature level: 5
-  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGCB_ECOBRANÇA\SIGCB_ECOBRANÇA.vbs"
-  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGCB_ECOBRANÇA$\SIGCB_ECOBRANÇA.vbs"
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGCB_ECOBRANï¿½A\SIGCB_ECOBRANï¿½A.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGCB_ECOBRANï¿½A$\SIGCB_ECOBRANï¿½A.vbs"
   database schema version: 54
   modification by remote privileged user: allowed
   atomic checkin: disabled
@@ -4281,3 +4282,4288 @@ versioned object base "\SICOB_COB2VIA"
   ACLs enabled: No
   Attributes:
     FeatureLevel = 5
+=======
+versioned object base "\SIABE"
+  created 2008-03-10T15:21:25-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIABE\SIABE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIABE$\SIABE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_RESOURCE
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIACA"
+  created 2015-07-17T15:09:15-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIACA\SIACA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIACA$\SIACA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIACL"
+  created 2008-03-10T18:03:48-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIACL\SIACL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIACL$\SIACL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIADT"
+  created 2008-03-27T14:17:14-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIADT\SIADT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIADT$\SIADT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAGA"
+  created 2008-06-11T16:04:33-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAGA\SIAGA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAGA$\SIAGA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAGC"
+  created 2013-09-09T15:29:44-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAGC\SIAGC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAGC$\SIAGC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAFG"
+  created 2007-11-05T16:12:48-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAFG\SIAFG.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAFG$\SIAFG.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAIC"
+  created 2018-07-02T14:58:38-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAIC\SIAIC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAIC$\SIAIC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_foton
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIARS"
+  created 2015-10-28T10:16:14-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIARS\SIARS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIARS$\SIARS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAUP"
+  created 2008-03-10T17:14:15-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAUP\SIAUP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAUP$\SIAUP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIADC"
+  created 2008-03-27T14:15:24-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIADC\SIADC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIADC$\SIADC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIATS"
+  created 2009-10-27T09:20:18-03:00 by s540401.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIATS\SIATS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIATS$\SIATS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBAT"
+  created 2015-11-26T09:03:33-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBAT\SIBAT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBAT$\SIBAT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBCE"
+  created 2018-01-03T16:26:56-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBCE\SIBCE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBCE$\SIBCE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIATR"
+  created 2010-01-21T09:02:55-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIATR\SIATR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIATR$\SIATR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIARP"
+  created 2008-03-10T15:26:49-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIARP\SIARP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIARP$\SIARP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBIM"
+  created 2015-11-26T09:22:12-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBIM\SIBIM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBIM$\SIBIM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIATV"
+  created 2008-03-10T16:42:19-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIATV\SIATV.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIATV$\SIATV.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBIO"
+  created 2015-11-26T09:30:36-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBIO\SIBIO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBIO$\SIBIO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBLC"
+  created 2017-03-31T09:51:03-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBLC\SIBLC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBLC$\SIBLC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAL"
+  created 2017-08-10T15:18:15-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAL\SICAL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAL$\SICAL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAP"
+  created 2007-11-05T16:05:45-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAP\SICAP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAP$\SICAP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAQ"
+  created 2008-03-10T15:01:17-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAQ\SICAQ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAQ$\SICAQ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_INDRA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAR"
+  created 2008-01-10T09:18:16-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAR\SICAR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAR$\SICAR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAC"
+  created 2008-01-08T11:12:13-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAC\SICAC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAC$\SICAC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAS"
+  created 2007-11-05T15:16:01-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAS\SICAS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAS$\SICAS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCF"
+  created 2008-01-10T11:41:04-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCF\SICCF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCF$\SICCF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCH"
+  created 2012-08-13T11:44:38-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCH\SICCH.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCH$\SICCH.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCL"
+  created 2012-01-26T11:08:33-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCL\SICCL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCL$\SICCL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCO"
+  created 2015-09-25T11:02:13-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCO\SICCO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCO$\SICCO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICDG"
+  created 2015-06-09T16:20:38-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICDG\SICDG.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICDG$\SICDG.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICEM"
+  created 2019-10-31T10:15:08-03:00 by f541364.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICEM\SICEM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICEM$\SICEM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCV"
+  created 2008-03-10T14:38:32-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCV\SICCV.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCV$\SICCV.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICES"
+  created 2008-03-10T16:15:23-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICES\SICES.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICES$\SICES.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIADJ"
+  created 2008-03-27T14:16:34-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIADJ\SIADJ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIADJ$\SIADJ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICCP"
+  created 2008-01-10T11:52:21-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICCP\SICCP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICCP$\SICCP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICET"
+  created 2008-02-12T18:07:26-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICET\SICET.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICET$\SICET.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICNR"
+  created 2008-04-01T14:52:38-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICNR\SICNR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICNR$\SICNR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOC"
+  created 2012-03-27T13:51:06-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOC\SICOC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOC$\SICOC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOB_SICARTORIO"
+  created 2010-11-22T08:24:05-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOB_SICARTORIO\SICOB_SICARTORIO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOB_SICARTORIO$\SICOB_SICARTORIO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOB_COBSINCO"
+  created 2010-11-22T08:26:08-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOB_COBSINCO\SICOB_COBSINCO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOB_COBSINCO$\SICOB_COBSINCO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOB_COBCAIXA"
+  created 2010-10-15T14:47:28-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOB_COBCAIXA\SICOB_COBCAIXA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOB_COBCAIXA$\SICOB_COBCAIXA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICEX"
+  created 2008-02-18T15:52:38-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICEX\SICEX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICEX$\SICEX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOB"
+  created 2007-11-05T15:43:24-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOB\SICOB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOB$\SICOB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICPA"
+  created 2008-03-14T16:26:03-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICPA\SICPA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICPA$\SICPA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICPJ"
+  created 2012-02-14T12:01:11-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICPJ\SICPJ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICPJ$\SICPJ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+versioned object base "\SICPU"
+  created 2015-07-06T11:52:13-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICPU\SICPU.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICPU$\SICPU.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICSJ"
+  created 2014-12-05T14:19:01-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICSJ\SICSJ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICSJ$\SICSJ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICTE"
+  created 2015-10-28T10:28:36-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICTE\SICTE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICTE$\SICTE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICRD"
+  created 2014-07-11T15:20:23-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICRD\SICRD.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICRD$\SICRD.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICRA"
+  created 2007-11-05T15:06:56-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICRA\SICRA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICRA$\SICRA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICXC"
+  created 2014-11-19T15:20:48-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICXC\SICXC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICXC$\SICXC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SID00"
+  created 2011-10-25T15:05:52-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID00"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID00\SID00.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID00$\SID00.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SICQW"
+  created 2009-10-27T09:21:43-03:00 by s540401.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICQW\SICQW.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICQW$\SICQW.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_INDRA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SID01"
+  created 2011-10-25T15:06:34-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID01"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID01\SID01.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID01$\SID01.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SICUC"
+  created 2011-06-06T09:35:24-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICUC\SICUC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICUC$\SICUC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SID04"
+  created 2011-10-25T15:08:16-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID04"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID04\SID04.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID04$\SID04.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID02"
+  created 2011-10-25T15:07:06-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID02"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID02\SID02.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID02$\SID02.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID07"
+  created 2011-10-25T15:09:36-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID07"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID07\SID07.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID07$\SID07.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID06"
+  created 2011-10-25T15:09:10-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID06"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID06\SID06.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID06$\SID06.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID03"
+  created 2011-10-25T15:07:51-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID03"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID03\SID03.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID03$\SID03.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID05"
+  created 2011-10-25T15:08:49-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID05"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID05\SID05.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID05$\SID05.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID08"
+  created 2011-10-25T15:09:55-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID08"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID08\SID08.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID08$\SID08.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID55"
+  created 2018-03-07T11:30:56-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID55\SID55.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID55$\SID55.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SID09"
+  created 2011-10-25T15:10:20-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID09"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID09\SID09.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID09$\SID09.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SID49"
+  created 2011-10-25T15:10:45-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "NSGD - SID49"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SID49\SID49.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SID49$\SID49.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB -> vob:\CON_PEDEP_SP
+versioned object base "\SIESC"
+  created 2018-03-05T17:49:07-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIESC\SIESC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIESC$\SIESC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDIM"
+  created 2016-01-06T08:25:02-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDIM\SIDIM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDIM$\SIDIM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIECO"
+  created 2018-12-12T16:34:28-03:00 by f541364.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIECO\SIECO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIECO$\SIECO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_foton
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDOC"
+  created 2008-01-10T13:40:10-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDOC\SIDOC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDOC$\SIDOC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDCN"
+  created 2016-09-22T15:24:45-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDCN\SIDCN.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDCN$\SIDCN.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIESP"
+  created 2008-04-01T14:58:03-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIESP\SIESP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIESP$\SIESP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIEMD"
+  created 2008-02-12T17:54:50-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIEMD\SIEMD.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIEMD$\SIEMD.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIECP"
+  created 2008-03-10T15:06:01-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIECP\SIECP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIECP$\SIECP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIFIC"
+  created 2008-01-08T10:22:16-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIFIC\SIFIC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIFIC$\SIFIC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDDA"
+  created 2011-02-08T10:02:09-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDDA\SIDDA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDDA$\SIDDA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGBO"
+  created 2015-11-26T09:38:07-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGBO\SIGBO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGBO$\SIGBO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDEM"
+  created 2008-02-18T16:33:14-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDEM\SIDEM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDEM$\SIDEM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIDMO"
+  created 2012-04-05T09:11:53-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIDMO\SIDMO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIDMO$\SIDMO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIFLX"
+  created 2014-09-12T19:48:16-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIFLX\SIFLX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIFLX$\SIFLX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGBK"
+  created 2015-10-28T10:57:40-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGBK\SIGBK.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGBK$\SIGBK.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIEXC"
+  created 2012-03-07T15:26:54-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIEXC\SIEXC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIEXC$\SIEXC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_TREE
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGDB"
+  created 2008-03-10T17:19:42-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGDB\SIGDB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGDB$\SIGDB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIFMP"
+  created 2008-03-10T16:40:48-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIFMP\SIFMP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIFMP$\SIFMP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGCB_ECOBRANï¿½A"
+  created 2011-08-15T08:58:45-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGCB_ECOBRANï¿½A\SIGCB_ECOBRANï¿½A.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGCB_ECOBRANï¿½A$\SIGCB_ECOBRANï¿½A.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGCB"
+  created 2007-10-11T13:21:00-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGCB\SIGCB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGCB$\SIGCB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGDI"
+  created 2015-08-11T15:11:40-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGDI\SIGDI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGDI$\SIGDI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGFA"
+  created 2019-08-26T11:36:33-03:00 by f541364.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGFA\SIGFA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGFA$\SIGFA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_TTY_SP
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGSR"
+  created 2018-12-11T14:59:54-03:00 by f541364.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGSR\SIGSR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGSR$\SIGSR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_MAGNA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGTR"
+  created 2010-07-20T12:54:46-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGTR\SIGTR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGTR$\SIGTR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGDF"
+  created 2015-07-06T12:08:36-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGDF\SIGDF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGDF$\SIGDF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGJD"
+  created 2018-03-19T10:40:35-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGJD\SIGJD.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGJD$\SIGJD.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGOV"
+  created 2008-02-18T16:05:09-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGOV\SIGOV.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGOV$\SIGOV.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGTA"
+  created 2009-10-22T09:50:15-03:00 by s540401.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGTA\SIGTA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGTA$\SIGTA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGPF"
+  created 2008-01-10T14:22:08-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGPF\SIGPF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGPF$\SIGPF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGMS"
+  created 2007-10-26T10:42:43-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGMS\SIGMS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGMS$\SIGMS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIIPC"
+  created 2019-12-11T11:02:29-03:00 by f541364.Domain Users@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIIPC\SIIPC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIIPC$\SIIPC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIICOSP"
+  created 2008-04-03T16:45:58-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIICOSP\SIICOSP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIICOSP$\SIICOSP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIINC"
+  created 2008-03-10T16:20:05-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIINC\SIINC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIINC$\SIINC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIIFE"
+  created 2008-02-12T17:41:12-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIIFE\SIIFE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIIFE$\SIIFE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIINT"
+  created 2008-01-10T15:17:35-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIINT\SIINT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIINT$\SIINT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIIBC"
+  created 2007-10-01T11:31:57-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIIBC\SIIBC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIIBC$\SIIBC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SILJI"
+  created 2017-06-14T17:06:18-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SILJI\SILJI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SILJI$\SILJI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_MOBILIDADE
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SILOJ"
+  created 2008-03-10T17:09:00-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SILOJ\SILOJ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SILOJ$\SILOJ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIJAD"
+  created 2016-03-21T10:15:39-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIJAD\SIJAD.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIJAD$\SIJAD.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIISF"
+  created 2018-08-22T14:51:07-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIISF\SIISF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIISF$\SIISF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SILTC"
+  created 2008-01-10T15:29:29-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SILTC\SILTC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SILTC$\SILTC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIJUS"
+  created 2008-03-27T14:19:00-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIJUS\SIJUS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIJUS$\SIJUS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMAG"
+  created 2008-04-01T14:53:40-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMAG\SIMAG.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMAG$\SIMAG.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMAI"
+  created 2015-09-25T10:44:38-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMAI\SIMAI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMAI$\SIMAI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMFC"
+  created 2018-06-12T11:24:23-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMFC\SIMFC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMFC$\SIMFC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMCV"
+  created 2008-03-14T16:22:49-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMCV\SIMCV.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMCV$\SIMCV.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMPL"
+  created 2015-05-04T11:48:48-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMPL\SIMPL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMPL$\SIMPL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_INDRA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMOB"
+  created 2013-01-22T16:09:47-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMOB\SIMOB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMOB$\SIMOB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_foton
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMEX"
+  created 2008-03-10T16:39:08-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMEX\SIMEX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMEX$\SIMEX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMCA"
+  created 2008-02-14T13:06:01-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMCA\SIMCA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMCA$\SIMCA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMOC"
+  created 2010-05-25T11:31:08-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMOC\SIMOC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMOC$\SIMOC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMTC"
+  created 2007-11-20T07:50:59-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMTC\SIMTC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMTC$\SIMTC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SINRF"
+  created 2018-09-12T17:38:54-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SINRF\SINRF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SINRF$\SINRF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SINBC"
+  created 2014-10-20T15:44:19-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SINBC\SINBC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SINBC$\SINBC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPCR"
+  created 2008-01-10T11:18:40-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPCR\SIPCR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPCR$\SIPCR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPAE"
+  created 2007-11-05T15:51:40-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPAE\SIPAE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPAE$\SIPAE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPCV"
+  created 2008-10-27T15:17:28-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPCV\SIPCV.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPCV$\SIPCV.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIOCR"
+  created 2008-01-10T14:31:16-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIOCR\SIOCR.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIOCR$\SIOCR.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPDI"
+  created 2018-01-03T16:49:50-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPDI\SIPDI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPDI$\SIPDI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPNC"
+  created 2016-03-24T10:24:43-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPNC\SIPNC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPNC$\SIPNC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_INDRA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPFC"
+  created 2015-07-08T16:16:39-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPFC\SIPFC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPFC$\SIPFC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRDI"
+  created 2007-11-05T14:56:24-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRDI\SIRDI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRDI$\SIRDI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPTX"
+  created 2011-08-23T11:24:01-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPTX\SIPTX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPTX$\SIPTX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRIE"
+  created 2016-03-07T11:44:39-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRIE\SIRIE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRIE$\SIRIE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRFF"
+  created 2018-09-04T10:44:24-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRFF\SIRFF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRFF$\SIRFF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRFE"
+  created 2007-11-05T14:42:25-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRFE\SIRFE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRFE$\SIRFE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPOS"
+  created 2008-02-13T14:22:57-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPOS\SIPOS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPOS$\SIPOS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRMA"
+  created 2008-04-01T14:55:11-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRMA\SIRMA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRMA$\SIRMA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPER"
+  created 2008-03-10T15:17:51-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPER\SIPER.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPER$\SIPER.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIROT"
+  created 2008-03-10T17:18:22-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIROT\SIROT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIROT$\SIROT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISAT"
+  created 2019-02-14T16:16:13-03:00 by f541364.g cs7266 cc_regiao_qualidade_sp@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISAT\SISAT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISAT$\SISAT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRUC"
+  created 2008-03-10T15:19:03-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRUC\SIRUC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRUC$\SIRUC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPRO"
+  created 2008-01-10T14:05:06-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPRO\SIPRO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPRO$\SIPRO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISRA"
+  created 2008-03-10T14:58:36-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISRA\SISRA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISRA$\SISRA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_dba
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISMB"
+  created 2014-04-11T18:14:39-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISMB\SISMB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISMB$\SISMB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_MOBILIDADE
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISFI_CAMBIO"
+  created 2010-08-04T11:10:29-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISFI_CAMBIO\SISFI_CAMBIO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISFI_CAMBIO$\SISFI_CAMBIO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISIB"
+  created 2008-01-10T14:41:21-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISIB\SISIB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISIB$\SISIB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITAE"
+  created 2008-03-10T17:02:56-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITAE\SITAE.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITAE$\SITAE.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITLO"
+  created 2008-03-10T17:15:24-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITLO\SITLO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITLO$\SITLO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITEX"
+  created 2008-02-12T17:04:58-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITEX\SITEX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITEX$\SITEX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITEF"
+  created 2008-01-10T14:53:47-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITEF\SITEF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITEF$\SITEF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITAX"
+  created 2008-03-10T17:59:06-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITAX\SITAX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITAX$\SITAX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITRC"
+  created 2008-02-12T16:22:47-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITRC\SITRC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITRC$\SITRC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIVIC"
+  created 2012-08-14T08:15:36-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIVIC\SIVIC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIVIC$\SIVIC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIVPF"
+  created 2008-03-10T16:37:04-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIVPF\SIVPF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIVPF$\SIVPF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIUNI"
+  created 2008-02-18T16:22:26-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIUNI\SIUNI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIUNI$\SIUNI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIVAT"
+  created 2008-02-12T16:39:34-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIVAT\SIVAT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIVAT$\SIVAT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIVBA"
+  created 2008-06-11T16:08:26-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIVBA\SIVBA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIVBA$\SIVBA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_back_office
+    group CORPCAIXA\g cs7266 cc_regiao_msa_tty
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISFI"
+  created 2007-10-11T09:53:46-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISFI\SISFI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISFI$\SISFI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIWIN_MULTI"
+  created 2012-07-31T16:33:41-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIWIN_MULTI\SIWIN_MULTI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIWIN_MULTI$\SIWIN_MULTI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICAP_CAPCAIXA"
+  created 2010-11-22T08:29:14-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICAP_CAPCAIXA\SICAP_CAPCAIXA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICAP_CAPCAIXA$\SICAP_CAPCAIXA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SISSO"
+  created 2015-03-24T17:34:16-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SISSO\SISSO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISSO$\SISSO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGOV_WEB"
+  created 2012-05-28T14:47:04-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGOV_WEB\SIGOV_WEB.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGOV_WEB$\SIGOV_WEB.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIABM"
+  created 2013-07-25T17:31:14-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIABM\SIABM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIABM$\SIABM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICQL"
+  created 2011-02-08T14:18:30-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICQL\SICQL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICQL$\SICQL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_MAPS
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SINAC"
+  created 2012-01-17T07:46:52-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SINAC\SINAC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SINAC$\SINAC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAMI"
+  created 2014-04-11T18:13:14-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAMI\SIAMI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAMI$\SIAMI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIAUT"
+  created 2008-02-18T16:14:24-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIAUT\SIAUT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAUT$\SIAUT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_infraestrutura
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITCS"
+  created 2008-03-10T16:25:32-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITCS\SITCS.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITCS$\SITCS.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIBCX_NOVO"
+  created 2015-05-14T16:56:43-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBCX_NOVO\SIBCX_NOVO.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBCX_NOVO$\SIBCX_NOVO.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_cpm
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SINAU"
+  created 2008-03-10T16:53:25-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SINAU\SINAU.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SINAU$\SINAU.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMTX"
+  created 2015-05-04T11:34:56-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMTX\SIMTX.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMTX$\SIMTX.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIPAN"
+  created 2010-07-08T12:22:45-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIPAN\SIPAN.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIPAN$\SIPAN.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_INDRA
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIMAA"
+  created 2007-10-11T13:44:05-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIMAA\SIMAA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIMAA$\SIMAA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITEC"
+  created 2012-03-02T14:33:04-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITEC\SITEC.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITEC$\SITEC.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_RESOURCE
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGAT"
+  created 2008-02-13T13:33:15-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGAT\SIGAT.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGAT$\SIGAT.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITAG"
+  created 2008-04-01T14:56:12-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITAG\SITAG.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITAG$\SITAG.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_foton
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGDA"
+  created 2008-01-22T13:54:29-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGDA\SIGDA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGDA$\SIGDA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGSJ"
+  created 2008-03-27T14:18:15-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGSJ\SIGSJ.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGSJ$\SIGSJ.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\CON_PEDEP_SP"
+  created 2011-11-02T11:51:32-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  "Conglomerado PEDEP-SP"
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\Clearcase_storage\VOBs\CON_PEDEP_SP\CON_PEDEP_SP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\CON_PEDEP_SP$\CON_PEDEP_SP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 pedep sp
+    group CORPCAIXA\g cs7266 cc_regiao_captar
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    RelocationVOB -> <object not available>
+    AdminVOB <- vob:\SID03
+    AdminVOB <- vob:\SID02
+    AdminVOB <- vob:\SID04
+    AdminVOB <- vob:\SID08
+    AdminVOB <- vob:\SID09
+    AdminVOB <- vob:\SID01
+    AdminVOB <- vob:\SID07
+    AdminVOB <- vob:\SID06
+    AdminVOB <- vob:\SID05
+    AdminVOB <- vob:\SID49
+    AdminVOB <- vob:\SID00
+versioned object base "\SIAME"
+  created 2014-04-11T18:11:07-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\Clearcase_storage\VOBs\SIAME\SIAME.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIAME$\SIAME.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G DF7390 PRESTAR_SERVICO2
+    group CORPCAIXA\G DF7390 FINANCIAMENTO_IMOBILIARIO
+    group CORPCAIXA\G DF7390 NOVAS_TECNOLOGIAS
+    group CORPCAIXA\g cr7265 suporte_caixa
+    group CORPCAIXA\G DF7390 GESTAO_SUPORTE
+    group CORPCAIXA\G DF7390 CPM_BRAXIS
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+  Hyperlinks:
+    ? <- <object not available>
+    ? <- <object not available>
+    ? <- <object not available>
+    ? <- <object not available>
+    ? <- <object not available>
+versioned object base "\SISAG"
+  created 2008-09-05T15:06:50-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\Clearcase_storage\VOBs\SISAG\SISAG.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SISAG$\SISAG.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_foton
+    group CORPCAIXA\g cs7266 sisag
+    group CORPCAIXA\g cs7266 sisag_restrito
+    group CORPCAIXA\G CS7266 SISAG_RESTRITO_DIEBOLD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIB24"
+  created 2008-01-10T15:04:37-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIB24\SIB24.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIB24$\SIB24.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\AC_ESPEC_SP"
+  created 2013-04-10T17:10:37-03:00 by Conta de Servico ClearCase - GEMEP (s540401.G CD5404 ClearCase@CXEXTRNT270)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\AC_ESPEC_SP\AC_ESPEC_SP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\AC_ESPEC_SP$\AC_ESPEC_SP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\AC_BAM"
+  created 2014-12-22T15:35:13-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\AC_BAM\AC_BAM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\AC_BAM$\AC_BAM.vbs"
+  database schema version: 80
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRANVAL"
+  created 2008-03-10T17:53:22-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRANVAL\SIRANVAL.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRANVAL$\SIRANVAL.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGAP"
+  created 2012-08-15T10:35:53-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGAP\SIGAP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGAP$\SIGAP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITIF"
+  created 2008-04-01T14:57:04-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITIF\SITIF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITIF$\SITIF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_stefanini
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIRANCRI"
+  created 2008-03-10T17:51:35-03:00 by Conta de Servico ClearCase - GEMEP (S540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIRANCRI\SIRANCRI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIRANCRI$\SIRANCRI.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\G CS7266 CC_SIRAN RESTRITO
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SITDF"
+  created 2010-04-29T12:36:38-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SITDF\SITDF.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SITDF$\SITDF.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGIA"
+  created 2020-07-23T16:37:40-03:00 by f541364.g cs7266 cc_regiao_qualidade_sp@CADSVAPRNT002
+  VOB family feature level: 6
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGIA\SIGIA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGIA$\SIGIA.vbs"
+  database schema version: 80
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  srfm: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\G CS7266 CC_REGIAO_FINANCEIRO
+    group CORPCAIXA\G CS7266 CC_REGIAO_FIRST_DECISION
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 6
+versioned object base "\SIBAM"
+  created 2015-11-26T09:17:56-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIBAM\SIBAM.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIBAM$\SIBAM.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIGAI"
+  created 2020-11-23T15:57:53-03:00 by f541364.G CS7266 CC_REGIAO_QUALIDADE_SP@CADSVAPRNT002
+  VOB family feature level: 6
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIGAI\SIGAI.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIGAI$\SIGAI.vbs"
+  database schema version: 80
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  srfm: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_SPREAD
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 6
+versioned object base "\CEFLDAP"
+  created 2009-01-27T15:40:39-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\CEFLDAP\CEFLDAP.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\CEFLDAP$\CEFLDAP.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_cartoes
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SIROTCON"
+  created 2009-01-27T15:42:51-03:00 by Conta de Servico ClearCase - GEMEP (s540401.Domain Users@cx7266nt335)
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SIROTCON\SIROTCON.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SIROTCON$\SIROTCON.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_canais
+    group CORPCAIXA\G CS7266 CC_REGIAO_CAST
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+versioned object base "\SICOB_COB2VIA"
+  created 2010-11-22T08:27:40-03:00 by s540401.G CD5404 ClearCase@CXEXTRNT270
+  VOB family feature level: 5
+  VOB storage host:pathname "cadsvaprnt002.extra.caixa.gov.br:F:\ClearCase_Storage\VOBs\SICOB_COB2VIA\SICOB_COB2VIA.vbs"
+  VOB storage global pathname "\\cadsvaprnt002.extra.caixa.gov.br\SICOB_COB2VIA$\SICOB_COB2VIA.vbs"
+  database schema version: 54
+  modification by remote privileged user: allowed
+  atomic checkin: disabled
+  VOB ownership:
+    owner CORPCAIXA\s725933
+    group CORPCAIXA\g7259csp
+  Additional groups:
+    group CORPCAIXA\g cs7266 cc_regiao_qualidade_sp
+    group CORPCAIXA\g cs7266 cc_regiao_ti_metricas
+    group CORPCAIXA\g cs7266 cc_caixa_escrita
+    group CORPCAIXA\g cs7266 cc_todos_escrita
+    group CORPCAIXA\g cs7266 cc_metricas
+    group CORPCAIXA\g cs7266 cc_regiao_servicos_bancarios
+    group CORPCAIXA\g cs7266 cc_regiao_global_web
+  ACLs enabled: No
+  Attributes:
+    FeatureLevel = 5
+>>>>>>> 38e7687b66ec97dbe15a9f35f48bd910fd6a558f:_Arquivos/DESC_SP.txt
