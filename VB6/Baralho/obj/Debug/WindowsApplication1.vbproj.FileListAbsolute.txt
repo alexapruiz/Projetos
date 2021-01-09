@@ -1,4 +1,0 @@
-D:\Pessoal\Projetos Alex\Baralho\obj\Debug\WindowsApplication1.vbprojAssemblyReference.cache
-D:\Pessoal\Projetos Alex\Baralho\obj\Debug\Interop.ADOMD.dll
-D:\Pessoal\Projetos Alex\Baralho\obj\Debug\WindowsApplication1.exe
-D:\Pessoal\Projetos Alex\Baralho\obj\Debug\WindowsApplication1.pdb

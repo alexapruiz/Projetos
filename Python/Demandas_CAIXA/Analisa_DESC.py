@@ -14,6 +14,11 @@ saida = ''
 GRUPO_CAIXA = ''
 GRUPO_FABRICA = ''
 OUTROS_GRUPOS = ''
+
+#Escrevendo as colunas do cabeçalho do arquivo de saida
+arquivo_saida.write('VOB;Grupo CAIXA;Grupo Fabrica;Outros Grupos;Outros Grupos;Outros Grupos')
+arquivo_saida.write('\n')
+
 for linha in arquivo:
     if linha.find('versioned') != -1:
         #Encontrou a primeira linha da VOB
