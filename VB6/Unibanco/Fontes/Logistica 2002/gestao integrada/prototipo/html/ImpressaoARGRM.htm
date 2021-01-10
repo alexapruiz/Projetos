@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>IndiceHistorico</title>
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<meta content="Microsoft Visual Studio.NET 7.0" name="GENERATOR">
+		<meta content="VisualStudio.HTML" name="ProgId">
+		<meta content="Microsoft Visual Studio.NET 7.0" name="Originator">
+		<script language="javascript" id="clientEventHandlersJS">
+<!--
+
+<!--VISIBILITY: 
+
+function c_onclick() {
+	Table1.style.visibility=hidden
+	
+}
+
+//-->
+		</script>
+	</head>
+	<body MS_POSITIONING="GridLayout">
+		<IMG id="BG_UBB" style="FONT-SIZE: 11px; Z-INDEX: 101; LEFT: -159px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 157px" height="252" src="Imagens/BG_NoMenuGE.jpg" width="457">
+		<DIV id="PainelParametros" style="BORDER-RIGHT: buttonface thin inset; BORDER-TOP: buttonface thin inset; FONT-SIZE: 11px; Z-INDEX: 114; LEFT: 8px; BORDER-LEFT: buttonface thin inset; WIDTH: 604px; BORDER-BOTTOM: buttonface thin inset; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 8px; HEIGHT: 61px" ms_positioning="GridLayout">&nbsp;
+			<DIV language="javascript" id="lblAgencia" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 100; LEFT: 8px; WIDTH: 46px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 13px" onclick="return DIV2_onclick()" ms_positioning="FlowLayout">Agência</DIV>
+			<INPUT id="txtAgencia" style="FONT-SIZE: 11px; Z-INDEX: 101; LEFT: 7px; WIDTH: 32px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="1" name="Text1">
+			<INPUT id="txtConta" style="FONT-SIZE: 11px; Z-INDEX: 102; LEFT: 60px; WIDTH: 62px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="5" name="Text1">
+			<INPUT id="Text1" style="FONT-SIZE: 11px; Z-INDEX: 104; LEFT: 161px; WIDTH: 107px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="12" name="Text1">&nbsp;
+			<INPUT id="cmdExecutar" style="FONT-SIZE: 11px; Z-INDEX: 106; LEFT: 535px; WIDTH: 59px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 13px; HEIGHT: 31px" type="submit" value="Executar" name="Submit1">
+			<DIV style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 103; LEFT: 160px; WIDTH: 75px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 14px" ms_positioning="FlowLayout">&nbsp;AR 
+				ou GRM</DIV>
+			<DIV id="lblPeriodo" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 107; LEFT: 290px; WIDTH: 118px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 2px; HEIGHT: 17px" ms_positioning="FlowLayout">Período 
+				da Consulta</DIV>
+			<DIV language="javascript" id="LblDe" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 108; LEFT: 290px; WIDTH: 17px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 22px; HEIGHT: 14px" onclick="return DIV1_onclick()" ms_positioning="FlowLayout">De</DIV>
+			<SELECT language="javascript" id="cmbData1" style="FONT-SIZE: 11px; Z-INDEX: 109; LEFT: 315px; WIDTH: 90px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 19px" onclick="return cmbData1_onclick()" name="cmbData1">
+				<OPTION value="" selected>
+				25/05/2002<OPTION value="">
+				26/05/2002<OPTION value="">
+				27/05/2002<OPTION value="">
+				28/05/2002<OPTION value="">
+				29/05/2002<OPTION value="">
+				30/05/2002<OPTION value="">
+				31/05/2002<OPTION value="">01/06/2002</OPTION>
+			</SELECT>
+			<DIV language="javascript" id="LblAte" title="Até" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 110; LEFT: 414px; WIDTH: 21px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 22px; HEIGHT: 15px" onclick="return LblAte_onclick()" ms_positioning="FlowLayout">Até</DIV>
+			<SELECT language="javascript" id="cmbData2" style="FONT-SIZE: 11px; Z-INDEX: 111; LEFT: 440px; WIDTH: 90px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 19px" onclick="return cmbData2_onclick()" name="cmbData2">
+				<OPTION value="" selected>
+				25/05/2002<OPTION value="">
+				26/05/2002<OPTION value="">
+				27/05/2002<OPTION value="">
+				28/05/2002<OPTION value="">
+				29/05/2002<OPTION value="">
+				30/05/2002<OPTION value="">
+				31/05/2002<OPTION value="">01/06/2002</OPTION>
+			</SELECT>
+			<DIV language="javascript" id="lblAgencia" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 112; LEFT: 60px; WIDTH: 46px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 13px" onclick="return DIV2_onclick()" ms_positioning="FlowLayout">Conta</DIV>
+		</DIV>
+		&nbsp; <INPUT id="Submit1" style="FONT-SIZE: 11px; Z-INDEX: 113; LEFT: 559px; WIDTH: 74px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 309px; HEIGHT: 26px" type="submit" value="Imprimir" name="Submit1">
+		<TABLE id="Table2" style="FONT-SIZE: 11px; Z-INDEX: 115; LEFT: 10px; WIDTH: 1378px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 72px; HEIGHT: 62px" cellSpacing="0" cellPadding="1" width="1378" border="1"> <!-- style="FONT-SIZE: 11px; COLOR: #194271; FONT-FAMILY: Verdana"-->
+			<TR>
+				<th style="WIDTH: 19px">
+					Sel</th>
+				<TH style="HEIGHT: 26px" align="middle">
+					Número AR/GRM
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Data Solicitação
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Data Fabricação
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Data Coleta
+				</TH>
+				<TH style="WIDTH: 89px; HEIGHT: 26px" align="middle">
+					Ag/Cc
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Região
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Coordenadoria
+				</TH>
+				<TH style="WIDTH: 66px; HEIGHT: 26px" align="middle">
+					Segmento
+				</TH>
+				<TH style="WIDTH: 78px; HEIGHT: 26px" align="middle">
+					Canal de Entrada
+				</TH>
+				<TH style="WIDTH: 146px; HEIGHT: 26px" align="left">
+					Nome Cliente
+				</TH>
+				<TH style="WIDTH: 180px; HEIGHT: 26px" align="middle">
+					Endereço
+				</TH>
+				<TH style="WIDTH: 101px; HEIGHT: 26px" align="middle">
+					Complemento
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Cidade
+				</TH>
+				<TH style="WIDTH: 23px; HEIGHT: 26px" align="middle">
+					UF
+				</TH>
+				<TH style="WIDTH: 51px; HEIGHT: 26px" align="middle">
+					CEP
+				</TH>
+				<TH style="HEIGHT: 26px" align="middle">
+					Status&nbsp;
+				</TH>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox1" type="checkbox" name="Checkbox1"></td>
+				<TD align="middle">2544
+				</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1708
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Exclusivo
+				</TD>
+				<TD style="WIDTH: 78px" align="middle">30 horas
+				</TD>
+				<TD style="WIDTH: 146px" align="left">Lúcia Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">João Cabral de Melo Neto,150
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap 61
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">04116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox2" type="checkbox" name="Checkbox2"></td>
+				<TD align="middle">7818&nbsp;</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1256
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Uni Class&nbsp;</TD>
+				<TD style="WIDTH: 78px" align="middle">Internet&nbsp;</TD>
+				<TD style="WIDTH: 146px" align="left">Ana Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">Ariano Suassuna,180
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap&nbsp;72
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">05116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Não Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox3" type="checkbox" name="Checkbox3"></td>
+				<TD align="middle">1930&nbsp;</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">2581</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Exclusivo
+				</TD>
+				<TD style="WIDTH: 78px" align="middle">30 horas
+				</TD>
+				<TD style="WIDTH: 146px" align="left">Lúcia Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">João Cabral de Melo Neto,150
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap 61
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">04116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox4" type="checkbox" name="Checkbox4"></td>
+				<TD align="middle">7818&nbsp;</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1256
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Uni Class&nbsp;</TD>
+				<TD style="WIDTH: 78px" align="middle">Internet&nbsp;</TD>
+				<TD style="WIDTH: 146px" align="left">Ana Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">Ariano Suassuna,180
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap&nbsp;72
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">05116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Não Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox5" type="checkbox" name="Checkbox5"></td>
+				<TD align="middle">2544
+				</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1708
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Exclusivo
+				</TD>
+				<TD style="WIDTH: 78px" align="middle">30 horas
+				</TD>
+				<TD style="WIDTH: 146px" align="left">Lúcia Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">João Cabral de Melo Neto,150
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap 61
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">04116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox6" type="checkbox" name="Checkbox6"></td>
+				<TD align="middle">7818&nbsp;</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1256
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Uni Class&nbsp;</TD>
+				<TD style="WIDTH: 78px" align="middle">Internet&nbsp;</TD>
+				<TD style="WIDTH: 146px" align="left">Ana Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">Ariano Suassuna,180
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap&nbsp;72
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">05116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Não Entregue&nbsp;
+				</TD>
+			</TR>
+			<TR>
+				<td style="WIDTH: 19px">
+					<INPUT id="Checkbox7" type="checkbox" name="Checkbox7"></td>
+				<TD align="middle">2544
+				</TD>
+				<TD align="middle">20/06/2002
+				</TD>
+				<TD align="middle">21/06/2002
+				</TD>
+				<TD align="middle">22/06/2002
+				</TD>
+				<TD style="WIDTH: 89px" align="middle">0482 7228543
+				</TD>
+				<TD align="middle">1708
+				</TD>
+				<TD align="middle">Central
+				</TD>
+				<TD style="WIDTH: 66px" align="middle">Exclusivo
+				</TD>
+				<TD style="WIDTH: 78px" align="middle">30 horas
+				</TD>
+				<TD style="WIDTH: 146px" align="left">Lúcia Helena
+				</TD>
+				<TD style="WIDTH: 180px" align="left">João Cabral de Melo Neto,150
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">ap 61
+				</TD>
+				<TD style="WIDTH: 101px" align="middle">São Paulo
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">SP
+				</TD>
+				<TD style="WIDTH: 51px" align="middle">04116170
+				</TD>
+				<TD style="WIDTH: 23px" align="middle">Entregue&nbsp;
+				</TD>
+			</TR>
+		</TABLE>
+	</body>
+</html>

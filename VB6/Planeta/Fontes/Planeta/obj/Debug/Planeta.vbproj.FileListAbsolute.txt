@@ -1,0 +1,50 @@
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\bin\Debug\Planeta.exe
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\bin\Debug\Planeta.pdb
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\bin\Debug\Planeta.xml
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.Principal.resources
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.Resources.resources
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.vbproj.GenerateResource.Cache
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.exe
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.xml
+D:\Projetos\Planeta\Fontes\Planeta\Planeta\obj\Debug\Planeta.pdb
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Interop.ADODB.dll
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Interop.MSComDlg.dll
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Interop.MSFlexGridLib.dll
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.vbproj.ResolveComReference.cache
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.exe
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.xml
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.pdb
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Planeta.exe
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Planeta.pdb
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Planeta.xml
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Interop.ADODB.dll
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Interop.MSComDlg.dll
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Interop.MSFlexGridLib.dll
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.Principal.resources
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.Resources.resources
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaClientes.resources
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaPedidos.resources
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.vbproj.GenerateResource.Cache
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaRelatorios.resources
+D:\Projetos\Planeta\Fontes\Planeta\bin\Debug\Planeta.exe.config
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.Relatorios.resources
+D:\Projetos\Planeta\Fontes\Planeta\obj\Debug\Planeta.SelecionaRelatorio.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\bin\Debug\Planeta.exe.config
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Interop.ADODB.dll
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Interop.MSComDlg.dll
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Interop.MSFlexGridLib.dll
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.vbproj.ResolveComReference.cache
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.exe
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.xml
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.pdb
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.Principal.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.Relatorios.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.SelecionaRelatorio.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaRelatorios.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.Resources.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaClientes.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.TelaPedidos.resources
+C:\Projetos Alex\Planeta\Fontes\Planeta\obj\Debug\Planeta.vbproj.GenerateResource.Cache

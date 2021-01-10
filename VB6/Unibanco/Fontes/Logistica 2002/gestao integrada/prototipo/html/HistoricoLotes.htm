@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>IndiceHistorico</title>
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<meta content="Microsoft Visual Studio.NET 7.0" name="GENERATOR">
+		<meta content="VisualStudio.HTML" name="ProgId">
+		<meta content="Microsoft Visual Studio.NET 7.0" name="Originator">
+		<script language="javascript" id="clientEventHandlersJS">
+<!--
+
+<!--VISIBILITY: 
+
+function c_onclick() {
+	Table1.style.visibility=hidden
+	
+}
+
+//-->
+		</script>
+	</head>
+	<body MS_POSITIONING="GridLayout">
+		<IMG id="BG_UBB" style="FONT-SIZE: 11px; Z-INDEX: 100; LEFT: -159px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 157px" height="252" src="Imagens/BG_NoMenuGE.jpg" width="457">&nbsp;
+		<DIV id="PainelParametros" style="BORDER-RIGHT: buttonface thin inset; BORDER-TOP: buttonface thin inset; FONT-SIZE: 11px; Z-INDEX: 101; LEFT: 9px; BORDER-LEFT: buttonface thin inset; WIDTH: 604px; BORDER-BOTTOM: buttonface thin inset; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 6px; HEIGHT: 61px" ms_positioning="GridLayout">&nbsp;
+			<DIV language="javascript" id="lblAgencia" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 100; LEFT: 8px; WIDTH: 46px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 13px" onclick="return DIV2_onclick()" ms_positioning="FlowLayout">Agência</DIV>
+			<INPUT id="txtAgencia" style="FONT-SIZE: 11px; Z-INDEX: 101; LEFT: 7px; WIDTH: 32px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="1" name="Text1">
+			<INPUT id="txtConta" style="FONT-SIZE: 11px; Z-INDEX: 102; LEFT: 60px; WIDTH: 62px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="5" name="Text1">
+			<INPUT id="Text1" style="FONT-SIZE: 11px; Z-INDEX: 104; LEFT: 161px; WIDTH: 107px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 18px" type="text" size="12" name="Text1">&nbsp;
+			<INPUT id="cmdExecutar" style="FONT-SIZE: 11px; Z-INDEX: 106; LEFT: 535px; WIDTH: 59px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 10px; HEIGHT: 31px" type="submit" value="Executar" name="Submit1">
+			<DIV style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 103; LEFT: 160px; WIDTH: 75px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 14px" ms_positioning="FlowLayout">&nbsp;AR 
+				ou GRM</DIV>
+			<DIV id="lblPeriodo" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 107; LEFT: 290px; WIDTH: 118px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 2px; HEIGHT: 17px" ms_positioning="FlowLayout">Período 
+				da Consulta</DIV>
+			<DIV language="javascript" id="LblDe" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 108; LEFT: 290px; WIDTH: 17px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 22px; HEIGHT: 14px" onclick="return DIV1_onclick()" ms_positioning="FlowLayout">De</DIV>
+			<SELECT language="javascript" id="cmbData1" style="FONT-SIZE: 11px; Z-INDEX: 109; LEFT: 315px; WIDTH: 90px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 19px" onclick="return cmbData1_onclick()" name="cmbData1">
+				<OPTION value="" selected>
+				25/05/2002<OPTION value="">
+				26/05/2002<OPTION value="">
+				27/05/2002<OPTION value="">
+				28/05/2002<OPTION value="">
+				29/05/2002<OPTION value="">
+				30/05/2002<OPTION value="">
+				31/05/2002<OPTION value="">01/06/2002</OPTION>
+			</SELECT>
+			<DIV language="javascript" id="LblAte" title="Até" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 110; LEFT: 414px; WIDTH: 21px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 22px; HEIGHT: 15px" onclick="return LblAte_onclick()" ms_positioning="FlowLayout">Até</DIV>
+			<SELECT language="javascript" id="cmbData2" style="FONT-SIZE: 11px; Z-INDEX: 111; LEFT: 440px; WIDTH: 90px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 20px; HEIGHT: 19px" onclick="return cmbData2_onclick()" name="cmbData2">
+				<OPTION value="" selected>
+				25/05/2002<OPTION value="">
+				26/05/2002<OPTION value="">
+				27/05/2002<OPTION value="">
+				28/05/2002<OPTION value="">
+				29/05/2002<OPTION value="">
+				30/05/2002<OPTION value="">
+				31/05/2002<OPTION value="">01/06/2002</OPTION>
+			</SELECT>
+			<DIV language="javascript" id="lblAgencia" style="DISPLAY: inline; FONT-SIZE: 11px; Z-INDEX: 112; LEFT: 60px; WIDTH: 46px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 3px; HEIGHT: 13px" onclick="return DIV2_onclick()" ms_positioning="FlowLayout">Conta</DIV>
+		</DIV>
+		<TABLE id="Grid1" style="FONT-SIZE: 11px; Z-INDEX: 102; LEFT: 8px; WIDTH: 607px; COLOR: #194271; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 71px; HEIGHT: 129px" cellSpacing="1" cols="6" cellPadding="0" width="607" border="1">
+			<TR>
+				<TH bgColor="buttonface" colSpan="7">
+					Histórico dos Lotes</TH>
+			<TR>
+				<TH style="HEIGHT: 23px">
+					Det</TH>
+				<TH style="WIDTH: 40px; HEIGHT: 23px">
+					Num
+				</TH>
+				<TH style="WIDTH: 63px; HEIGHT: 23px">
+					Tipo
+				</TH>
+				<TH style="WIDTH: 114px; HEIGHT: 23px">
+					Agência/Conta</TH>
+				<TH style="WIDTH: 197px; HEIGHT: 23px">
+					Nome Cliente</TH>
+				<TH style="HEIGHT: 23px">
+					Endereço Cliente</TH>
+			<TR>
+				<TD style="WIDTH: 4px" width="4" height="1"><FONT size="1"><FONT size="1">
+							<P><FONT size="1"><INPUT id="Radio1" type="radio" value="Radio1" name="RadioGroup"></FONT></P>
+						</FONT></FONT>
+				</TD>
+				<TD style="WIDTH: 40px">&nbsp;2544
+				</TD>
+				<TD style="WIDTH: 63px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AR
+				</TD>
+				<TD style="WIDTH: 114px" height="1">
+					<P><FONT size="1">0263&nbsp; 119232-1 </FONT>
+					</P>
+				</TD>
+				<TD style="WIDTH: 197px" align="middle">Lúcia Helena</TD>
+				<TD align="middle">Av.Brasil
+				</TD>
+			</TR>
+			<TR>
+				<TD style="WIDTH: 4px; HEIGHT: 22px" width="4" height="22"><P><FONT size="1"><INPUT id="Radio2" type="radio" value="Radio2" name="RadioGroup"></FONT></P>
+				</TD>
+				<TD style="WIDTH: 40px">&nbsp;2544
+				</TD>
+				<TD style="WIDTH: 63px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AR
+				</TD>
+				<TD style="WIDTH: 114px; HEIGHT: 22px" height="22"><FONT size="1">0044&nbsp; 100111-0</FONT></TD>
+				<TD style="WIDTH: 197px" align="middle">Lúcia Helena</TD>
+				<TD style="HEIGHT: 22px" align="middle">Av.Paulista</TD>
+			</TR>
+			<TR>
+				<TD style="WIDTH: 4px"><FONT size="1"><INPUT id="Radio3" type="radio" value="Radio3" name="RadioGroup"></FONT></TD>
+				<TD style="WIDTH: 40px">&nbsp;2544
+				</TD>
+				<TD style="WIDTH: 63px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AR
+				</TD>
+				<TD style="WIDTH: 114px"><FONT size="1">0330&nbsp; 100111-0</FONT></TD>
+				<TD style="WIDTH: 197px" align="middle">Lúcia Helena
+				</TD>
+				<TD align="middle">Rua Augusta
+				</TD>
+			</TR>
+		</TABLE>
+		<TABLE id="Table1" style="FONT-SIZE: 11px; Z-INDEX: 106; LEFT: 6px; WIDTH: 610px; COLOR: #194271; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 209px; HEIGHT: 327px" cellSpacing="1" cellPadding="1" width="610" border="1">
+			<TR>
+				<TH bgColor="buttonface" colSpan="8">
+					Detalhamento</TH></TR>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Solicitação</TH>
+				<TD style="WIDTH: 77px" align="middle">08/06/2002</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			</TR>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Fabricação</TH>
+				<td style="WIDTH: 77px" align="middle">10/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Não Fabricação</TH>
+				<td style="WIDTH: 77px" align="middle">10/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data Coleta</TH>
+				<td style="WIDTH: 77px" align="middle">12/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH align="middle" bgColor="buttonface" colSpan="4">
+					Tentativa de Entrega</TH></tr>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 1ª Tentativa Entrega</TH>
+				<td style="WIDTH: 77px" align="middle">15/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 2ª Tentativa Entrega</TH>
+				<td style="WIDTH: 77px" align="middle">15/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 3ª Tentativa Entrega</TH>
+				<td style="WIDTH: 77px" align="middle">16/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH align="middle" bgColor="buttonface" colSpan="4">
+					CSP</TH></tr>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Envio CSP</TH>
+				<td style="WIDTH: 77px" align="middle">16/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Contato CSP</TH>
+				<td style="WIDTH: 77px" align="middle">16/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<TR>
+				<TH style="WIDTH: 186px" align="left">
+					Data Devolução CSP</TH>
+				<td style="WIDTH: 77px" align="middle">16/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH align="middle" bgColor="buttonface" colSpan="4">
+					Tentativa de Reentrega</TH></tr>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 1ª tentativa Reentrega</TH>
+				<td style="WIDTH: 77px" align="middle">18/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 2ª tentativa Reentrega</TH>
+				<td style="WIDTH: 77px" align="middle">19/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH style="WIDTH: 186px" align="left">
+					Data 3ª tentativa Reentrega</TH>
+				<td style="WIDTH: 77px" align="middle">20/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH align="middle" bgColor="buttonface" colSpan="4">
+					Entrega</TH></tr>
+			<tr>
+				<TH style="WIDTH: 186px; HEIGHT: 16px" align="left">
+					Data Entrega</TH>
+				<td style="WIDTH: 77px; HEIGHT: 16px" align="middle">21/06/2002</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					&nbsp;&nbsp;&nbsp;</th>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<tr>
+				<TH align="middle" bgColor="buttonface" colSpan="4">
+					Fragmentação</TH></tr>
+			<tr>
+				<TH align="left" style="WIDTH: 186px">
+					Data Fragmentação</TH><td style="WIDTH: 77px">&nbsp;</td>
+				</TD>
+				<th style="WIDTH: 69px">
+					Motivo</th><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			</tr>
+		</TABLE>
+		<INPUT id="Submit1" style="FONT-SIZE: 11px; Z-INDEX: 113; LEFT: 274px; WIDTH: 74px; FONT-FAMILY: Verdana, Arial, Sans-Serif; POSITION: absolute; TOP: 600px; HEIGHT: 24px" type="submit" value="Fechar" name="Submit1">
+	</body>
+</html>

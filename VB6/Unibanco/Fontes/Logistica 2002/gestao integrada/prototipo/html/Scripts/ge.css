@@ -1,0 +1,157 @@
+TABLE.TZebra
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt
+}
+TR.TTitle
+{
+    BACKGROUND-COLOR: #999999;
+    BORDER-BOTTOM: 0px solid;
+    BORDER-LEFT: 0px solid;
+    BORDER-RIGHT: 0px solid;
+    BORDER-TOP: 0px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    spacing: 0px
+}
+TR.TItemOn
+{
+    BACKGROUND-COLOR: #d9d9d9;
+    BORDER-BOTTOM: 0px solid;
+    BORDER-LEFT: 0px solid;
+    BORDER-RIGHT: 0px solid;
+    BORDER-TOP: 0px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    spacing: 0px
+}
+TR.TIemOff
+{
+    BACKGROUND-COLOR: #f4f4f4;
+    BORDER-BOTTOM: 0px solid;
+    BORDER-LEFT: 0px solid;
+    BORDER-RIGHT: 0px solid;
+    BORDER-TOP: 0px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    spacing: 0px
+}
+TR.TBG
+{
+    BACKGROUND-COLOR: #c0c0c0;
+    BORDER-BOTTOM: 0px solid;
+    BORDER-LEFT: 0px solid;
+    BORDER-RIGHT: 0px solid;
+    BORDER-TOP: 0px solid;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    spacing: 0px
+}
+TR.TSelect
+{
+    BACKGROUND-COLOR: darkblue;
+    BORDER-BOTTOM: 0px solid;
+    BORDER-LEFT: 0px solid;
+    BORDER-RIGHT: 0px solid;
+    BORDER-TOP: 0px solid;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    spacing: 0px
+}
+.MenuOn
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-COLOR: white;
+    BACKGROUND-POSITION: 0% 50%;
+    BACKGROUND-REPEAT: repeat;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+.MenuOff
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-COLOR: black;
+    BACKGROUND-POSITION: 0% 50%;
+    BACKGROUND-REPEAT: repeat;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+DIV.Off
+{
+    HEIGHT: 0px;
+    POSITION: absolute;
+    WIDTH: 0px
+}
+P.Erro
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-COLOR: #888833;
+    BACKGROUND-POSITION: 0% 50%;
+    BACKGROUND-REPEAT: repeat;
+    BORDER-BOTTOM: black 2px solid;
+    BORDER-LEFT: black 2px solid;
+    BORDER-RIGHT: black 2px solid;
+    BORDER-TOP: black 2px solid;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 1em;
+    PADDING-LEFT: 1em;
+    PADDING-RIGHT: 1em;
+    PADDING-TOP: 1em;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+A:link
+{
+    COLOR: blue;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: blue;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: blue;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none
+}
