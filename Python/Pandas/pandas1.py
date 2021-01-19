@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 
 #Definindo uma lista para nomear as colunas
@@ -40,5 +41,9 @@ print("Qtde de Pressão Alta (acima de 15): " + str(dados[(dados.pressao_max > 1
 print("Qtde de Pressão Alta e Coração OK: " + str(dados[(dados.pressao_max > 150) & (dados.doenca_coracao == 0)].count()[0]))
 print("Qtde de Cardíacos com Pressão Alta (acima de 15): " + str(dados[(dados.doenca_coracao == 1) & (dados.pressao_max > 150)].count()[0]))
 print("Qtde de Fumantes Saudáveis (Sem doenças / sintomas): " + str(dados[(dados.fumante == 1) & (dados.doenca_coracao == 0) & (dados.pressao_max <= 120) & (dados.colesterol == 1) & (dados.glicemia == 1) ].count()[0]))
-
 print('Idade Média: ' + str(dados['idade'].mean()))
+
+st.title("Exibindo dados do DataFrame através do StreamLit")
+st.sidebar.info("SideBar")
+st.sidebar.slider("Selecione um filtro")
+st.write(dados)
