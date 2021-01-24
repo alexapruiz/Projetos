@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 colunas = ['id','idade','genero','altura','peso','pressao_max','pressao_min','colesterol','diabetes','fuma','bebe','ativo','coracao']
-cardio = pd.read_csv('c:\\Projetos\\_Arquivos\\cardio2.csv', sep=';',names=colunas,header=1)
+cardio = pd.read_csv('c:\\Projetos\\_Arquivos\\Cardio\\cardio2.csv', sep=';',names=colunas,header=1)
 x = cardio[['idade','peso','pressao_max','colesterol','diabetes','fuma']]
 y = cardio["coracao"]
 

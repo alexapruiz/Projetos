@@ -94,10 +94,10 @@ while True:
     screen.fill((0, 0, 0))
     screen.blit(apple, apple_pos)
 
-    #for x in range(0, 900, 10):  # Draw vertical lines
-    #    pygame.draw.line(screen, (40, 40, 40), (x, 0), (x, 900))
-    #for y in range(0, 600, 10):  # Draw vertical lines
-    #    pygame.draw.line(screen, (40, 40, 40), (0, y), (900, y))
+    for x in range(0, 900, 10):  # Draw vertical lines
+        pygame.draw.line(screen, (40, 40, 40), (x, 0), (x, 900))
+    for y in range(0, 600, 10):  # Draw vertical lines
+        pygame.draw.line(screen, (40, 40, 40), (0, y), (900, y))
 
     score_font = font.render('Score: %s' % (score), True, (255, 255, 255))
     score_rect = score_font.get_rect()
