@@ -1,0 +1,33 @@
+interactions:
+- request:
+    body: '<?xml version=''1.0'' encoding=''utf-8''?>
+
+      <soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:buscaEventosLista
+      xmlns:ns0="http://resource.webservice.correios.com.br/"><usuario>teste</usuario><senha>****</senha><tipo>L</tipo><resultado>T</resultado><lingua>101</lingua><objetos>DU055087593BR</objetos></ns0:buscaEventosLista></soap-env:Body></soap-env:Envelope>'
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['418']
+      Content-Type: [text/xml; charset=utf-8]
+      SOAPAction: ['"buscaEventosLista"']
+      User-Agent: [Zeep/3.0.0 (www.python-zeep.org)]
+    method: POST
+    uri: http://webservice.correios.com.br/service/rastro
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soapenv:Envelope xmlns:soapenv=\"\
+        http://schemas.xmlsoap.org/soap/envelope/\"><soapenv:Header><X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace\
+        \ xmlns:X-OPNET-Transaction-Trace=\"http://opnet.com\">pid=83946,requestid=777da3eec4af7cec389e47ded06789ef77fad8ddf20aae3b</X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace></soapenv:Header><soapenv:Body><ns2:buscaEventosListaResponse\
+        \ xmlns:ns2=\"http://resource.webservice.correios.com.br/\"><return><versao>2.0</versao><qtd>1</qtd><objeto><numero>DU055087593BR</numero><erro>Objeto\
+        \ n\xE3o encontrado na base de dados dos Correios.</erro></objeto></return></ns2:buscaEventosListaResponse></soapenv:Body></soapenv:Envelope>"}
+    headers:
+      Connection: [Keep-Alive]
+      Content-Language: [pt-BR]
+      Content-Length: ['702']
+      Content-Type: [text/xml; charset=utf-8]
+      Date: ['Wed, 25 Jul 2018 21:41:27 GMT']
+      Keep-Alive: ['timeout=2, max=99995']
+      X-OPNET-Transaction-Trace: [a2_eaa5cc4d-9182-4a81-b2c4-fd688287a269]
+      X-Powered-By: [Servlet/3.0]
+    status: {code: 200, message: OK}
+version: 1

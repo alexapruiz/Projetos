@@ -1,0 +1,9 @@
+-r requirements.txt
+black; python_version >= '3.6'
+factory-boy
+pytest<5.0.0 #  https://github.com/pytest-dev/pytest-factoryboy/pull/78
+pytest-cov
+pytest-factoryboy
+tox
+vcrpy
+pre-commit

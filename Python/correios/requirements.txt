@@ -1,0 +1,11 @@
+phonenumbers
+Pillow
+
+# pdf
+reportlab
+hubarcode
+
+# api
+requests
+zeep
+lxml
