@@ -1,4 +1,0 @@
-rtc.usuarios=F515030,F570718,F957155
-rtc.roles=time
-rtc.teamAreaNome=FG8 - Canal FGTS Digital
-rtc.arquivo_areas=FUNDOS DE GOVERNO

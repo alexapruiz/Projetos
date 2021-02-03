@@ -1,4 +1,0 @@
-rtc.usuarios=C026952
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG7 - Conta e Lançamento/Remuneração e Saldo
-rtc.arquivo_areas=FUNDOS DE GOVERNO

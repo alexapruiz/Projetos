@@ -1,4 +1,0 @@
-rtc.usuarios=C089715,C141990,C142036,F540250,F542067,F997712
-rtc.roles=time
-rtc.teamAreaNome=DC04 - Squad D
-rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

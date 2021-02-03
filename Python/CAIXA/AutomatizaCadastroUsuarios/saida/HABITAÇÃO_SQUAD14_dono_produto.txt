@@ -1,4 +1,0 @@
-rtc.usuarios=C073569
-rtc.roles=dono_produto
-rtc.teamAreaNome=HA8 - ADMINISTRAÇÃO – SQUAD G
-rtc.arquivo_areas=HABITAÇÃO

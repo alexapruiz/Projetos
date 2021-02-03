@@ -1,4 +1,0 @@
-rtc.usuarios=C101492
-rtc.roles=Arquitect Owner
-rtc.teamAreaNome=Banco Digital - Análise de Clientes
-rtc.arquivo_areas=DADOS (BIG DATA, ANALYTICS E BI)

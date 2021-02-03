@@ -1,4 +1,0 @@
-rtc.usuarios=C111252
-rtc.roles=dono_produto
-rtc.teamAreaNome=IN04 - Imprensa e Intranet
-rtc.arquivo_areas=INSTITUCIONAL

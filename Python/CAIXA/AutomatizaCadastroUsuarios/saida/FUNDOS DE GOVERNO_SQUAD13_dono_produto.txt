@@ -1,4 +1,0 @@
-rtc.usuarios=C092200
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG20 - SIRPL / SIAES
-rtc.arquivo_areas=FUNDOS DE GOVERNO

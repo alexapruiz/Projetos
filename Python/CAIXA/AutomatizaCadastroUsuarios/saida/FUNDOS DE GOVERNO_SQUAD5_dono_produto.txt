@@ -1,4 +1,0 @@
-rtc.usuarios=C106627
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG13 - Pagamentos IF
-rtc.arquivo_areas=FUNDOS DE GOVERNO

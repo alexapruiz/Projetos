@@ -1,4 +1,0 @@
-rtc.usuarios=C111792,C134551,F576014,F616243,F724365,F760461
-rtc.roles=time
-rtc.teamAreaNome=CC1 - SIEFI
-rtc.arquivo_areas=CONTROLADORIA, CONTÁBEIS, TRIBUTOS E ORÇAMENTO

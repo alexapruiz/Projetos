@@ -1,4 +1,0 @@
-rtc.usuarios=C103879
-rtc.roles=lider_time
-rtc.teamAreaNome=AC2 - Débito
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

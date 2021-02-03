@@ -1,4 +1,0 @@
-rtc.usuarios=C077175
-rtc.roles=lider_time
-rtc.teamAreaNome=PS11 - BEM e Seguro Desemprego
-rtc.arquivo_areas=PROGRAMAS SOCIAIS

@@ -1,4 +1,0 @@
-rtc.usuarios=C094076,F512524,F578632,F651567,F727716,F736755
-rtc.roles=time
-rtc.teamAreaNome=FD14 - SIARG - Acomp de Necessidades da Ponta
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

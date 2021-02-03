@@ -1,4 +1,0 @@
-rtc.usuarios=F623084,F752388
-rtc.roles=time
-rtc.teamAreaNome=FP14 - SICRE, SIORF, SIORM e SISTA
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

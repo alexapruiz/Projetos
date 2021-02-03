@@ -1,4 +1,0 @@
-rtc.usuarios=C134551,F576014,F616243
-rtc.roles=time
-rtc.teamAreaNome=CC3 - SMCN
-rtc.arquivo_areas=CONTROLADORIA, CONTÁBEIS, TRIBUTOS E ORÇAMENTO

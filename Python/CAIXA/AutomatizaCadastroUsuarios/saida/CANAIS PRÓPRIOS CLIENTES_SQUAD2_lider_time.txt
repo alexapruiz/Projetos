@@ -1,4 +1,0 @@
-rtc.usuarios=C129481
-rtc.roles=lider_time
-rtc.teamAreaNome=CC10 - Auto Atendimento 1
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

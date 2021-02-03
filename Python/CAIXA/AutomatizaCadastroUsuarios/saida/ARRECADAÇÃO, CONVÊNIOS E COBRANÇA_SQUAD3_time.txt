@@ -1,4 +1,0 @@
-rtc.usuarios=C073819,C139521,F553996,F564132,F565258,F795071,F933728,F977160
-rtc.roles=time
-rtc.teamAreaNome=AC14 - Pagamentos e Cash Management
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

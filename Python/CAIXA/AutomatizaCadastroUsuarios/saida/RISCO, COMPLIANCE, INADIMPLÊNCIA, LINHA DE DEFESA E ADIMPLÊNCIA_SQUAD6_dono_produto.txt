@@ -1,4 +1,0 @@
-rtc.usuarios=C101275
-rtc.roles=dono_produto
-rtc.teamAreaNome=RC06 - Gestão de Capital
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

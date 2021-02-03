@@ -1,4 +1,0 @@
-rtc.usuarios=C051973
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG23 - FCVS Garantias
-rtc.arquivo_areas=FUNDOS DE GOVERNO

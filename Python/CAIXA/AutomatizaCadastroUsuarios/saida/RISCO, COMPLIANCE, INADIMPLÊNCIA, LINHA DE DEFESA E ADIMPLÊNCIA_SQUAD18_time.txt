@@ -1,4 +1,0 @@
-rtc.usuarios=F509524,F582443,F610559,F715967
-rtc.roles=time
-rtc.teamAreaNome=RC18 -  Gestão de Auditoria
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

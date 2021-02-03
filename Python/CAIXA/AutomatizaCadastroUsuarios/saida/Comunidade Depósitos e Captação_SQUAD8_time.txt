@@ -1,0 +1,4 @@
+rtc.usuarios=C099224,F541964,F586024,F629558,F655074,F719080
+rtc.roles=time
+rtc.teamAreaNome=DC08 - Squad 3
+rtc.arquivo_areas=Comunidade Depósitos e Captação

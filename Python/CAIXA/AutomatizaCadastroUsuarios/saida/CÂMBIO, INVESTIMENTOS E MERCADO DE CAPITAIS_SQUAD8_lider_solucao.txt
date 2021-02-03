@@ -1,4 +1,0 @@
-rtc.usuarios=C071099
-rtc.roles=lider_solucao
-rtc.teamAreaNome=CI08 - SIGFA 3
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

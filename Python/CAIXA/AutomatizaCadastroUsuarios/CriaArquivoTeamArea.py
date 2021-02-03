@@ -11,7 +11,7 @@ papel = conexao3.cursor()
 matricula = conexao4.cursor()
 
 #SELECIONA AS COMUNIDADES
-comunidade.execute('SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios ORDER BY COMUNIDADE')
+comunidade.execute("SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios where comunidade = 'Comunidade Depósitos e Captação' ORDER BY COMUNIDADE")
 for reg_comunidade in comunidade:
     # PARA CADA COMUNIDADE ENCONTRADA, PESQUISA OS SQUADS
     ComandoSQL = "SELECT DISTINCT(SQUAD) as SQUAD FROM Comunidade_Usuarios WHERE COMUNIDADE = '" + str(reg_comunidade[0]) + "' ORDER BY SQUAD"

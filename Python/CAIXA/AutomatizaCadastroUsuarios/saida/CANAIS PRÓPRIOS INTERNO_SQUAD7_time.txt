@@ -1,4 +1,0 @@
-rtc.usuarios=C082402,F580220,F600346,F698629,F755813,F958187,F958281,F974015
-rtc.roles=time
-rtc.teamAreaNome=CI7 - PNC Migração
-rtc.arquivo_areas=CANAIS PRÓPRIOS INTERNO

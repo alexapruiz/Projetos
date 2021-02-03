@@ -1,4 +1,0 @@
-rtc.usuarios=C117746,C141997,F512524,F624586,F645560,F695163,F736755,F736757,F752322,F932468
-rtc.roles=time
-rtc.teamAreaNome=AC11 - Cobrança 2
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

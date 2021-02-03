@@ -1,4 +1,0 @@
-rtc.usuarios=C078068
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI18 - SITEC - Sustentação/Melhorias
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

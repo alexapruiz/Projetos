@@ -1,4 +1,0 @@
-rtc.usuarios=C116363
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC11 - Auto Atendimento 2
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

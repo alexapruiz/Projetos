@@ -1,4 +1,0 @@
-rtc.usuarios=C130418
-rtc.roles=time
-rtc.teamAreaNome=PS1 - APP Bols Fam, APP Trab, Hotsite AE, Card CVC
-rtc.arquivo_areas=PROGRAMAS SOCIAIS

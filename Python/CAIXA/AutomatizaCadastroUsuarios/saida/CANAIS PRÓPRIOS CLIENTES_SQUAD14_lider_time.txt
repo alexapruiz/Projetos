@@ -1,4 +1,0 @@
-rtc.usuarios=C117753
-rtc.roles=lider_time
-rtc.teamAreaNome=CC9 - CAIXA Mais
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

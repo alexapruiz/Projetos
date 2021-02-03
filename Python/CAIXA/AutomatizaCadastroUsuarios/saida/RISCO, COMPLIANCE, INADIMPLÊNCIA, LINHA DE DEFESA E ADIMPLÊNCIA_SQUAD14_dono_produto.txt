@@ -1,4 +1,0 @@
-rtc.usuarios=C064363,C078546,C088844
-rtc.roles=dono_produto
-rtc.teamAreaNome=RC14 - Acompanhamento de Conformidade
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

@@ -1,4 +1,0 @@
-rtc.usuarios=C112223
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI14 - fidúcia.caixa
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

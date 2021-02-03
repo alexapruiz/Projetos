@@ -1,4 +1,0 @@
-rtc.usuarios=C089958,F516574,F701723
-rtc.roles=time
-rtc.teamAreaNome=FG9 - Cartório Caixa
-rtc.arquivo_areas=FUNDOS DE GOVERNO

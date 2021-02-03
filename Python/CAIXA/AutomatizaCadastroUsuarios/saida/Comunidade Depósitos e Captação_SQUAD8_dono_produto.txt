@@ -1,0 +1,4 @@
+rtc.usuarios=C110512
+rtc.roles=dono_produto
+rtc.teamAreaNome=DC08 - Squad 3
+rtc.arquivo_areas=Comunidade Depósitos e Captação

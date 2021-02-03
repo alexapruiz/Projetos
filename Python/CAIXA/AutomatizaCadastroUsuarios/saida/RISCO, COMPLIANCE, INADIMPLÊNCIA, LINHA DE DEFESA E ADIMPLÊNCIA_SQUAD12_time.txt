@@ -1,4 +1,0 @@
-rtc.usuarios=C117757
-rtc.roles=time
-rtc.teamAreaNome=RC12 - Qualidade de Vendas
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

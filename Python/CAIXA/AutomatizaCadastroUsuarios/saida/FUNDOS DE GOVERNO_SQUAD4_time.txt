@@ -1,4 +1,0 @@
-rtc.usuarios=C076851,F509179,F908665,F922310,F939045,F952426
-rtc.roles=time
-rtc.teamAreaNome=FG12 - Cadastro
-rtc.arquivo_areas=FUNDOS DE GOVERNO

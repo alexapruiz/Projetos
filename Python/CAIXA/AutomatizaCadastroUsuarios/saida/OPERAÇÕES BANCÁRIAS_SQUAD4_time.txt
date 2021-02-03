@@ -1,4 +1,0 @@
-rtc.usuarios=C052958
-rtc.roles=time
-rtc.teamAreaNome=OB04 - SICTD
-rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

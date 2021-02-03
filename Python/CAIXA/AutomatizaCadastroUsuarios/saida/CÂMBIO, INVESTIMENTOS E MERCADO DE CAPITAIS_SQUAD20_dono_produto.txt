@@ -1,4 +1,0 @@
-rtc.usuarios=C065877
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI20 - SIIFX 2
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

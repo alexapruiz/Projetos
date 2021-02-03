@@ -1,4 +1,0 @@
-rtc.usuarios=C038428
-rtc.roles=lider_time
-rtc.teamAreaNome=CI05 - Relação com Investidores / Suitability
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

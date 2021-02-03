@@ -1,4 +1,0 @@
-rtc.usuarios=C024534,C092577,C095270
-rtc.roles=time
-rtc.teamAreaNome=[Core Bancário] SID00
-rtc.arquivo_areas=ESTRUTURANTES DE TI

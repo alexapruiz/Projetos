@@ -1,4 +1,0 @@
-rtc.usuarios=C060172,C076760,C077203,F535645,F536781,F564425,F578219,F613336,F702851,F757874
-rtc.roles=time
-rtc.teamAreaNome=AC9 - Transacional e Extrato Eletronico
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

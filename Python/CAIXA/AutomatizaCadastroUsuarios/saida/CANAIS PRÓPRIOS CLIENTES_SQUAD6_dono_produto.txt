@@ -1,4 +1,0 @@
-rtc.usuarios=C069422
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC14 - GovConta
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

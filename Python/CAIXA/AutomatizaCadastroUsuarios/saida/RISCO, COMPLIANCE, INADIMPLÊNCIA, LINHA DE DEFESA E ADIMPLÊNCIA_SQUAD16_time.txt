@@ -1,4 +1,0 @@
-rtc.usuarios=C037840
-rtc.roles=time
-rtc.teamAreaNome=RC16 - Controle de Ocorrências via WEB
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

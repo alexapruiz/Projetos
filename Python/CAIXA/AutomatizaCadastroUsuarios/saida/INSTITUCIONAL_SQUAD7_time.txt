@@ -1,4 +1,0 @@
-rtc.usuarios=F616768,F750600,F754853
-rtc.roles=time
-rtc.teamAreaNome=IN08 - Corregedoria
-rtc.arquivo_areas=INSTITUCIONAL

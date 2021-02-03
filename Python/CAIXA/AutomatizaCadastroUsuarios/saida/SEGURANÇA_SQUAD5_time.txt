@@ -1,4 +1,0 @@
-rtc.usuarios=C021997,C050873,C077159,C090630,C091451,C129429,C866855
-rtc.roles=time
-rtc.teamAreaNome=Criptografia e SIPER
-rtc.arquivo_areas=SEGURANÇA

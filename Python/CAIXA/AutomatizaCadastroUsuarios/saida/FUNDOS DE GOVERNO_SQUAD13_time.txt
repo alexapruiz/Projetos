@@ -1,4 +1,0 @@
-rtc.usuarios=F559984,F570443,F642364,F773114,F774611
-rtc.roles=time
-rtc.teamAreaNome=FG20 - SIRPL / SIAES
-rtc.arquivo_areas=FUNDOS DE GOVERNO

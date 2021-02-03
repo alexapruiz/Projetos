@@ -1,4 +1,0 @@
-rtc.usuarios=C077902
-rtc.roles=lider_time
-rtc.teamAreaNome=RC06 - Gestão de Capital
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

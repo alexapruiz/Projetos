@@ -1,4 +1,0 @@
-rtc.usuarios=C067223
-rtc.roles=lider_time
-rtc.teamAreaNome=OB09 - SIGTV SINUM SICXC
-rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

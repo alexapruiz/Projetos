@@ -1,4 +1,0 @@
-rtc.usuarios=C070138
-rtc.roles=time
-rtc.teamAreaNome=Métrica
-rtc.arquivo_areas=SUPORTE CENTRALIZADORA

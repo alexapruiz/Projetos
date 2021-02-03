@@ -1,4 +1,0 @@
-rtc.usuarios=C040880
-rtc.roles=lider_time
-rtc.teamAreaNome=[Barramentos] - Desenvolvimento BR
-rtc.arquivo_areas=ESTRUTURANTES DE TI

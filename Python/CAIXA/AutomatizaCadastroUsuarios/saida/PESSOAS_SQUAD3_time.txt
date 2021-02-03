@@ -1,4 +1,0 @@
-rtc.usuarios=C089591
-rtc.roles=time
-rtc.teamAreaNome=PE6 - Auto-Gestão Saúde 
-rtc.arquivo_areas=PESSOAS

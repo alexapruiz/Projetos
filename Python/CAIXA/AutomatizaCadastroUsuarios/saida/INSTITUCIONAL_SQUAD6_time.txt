@@ -1,4 +1,0 @@
-rtc.usuarios=F538067,F568452,F587220,F754853,F994472
-rtc.roles=time
-rtc.teamAreaNome=IN07 - Colegiados
-rtc.arquivo_areas=INSTITUCIONAL

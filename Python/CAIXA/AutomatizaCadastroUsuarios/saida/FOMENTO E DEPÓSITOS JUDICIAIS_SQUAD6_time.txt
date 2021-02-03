@@ -1,4 +1,0 @@
-rtc.usuarios=C021828,F624852,F910177,F917280
-rtc.roles=time
-rtc.teamAreaNome=FD06 - SIAPF - Estudo, Contratação, Acomp de Oper
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

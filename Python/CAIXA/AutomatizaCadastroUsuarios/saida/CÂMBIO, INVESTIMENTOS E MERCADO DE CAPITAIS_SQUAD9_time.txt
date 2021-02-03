@@ -1,4 +1,0 @@
-rtc.usuarios=F540162,F546104,F619007,F642681
-rtc.roles=time
-rtc.teamAreaNome=CI09 - SIGFA 4
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

@@ -1,4 +1,0 @@
-rtc.usuarios=C101488
-rtc.roles=lider_time
-rtc.teamAreaNome=FP12 - SISFIN  Valores e Numerário
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

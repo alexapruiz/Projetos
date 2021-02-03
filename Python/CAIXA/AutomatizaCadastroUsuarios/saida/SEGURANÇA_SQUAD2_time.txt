@@ -1,4 +1,0 @@
-rtc.usuarios=C142782,C148700
-rtc.roles=time
-rtc.teamAreaNome=Autenticadores e Segurança Física
-rtc.arquivo_areas=SEGURANÇA

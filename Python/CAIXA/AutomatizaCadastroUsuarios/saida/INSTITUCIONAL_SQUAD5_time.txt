@@ -1,4 +1,0 @@
-rtc.usuarios=F568452,F750600,F754853
-rtc.roles=time
-rtc.teamAreaNome=IN06 - Corretora XS
-rtc.arquivo_areas=INSTITUCIONAL

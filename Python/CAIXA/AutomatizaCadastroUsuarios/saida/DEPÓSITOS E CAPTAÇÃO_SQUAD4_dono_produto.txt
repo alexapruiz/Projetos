@@ -1,4 +1,0 @@
-rtc.usuarios=C111251
-rtc.roles=dono_produto
-rtc.teamAreaNome=DC04 - Squad D
-rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

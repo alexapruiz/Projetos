@@ -1,4 +1,0 @@
-rtc.usuarios=F512937,F517278,F527683,F570492,F698724
-rtc.roles=time
-rtc.teamAreaNome=CC4 - Internet Banking 4
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

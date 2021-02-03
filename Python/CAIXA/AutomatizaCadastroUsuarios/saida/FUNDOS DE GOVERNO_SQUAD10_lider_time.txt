@@ -1,4 +1,0 @@
-rtc.usuarios=C075718
-rtc.roles=lider_time
-rtc.teamAreaNome=FG18 - Contábil
-rtc.arquivo_areas=FUNDOS DE GOVERNO

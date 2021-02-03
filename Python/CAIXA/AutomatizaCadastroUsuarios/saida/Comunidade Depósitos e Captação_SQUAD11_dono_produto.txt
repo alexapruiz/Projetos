@@ -1,0 +1,4 @@
+rtc.usuarios=C077265
+rtc.roles=dono_produto
+rtc.teamAreaNome=DC11 - Squad 6
+rtc.arquivo_areas=Comunidade Depósitos e Captação

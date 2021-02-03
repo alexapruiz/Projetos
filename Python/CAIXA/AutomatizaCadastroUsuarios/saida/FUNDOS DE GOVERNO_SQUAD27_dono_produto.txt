@@ -1,4 +1,0 @@
-rtc.usuarios=C091273
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG6 - Arrecadação
-rtc.arquivo_areas=FUNDOS DE GOVERNO

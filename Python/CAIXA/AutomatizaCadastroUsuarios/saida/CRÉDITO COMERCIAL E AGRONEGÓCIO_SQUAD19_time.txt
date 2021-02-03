@@ -1,4 +1,0 @@
-rtc.usuarios=C074256,C148697
-rtc.roles=time
-rtc.teamAreaNome=SIGEC Aquisição
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

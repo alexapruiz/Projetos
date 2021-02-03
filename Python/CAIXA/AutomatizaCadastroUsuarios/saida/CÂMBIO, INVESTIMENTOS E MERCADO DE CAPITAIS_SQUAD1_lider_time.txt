@@ -1,4 +1,0 @@
-rtc.usuarios=C083132
-rtc.roles=lider_time
-rtc.teamAreaNome=CI01 - Ações On-Line - Sustentação Backoffice
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

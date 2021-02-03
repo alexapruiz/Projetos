@@ -1,4 +1,0 @@
-rtc.usuarios=C148227
-rtc.roles=agente_qualidade
-rtc.teamAreaNome=FP1 - Pagamentos SPB
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

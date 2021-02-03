@@ -1,4 +1,0 @@
-rtc.usuarios=C081916
-rtc.roles=dono_produto
-rtc.teamAreaNome=RC11 - Acomp. Carteiras de Cobrança em Garantias
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

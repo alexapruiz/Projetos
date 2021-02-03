@@ -1,4 +1,0 @@
-rtc.usuarios=C148675
-rtc.roles=Apoio Funcional
-rtc.teamAreaNome=SIFES Agente Operador
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

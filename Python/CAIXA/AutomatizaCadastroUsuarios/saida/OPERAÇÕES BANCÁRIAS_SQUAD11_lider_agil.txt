@@ -1,4 +1,0 @@
-rtc.usuarios=C075689
-rtc.roles=lider_agil
-rtc.teamAreaNome=OB11 - SICEA
-rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

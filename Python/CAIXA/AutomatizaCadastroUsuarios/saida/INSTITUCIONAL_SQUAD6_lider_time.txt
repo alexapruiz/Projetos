@@ -1,4 +1,0 @@
-rtc.usuarios=C129776
-rtc.roles=lider_time
-rtc.teamAreaNome=IN07 - Colegiados
-rtc.arquivo_areas=INSTITUCIONAL

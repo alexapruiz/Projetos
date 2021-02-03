@@ -1,4 +1,0 @@
-rtc.usuarios=C065887
-rtc.roles=lider_time
-rtc.teamAreaNome=PE1 - SAP PROJETO
-rtc.arquivo_areas=PESSOAS

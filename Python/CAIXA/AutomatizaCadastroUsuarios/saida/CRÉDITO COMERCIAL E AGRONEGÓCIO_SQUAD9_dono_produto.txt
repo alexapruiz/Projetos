@@ -1,4 +1,0 @@
-rtc.usuarios=C057796,C071708
-rtc.roles=dono_produto
-rtc.teamAreaNome=SICCR PF
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

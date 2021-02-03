@@ -1,4 +1,0 @@
-rtc.usuarios=F550638,F640472,F684623,F701141,F797083
-rtc.roles=time
-rtc.teamAreaNome=RC09 - Gestão de Risco Operacional
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

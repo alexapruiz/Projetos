@@ -1,4 +1,0 @@
-rtc.usuarios=C074576
-rtc.roles=lider_time
-rtc.teamAreaNome=FP2 - TED Clientes
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

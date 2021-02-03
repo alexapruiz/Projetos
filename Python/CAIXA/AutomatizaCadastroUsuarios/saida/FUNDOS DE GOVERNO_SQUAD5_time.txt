@@ -1,4 +1,0 @@
-rtc.usuarios=C077037,C113022,F542310,F573479,F752712,F757638,F766237,F791276,F791953,F936968
-rtc.roles=time
-rtc.teamAreaNome=FG13 - Pagamentos IF
-rtc.arquivo_areas=FUNDOS DE GOVERNO

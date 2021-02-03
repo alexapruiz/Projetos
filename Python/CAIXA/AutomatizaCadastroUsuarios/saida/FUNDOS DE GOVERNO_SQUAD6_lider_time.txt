@@ -1,4 +1,0 @@
-rtc.usuarios=C065046
-rtc.roles=lider_time
-rtc.teamAreaNome=FG14 - Saque FGS
-rtc.arquivo_areas=FUNDOS DE GOVERNO

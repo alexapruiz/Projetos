@@ -1,4 +1,0 @@
-rtc.usuarios=C071935,F510484,F513225,F536243,F626802,F694343,F694345,F958518
-rtc.roles=time
-rtc.teamAreaNome=DC11 - Squad 6
-rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

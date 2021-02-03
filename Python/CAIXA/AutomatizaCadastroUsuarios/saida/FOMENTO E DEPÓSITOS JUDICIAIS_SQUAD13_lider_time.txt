@@ -1,4 +1,0 @@
-rtc.usuarios=C075274
-rtc.roles=lider_time
-rtc.teamAreaNome=FD13 - SIOCG - Originação Negócio Governo
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

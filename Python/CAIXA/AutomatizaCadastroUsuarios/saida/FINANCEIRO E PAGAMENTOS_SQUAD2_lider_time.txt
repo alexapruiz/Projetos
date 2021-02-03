@@ -1,4 +1,0 @@
-rtc.usuarios=C134546
-rtc.roles=lider_time
-rtc.teamAreaNome=FP10 - Revitalização do SIAEF 
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

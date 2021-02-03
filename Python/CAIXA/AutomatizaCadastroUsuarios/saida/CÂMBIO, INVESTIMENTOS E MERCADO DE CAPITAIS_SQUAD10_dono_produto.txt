@@ -1,4 +1,0 @@
-rtc.usuarios=C071374
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI10 - PDI Fundos de investimento
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

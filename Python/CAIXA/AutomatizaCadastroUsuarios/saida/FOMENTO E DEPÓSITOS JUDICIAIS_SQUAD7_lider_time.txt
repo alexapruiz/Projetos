@@ -1,4 +1,0 @@
-rtc.usuarios=C068627
-rtc.roles=lider_time
-rtc.teamAreaNome=FD07 - SICER - Financeiro e Contábil
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

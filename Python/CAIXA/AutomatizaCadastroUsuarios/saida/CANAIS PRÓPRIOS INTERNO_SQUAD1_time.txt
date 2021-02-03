@@ -1,4 +1,0 @@
-rtc.usuarios=C075109,F736572
-rtc.roles=time
-rtc.teamAreaNome=CI1 - SIGAT
-rtc.arquivo_areas=CANAIS PRÓPRIOS INTERNO

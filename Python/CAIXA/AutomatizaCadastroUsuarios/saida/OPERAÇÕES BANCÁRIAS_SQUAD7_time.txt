@@ -1,4 +1,0 @@
-rtc.usuarios=C144461
-rtc.roles=time
-rtc.teamAreaNome=OB07 - SISIB
-rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

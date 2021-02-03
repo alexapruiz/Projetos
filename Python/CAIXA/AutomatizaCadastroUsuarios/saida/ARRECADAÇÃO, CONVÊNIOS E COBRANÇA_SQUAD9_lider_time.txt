@@ -1,4 +1,0 @@
-rtc.usuarios=C079422
-rtc.roles=lider_time
-rtc.teamAreaNome=AC8 - Tributos Federais
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

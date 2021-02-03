@@ -1,4 +1,0 @@
-rtc.usuarios=C089958,F523622,F525710,F533454,F553531,F570642,F651076,F952693
-rtc.roles=time
-rtc.teamAreaNome=FG11 - Conectividade Social
-rtc.arquivo_areas=FUNDOS DE GOVERNO

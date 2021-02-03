@@ -1,4 +1,0 @@
-rtc.usuarios=C087320,F734962
-rtc.roles=time
-rtc.teamAreaNome=CI03 - Ações on-line - Sustentação Frontoffice
-rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

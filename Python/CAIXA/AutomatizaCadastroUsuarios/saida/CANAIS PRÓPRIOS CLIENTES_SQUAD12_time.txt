@@ -1,4 +1,0 @@
-rtc.usuarios=C111761,F549620,F769450,F783832
-rtc.roles=time
-rtc.teamAreaNome=CC7 - Internet Banking 7
-rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

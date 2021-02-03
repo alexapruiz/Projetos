@@ -1,4 +1,0 @@
-rtc.usuarios=C053780,C066658,C092577,C101354,C136658
-rtc.roles=time
-rtc.teamAreaNome=[Core Bancário] - SIINT
-rtc.arquivo_areas=ESTRUTURANTES DE TI

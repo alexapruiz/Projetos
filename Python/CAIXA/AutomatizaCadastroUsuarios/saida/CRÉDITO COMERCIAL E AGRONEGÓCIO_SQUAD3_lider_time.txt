@@ -1,4 +1,0 @@
-rtc.usuarios=C142851,F799427
-rtc.roles=lider_time
-rtc.teamAreaNome=Serviços
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

@@ -1,4 +1,0 @@
-rtc.usuarios=C087631
-rtc.roles=lider_ti
-rtc.teamAreaNome=Gestão
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

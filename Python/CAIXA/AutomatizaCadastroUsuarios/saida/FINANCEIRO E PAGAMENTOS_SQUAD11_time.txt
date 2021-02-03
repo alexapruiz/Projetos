@@ -1,4 +1,0 @@
-rtc.usuarios=F537293,F979611
-rtc.roles=time
-rtc.teamAreaNome=FP7 - Precificação e Simulador Negocial
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

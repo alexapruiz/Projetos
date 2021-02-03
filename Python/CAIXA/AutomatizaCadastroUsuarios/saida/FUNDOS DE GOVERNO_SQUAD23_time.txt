@@ -1,4 +1,0 @@
-rtc.usuarios=C070468,F522063,F616509,F659222,F799855
-rtc.roles=time
-rtc.teamAreaNome=FG3 - Inscrição em Dívida
-rtc.arquivo_areas=FUNDOS DE GOVERNO

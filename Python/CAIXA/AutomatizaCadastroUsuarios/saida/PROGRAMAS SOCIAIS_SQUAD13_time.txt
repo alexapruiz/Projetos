@@ -1,4 +1,0 @@
-rtc.usuarios=C069797,C077268,C104849,C109786,C126048
-rtc.roles=time
-rtc.teamAreaNome=PS9 - Pagamento Bolsas Sociais
-rtc.arquivo_areas=PROGRAMAS SOCIAIS

@@ -1,4 +1,0 @@
-rtc.usuarios=C092735
-rtc.roles=dono_produto
-rtc.teamAreaNome=AC8 - Tributos Federais
-rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

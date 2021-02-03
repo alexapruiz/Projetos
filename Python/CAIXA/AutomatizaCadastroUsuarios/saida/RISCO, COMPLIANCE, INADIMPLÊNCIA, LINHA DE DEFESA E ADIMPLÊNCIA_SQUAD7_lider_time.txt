@@ -1,4 +1,0 @@
-rtc.usuarios=C126867
-rtc.roles=lider_time
-rtc.teamAreaNome=RC07 - Avaliação e Provisionamento de Crédito
-rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

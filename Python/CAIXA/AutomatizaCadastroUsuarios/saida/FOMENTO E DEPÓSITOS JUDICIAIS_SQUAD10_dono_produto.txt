@@ -1,4 +1,0 @@
-rtc.usuarios=C058714
-rtc.roles=dono_produto
-rtc.teamAreaNome=FD10 - SIAVO - Controle Proj e desembolsos do FGTS
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

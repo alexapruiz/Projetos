@@ -1,4 +1,0 @@
-rtc.usuarios=F519554,F716656,F780405
-rtc.roles=time
-rtc.teamAreaNome=FD17 - SIADJ - Repasse Ações Jud INSS, RCB e União
-rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

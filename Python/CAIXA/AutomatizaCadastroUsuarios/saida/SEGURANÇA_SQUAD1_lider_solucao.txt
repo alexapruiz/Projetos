@@ -1,4 +1,0 @@
-rtc.usuarios=C101683
-rtc.roles=lider_solucao
-rtc.teamAreaNome=Antifraude e autorizadores
-rtc.arquivo_areas=SEGURANÇA

@@ -1,4 +1,0 @@
-rtc.usuarios=C048546,C093704,C126045
-rtc.roles=time
-rtc.teamAreaNome=FG22 - Cadastro Mutuários
-rtc.arquivo_areas=FUNDOS DE GOVERNO

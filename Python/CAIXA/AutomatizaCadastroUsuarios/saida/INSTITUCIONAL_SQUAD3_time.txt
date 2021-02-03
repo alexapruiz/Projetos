@@ -1,4 +1,0 @@
-rtc.usuarios=F704166,F768019
-rtc.roles=time
-rtc.teamAreaNome=IN04 - Imprensa e Intranet
-rtc.arquivo_areas=INSTITUCIONAL

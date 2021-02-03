@@ -1,4 +1,0 @@
-rtc.usuarios=C136582
-rtc.roles=lider_time
-rtc.teamAreaNome=FG16 - SIFGM - APP FGTS
-rtc.arquivo_areas=FUNDOS DE GOVERNO

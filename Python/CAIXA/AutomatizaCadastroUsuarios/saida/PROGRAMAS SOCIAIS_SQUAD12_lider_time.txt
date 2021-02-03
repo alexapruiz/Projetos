@@ -1,4 +1,0 @@
-rtc.usuarios=C083245
-rtc.roles=lider_time
-rtc.teamAreaNome=PS8 - Cartão do Cidadão
-rtc.arquivo_areas=PROGRAMAS SOCIAIS

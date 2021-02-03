@@ -1,4 +1,0 @@
-rtc.usuarios=C122770
-rtc.roles=dono_produto
-rtc.teamAreaNome=FP6 - SIHDG Macro Hedge
-rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

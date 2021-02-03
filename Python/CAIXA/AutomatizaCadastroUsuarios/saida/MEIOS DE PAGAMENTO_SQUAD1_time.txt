@@ -1,4 +1,0 @@
-rtc.usuarios=C056203,C066984,C135326
-rtc.roles=time
-rtc.teamAreaNome=MP1 - Esteira de Implantação
-rtc.arquivo_areas=MEIOS DE PAGAMENTO

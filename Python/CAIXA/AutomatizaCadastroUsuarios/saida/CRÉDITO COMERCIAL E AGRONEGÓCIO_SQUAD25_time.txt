@@ -1,4 +1,0 @@
-rtc.usuarios=F617534,F637142,F651768,F792477
-rtc.roles=time
-rtc.teamAreaNome=SISGH Gestão de Honras
-rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO
