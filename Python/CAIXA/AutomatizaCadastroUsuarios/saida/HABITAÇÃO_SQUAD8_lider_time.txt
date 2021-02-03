@@ -1,0 +1,4 @@
+rtc.usuarios=C051829
+rtc.roles=lider_time
+rtc.teamAreaNome=HA2 - ADMINISTRAÇÃO – SQUAD B
+rtc.arquivo_areas=HABITAÇÃO

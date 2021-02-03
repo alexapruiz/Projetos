@@ -1,0 +1,4 @@
+rtc.usuarios=C111798
+rtc.roles=dono_produto
+rtc.teamAreaNome=[Gestão de TI] Vitrine Caixa
+rtc.arquivo_areas=ESTRUTURANTES DE TI

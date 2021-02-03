@@ -1,0 +1,4 @@
+rtc.usuarios=C112557,F512068,F512076,F576723
+rtc.roles=time
+rtc.teamAreaNome=FD04 - Op de Fomento (Novo) e Base Unificada
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

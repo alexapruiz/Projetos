@@ -1,0 +1,4 @@
+rtc.usuarios=C101454,F505051,F612788,F624852,F974420
+rtc.roles=time
+rtc.teamAreaNome=FD08 - SIGAF - Garantias de Fomento / PNAF
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

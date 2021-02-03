@@ -1,0 +1,4 @@
+rtc.usuarios=C021643,C085446,C095561,F538495,F557721,F604341,F637018,F743063,F798342
+rtc.roles=time
+rtc.teamAreaNome=PS3 - Cadastro Único para bolsas e folhas
+rtc.arquivo_areas=PROGRAMAS SOCIAIS

@@ -1,0 +1,4 @@
+rtc.usuarios=C135289,F557778,F661860,F698737,F762974,F789521,F958238
+rtc.roles=time
+rtc.teamAreaNome=CI3 - PNC Dossie Digital
+rtc.arquivo_areas=CANAIS PRÓPRIOS INTERNO

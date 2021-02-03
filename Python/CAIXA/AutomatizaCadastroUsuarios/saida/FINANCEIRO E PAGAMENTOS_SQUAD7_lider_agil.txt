@@ -1,0 +1,4 @@
+rtc.usuarios=C142832
+rtc.roles=lider_agil
+rtc.teamAreaNome=FP3 - Execução Financeira
+rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

@@ -1,0 +1,4 @@
+rtc.usuarios=C083255
+rtc.roles=dono_produto
+rtc.teamAreaNome=CI07 - SIGFA 2
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

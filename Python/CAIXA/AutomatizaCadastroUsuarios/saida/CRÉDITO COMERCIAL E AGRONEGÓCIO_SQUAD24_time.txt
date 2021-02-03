@@ -1,0 +1,4 @@
+rtc.usuarios=C056257,C056378,C097826
+rtc.roles=time
+rtc.teamAreaNome=SIREP
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

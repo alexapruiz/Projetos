@@ -1,0 +1,4 @@
+rtc.usuarios=C086594
+rtc.roles=lider_time
+rtc.teamAreaNome=CI02 - Modernização
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

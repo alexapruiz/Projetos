@@ -1,0 +1,4 @@
+rtc.usuarios=C142835,C142851,F799427
+rtc.roles=lider_time
+rtc.teamAreaNome=SIFEC Diversos
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

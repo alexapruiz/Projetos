@@ -1,0 +1,4 @@
+rtc.usuarios=C095273
+rtc.roles=lider_time
+rtc.teamAreaNome=SICES Desenvolvimento
+rtc.arquivo_areas=ESTRUTURANTES DE TI

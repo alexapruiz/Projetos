@@ -1,0 +1,4 @@
+rtc.usuarios=C090887,C095197,C110515,C111772,C113780,C126038,C129792,C137152
+rtc.roles=time
+rtc.teamAreaNome=HA8 - ADMINISTRAÇÃO – SQUAD G
+rtc.arquivo_areas=HABITAÇÃO

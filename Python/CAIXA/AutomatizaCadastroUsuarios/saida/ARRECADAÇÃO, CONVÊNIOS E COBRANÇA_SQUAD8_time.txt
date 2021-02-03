@@ -1,0 +1,4 @@
+rtc.usuarios=C062315,C108464,F915266,F981010
+rtc.roles=time
+rtc.teamAreaNome=AC7 - Arrecadação Iniciativa Privada
+rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

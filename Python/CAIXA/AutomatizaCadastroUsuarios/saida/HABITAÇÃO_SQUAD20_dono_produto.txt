@@ -1,0 +1,4 @@
+rtc.usuarios=C082323
+rtc.roles=dono_produto
+rtc.teamAreaNome=HO6 - ORIGINAÇÃO – SQUAD LEGADOS
+rtc.arquivo_areas=HABITAÇÃO

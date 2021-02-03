@@ -1,0 +1,4 @@
+rtc.usuarios=C042629,F633087,F966896
+rtc.roles=time
+rtc.teamAreaNome=[Core Bancário] SIATR
+rtc.arquivo_areas=ESTRUTURANTES DE TI

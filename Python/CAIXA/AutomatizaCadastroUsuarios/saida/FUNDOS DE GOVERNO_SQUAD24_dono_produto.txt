@@ -1,0 +1,4 @@
+rtc.usuarios=C028836
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG30 - FCVS
+rtc.arquivo_areas=FUNDOS DE GOVERNO

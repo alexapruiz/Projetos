@@ -1,0 +1,4 @@
+rtc.usuarios=F507674,F534578,F623435,F791672,F791842,F903502,F939524
+rtc.roles=time
+rtc.teamAreaNome=FG26 - Migração e Convivência
+rtc.arquivo_areas=FUNDOS DE GOVERNO

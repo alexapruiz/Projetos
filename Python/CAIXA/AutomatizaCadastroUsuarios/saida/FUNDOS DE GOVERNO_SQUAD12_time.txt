@@ -1,0 +1,4 @@
+rtc.usuarios=C018236,F614722,F791696,F951448,F952767
+rtc.roles=time
+rtc.teamAreaNome=FG2 - Parcelamento
+rtc.arquivo_areas=FUNDOS DE GOVERNO

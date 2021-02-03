@@ -1,0 +1,4 @@
+rtc.usuarios=C032291,C148698,C148747
+rtc.roles=time
+rtc.teamAreaNome=SIPEN Penhor
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

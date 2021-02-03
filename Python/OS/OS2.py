@@ -2,7 +2,7 @@ import os
 
 dir(os)
 print(os)
-#retorno = os.system("dir ")
+retorno = os.system("dir ")
+print(retorno)
 
-a = 'Alex;Ruiz'
-print(a.split(';'))
+print(os.getcwd())

@@ -1,0 +1,4 @@
+rtc.usuarios=F563012,F605415,F626802,F656153,F698578,F701061,F748033
+rtc.roles=time
+rtc.teamAreaNome=DC13 - Squad 8
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

@@ -1,0 +1,4 @@
+rtc.usuarios=C101597,C101684,C112931
+rtc.roles=time
+rtc.teamAreaNome=HO3 - ORIGINAÇÃO -SQUAD C
+rtc.arquivo_areas=HABITAÇÃO

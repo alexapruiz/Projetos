@@ -1,0 +1,4 @@
+rtc.usuarios=C143356
+rtc.roles=lider_time
+rtc.teamAreaNome=DC08 - Squad 3
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

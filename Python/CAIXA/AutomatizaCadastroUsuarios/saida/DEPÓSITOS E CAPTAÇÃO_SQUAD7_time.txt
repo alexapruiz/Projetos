@@ -1,0 +1,4 @@
+rtc.usuarios=C034542,C083566,C103841,F567726,F629546
+rtc.roles=time
+rtc.teamAreaNome=DC07 - Squad 2
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

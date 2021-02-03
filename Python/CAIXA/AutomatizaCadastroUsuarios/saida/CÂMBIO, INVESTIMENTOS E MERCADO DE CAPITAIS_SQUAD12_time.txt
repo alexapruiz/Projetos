@@ -1,0 +1,4 @@
+rtc.usuarios=C064872,C079590,F571815,F572602,F670758
+rtc.roles=time
+rtc.teamAreaNome=CI12 - SISAT
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

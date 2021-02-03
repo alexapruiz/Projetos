@@ -1,0 +1,4 @@
+rtc.usuarios=C085066,C148687,C148747
+rtc.roles=time
+rtc.teamAreaNome=SICDC Crédito Direto CAIXA
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

@@ -1,0 +1,4 @@
+rtc.usuarios=C100407
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC5 - SINAF-PCU/SINAF-WEB Velho
+rtc.arquivo_areas=CONTROLADORIA, CONTÁBEIS, TRIBUTOS E ORÇAMENTO

@@ -1,0 +1,4 @@
+rtc.usuarios=C072298,C141146,F513136,F587439,F636132,F768011,F914826
+rtc.roles=time
+rtc.teamAreaNome=CC14 - GovConta
+rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

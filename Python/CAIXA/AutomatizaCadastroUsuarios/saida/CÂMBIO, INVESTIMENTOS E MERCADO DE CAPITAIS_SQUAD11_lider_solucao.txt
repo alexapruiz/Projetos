@@ -1,0 +1,4 @@
+rtc.usuarios=C071099
+rtc.roles=lider_solucao
+rtc.teamAreaNome=CI11 - PDI Renda Fixa
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

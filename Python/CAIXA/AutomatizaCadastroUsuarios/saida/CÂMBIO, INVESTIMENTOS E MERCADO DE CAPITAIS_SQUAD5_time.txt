@@ -1,0 +1,4 @@
+rtc.usuarios=F584521,F626520,F646134,F651567,F712748,F727716,F793357
+rtc.roles=time
+rtc.teamAreaNome=CI05 - Relação com Investidores / Suitability
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

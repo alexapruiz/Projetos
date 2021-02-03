@@ -1,0 +1,4 @@
+rtc.usuarios=C096388
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG25 - FGHab
+rtc.arquivo_areas=FUNDOS DE GOVERNO

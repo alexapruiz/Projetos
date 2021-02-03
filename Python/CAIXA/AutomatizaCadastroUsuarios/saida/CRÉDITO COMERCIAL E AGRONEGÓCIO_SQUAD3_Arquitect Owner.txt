@@ -1,0 +1,4 @@
+rtc.usuarios=C101043,C101481
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=Serviços
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

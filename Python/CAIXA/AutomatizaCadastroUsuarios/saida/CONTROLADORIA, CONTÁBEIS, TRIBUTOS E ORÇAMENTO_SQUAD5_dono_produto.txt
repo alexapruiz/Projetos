@@ -1,0 +1,4 @@
+rtc.usuarios=C089366
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC13 - SIFRS
+rtc.arquivo_areas=CONTROLADORIA, CONTÁBEIS, TRIBUTOS E ORÇAMENTO

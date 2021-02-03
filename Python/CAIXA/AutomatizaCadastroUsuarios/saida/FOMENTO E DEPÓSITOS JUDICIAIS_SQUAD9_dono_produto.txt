@@ -1,0 +1,4 @@
+rtc.usuarios=C071914
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD09 - SIAPO - Controle Orçamentário do FGTS
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

@@ -1,0 +1,4 @@
+rtc.usuarios=F672498
+rtc.roles=Tester
+rtc.teamAreaNome=[Gestão de TI] Vitrine Caixa
+rtc.arquivo_areas=ESTRUTURANTES DE TI

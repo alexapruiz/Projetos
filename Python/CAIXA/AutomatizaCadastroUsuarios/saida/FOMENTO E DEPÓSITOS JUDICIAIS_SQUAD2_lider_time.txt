@@ -1,0 +1,4 @@
+rtc.usuarios=C060051
+rtc.roles=lider_time
+rtc.teamAreaNome=FD02 - SISNP - Manutenções de Famílias 
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

@@ -1,0 +1,4 @@
+rtc.usuarios=C071708
+rtc.roles=dono_produto
+rtc.teamAreaNome=Serviços
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

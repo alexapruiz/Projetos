@@ -1,0 +1,4 @@
+rtc.usuarios=C067790
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD21 - SIPCV/SIPOS - Convênios e Repasses
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

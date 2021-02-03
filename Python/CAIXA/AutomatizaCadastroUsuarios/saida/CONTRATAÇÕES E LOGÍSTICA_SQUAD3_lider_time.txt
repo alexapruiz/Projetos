@@ -1,0 +1,4 @@
+rtc.usuarios=C081112
+rtc.roles=lider_time
+rtc.teamAreaNome=CL03 - Gestão de Documentos e Bens 
+rtc.arquivo_areas=CONTRATAÇÕES E LOGÍSTICA

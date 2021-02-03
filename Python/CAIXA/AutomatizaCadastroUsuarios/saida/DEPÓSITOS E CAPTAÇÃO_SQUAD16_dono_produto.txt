@@ -1,0 +1,4 @@
+rtc.usuarios=C035452
+rtc.roles=dono_produto
+rtc.teamAreaNome=DC16 - Performance
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

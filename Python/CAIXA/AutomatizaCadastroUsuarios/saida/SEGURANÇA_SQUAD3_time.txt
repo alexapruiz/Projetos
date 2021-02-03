@@ -1,0 +1,4 @@
+rtc.usuarios=C112312,C127162
+rtc.roles=time
+rtc.teamAreaNome=Biometria e Identificação Positiva
+rtc.arquivo_areas=SEGURANÇA

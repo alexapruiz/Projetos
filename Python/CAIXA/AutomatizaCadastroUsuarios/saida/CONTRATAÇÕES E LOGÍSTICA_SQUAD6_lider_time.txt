@@ -1,0 +1,4 @@
+rtc.usuarios=C100443
+rtc.roles=lider_time
+rtc.teamAreaNome=CL06 - Gestão Operacional 
+rtc.arquivo_areas=CONTRATAÇÕES E LOGÍSTICA

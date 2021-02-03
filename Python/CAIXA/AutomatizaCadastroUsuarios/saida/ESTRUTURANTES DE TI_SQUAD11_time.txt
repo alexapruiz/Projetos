@@ -1,0 +1,4 @@
+rtc.usuarios=F505234,F550552,F605922,F605958,F608739,F927092,F996594
+rtc.roles=time
+rtc.teamAreaNome=[Gestão de TI] Vitrine Caixa
+rtc.arquivo_areas=ESTRUTURANTES DE TI

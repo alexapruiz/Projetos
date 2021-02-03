@@ -1,0 +1,4 @@
+rtc.usuarios=C101492
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=Auxílio Emergencial - Público CADUN Não Bolsa
+rtc.arquivo_areas=DADOS (BIG DATA, ANALYTICS E BI)

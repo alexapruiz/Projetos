@@ -1,0 +1,4 @@
+rtc.usuarios=C132223
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD02 - SISNP - Manutenções de Famílias 
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

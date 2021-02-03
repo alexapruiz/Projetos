@@ -1,0 +1,4 @@
+rtc.usuarios=F577244,P517034,P577760,P614116,P728281
+rtc.roles=time
+rtc.teamAreaNome=IN14 - Fale com o Presidente
+rtc.arquivo_areas=INSTITUCIONAL

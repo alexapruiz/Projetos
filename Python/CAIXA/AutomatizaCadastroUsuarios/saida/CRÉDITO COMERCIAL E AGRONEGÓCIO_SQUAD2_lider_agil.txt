@@ -1,0 +1,4 @@
+rtc.usuarios=C111709
+rtc.roles=lider_agil
+rtc.teamAreaNome=Gestão
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

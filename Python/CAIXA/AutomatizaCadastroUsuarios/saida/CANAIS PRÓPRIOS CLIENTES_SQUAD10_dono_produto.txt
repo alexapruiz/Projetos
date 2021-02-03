@@ -1,0 +1,4 @@
+rtc.usuarios=C065343
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC5 - Internet Banking 5
+rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

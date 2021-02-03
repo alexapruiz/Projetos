@@ -1,0 +1,4 @@
+rtc.usuarios=C110512
+rtc.roles=dono_produto
+rtc.teamAreaNome=DC09 - Squad 4 Sustentação
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

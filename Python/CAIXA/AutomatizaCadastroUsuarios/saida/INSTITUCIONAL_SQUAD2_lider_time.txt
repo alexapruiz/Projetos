@@ -1,0 +1,4 @@
+rtc.usuarios=C132782
+rtc.roles=lider_time
+rtc.teamAreaNome=IN03 - Site Institucional
+rtc.arquivo_areas=INSTITUCIONAL

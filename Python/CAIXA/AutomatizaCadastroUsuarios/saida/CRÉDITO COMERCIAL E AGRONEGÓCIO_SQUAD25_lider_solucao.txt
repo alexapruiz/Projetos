@@ -1,0 +1,4 @@
+rtc.usuarios=C139522,C142869
+rtc.roles=lider_solucao
+rtc.teamAreaNome=SISGH Gestão de Honras
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

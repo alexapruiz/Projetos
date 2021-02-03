@@ -1,0 +1,4 @@
+rtc.usuarios=C083347
+rtc.roles=lider_time
+rtc.teamAreaNome=MP6 - Squad BackOffice Atendimento e Fidelização 
+rtc.arquivo_areas=MEIOS DE PAGAMENTO

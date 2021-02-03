@@ -1,0 +1,4 @@
+rtc.usuarios=C148749
+rtc.roles=time
+rtc.teamAreaNome=Automação Antifraude 2.0
+rtc.arquivo_areas=DADOS (BIG DATA, ANALYTICS E BI)

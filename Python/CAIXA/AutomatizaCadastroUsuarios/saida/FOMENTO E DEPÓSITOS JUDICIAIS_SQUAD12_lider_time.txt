@@ -1,0 +1,4 @@
+rtc.usuarios=C111312
+rtc.roles=lider_time
+rtc.teamAreaNome=FD12 - Sustent Fomento URB DTF OBR APG SMP
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

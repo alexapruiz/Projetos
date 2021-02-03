@@ -1,0 +1,4 @@
+rtc.usuarios=C131153,C148697
+rtc.roles=time
+rtc.teamAreaNome=SIGEC Portabilidade
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

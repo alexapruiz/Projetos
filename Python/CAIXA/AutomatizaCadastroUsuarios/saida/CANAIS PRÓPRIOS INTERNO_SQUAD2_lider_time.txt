@@ -1,0 +1,4 @@
+rtc.usuarios=C093292
+rtc.roles=lider_time
+rtc.teamAreaNome=CI2 - SIPAN
+rtc.arquivo_areas=CANAIS PRÓPRIOS INTERNO

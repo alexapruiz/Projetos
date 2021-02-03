@@ -1,0 +1,4 @@
+rtc.usuarios=C144410
+rtc.roles=lider_time
+rtc.teamAreaNome=CC11 - SISIG
+rtc.arquivo_areas=CONTROLADORIA, CONTÁBEIS, TRIBUTOS E ORÇAMENTO

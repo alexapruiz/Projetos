@@ -1,0 +1,4 @@
+rtc.usuarios=C085484
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG11 - Conectividade Social
+rtc.arquivo_areas=FUNDOS DE GOVERNO

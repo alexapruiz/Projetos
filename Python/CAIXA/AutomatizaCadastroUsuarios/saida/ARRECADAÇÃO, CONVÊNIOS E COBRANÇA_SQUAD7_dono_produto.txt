@@ -1,0 +1,4 @@
+rtc.usuarios=C085721
+rtc.roles=dono_produto
+rtc.teamAreaNome=AC6 - Detran e Orgãos Governamentais
+rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

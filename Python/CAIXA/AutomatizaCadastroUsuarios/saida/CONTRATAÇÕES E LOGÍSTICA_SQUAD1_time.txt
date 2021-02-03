@@ -1,0 +1,4 @@
+rtc.usuarios=C140146,F731099,F796071,F796989,F994975
+rtc.roles=time
+rtc.teamAreaNome=CL01 - Compras
+rtc.arquivo_areas=CONTRATAÇÕES E LOGÍSTICA

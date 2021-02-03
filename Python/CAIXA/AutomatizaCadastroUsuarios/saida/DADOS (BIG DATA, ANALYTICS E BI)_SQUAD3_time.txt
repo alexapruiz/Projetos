@@ -1,0 +1,4 @@
+rtc.usuarios=C129774,C131155,C134267,C134272,C139526
+rtc.roles=time
+rtc.teamAreaNome=Auxílio Emergencial - Público CADUN Não Bolsa
+rtc.arquivo_areas=DADOS (BIG DATA, ANALYTICS E BI)

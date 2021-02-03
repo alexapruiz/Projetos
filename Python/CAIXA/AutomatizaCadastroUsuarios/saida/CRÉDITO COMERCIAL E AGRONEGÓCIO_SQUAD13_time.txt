@@ -1,0 +1,4 @@
+rtc.usuarios=C073220,F529206
+rtc.roles=time
+rtc.teamAreaNome=SIEMP Agronegócio, PF e PJ
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

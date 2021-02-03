@@ -1,0 +1,4 @@
+rtc.usuarios=C073267
+rtc.roles=dono_produto
+rtc.teamAreaNome=AC9 - Transacional e Extrato Eletronico
+rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

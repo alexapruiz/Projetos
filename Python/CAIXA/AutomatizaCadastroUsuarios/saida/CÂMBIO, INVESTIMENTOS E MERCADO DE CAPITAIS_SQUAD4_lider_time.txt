@@ -1,0 +1,4 @@
+rtc.usuarios=C062177
+rtc.roles=lider_time
+rtc.teamAreaNome=CI04 - Sustent. - Ações Cambio e Com. exterior
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

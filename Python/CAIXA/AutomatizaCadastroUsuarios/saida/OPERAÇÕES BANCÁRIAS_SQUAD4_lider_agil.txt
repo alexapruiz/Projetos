@@ -1,0 +1,4 @@
+rtc.usuarios=C075689
+rtc.roles=lider_agil
+rtc.teamAreaNome=OB04 - SICTD
+rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

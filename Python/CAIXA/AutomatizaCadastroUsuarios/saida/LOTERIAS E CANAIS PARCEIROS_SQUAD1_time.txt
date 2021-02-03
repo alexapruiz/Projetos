@@ -1,0 +1,4 @@
+rtc.usuarios=F695454,F722229,F947494
+rtc.roles=time
+rtc.teamAreaNome=Auditoria de Loterias
+rtc.arquivo_areas=LOTERIAS E CANAIS PARCEIROS

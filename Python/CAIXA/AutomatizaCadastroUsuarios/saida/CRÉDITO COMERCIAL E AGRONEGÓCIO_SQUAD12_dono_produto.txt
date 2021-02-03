@@ -1,0 +1,4 @@
+rtc.usuarios=C090013,C095800
+rtc.roles=dono_produto
+rtc.teamAreaNome=SICDT Motor de Evolução
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

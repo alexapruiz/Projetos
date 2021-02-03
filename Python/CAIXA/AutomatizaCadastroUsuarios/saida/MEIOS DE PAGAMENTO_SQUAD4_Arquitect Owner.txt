@@ -1,0 +1,4 @@
+rtc.usuarios=C134575
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=MP2 - Squad de Serviços
+rtc.arquivo_areas=MEIOS DE PAGAMENTO

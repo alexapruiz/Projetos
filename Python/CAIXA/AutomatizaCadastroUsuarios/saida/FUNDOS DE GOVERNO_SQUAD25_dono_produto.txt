@@ -1,0 +1,4 @@
+rtc.usuarios=C091063
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG4 - PGFN
+rtc.arquivo_areas=FUNDOS DE GOVERNO

@@ -1,0 +1,4 @@
+rtc.usuarios=F575218,F598000,F616582,F692379,F716914,F763763,F903697,F937333,F974656
+rtc.roles=time
+rtc.teamAreaNome=Caixa Aqui
+rtc.arquivo_areas=LOTERIAS E CANAIS PARCEIROS

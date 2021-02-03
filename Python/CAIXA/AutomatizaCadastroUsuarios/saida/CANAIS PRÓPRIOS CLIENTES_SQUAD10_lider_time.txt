@@ -1,0 +1,4 @@
+rtc.usuarios=C066367
+rtc.roles=lider_time
+rtc.teamAreaNome=CC5 - Internet Banking 5
+rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

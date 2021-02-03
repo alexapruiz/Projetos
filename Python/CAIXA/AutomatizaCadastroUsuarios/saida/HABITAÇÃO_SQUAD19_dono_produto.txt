@@ -1,0 +1,4 @@
+rtc.usuarios=C078175
+rtc.roles=dono_produto
+rtc.teamAreaNome=HO5 - ORIGINAÇÃO – SQUAD E
+rtc.arquivo_areas=HABITAÇÃO

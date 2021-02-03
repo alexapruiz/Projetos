@@ -1,0 +1,4 @@
+rtc.usuarios=C101489,C101534
+rtc.roles=lider_time
+rtc.teamAreaNome=[Barramentos] - Sustentação SP
+rtc.arquivo_areas=ESTRUTURANTES DE TI

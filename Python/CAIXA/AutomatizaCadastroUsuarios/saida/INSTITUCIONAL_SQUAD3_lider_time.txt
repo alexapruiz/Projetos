@@ -1,0 +1,4 @@
+rtc.usuarios=C090278
+rtc.roles=lider_time
+rtc.teamAreaNome=IN04 - Imprensa e Intranet
+rtc.arquivo_areas=INSTITUCIONAL

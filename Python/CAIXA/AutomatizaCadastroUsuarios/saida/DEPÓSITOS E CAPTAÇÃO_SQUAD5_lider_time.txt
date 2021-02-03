@@ -1,0 +1,4 @@
+rtc.usuarios=C091459
+rtc.roles=lider_time
+rtc.teamAreaNome=DC05 - Squad E
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

@@ -1,0 +1,4 @@
+rtc.usuarios=F566570,P520491,P728281
+rtc.roles=time
+rtc.teamAreaNome=FP6 - SIHDG Macro Hedge
+rtc.arquivo_areas=FINANCEIRO E PAGAMENTOS

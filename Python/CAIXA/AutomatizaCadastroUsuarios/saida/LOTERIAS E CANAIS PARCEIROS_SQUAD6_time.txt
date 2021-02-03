@@ -1,0 +1,4 @@
+rtc.usuarios=F572126,F597474,F799396
+rtc.roles=time
+rtc.teamAreaNome=evoluções de TI
+rtc.arquivo_areas=LOTERIAS E CANAIS PARCEIROS

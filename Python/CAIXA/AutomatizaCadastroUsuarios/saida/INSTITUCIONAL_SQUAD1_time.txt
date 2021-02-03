@@ -1,0 +1,4 @@
+rtc.usuarios=F568452,F616768,F631056,F684345,F754849,F754853,F795244
+rtc.roles=time
+rtc.teamAreaNome=IN01 - SAC e Ouvidoria
+rtc.arquivo_areas=INSTITUCIONAL

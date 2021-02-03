@@ -1,0 +1,4 @@
+rtc.usuarios=C048988
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG2 - Parcelamento
+rtc.arquivo_areas=FUNDOS DE GOVERNO

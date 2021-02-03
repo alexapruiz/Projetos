@@ -1,0 +1,4 @@
+rtc.usuarios=C111221
+rtc.roles=dono_produto
+rtc.teamAreaNome=IN08 - Corregedoria
+rtc.arquivo_areas=INSTITUCIONAL

@@ -1,0 +1,4 @@
+rtc.usuarios=C132804
+rtc.roles=Apoio Funcional
+rtc.teamAreaNome=SIGEC Portabilidade
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

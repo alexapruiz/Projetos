@@ -1,0 +1,4 @@
+rtc.usuarios=F516797,F793872
+rtc.roles=time
+rtc.teamAreaNome=IN12 - Marketing e Patrocínio
+rtc.arquivo_areas=INSTITUCIONAL

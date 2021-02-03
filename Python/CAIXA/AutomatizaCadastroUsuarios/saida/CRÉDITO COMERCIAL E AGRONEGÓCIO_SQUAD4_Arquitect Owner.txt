@@ -1,0 +1,4 @@
+rtc.usuarios=C148696
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=SIAPI Compliance
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

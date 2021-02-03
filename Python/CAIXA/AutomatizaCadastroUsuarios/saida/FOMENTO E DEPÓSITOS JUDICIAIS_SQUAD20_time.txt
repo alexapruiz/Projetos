@@ -1,0 +1,4 @@
+rtc.usuarios=C024513
+rtc.roles=time
+rtc.teamAreaNome=FD20 - Migração SIDEC x SIJAD
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

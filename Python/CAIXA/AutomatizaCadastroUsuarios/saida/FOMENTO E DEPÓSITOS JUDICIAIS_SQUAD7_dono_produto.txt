@@ -1,0 +1,4 @@
+rtc.usuarios=C073896
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD07 - SICER - Financeiro e Contábil
+rtc.arquivo_areas=FOMENTO E DEPÓSITOS JUDICIAIS

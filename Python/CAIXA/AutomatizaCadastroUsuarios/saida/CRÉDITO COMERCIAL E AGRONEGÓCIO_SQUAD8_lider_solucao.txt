@@ -1,0 +1,4 @@
+rtc.usuarios=C105981
+rtc.roles=lider_solucao
+rtc.teamAreaNome=SIBAN
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

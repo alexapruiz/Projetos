@@ -1,0 +1,4 @@
+rtc.usuarios=C125778
+rtc.roles=dono_produto
+rtc.teamAreaNome=CI02 - Modernização
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

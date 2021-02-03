@@ -1,0 +1,4 @@
+rtc.usuarios=F597724
+rtc.roles=ux_designer
+rtc.teamAreaNome=CI09 - SIGFA 4
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

@@ -1,0 +1,4 @@
+rtc.usuarios=C074715
+rtc.roles=lider_time
+rtc.teamAreaNome=CI15 - RJE legados (SIART, SIFIX, SIGPB)
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

@@ -1,0 +1,4 @@
+rtc.usuarios=C059703,C067183,C095926
+rtc.roles=time
+rtc.teamAreaNome=SINCE
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO

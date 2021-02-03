@@ -1,0 +1,4 @@
+rtc.usuarios=C112799
+rtc.roles=dono_produto
+rtc.teamAreaNome=AC14 - Pagamentos e Cash Management
+rtc.arquivo_areas=ARRECADAÇÃO, CONVÊNIOS E COBRANÇA

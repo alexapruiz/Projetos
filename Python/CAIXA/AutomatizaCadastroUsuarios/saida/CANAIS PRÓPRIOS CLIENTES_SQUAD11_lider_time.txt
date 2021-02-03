@@ -1,0 +1,4 @@
+rtc.usuarios=C111482
+rtc.roles=lider_time
+rtc.teamAreaNome=CC6 - Internet Banking 6
+rtc.arquivo_areas=CANAIS PRÓPRIOS CLIENTES

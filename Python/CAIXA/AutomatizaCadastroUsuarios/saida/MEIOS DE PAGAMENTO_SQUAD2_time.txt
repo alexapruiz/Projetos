@@ -1,0 +1,4 @@
+rtc.usuarios=C110744
+rtc.roles=time
+rtc.teamAreaNome=MP10 - Credenciamento de Estabelec. Comerciais
+rtc.arquivo_areas=MEIOS DE PAGAMENTO

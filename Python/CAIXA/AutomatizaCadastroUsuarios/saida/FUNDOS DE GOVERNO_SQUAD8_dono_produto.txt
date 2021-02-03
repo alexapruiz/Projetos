@@ -1,0 +1,4 @@
+rtc.usuarios=C108594
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG16 - SIFGM - APP FGTS
+rtc.arquivo_areas=FUNDOS DE GOVERNO

@@ -1,0 +1,4 @@
+rtc.usuarios=C062876
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG18 - Contábil
+rtc.arquivo_areas=FUNDOS DE GOVERNO

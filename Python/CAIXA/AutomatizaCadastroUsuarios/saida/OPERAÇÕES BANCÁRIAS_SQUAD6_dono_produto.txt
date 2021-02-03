@@ -1,0 +1,4 @@
+rtc.usuarios=C086899
+rtc.roles=dono_produto
+rtc.teamAreaNome=OB06 - SICRA SICCH
+rtc.arquivo_areas=OPERAÇÕES BANCÁRIAS

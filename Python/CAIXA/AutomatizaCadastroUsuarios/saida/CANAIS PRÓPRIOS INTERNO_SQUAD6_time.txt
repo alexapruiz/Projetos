@@ -1,0 +1,4 @@
+rtc.usuarios=C082402,F529855,F555082,F666949,F763565,F987134
+rtc.roles=time
+rtc.teamAreaNome=CI6 - PNC Sociais e Comerciais
+rtc.arquivo_areas=CANAIS PRÓPRIOS INTERNO

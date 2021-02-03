@@ -1,0 +1,4 @@
+rtc.usuarios=C034781,C079590,C089758,F525432,F536722,F537268,F715882,F915011,F934322,F950938,F968393
+rtc.roles=time
+rtc.teamAreaNome=CI17 - Tesouraria - Sustentação legado
+rtc.arquivo_areas=CÂMBIO, INVESTIMENTOS E MERCADO DE CAPITAIS

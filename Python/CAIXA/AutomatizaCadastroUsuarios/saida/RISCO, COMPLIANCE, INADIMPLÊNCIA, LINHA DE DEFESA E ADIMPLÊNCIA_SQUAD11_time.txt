@@ -1,0 +1,4 @@
+rtc.usuarios=F541915,F575368,F615764,F700661,F734546,F766995,F982362,F999160
+rtc.roles=time
+rtc.teamAreaNome=RC11 - Acomp. Carteiras de Cobrança em Garantias
+rtc.arquivo_areas=RISCO, COMPLIANCE, INADIMPLÊNCIA, LINHA DE DEFESA E ADIMPLÊNCIA

@@ -1,0 +1,4 @@
+rtc.usuarios=F537055,F537079,F537115,F658565
+rtc.roles=time
+rtc.teamAreaNome=DC05 - Squad E
+rtc.arquivo_areas=DEPÓSITOS E CAPTAÇÃO

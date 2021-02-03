@@ -1,0 +1,4 @@
+rtc.usuarios=C024534
+rtc.roles=time
+rtc.teamAreaNome=SICES Desenvolvimento
+rtc.arquivo_areas=ESTRUTURANTES DE TI

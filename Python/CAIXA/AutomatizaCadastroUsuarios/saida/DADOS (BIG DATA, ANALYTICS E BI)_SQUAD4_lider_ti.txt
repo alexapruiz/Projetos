@@ -1,0 +1,4 @@
+rtc.usuarios=C081458
+rtc.roles=lider_ti
+rtc.teamAreaNome=Banco Digital - Análise de Clientes
+rtc.arquivo_areas=DADOS (BIG DATA, ANALYTICS E BI)

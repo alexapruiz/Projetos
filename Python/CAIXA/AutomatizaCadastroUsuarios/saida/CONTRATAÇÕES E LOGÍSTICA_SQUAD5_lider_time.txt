@@ -1,0 +1,4 @@
+rtc.usuarios=C090260
+rtc.roles=lider_time
+rtc.teamAreaNome=CL05 - Gestão de Patrimônios
+rtc.arquivo_areas=CONTRATAÇÕES E LOGÍSTICA

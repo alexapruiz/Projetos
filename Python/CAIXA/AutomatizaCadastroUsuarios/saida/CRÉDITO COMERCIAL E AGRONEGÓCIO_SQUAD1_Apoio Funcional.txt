@@ -1,0 +1,4 @@
+rtc.usuarios=C148680
+rtc.roles=Apoio Funcional
+rtc.teamAreaNome=Conformidade e monitoramento
+rtc.arquivo_areas=CRÉDITO COMERCIAL E AGRONEGÓCIO
