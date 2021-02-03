@@ -1,4 +1,0 @@
-rtc.usuarios=C129427
-rtc.roles=lider_time
-rtc.teamAreaNome=CI3 - PNC Dossie Digital
-rtc.arquivo_areas=Comunidade Canais Próprios Interno

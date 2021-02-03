@@ -1,4 +1,0 @@
-rtc.usuarios=C101465
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG27 - Novo Sítio FGTS
-rtc.arquivo_areas=Comunidade Fundos de Governo

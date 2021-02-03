@@ -1,4 +1,0 @@
-rtc.usuarios=C142864
-rtc.roles=lider_solucao
-rtc.teamAreaNome=Autenticadores e Segurança Física
-rtc.arquivo_areas=Comunidade Segurança

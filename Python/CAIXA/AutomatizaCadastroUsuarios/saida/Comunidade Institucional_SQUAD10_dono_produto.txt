@@ -1,4 +1,0 @@
-rtc.usuarios=C066094
-rtc.roles=dono_produto
-rtc.teamAreaNome=IN11 - Fundo Socioambiental
-rtc.arquivo_areas=Comunidade Institucional

@@ -1,4 +1,0 @@
-rtc.usuarios=C134551
-rtc.roles=time
-rtc.teamAreaNome=CC13 - SIFRS
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

@@ -1,4 +1,0 @@
-rtc.usuarios=C070052
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI12 - SISAT
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

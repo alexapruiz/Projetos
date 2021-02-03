@@ -1,4 +1,0 @@
-rtc.usuarios=C099747
-rtc.roles=time
-rtc.teamAreaNome=RC04 - Negociação e Emissão de Boleto
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

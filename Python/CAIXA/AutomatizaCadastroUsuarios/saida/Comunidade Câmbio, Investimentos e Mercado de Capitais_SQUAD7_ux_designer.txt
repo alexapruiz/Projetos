@@ -1,4 +1,0 @@
-rtc.usuarios=F655875
-rtc.roles=ux_designer
-rtc.teamAreaNome=CI07 - SIGFA 2
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

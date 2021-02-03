@@ -1,4 +1,0 @@
-rtc.usuarios=C079440
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIFES Agente Operador
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

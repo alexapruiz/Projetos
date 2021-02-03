@@ -1,4 +1,0 @@
-rtc.usuarios=C096340,F521130,F525856,F900634,F901260,F904342,F908263,F910256,F916922,F916923,F970621
-rtc.roles=time
-rtc.teamAreaNome=FG14 - Saque FGS
-rtc.arquivo_areas=Comunidade Fundos de Governo

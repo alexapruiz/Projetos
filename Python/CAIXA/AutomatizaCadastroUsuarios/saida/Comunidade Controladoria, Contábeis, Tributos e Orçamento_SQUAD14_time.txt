@@ -1,4 +1,0 @@
-rtc.usuarios=C137155
-rtc.roles=time
-rtc.teamAreaNome=CC8 - SICRS/SINEC
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

@@ -1,4 +1,0 @@
-rtc.usuarios=F562033,F673636,F738509
-rtc.roles=time
-rtc.teamAreaNome=IN10 - Relacionamento Parlamentar
-rtc.arquivo_areas=Comunidade Institucional

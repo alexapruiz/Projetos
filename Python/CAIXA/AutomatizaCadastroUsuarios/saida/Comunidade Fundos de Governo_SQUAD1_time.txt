@@ -1,4 +1,0 @@
-rtc.usuarios=C079684,C098415,F686440,F750720,F957596,F963781,F981823
-rtc.roles=time
-rtc.teamAreaNome=FG1 - Regularização
-rtc.arquivo_areas=Comunidade Fundos de Governo

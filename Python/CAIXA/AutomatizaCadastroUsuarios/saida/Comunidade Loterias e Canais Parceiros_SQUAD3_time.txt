@@ -1,4 +1,0 @@
-rtc.usuarios=F526082,F562003,F590229,F590230,F592806,F595054,F607735,F616026,F626043,F626595,F744113
-rtc.roles=time
-rtc.teamAreaNome=Canal Lotérico
-rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

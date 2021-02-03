@@ -1,4 +1,0 @@
-rtc.usuarios=C037840,C117757,F610559
-rtc.roles=time
-rtc.teamAreaNome=RC20 - Esteira
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

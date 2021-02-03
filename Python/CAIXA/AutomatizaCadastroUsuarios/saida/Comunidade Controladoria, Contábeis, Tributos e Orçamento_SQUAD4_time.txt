@@ -1,4 +1,0 @@
-rtc.usuarios=C103663
-rtc.roles=time
-rtc.teamAreaNome=CC12 - SIGOT
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

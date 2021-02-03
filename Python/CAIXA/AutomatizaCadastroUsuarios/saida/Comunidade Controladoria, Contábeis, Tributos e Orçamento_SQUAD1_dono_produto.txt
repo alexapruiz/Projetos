@@ -1,4 +1,0 @@
-rtc.usuarios=C128167
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC1 - SIEFI
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

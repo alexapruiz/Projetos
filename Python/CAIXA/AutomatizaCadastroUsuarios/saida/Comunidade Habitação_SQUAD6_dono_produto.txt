@@ -1,4 +1,0 @@
-rtc.usuarios=C061260
-rtc.roles=dono_produto
-rtc.teamAreaNome=ABH6 - ADMINISTRAÇÃO - SQUAD F
-rtc.arquivo_areas=Comunidade Habitação

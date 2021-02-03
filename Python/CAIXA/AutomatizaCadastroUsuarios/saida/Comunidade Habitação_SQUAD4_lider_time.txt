@@ -1,4 +1,0 @@
-rtc.usuarios=C061850
-rtc.roles=lider_time
-rtc.teamAreaNome=ABH4 - ADMINISTRAÇÃO - SQUAD D
-rtc.arquivo_areas=Comunidade Habitação

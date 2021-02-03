@@ -1,4 +1,0 @@
-rtc.usuarios=C110505,F545285,F549808,F670239
-rtc.roles=time
-rtc.teamAreaNome=SIAPI SIAPX Sustentação
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

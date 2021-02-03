@@ -1,4 +1,0 @@
-rtc.usuarios=C090141
-rtc.roles=agente_qualidade
-rtc.teamAreaNome=AC10 - Cobrança 1
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

@@ -1,4 +1,0 @@
-rtc.usuarios=C021764,C079463
-rtc.roles=time
-rtc.teamAreaNome=CI02 - Modernização
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

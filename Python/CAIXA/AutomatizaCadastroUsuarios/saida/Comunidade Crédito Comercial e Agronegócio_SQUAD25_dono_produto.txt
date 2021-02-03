@@ -1,4 +1,0 @@
-rtc.usuarios=C060729
-rtc.roles=dono_produto
-rtc.teamAreaNome=SISGH Gestão de Honras
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=C060919
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC13 - CAIXA Tem
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

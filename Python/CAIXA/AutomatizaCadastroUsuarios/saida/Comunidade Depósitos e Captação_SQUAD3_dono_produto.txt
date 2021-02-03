@@ -1,4 +1,0 @@
-rtc.usuarios=C077917
-rtc.roles=dono_produto
-rtc.teamAreaNome=DC03 - Squad C
-rtc.arquivo_areas=Comunidade Depósitos e Captação

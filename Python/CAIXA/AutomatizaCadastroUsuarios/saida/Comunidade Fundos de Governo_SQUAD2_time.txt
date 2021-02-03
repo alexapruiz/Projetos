@@ -1,4 +1,0 @@
-rtc.usuarios=C064576,C074177,C116962,F542310,F653152,F758353,F785668,F791208
-rtc.roles=time
-rtc.teamAreaNome=FG10 - Recolhimento
-rtc.arquivo_areas=Comunidade Fundos de Governo

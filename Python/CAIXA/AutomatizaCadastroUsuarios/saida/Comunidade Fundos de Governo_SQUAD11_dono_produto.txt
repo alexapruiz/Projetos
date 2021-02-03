@@ -1,4 +1,0 @@
-rtc.usuarios=C137022
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG19 - Relacionamento, Conciliação e Conformidade
-rtc.arquivo_areas=Comunidade Fundos de Governo

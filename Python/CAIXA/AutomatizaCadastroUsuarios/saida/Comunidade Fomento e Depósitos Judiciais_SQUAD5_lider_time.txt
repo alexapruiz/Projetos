@@ -1,4 +1,0 @@
-rtc.usuarios=C083199
-rtc.roles=lider_time
-rtc.teamAreaNome=FD05 - SIFPP - Fomento e Políticas Públicas
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

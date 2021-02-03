@@ -1,4 +1,0 @@
-rtc.usuarios=C089630
-rtc.roles=lider_time
-rtc.teamAreaNome=DC12 - Sustentação NSGD BR
-rtc.arquivo_areas=Comunidade Depósitos e Captação

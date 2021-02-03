@@ -1,4 +1,0 @@
-rtc.usuarios=C090273,C127240,C134278
-rtc.roles=time
-rtc.teamAreaNome=MP4 - SIA/SAT/APP Cartões
-rtc.arquivo_areas=Comunidade Meios de Pagamento

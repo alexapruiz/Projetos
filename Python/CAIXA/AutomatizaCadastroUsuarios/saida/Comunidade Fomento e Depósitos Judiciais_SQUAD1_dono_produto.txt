@@ -1,4 +1,0 @@
-rtc.usuarios=C080858
-rtc.roles=dono_produto
-rtc.teamAreaNome=FD01 - Preços e Índices da Construção Civil
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

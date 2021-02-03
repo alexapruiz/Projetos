@@ -1,4 +1,0 @@
-rtc.usuarios=C094119
-rtc.roles=lider_time
-rtc.teamAreaNome=PE2 - Engajamento, Benefícios e Rede
-rtc.arquivo_areas=Comunidade Pessoas

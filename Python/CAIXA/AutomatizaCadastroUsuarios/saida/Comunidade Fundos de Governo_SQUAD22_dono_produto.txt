@@ -1,4 +1,0 @@
-rtc.usuarios=C086158
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG29 - BI/Big Data
-rtc.arquivo_areas=Comunidade Fundos de Governo

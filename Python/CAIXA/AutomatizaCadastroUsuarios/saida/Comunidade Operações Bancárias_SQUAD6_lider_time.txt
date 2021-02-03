@@ -1,4 +1,0 @@
-rtc.usuarios=C083073
-rtc.roles=lider_time
-rtc.teamAreaNome=OB06 - SICRA SICCH
-rtc.arquivo_areas=Comunidade Operações Bancárias

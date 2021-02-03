@@ -1,4 +1,0 @@
-rtc.usuarios=C124317
-rtc.roles=dono_produto
-rtc.teamAreaNome=IN12 - Marketing e Patrocínio
-rtc.arquivo_areas=Comunidade Institucional

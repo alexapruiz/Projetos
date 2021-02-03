@@ -1,4 +1,0 @@
-rtc.usuarios=C103885
-rtc.roles=lider_tecnico
-rtc.teamAreaNome=Conformidade e monitoramento
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

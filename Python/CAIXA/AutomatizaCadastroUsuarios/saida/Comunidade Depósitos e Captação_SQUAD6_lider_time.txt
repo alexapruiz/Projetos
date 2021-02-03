@@ -1,4 +1,0 @@
-rtc.usuarios=C143356
-rtc.roles=lider_time
-rtc.teamAreaNome=DC06 - Squad 1
-rtc.arquivo_areas=Comunidade Depósitos e Captação

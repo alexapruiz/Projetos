@@ -1,4 +1,0 @@
-rtc.usuarios=C080700,C104086
-rtc.roles=time
-rtc.teamAreaNome=DC19 - Squad 1
-rtc.arquivo_areas=Comunidade Depósitos e Captação

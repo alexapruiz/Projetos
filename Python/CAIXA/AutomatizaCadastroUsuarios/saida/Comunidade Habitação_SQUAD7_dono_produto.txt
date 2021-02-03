@@ -1,4 +1,0 @@
-rtc.usuarios=C096914
-rtc.roles=dono_produto
-rtc.teamAreaNome=HA1 - ADMINISTRAÇÃO – SQUAD A
-rtc.arquivo_areas=Comunidade Habitação

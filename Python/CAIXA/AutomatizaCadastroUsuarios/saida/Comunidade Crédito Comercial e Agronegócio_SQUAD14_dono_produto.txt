@@ -1,4 +1,0 @@
-rtc.usuarios=C076088,C122777
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIEMP Sustentação
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

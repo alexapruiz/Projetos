@@ -1,4 +1,0 @@
-rtc.usuarios=C071335
-rtc.roles=lider_time
-rtc.teamAreaNome=CC7 -  SIGIP/SINAT
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

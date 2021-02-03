@@ -1,4 +1,0 @@
-rtc.usuarios=F626524,F658086
-rtc.roles=time
-rtc.teamAreaNome=SIFEC Diversos
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

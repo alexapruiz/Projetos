@@ -1,4 +1,0 @@
-rtc.usuarios=C129856,C142869
-rtc.roles=lider_solucao
-rtc.teamAreaNome=SIEMP Agronegócio, PF e PJ
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

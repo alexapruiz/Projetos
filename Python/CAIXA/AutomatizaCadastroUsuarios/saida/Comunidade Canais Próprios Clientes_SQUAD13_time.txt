@@ -1,4 +1,0 @@
-rtc.usuarios=F543642,F685705,F686878,F782241
-rtc.roles=time
-rtc.teamAreaNome=CC8 - Internet Banking 8 - Arquitetura e Testes
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

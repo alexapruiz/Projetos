@@ -1,4 +1,0 @@
-rtc.usuarios=F533684,F605541
-rtc.roles=time
-rtc.teamAreaNome=CI5 - Agência Digital
-rtc.arquivo_areas=Comunidade Canais Próprios Interno

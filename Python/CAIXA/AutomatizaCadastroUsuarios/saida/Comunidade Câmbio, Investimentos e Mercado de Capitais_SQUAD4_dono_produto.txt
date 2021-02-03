@@ -1,4 +1,0 @@
-rtc.usuarios=C079376
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI04 - Sustent. - Ações Cambio e Com. exterior
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

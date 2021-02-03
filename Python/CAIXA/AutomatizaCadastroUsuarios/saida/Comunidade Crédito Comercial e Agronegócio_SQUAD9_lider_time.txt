@@ -1,4 +1,0 @@
-rtc.usuarios=C058877,C142851,F799427
-rtc.roles=lider_time
-rtc.teamAreaNome=SICCR PF
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=F561595
-rtc.roles=ux_designer
-rtc.teamAreaNome=CI20 - SIIFX 2
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

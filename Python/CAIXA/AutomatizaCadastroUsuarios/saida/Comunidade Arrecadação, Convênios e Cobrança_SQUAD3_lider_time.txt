@@ -1,4 +1,0 @@
-rtc.usuarios=C129871
-rtc.roles=lider_time
-rtc.teamAreaNome=AC14 - Pagamentos e Cash Management
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

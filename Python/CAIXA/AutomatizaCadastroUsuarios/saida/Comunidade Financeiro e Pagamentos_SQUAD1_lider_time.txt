@@ -1,4 +1,0 @@
-rtc.usuarios=C139937
-rtc.roles=lider_time
-rtc.teamAreaNome=FP1 - Pagamentos SPB
-rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

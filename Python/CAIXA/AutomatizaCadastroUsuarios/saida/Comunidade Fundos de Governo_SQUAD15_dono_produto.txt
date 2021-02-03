@@ -1,4 +1,0 @@
-rtc.usuarios=C062270
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG22 - Cadastro Mutuários
-rtc.arquivo_areas=Comunidade Fundos de Governo

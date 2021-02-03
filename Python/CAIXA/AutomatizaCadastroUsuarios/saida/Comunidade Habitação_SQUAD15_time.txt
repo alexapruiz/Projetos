@@ -1,4 +1,0 @@
-rtc.usuarios=C101676
-rtc.roles=time
-rtc.teamAreaNome=HO1 - ORIGINAÇÃO  - SQUAD A
-rtc.arquivo_areas=Comunidade Habitação

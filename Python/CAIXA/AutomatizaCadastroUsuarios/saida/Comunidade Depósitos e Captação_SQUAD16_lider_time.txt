@@ -1,4 +1,0 @@
-rtc.usuarios=C112145
-rtc.roles=lider_time
-rtc.teamAreaNome=DC16 - Performance
-rtc.arquivo_areas=Comunidade Depósitos e Captação

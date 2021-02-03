@@ -1,4 +1,0 @@
-rtc.usuarios=C113793
-rtc.roles=lider_tecnico
-rtc.teamAreaNome=Banco Digital - Análise de Clientes
-rtc.arquivo_areas=Comunidade Dados (Big Data, Analytics e Bi)

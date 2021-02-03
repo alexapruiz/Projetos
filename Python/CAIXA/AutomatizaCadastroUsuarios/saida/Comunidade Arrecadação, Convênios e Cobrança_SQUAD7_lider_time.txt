@@ -1,4 +1,0 @@
-rtc.usuarios=C075673
-rtc.roles=lider_time
-rtc.teamAreaNome=AC6 - Detran e Orgãos Governamentais
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

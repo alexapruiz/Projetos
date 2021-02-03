@@ -1,4 +1,0 @@
-rtc.usuarios=C135737
-rtc.roles=lider_time
-rtc.teamAreaNome=[Gestão de TI] Vitrine Caixa
-rtc.arquivo_areas=Comunidade Estruturantes de TI

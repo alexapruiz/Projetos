@@ -1,4 +1,0 @@
-rtc.usuarios=C144656
-rtc.roles=lider_time
-rtc.teamAreaNome=CC13 - CAIXA Tem
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

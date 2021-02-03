@@ -1,4 +1,0 @@
-rtc.usuarios=C078822,F567286,F598410,F609700,F672276,F693716,F694540
-rtc.roles=time
-rtc.teamAreaNome=CI21 - SIIFX 3
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

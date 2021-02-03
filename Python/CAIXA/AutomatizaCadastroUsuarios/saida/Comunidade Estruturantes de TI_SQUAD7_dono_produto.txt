@@ -1,4 +1,0 @@
-rtc.usuarios=C077166
-rtc.roles=dono_produto
-rtc.teamAreaNome=[Core Bancário] SIAUT SICEX
-rtc.arquivo_areas=Comunidade Estruturantes de TI

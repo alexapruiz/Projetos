@@ -1,4 +1,0 @@
-rtc.usuarios=C117336
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC12 - SIGOT
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

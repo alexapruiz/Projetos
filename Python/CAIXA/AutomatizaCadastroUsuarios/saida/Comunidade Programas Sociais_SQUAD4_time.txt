@@ -1,4 +1,0 @@
-rtc.usuarios=C050755,F565288,F982663
-rtc.roles=time
-rtc.teamAreaNome=PS14 - Benefício INSS SIABE
-rtc.arquivo_areas=Comunidade Programas Sociais

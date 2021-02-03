@@ -1,4 +1,0 @@
-rtc.usuarios=C037076
-rtc.roles=agente_qualidade
-rtc.teamAreaNome=DC17 - Squad 1
-rtc.arquivo_areas=Comunidade Depósitos e Captação

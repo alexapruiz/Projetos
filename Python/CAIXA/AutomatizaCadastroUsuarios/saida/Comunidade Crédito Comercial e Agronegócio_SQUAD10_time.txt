@@ -1,4 +1,0 @@
-rtc.usuarios=C148704,F544877,F544927,F793289,F799438,F799452
-rtc.roles=time
-rtc.teamAreaNome=SICCR PJ
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=C102616
-rtc.roles=Administrador de Dados
-rtc.teamAreaNome=HA8 - ADMINISTRAÇÃO – SQUAD G
-rtc.arquivo_areas=Comunidade Habitação

@@ -1,4 +1,0 @@
-rtc.usuarios=C068049,C082353
-rtc.roles=lider_time
-rtc.teamAreaNome=[Core Bancário] SIATR
-rtc.arquivo_areas=Comunidade Estruturantes de TI

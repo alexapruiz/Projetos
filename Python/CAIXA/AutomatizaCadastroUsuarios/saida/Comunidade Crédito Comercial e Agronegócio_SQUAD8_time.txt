@@ -1,4 +1,0 @@
-rtc.usuarios=C084982,C148664,C148747
-rtc.roles=time
-rtc.teamAreaNome=SIBAN
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

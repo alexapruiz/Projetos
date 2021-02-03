@@ -1,4 +1,0 @@
-rtc.usuarios=C116561,F729758
-rtc.roles=time
-rtc.teamAreaNome=FD02 - SISNP - Manutenções de Famílias 
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

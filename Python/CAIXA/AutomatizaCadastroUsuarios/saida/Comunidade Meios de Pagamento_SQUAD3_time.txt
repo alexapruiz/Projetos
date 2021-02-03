@@ -1,4 +1,0 @@
-rtc.usuarios=C091628
-rtc.roles=time
-rtc.teamAreaNome=MP11 - Contratação Cartão Crédito
-rtc.arquivo_areas=Comunidade Meios de Pagamento

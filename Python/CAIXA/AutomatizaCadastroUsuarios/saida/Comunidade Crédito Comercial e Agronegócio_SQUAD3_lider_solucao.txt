@@ -1,4 +1,0 @@
-rtc.usuarios=C101486
-rtc.roles=lider_solucao
-rtc.teamAreaNome=Serviços
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=C055518
-rtc.roles=dono_produto
-rtc.teamAreaNome=CI09 - SIGFA 4
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

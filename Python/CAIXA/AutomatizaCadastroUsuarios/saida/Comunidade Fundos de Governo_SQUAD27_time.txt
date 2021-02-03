@@ -1,4 +1,0 @@
-rtc.usuarios=C070257,F625556,F665680,F900753,F923291,F936287
-rtc.roles=time
-rtc.teamAreaNome=FG6 - Arrecadação
-rtc.arquivo_areas=Comunidade Fundos de Governo

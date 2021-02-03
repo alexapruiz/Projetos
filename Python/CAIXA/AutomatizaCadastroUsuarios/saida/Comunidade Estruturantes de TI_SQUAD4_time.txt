@@ -1,4 +1,0 @@
-rtc.usuarios=C092912,F541530,F543753,F787548
-rtc.roles=time
-rtc.teamAreaNome=[Barramentos] - Sustentação SP
-rtc.arquivo_areas=Comunidade Estruturantes de TI

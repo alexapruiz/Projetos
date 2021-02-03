@@ -1,4 +1,0 @@
-rtc.usuarios=C075239
-rtc.roles=lider_time
-rtc.teamAreaNome=FD09 - SIAPO - Controle Orçamentário do FGTS
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

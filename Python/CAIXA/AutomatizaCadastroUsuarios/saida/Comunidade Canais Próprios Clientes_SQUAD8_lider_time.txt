@@ -1,4 +1,0 @@
-rtc.usuarios=C041737
-rtc.roles=lider_time
-rtc.teamAreaNome=CC3 - Internet Banking 3
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

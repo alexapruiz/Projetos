@@ -1,4 +1,0 @@
-rtc.usuarios=C113773,C134538,C139535
-rtc.roles=time
-rtc.teamAreaNome=HO5 - ORIGINAÇÃO – SQUAD E
-rtc.arquivo_areas=Comunidade Habitação

@@ -1,4 +1,0 @@
-rtc.usuarios=C065708,C076507,C077314,C091455,C091457
-rtc.roles=time
-rtc.teamAreaNome=DC01 - Sustentação e At. Critico
-rtc.arquivo_areas=Comunidade Depósitos e Captação

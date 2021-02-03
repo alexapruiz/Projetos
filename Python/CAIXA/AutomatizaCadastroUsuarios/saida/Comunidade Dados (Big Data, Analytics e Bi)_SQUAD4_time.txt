@@ -1,4 +1,0 @@
-rtc.usuarios=C129774,C131155,C134267
-rtc.roles=time
-rtc.teamAreaNome=Banco Digital - Análise de Clientes
-rtc.arquivo_areas=Comunidade Dados (Big Data, Analytics e Bi)

@@ -1,4 +1,0 @@
-rtc.usuarios=C083929
-rtc.roles=dono_produto
-rtc.teamAreaNome=DC05 - Squad E
-rtc.arquivo_areas=Comunidade Depósitos e Captação
