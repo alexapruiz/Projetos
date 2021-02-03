@@ -1,4 +1,4 @@
 rtc.usuarios=C048007
 rtc.roles=lider_solucao
-rtc.teamAreaNome=CL03 - Gestão de Documentos e Bens 
-rtc.arquivo_areas=Comunidade Contratações e Logística
+rtc.teamAreaNome=CL03 - GestÃ£o de Documentos e Bens 
+rtc.arquivo_areas=Comunidade ContrataÃ§Ãµes e LogÃ­stica

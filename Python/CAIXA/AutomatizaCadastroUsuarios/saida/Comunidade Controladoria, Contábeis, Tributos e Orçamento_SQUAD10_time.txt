@@ -1,4 +1,4 @@
 rtc.usuarios=C046083,C142824,F518768,F568359,F569783,F598939,F616243,F620371
 rtc.roles=time
 rtc.teamAreaNome=CC4 - SINAFWEB
-rtc.arquivo_areas=Comunidade Controladoria, Cont·beis, Tributos e OrÁamento
+rtc.arquivo_areas=Comunidade Controladoria, Cont√°beis, Tributos e Or√ßamento

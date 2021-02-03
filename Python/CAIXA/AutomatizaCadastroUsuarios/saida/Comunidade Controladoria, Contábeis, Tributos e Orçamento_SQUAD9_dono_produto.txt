@@ -1,4 +1,4 @@
 rtc.usuarios=C111871
 rtc.roles=dono_produto
 rtc.teamAreaNome=CC3 - SMCN
-rtc.arquivo_areas=Comunidade Controladoria, Cont·beis, Tributos e OrÁamento
+rtc.arquivo_areas=Comunidade Controladoria, Cont√°beis, Tributos e Or√ßamento

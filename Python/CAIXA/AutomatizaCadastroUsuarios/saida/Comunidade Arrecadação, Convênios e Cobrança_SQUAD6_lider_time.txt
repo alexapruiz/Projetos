@@ -1,4 +1,4 @@
 rtc.usuarios=C079422
 rtc.roles=lider_time
-rtc.teamAreaNome=AC5 - Arrecadação Sindical
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança
+rtc.teamAreaNome=AC5 - ArrecadaÃ§Ã£o Sindical
+rtc.arquivo_areas=Comunidade ArrecadaÃ§Ã£o, ConvÃªnios e CobranÃ§a

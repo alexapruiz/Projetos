@@ -1,4 +1,4 @@
 rtc.usuarios=C033951
 rtc.roles=lider_time
-rtc.teamAreaNome=FD23 - Sustentação Judiciais
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.teamAreaNome=FD23 - SustentaÃ§Ã£o Judiciais
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

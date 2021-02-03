@@ -1,4 +1,4 @@
 rtc.usuarios=C070138
 rtc.roles=time
-rtc.teamAreaNome=Métrica
+rtc.teamAreaNome=MÃ©trica
 rtc.arquivo_areas=Comunidade Suporte Centralizadora

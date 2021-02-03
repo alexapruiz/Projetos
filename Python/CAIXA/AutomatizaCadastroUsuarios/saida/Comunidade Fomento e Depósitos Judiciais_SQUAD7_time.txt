@@ -1,4 +1,4 @@
 rtc.usuarios=C021828,C051925,C581281,F505051,F624852,F910177,F917280,F951460,F965028
 rtc.roles=time
-rtc.teamAreaNome=FD07 - SICER - Financeiro e Cont·bil
-rtc.arquivo_areas=Comunidade Fomento e DepÛsitos Judiciais
+rtc.teamAreaNome=FD07 - SICER - Financeiro e Cont√°bil
+rtc.arquivo_areas=Comunidade Fomento e Dep√≥sitos Judiciais

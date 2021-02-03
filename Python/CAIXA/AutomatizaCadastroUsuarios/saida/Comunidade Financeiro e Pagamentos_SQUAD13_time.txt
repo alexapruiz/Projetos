@@ -1,4 +1,4 @@
 rtc.usuarios=C056391,F623084,F715882
 rtc.roles=time
-rtc.teamAreaNome=FP9 - Transferências de Recursos e Fundos
+rtc.teamAreaNome=FP9 - TransferÃªncias de Recursos e Fundos
 rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

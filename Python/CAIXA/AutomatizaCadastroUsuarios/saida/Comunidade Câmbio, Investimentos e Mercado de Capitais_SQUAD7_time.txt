@@ -1,4 +1,4 @@
 rtc.usuarios=F546104,F596860,F597767,F605648,F637463
 rtc.roles=time
 rtc.teamAreaNome=CI07 - SIGFA 2
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais
+rtc.arquivo_areas=Comunidade CÃ¢mbio, Investimentos e Mercado de Capitais

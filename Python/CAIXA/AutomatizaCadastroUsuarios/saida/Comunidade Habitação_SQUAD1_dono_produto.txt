@@ -1,4 +1,4 @@
 rtc.usuarios=C091665
 rtc.roles=dono_produto
-rtc.teamAreaNome=ABH1 - ADMINISTRA«√O - SQUAD A
-rtc.arquivo_areas=Comunidade HabitaÁ„o
+rtc.teamAreaNome=ABH1 - ADMINISTRA√á√ÉO - SQUAD A
+rtc.arquivo_areas=Comunidade Habita√ß√£o

@@ -1,4 +1,4 @@
 rtc.usuarios=C095273
 rtc.roles=lider_time
-rtc.teamAreaNome=[Core Banc·rio] - SIINT
+rtc.teamAreaNome=[Core Banc√°rio] - SIINT
 rtc.arquivo_areas=Comunidade Estruturantes de TI

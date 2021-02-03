@@ -1,4 +1,4 @@
 rtc.usuarios=C066577,C071708
 rtc.roles=dono_produto
 rtc.teamAreaNome=SIFEC Diversos
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

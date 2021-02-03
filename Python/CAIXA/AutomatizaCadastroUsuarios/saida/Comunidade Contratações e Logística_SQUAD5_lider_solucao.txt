@@ -1,4 +1,4 @@
 rtc.usuarios=C048007
 rtc.roles=lider_solucao
-rtc.teamAreaNome=CL05 - Gestão de Patrimônios
-rtc.arquivo_areas=Comunidade Contratações e Logística
+rtc.teamAreaNome=CL05 - GestÃ£o de PatrimÃ´nios
+rtc.arquivo_areas=Comunidade ContrataÃ§Ãµes e LogÃ­stica

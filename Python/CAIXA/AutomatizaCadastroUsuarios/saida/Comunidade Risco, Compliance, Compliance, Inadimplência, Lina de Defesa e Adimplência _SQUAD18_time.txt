@@ -1,4 +1,4 @@
 rtc.usuarios=F509524,F582443,F610559,F715967
 rtc.roles=time
-rtc.teamAreaNome=RC18 -  Gestão de Auditoria
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 
+rtc.teamAreaNome=RC18 -  GestÃ£o de Auditoria
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, InadimplÃªncia, Lina de Defesa e AdimplÃªncia 

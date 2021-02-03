@@ -1,4 +1,4 @@
 rtc.usuarios=C077036
 rtc.roles=lider_time
-rtc.teamAreaNome=PS3 - Cadastro Único para bolsas e folhas
+rtc.teamAreaNome=PS3 - Cadastro Ãšnico para bolsas e folhas
 rtc.arquivo_areas=Comunidade Programas Sociais

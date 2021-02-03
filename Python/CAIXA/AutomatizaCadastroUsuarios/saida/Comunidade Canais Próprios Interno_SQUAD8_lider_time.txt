@@ -1,4 +1,4 @@
 rtc.usuarios=C111473
 rtc.roles=lider_time
 rtc.teamAreaNome=CI8 - SISAG
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

@@ -1,4 +1,4 @@
 rtc.usuarios=F567734,F583070,F685358,F959820
 rtc.roles=time
 rtc.teamAreaNome=DC10 - Squad 5
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

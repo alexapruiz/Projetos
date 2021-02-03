@@ -1,4 +1,4 @@
 rtc.usuarios=F585733
 rtc.roles=time
 rtc.teamAreaNome=RC14 - Acompanhamento de Conformidade
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, InadimplÃªncia, Lina de Defesa e AdimplÃªncia 

@@ -1,4 +1,4 @@
 rtc.usuarios=C105981
 rtc.roles=lider_solucao
 rtc.teamAreaNome=SIFBN
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

@@ -1,4 +1,4 @@
 rtc.usuarios=C085055,F533495,F975512
 rtc.roles=time
-rtc.teamAreaNome=RC05 - Inadimplência
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 
+rtc.teamAreaNome=RC05 - InadimplÃªncia
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, InadimplÃªncia, Lina de Defesa e AdimplÃªncia 

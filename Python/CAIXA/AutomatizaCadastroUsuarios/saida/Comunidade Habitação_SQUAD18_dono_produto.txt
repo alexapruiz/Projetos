@@ -1,4 +1,4 @@
 rtc.usuarios=C022272
 rtc.roles=dono_produto
-rtc.teamAreaNome=HO4 - ORIGINAÇÃO – SQUAD D
-rtc.arquivo_areas=Comunidade Habitação
+rtc.teamAreaNome=HO4 - ORIGINAÃ‡ÃƒO â€“ SQUAD D
+rtc.arquivo_areas=Comunidade HabitaÃ§Ã£o

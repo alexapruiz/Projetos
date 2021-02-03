@@ -1,4 +1,4 @@
 rtc.usuarios=C134294
 rtc.roles=lider_time
-rtc.teamAreaNome=MP1 - Esteira de Implantação
+rtc.teamAreaNome=MP1 - Esteira de ImplantaÃ§Ã£o
 rtc.arquivo_areas=Comunidade Meios de Pagamento

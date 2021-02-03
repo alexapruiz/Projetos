@@ -1,4 +1,4 @@
 rtc.usuarios=C046235
 rtc.roles=dono_produto
-rtc.teamAreaNome=FD19 -  SIJAD - Atualizador de Depósito Judicial
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.teamAreaNome=FD19 -  SIJAD - Atualizador de DepÃ³sito Judicial
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

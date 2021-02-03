@@ -1,4 +1,4 @@
 rtc.usuarios=C110512
 rtc.roles=dono_produto
 rtc.teamAreaNome=DC07 - Squad 2
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

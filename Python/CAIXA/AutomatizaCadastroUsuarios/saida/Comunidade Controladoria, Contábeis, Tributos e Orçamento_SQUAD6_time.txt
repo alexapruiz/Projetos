@@ -1,4 +1,4 @@
 rtc.usuarios=C046083,C103663
 rtc.roles=time
-rtc.teamAreaNome=CC14 - SIVOC – SIFIT
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento
+rtc.teamAreaNome=CC14 - SIVOC â€“ SIFIT
+rtc.arquivo_areas=Comunidade Controladoria, ContÃ¡beis, Tributos e OrÃ§amento

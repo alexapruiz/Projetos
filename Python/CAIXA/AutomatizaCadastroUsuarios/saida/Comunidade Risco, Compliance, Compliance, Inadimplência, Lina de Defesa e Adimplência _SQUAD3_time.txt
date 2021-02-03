@@ -1,4 +1,4 @@
 rtc.usuarios=C111751
 rtc.roles=time
-rtc.teamAreaNome=RC03 - Cobrança e Recuperação de Crédito
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 
+rtc.teamAreaNome=RC03 - CobranÃ§a e RecuperaÃ§Ã£o de CrÃ©dito
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, InadimplÃªncia, Lina de Defesa e AdimplÃªncia 

@@ -1,4 +1,4 @@
 rtc.usuarios=C130775
 rtc.roles=dono_produto
 rtc.teamAreaNome=DC15 - Squad 10
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

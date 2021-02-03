@@ -1,4 +1,4 @@
 rtc.usuarios=F625982,F799727
 rtc.roles=time
-rtc.teamAreaNome=GCM - Gerência de Configuração de Mudança
+rtc.teamAreaNome=GCM - GerÃªncia de ConfiguraÃ§Ã£o de MudanÃ§a
 rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

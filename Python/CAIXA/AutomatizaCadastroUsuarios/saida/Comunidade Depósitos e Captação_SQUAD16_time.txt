@@ -1,4 +1,4 @@
 rtc.usuarios=F516661,F523663,F644505,F934500
 rtc.roles=time
 rtc.teamAreaNome=DC16 - Performance
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

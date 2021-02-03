@@ -1,4 +1,4 @@
 rtc.usuarios=C091743
 rtc.roles=lider_time
-rtc.teamAreaNome=ABH6 - ADMINISTRA«√O - SQUAD F
-rtc.arquivo_areas=Comunidade HabitaÁ„o
+rtc.teamAreaNome=ABH6 - ADMINISTRA√á√ÉO - SQUAD F
+rtc.arquivo_areas=Comunidade Habita√ß√£o

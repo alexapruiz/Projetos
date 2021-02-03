@@ -1,4 +1,4 @@
 rtc.usuarios=C076514
 rtc.roles=lider_time
-rtc.teamAreaNome=MP8 - F·brica Cart„o de DÈbito 
+rtc.teamAreaNome=MP8 - F√°brica Cart√£o de D√©bito 
 rtc.arquivo_areas=Comunidade Meios de Pagamento

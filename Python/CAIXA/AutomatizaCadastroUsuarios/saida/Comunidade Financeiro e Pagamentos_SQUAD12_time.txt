@@ -1,4 +1,4 @@
 rtc.usuarios=F532196,F623084
 rtc.roles=time
-rtc.teamAreaNome=FP8 - Gestão Financ., FGC e Contr. Setor Público
+rtc.teamAreaNome=FP8 - GestÃ£o Financ., FGC e Contr. Setor PÃºblico
 rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

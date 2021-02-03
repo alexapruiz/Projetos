@@ -1,4 +1,4 @@
 rtc.usuarios=C075718
 rtc.roles=lider_time
-rtc.teamAreaNome=FG18 - Cont·bil
+rtc.teamAreaNome=FG18 - Cont√°bil
 rtc.arquivo_areas=Comunidade Fundos de Governo

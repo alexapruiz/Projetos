@@ -1,4 +1,4 @@
 rtc.usuarios=C075109,F555082,F555116,F739241
 rtc.roles=time
 rtc.teamAreaNome=CI2 - SIPAN
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

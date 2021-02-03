@@ -1,4 +1,4 @@
 rtc.usuarios=C148667
 rtc.roles=lider_time
-rtc.teamAreaNome=SISGH Gest„o de Honras
-rtc.arquivo_areas=Comunidade CrÈdito Comercial e AgronegÛcio
+rtc.teamAreaNome=SISGH Gest√£o de Honras
+rtc.arquivo_areas=Comunidade Cr√©dito Comercial e Agroneg√≥cio

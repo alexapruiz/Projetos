@@ -1,4 +1,4 @@
 rtc.usuarios=C081885,F793872,F796071,F978518
 rtc.roles=time
-rtc.teamAreaNome=CL03 - Gestão de Documentos e Bens 
-rtc.arquivo_areas=Comunidade Contratações e Logística
+rtc.teamAreaNome=CL03 - GestÃ£o de Documentos e Bens 
+rtc.arquivo_areas=Comunidade ContrataÃ§Ãµes e LogÃ­stica

@@ -1,4 +1,4 @@
 rtc.usuarios=C055624
 rtc.roles=lider_time
-rtc.teamAreaNome=FG1 - Regularização
+rtc.teamAreaNome=FG1 - RegularizaÃ§Ã£o
 rtc.arquivo_areas=Comunidade Fundos de Governo

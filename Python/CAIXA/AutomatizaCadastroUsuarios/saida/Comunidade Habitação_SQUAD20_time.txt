@@ -1,4 +1,4 @@
 rtc.usuarios=C033325,C068554,C072688,C086411
 rtc.roles=time
-rtc.teamAreaNome=HO6 - ORIGINAÇÃO – SQUAD LEGADOS
-rtc.arquivo_areas=Comunidade Habitação
+rtc.teamAreaNome=HO6 - ORIGINAÃ‡ÃƒO â€“ SQUAD LEGADOS
+rtc.arquivo_areas=Comunidade HabitaÃ§Ã£o

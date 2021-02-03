@@ -1,4 +1,4 @@
 rtc.usuarios=F605541,F652383,F652432
 rtc.roles=time
 rtc.teamAreaNome=CC9 - CAIXA Mais
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Clientes

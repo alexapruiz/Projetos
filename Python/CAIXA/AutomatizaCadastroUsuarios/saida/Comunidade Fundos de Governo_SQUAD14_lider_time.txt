@@ -1,4 +1,4 @@
 rtc.usuarios=C083585
 rtc.roles=lider_time
-rtc.teamAreaNome=FG21 - Crédito Carbono
+rtc.teamAreaNome=FG21 - CrÃ©dito Carbono
 rtc.arquivo_areas=Comunidade Fundos de Governo

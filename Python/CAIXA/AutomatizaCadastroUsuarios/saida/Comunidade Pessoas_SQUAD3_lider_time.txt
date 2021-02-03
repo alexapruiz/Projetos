@@ -1,4 +1,4 @@
 rtc.usuarios=C074327
 rtc.roles=lider_time
-rtc.teamAreaNome=PE6 - Auto-Gestão Saúde 
+rtc.teamAreaNome=PE6 - Auto-GestÃ£o SaÃºde 
 rtc.arquivo_areas=Comunidade Pessoas

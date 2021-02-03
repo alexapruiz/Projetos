@@ -1,4 +1,4 @@
 rtc.usuarios=C097144
 rtc.roles=time
-rtc.teamAreaNome=Gest„o
-rtc.arquivo_areas=Comunidade CrÈdito Comercial e AgronegÛcio
+rtc.teamAreaNome=Gest√£o
+rtc.arquivo_areas=Comunidade Cr√©dito Comercial e Agroneg√≥cio

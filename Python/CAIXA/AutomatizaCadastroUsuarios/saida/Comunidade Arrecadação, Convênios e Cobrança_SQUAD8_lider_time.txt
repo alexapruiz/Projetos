@@ -1,4 +1,4 @@
 rtc.usuarios=C075673
 rtc.roles=lider_time
-rtc.teamAreaNome=AC7 - Arrecadação Iniciativa Privada
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança
+rtc.teamAreaNome=AC7 - ArrecadaÃ§Ã£o Iniciativa Privada
+rtc.arquivo_areas=Comunidade ArrecadaÃ§Ã£o, ConvÃªnios e CobranÃ§a

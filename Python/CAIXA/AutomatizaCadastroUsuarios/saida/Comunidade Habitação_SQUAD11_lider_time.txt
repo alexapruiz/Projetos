@@ -1,4 +1,4 @@
 rtc.usuarios=C115927
 rtc.roles=lider_time
-rtc.teamAreaNome=HA5 - ADMINISTRAÇÃO – SQUAD E1
-rtc.arquivo_areas=Comunidade Habitação
+rtc.teamAreaNome=HA5 - ADMINISTRAÃ‡ÃƒO â€“ SQUAD E1
+rtc.arquivo_areas=Comunidade HabitaÃ§Ã£o

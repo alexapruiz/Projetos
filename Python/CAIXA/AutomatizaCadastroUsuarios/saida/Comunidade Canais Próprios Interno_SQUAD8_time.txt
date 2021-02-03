@@ -1,4 +1,4 @@
 rtc.usuarios=C034017,C070474,C082221,C088273,F510761,F510772,F540254,F621541,F621546,F683234,F701414,F724389,F733373,F756592,F764953,F788037,F792477,F944060,F992239
 rtc.roles=time
 rtc.teamAreaNome=CI8 - SISAG
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

@@ -1,4 +1,4 @@
 rtc.usuarios=F512215,F558198,F566475,F764962
 rtc.roles=time
 rtc.teamAreaNome=CC5 - Internet Banking 5
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Clientes

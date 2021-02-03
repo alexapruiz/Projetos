@@ -1,4 +1,4 @@
 rtc.usuarios=C083110
 rtc.roles=dono_produto
-rtc.teamAreaNome=FG15 - Obrigações Financeiras
+rtc.teamAreaNome=FG15 - ObrigaÃ§Ãµes Financeiras
 rtc.arquivo_areas=Comunidade Fundos de Governo

@@ -1,4 +1,4 @@
 rtc.usuarios=C148680
 rtc.roles=Apoio Funcional
-rtc.teamAreaNome=SICDT Motor de Evolução
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.teamAreaNome=SICDT Motor de EvoluÃ§Ã£o
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

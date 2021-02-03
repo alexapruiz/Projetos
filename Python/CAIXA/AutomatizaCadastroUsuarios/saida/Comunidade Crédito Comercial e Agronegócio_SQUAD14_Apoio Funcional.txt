@@ -1,4 +1,4 @@
 rtc.usuarios=C148689
 rtc.roles=Apoio Funcional
-rtc.teamAreaNome=SIEMP Sustentação
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.teamAreaNome=SIEMP SustentaÃ§Ã£o
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

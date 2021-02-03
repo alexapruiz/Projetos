@@ -1,4 +1,4 @@
 rtc.usuarios=C070345,C101214
-rtc.roles=Facilitador ¡gil
-rtc.teamAreaNome=Gest„o
-rtc.arquivo_areas=Comunidade CrÈdito Comercial e AgronegÛcio
+rtc.roles=Facilitador √Ågil
+rtc.teamAreaNome=Gest√£o
+rtc.arquivo_areas=Comunidade Cr√©dito Comercial e Agroneg√≥cio

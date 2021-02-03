@@ -1,4 +1,4 @@
 rtc.usuarios=C060051
 rtc.roles=lider_time
 rtc.teamAreaNome=FD03 - SIGDU/SIEGH - Engenharia
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

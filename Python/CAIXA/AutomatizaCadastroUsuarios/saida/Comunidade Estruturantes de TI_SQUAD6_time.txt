@@ -1,4 +1,4 @@
 rtc.usuarios=C042629,F633087,F966896
 rtc.roles=time
-rtc.teamAreaNome=[Core Banc·rio] SIATR
+rtc.teamAreaNome=[Core Banc√°rio] SIATR
 rtc.arquivo_areas=Comunidade Estruturantes de TI

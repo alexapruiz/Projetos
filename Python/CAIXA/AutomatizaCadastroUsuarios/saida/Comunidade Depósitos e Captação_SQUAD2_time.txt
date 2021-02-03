@@ -1,4 +1,4 @@
 rtc.usuarios=F520674,F524174,F539795,F753225
 rtc.roles=time
 rtc.teamAreaNome=DC02 - Squad B
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

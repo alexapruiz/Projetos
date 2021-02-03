@@ -1,4 +1,4 @@
 rtc.usuarios=C116074,C126910,F413232,F561729,F688886,F759725,F799701,F923748,F996048
 rtc.roles=time
-rtc.teamAreaNome=FG19 - Relacionamento, Conciliação e Conformidade
+rtc.teamAreaNome=FG19 - Relacionamento, ConciliaÃ§Ã£o e Conformidade
 rtc.arquivo_areas=Comunidade Fundos de Governo

@@ -1,4 +1,4 @@
 rtc.usuarios=C035007,F565288,F578219,F601694,F625961,F916096,F939417,F964932
 rtc.roles=time
 rtc.teamAreaNome=AC8 - Tributos Federais
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança
+rtc.arquivo_areas=Comunidade ArrecadaÃ§Ã£o, ConvÃªnios e CobranÃ§a

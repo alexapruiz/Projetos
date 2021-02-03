@@ -1,4 +1,4 @@
 rtc.usuarios=C075689
 rtc.roles=lider_agil
 rtc.teamAreaNome=OB04 - SICTD
-rtc.arquivo_areas=Comunidade Operações Bancárias
+rtc.arquivo_areas=Comunidade OperaÃ§Ãµes BancÃ¡rias

@@ -1,5 +1,5 @@
 
-arquivo = open("palavras2.txt", "w", encoding="ANSI")
+arquivo = open("palavras2.txt", "w", encoding="UTF-8")
 
 texto = "Olá !!!!"
 arquivo.write(texto)

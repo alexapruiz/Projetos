@@ -1,4 +1,4 @@
 rtc.usuarios=C055669,C066196,C066577,C076088,C085710
 rtc.roles=dono_produto
 rtc.teamAreaNome=SIAPI Negocial
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

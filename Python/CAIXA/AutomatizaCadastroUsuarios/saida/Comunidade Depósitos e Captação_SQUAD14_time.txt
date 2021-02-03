@@ -1,4 +1,4 @@
 rtc.usuarios=C129773,C148690,F551664,F596186,F679528
 rtc.roles=time
 rtc.teamAreaNome=DC14 - Squad 9
-rtc.arquivo_areas=Comunidade Depósitos e Captação
+rtc.arquivo_areas=Comunidade DepÃ³sitos e CaptaÃ§Ã£o

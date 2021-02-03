@@ -1,4 +1,4 @@
 rtc.usuarios=C050611
 rtc.roles=lider_time
-rtc.teamAreaNome=FG3 - Inscrição em Dívida
+rtc.teamAreaNome=FG3 - InscriÃ§Ã£o em DÃ­vida
 rtc.arquivo_areas=Comunidade Fundos de Governo

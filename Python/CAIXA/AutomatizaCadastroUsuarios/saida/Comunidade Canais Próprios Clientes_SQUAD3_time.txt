@@ -1,4 +1,4 @@
 rtc.usuarios=C108268,C111807,C127100,F526552,F554949,F642903,F676675,F712867
 rtc.roles=time
 rtc.teamAreaNome=CC11 - Auto Atendimento 2
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Clientes

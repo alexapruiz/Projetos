@@ -1,4 +1,4 @@
 rtc.usuarios=C070689
 rtc.roles=time
 rtc.teamAreaNome=Antifraude e autorizadores
-rtc.arquivo_areas=Comunidade Segurança
+rtc.arquivo_areas=Comunidade SeguranÃ§a

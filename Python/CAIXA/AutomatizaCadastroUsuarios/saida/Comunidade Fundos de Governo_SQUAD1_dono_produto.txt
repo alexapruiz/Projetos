@@ -1,4 +1,4 @@
 rtc.usuarios=C114812
 rtc.roles=dono_produto
-rtc.teamAreaNome=FG1 - Regularização
+rtc.teamAreaNome=FG1 - RegularizaÃ§Ã£o
 rtc.arquivo_areas=Comunidade Fundos de Governo

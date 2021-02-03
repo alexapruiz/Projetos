@@ -1,4 +1,4 @@
 rtc.usuarios=C094076,F512524,F578632,F651567,F727716,F736755
 rtc.roles=time
-rtc.teamAreaNome=FD22 - Monit e Centralização de saldos do TJ de SC
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.teamAreaNome=FD22 - Monit e CentralizaÃ§Ã£o de saldos do TJ de SC
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

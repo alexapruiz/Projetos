@@ -1,4 +1,4 @@
 rtc.usuarios=C127296,C142868
 rtc.roles=time
-rtc.teamAreaNome=HA3 - ADMINISTRAÇÃO – SQUAD C
-rtc.arquivo_areas=Comunidade Habitação
+rtc.teamAreaNome=HA3 - ADMINISTRAÃ‡ÃƒO â€“ SQUAD C
+rtc.arquivo_areas=Comunidade HabitaÃ§Ã£o

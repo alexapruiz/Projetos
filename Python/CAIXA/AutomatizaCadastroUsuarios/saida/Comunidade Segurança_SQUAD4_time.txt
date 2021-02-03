@@ -1,4 +1,4 @@
 rtc.usuarios=C050046,C051171,C080186,C126139,C133001
 rtc.roles=time
 rtc.teamAreaNome=Certificados, cadastro e SISGR
-rtc.arquivo_areas=Comunidade Segurança
+rtc.arquivo_areas=Comunidade SeguranÃ§a

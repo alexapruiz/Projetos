@@ -1,4 +1,4 @@
 rtc.usuarios=C081117,C137153
-rtc.roles=Membro do Capítulo
-rtc.teamAreaNome=Métrica
+rtc.roles=Membro do CapÃ­tulo
+rtc.teamAreaNome=MÃ©trica
 rtc.arquivo_areas=Comunidade Suporte Centralizadora

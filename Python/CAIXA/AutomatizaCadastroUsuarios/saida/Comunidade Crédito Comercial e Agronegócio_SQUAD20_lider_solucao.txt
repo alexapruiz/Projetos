@@ -1,4 +1,4 @@
 rtc.usuarios=C142927
 rtc.roles=lider_solucao
-rtc.teamAreaNome=SIGEC Cess„o
-rtc.arquivo_areas=Comunidade CrÈdito Comercial e AgronegÛcio
+rtc.teamAreaNome=SIGEC Cess√£o
+rtc.arquivo_areas=Comunidade Cr√©dito Comercial e Agroneg√≥cio

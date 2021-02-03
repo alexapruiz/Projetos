@@ -1,4 +1,4 @@
 rtc.usuarios=C086611,C105983,C142001,F504271,F505867,F574747,F727473,F963878,F978338
 rtc.roles=time
 rtc.teamAreaNome=OB01 - SICCP SIDOC SICCF SIPRO
-rtc.arquivo_areas=Comunidade Operações Bancárias
+rtc.arquivo_areas=Comunidade OperaÃ§Ãµes BancÃ¡rias

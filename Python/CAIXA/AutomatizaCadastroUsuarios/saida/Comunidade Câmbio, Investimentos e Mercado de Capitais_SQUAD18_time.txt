@@ -1,4 +1,4 @@
 rtc.usuarios=C079590,F570849,F577394,F655098,F664677,F692921,F726774,F726776
 rtc.roles=time
-rtc.teamAreaNome=CI18 - SITEC - Sustentação/Melhorias
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais
+rtc.teamAreaNome=CI18 - SITEC - SustentaÃ§Ã£o/Melhorias
+rtc.arquivo_areas=Comunidade CÃ¢mbio, Investimentos e Mercado de Capitais

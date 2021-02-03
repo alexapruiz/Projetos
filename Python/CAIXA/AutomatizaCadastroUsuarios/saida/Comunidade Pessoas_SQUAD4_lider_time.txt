@@ -1,4 +1,4 @@
 rtc.usuarios=C081918,C094119
 rtc.roles=lider_time
-rtc.teamAreaNome=PE7 - Autoatendimento Saúde 
+rtc.teamAreaNome=PE7 - Autoatendimento SaÃºde 
 rtc.arquivo_areas=Comunidade Pessoas

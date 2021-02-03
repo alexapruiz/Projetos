@@ -1,4 +1,4 @@
 rtc.usuarios=C071335
 rtc.roles=lider_time
 rtc.teamAreaNome=CC9 - SICOF/SIPLO
-rtc.arquivo_areas=Comunidade Controladoria, Cont·beis, Tributos e OrÁamento
+rtc.arquivo_areas=Comunidade Controladoria, Cont√°beis, Tributos e Or√ßamento

@@ -1,4 +1,4 @@
 rtc.usuarios=C111312
 rtc.roles=lider_time
 rtc.teamAreaNome=FD25 - Projeto Novo SIURB Acomp de Obras
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

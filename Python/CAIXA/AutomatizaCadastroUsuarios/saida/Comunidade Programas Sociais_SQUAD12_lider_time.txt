@@ -1,4 +1,4 @@
 rtc.usuarios=C083245
 rtc.roles=lider_time
-rtc.teamAreaNome=PS8 - Cart„o do Cidad„o
+rtc.teamAreaNome=PS8 - Cart√£o do Cidad√£o
 rtc.arquivo_areas=Comunidade Programas Sociais

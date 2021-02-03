@@ -1,4 +1,4 @@
 rtc.usuarios=C106331
 rtc.roles=lider_time
-rtc.teamAreaNome=MP7 - Cart„o de CrÈdito e Anti-Fraude
+rtc.teamAreaNome=MP7 - Cart√£o de Cr√©dito e Anti-Fraude
 rtc.arquivo_areas=Comunidade Meios de Pagamento

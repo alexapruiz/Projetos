@@ -1,4 +1,4 @@
 rtc.usuarios=C126903
 rtc.roles=lider_time
-rtc.teamAreaNome=CI7 - PNC Migração
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.teamAreaNome=CI7 - PNC MigraÃ§Ã£o
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

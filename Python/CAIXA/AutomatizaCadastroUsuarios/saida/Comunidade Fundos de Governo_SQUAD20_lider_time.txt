@@ -1,4 +1,4 @@
 rtc.usuarios=C056795
 rtc.roles=lider_time
-rtc.teamAreaNome=FG27 - Novo Sítio FGTS
+rtc.teamAreaNome=FG27 - Novo SÃ­tio FGTS
 rtc.arquivo_areas=Comunidade Fundos de Governo

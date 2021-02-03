@@ -1,4 +1,4 @@
 rtc.usuarios=C074174
 rtc.roles=Apoio Funcional
-rtc.teamAreaNome=FD11 - SIOPM - Portal GECRI operações de mercado
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.teamAreaNome=FD11 - SIOPM - Portal GECRI operaÃ§Ãµes de mercado
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

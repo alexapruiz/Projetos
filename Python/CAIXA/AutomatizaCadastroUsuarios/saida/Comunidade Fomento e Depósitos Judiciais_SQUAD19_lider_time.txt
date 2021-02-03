@@ -1,4 +1,4 @@
 rtc.usuarios=C033941
 rtc.roles=lider_time
-rtc.teamAreaNome=FD19 -  SIJAD - Atualizador de Depósito Judicial
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
+rtc.teamAreaNome=FD19 -  SIJAD - Atualizador de DepÃ³sito Judicial
+rtc.arquivo_areas=Comunidade Fomento e DepÃ³sitos Judiciais

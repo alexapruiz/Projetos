@@ -1,4 +1,4 @@
 rtc.usuarios=C071624,F504737,F566940,F597426,F598668,F609664,F609670,F650978,F667411,P546081,P564449,P587073,P658041,P990463
 rtc.roles=time
 rtc.teamAreaNome=CI4 - Hoje.Caixa
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

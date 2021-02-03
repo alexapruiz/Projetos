@@ -1,4 +1,4 @@
 rtc.usuarios=C098311
 rtc.roles=dono_produto
 rtc.teamAreaNome=SIPEN Penhor
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

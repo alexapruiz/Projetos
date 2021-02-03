@@ -1,4 +1,4 @@
 rtc.usuarios=C059703,C067183,C095926
 rtc.roles=time
 rtc.teamAreaNome=SINCE
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio
+rtc.arquivo_areas=Comunidade CrÃ©dito Comercial e AgronegÃ³cio

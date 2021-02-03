@@ -1,4 +1,4 @@
 rtc.usuarios=C148681,C148685,F550402,F572144,F596569,F632858,F643319,F653373,F757102,F912503,F914207
 rtc.roles=time
 rtc.teamAreaNome=CC13 - CAIXA Tem
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Clientes

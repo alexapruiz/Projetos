@@ -1,4 +1,4 @@
 rtc.usuarios=C115604
 rtc.roles=dono_produto
-rtc.teamAreaNome=HA6 - ADMINISTRAÇÃO – SQUAD E2
-rtc.arquivo_areas=Comunidade Habitação
+rtc.teamAreaNome=HA6 - ADMINISTRAÃ‡ÃƒO â€“ SQUAD E2
+rtc.arquivo_areas=Comunidade HabitaÃ§Ã£o

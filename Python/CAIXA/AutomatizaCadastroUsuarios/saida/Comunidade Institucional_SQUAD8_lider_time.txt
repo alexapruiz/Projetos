@@ -1,4 +1,4 @@
 rtc.usuarios=C083059
 rtc.roles=lider_time
-rtc.teamAreaNome=IN09 - Jurídico
+rtc.teamAreaNome=IN09 - JurÃ­dico
 rtc.arquivo_areas=Comunidade Institucional

@@ -1,4 +1,4 @@
 rtc.usuarios=C073309
 rtc.roles=lider_solucao
-rtc.teamAreaNome=CL04 -Contratações e Suporte aos Processos de TI
-rtc.arquivo_areas=Comunidade Contratações e Logística
+rtc.teamAreaNome=CL04 -ContrataÃ§Ãµes e Suporte aos Processos de TI
+rtc.arquivo_areas=Comunidade ContrataÃ§Ãµes e LogÃ­stica

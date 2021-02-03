@@ -1,4 +1,4 @@
 rtc.usuarios=C114375
 rtc.roles=lider_time
-rtc.teamAreaNome=CI5 - Agência Digital
-rtc.arquivo_areas=Comunidade Canais Próprios Interno
+rtc.teamAreaNome=CI5 - AgÃªncia Digital
+rtc.arquivo_areas=Comunidade Canais PrÃ³prios Interno

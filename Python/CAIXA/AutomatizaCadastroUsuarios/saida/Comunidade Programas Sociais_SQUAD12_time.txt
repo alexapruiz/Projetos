@@ -1,4 +1,4 @@
 rtc.usuarios=C031077,C069797,C126049,F566263,F581029,F747914,F947789,F969954,F981248
 rtc.roles=time
-rtc.teamAreaNome=PS8 - Cart„o do Cidad„o
+rtc.teamAreaNome=PS8 - Cart√£o do Cidad√£o
 rtc.arquivo_areas=Comunidade Programas Sociais

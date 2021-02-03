@@ -1,4 +1,4 @@
 rtc.usuarios=C058910
 rtc.roles=lider_solucao
 rtc.teamAreaNome=RC17 - Risco de Mercado e Liqueidez
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, InadimplÃªncia, Lina de Defesa e AdimplÃªncia 

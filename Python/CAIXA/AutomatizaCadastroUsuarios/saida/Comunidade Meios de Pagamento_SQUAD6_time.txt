@@ -1,4 +1,4 @@
 rtc.usuarios=C134585,C135204
 rtc.roles=time
-rtc.teamAreaNome=MP5 - Cart„o de CrÈdito e SIGCS
+rtc.teamAreaNome=MP5 - Cart√£o de Cr√©dito e SIGCS
 rtc.arquivo_areas=Comunidade Meios de Pagamento

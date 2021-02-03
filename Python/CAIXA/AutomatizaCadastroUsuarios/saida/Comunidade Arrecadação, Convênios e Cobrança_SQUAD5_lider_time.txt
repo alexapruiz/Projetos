@@ -1,4 +1,4 @@
 rtc.usuarios=C096365
 rtc.roles=lider_time
-rtc.teamAreaNome=AC3 - PJ Pública e Conta Única
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança
+rtc.teamAreaNome=AC3 - PJ PÃºblica e Conta Ãšnica
+rtc.arquivo_areas=Comunidade ArrecadaÃ§Ã£o, ConvÃªnios e CobranÃ§a

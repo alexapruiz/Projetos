@@ -1,4 +1,4 @@
 rtc.usuarios=C027106
 rtc.roles=lider_time
-rtc.teamAreaNome=HO2 - ORIGINA«√O - SQUAD B
-rtc.arquivo_areas=Comunidade HabitaÁ„o
+rtc.teamAreaNome=HO2 - ORIGINA√á√ÉO - SQUAD B
+rtc.arquivo_areas=Comunidade Habita√ß√£o

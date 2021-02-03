@@ -1,4 +1,4 @@
 rtc.usuarios=C087360
 rtc.roles=Tester
-rtc.teamAreaNome=SISGH Gest„o de Honras
-rtc.arquivo_areas=Comunidade CrÈdito Comercial e AgronegÛcio
+rtc.teamAreaNome=SISGH Gest√£o de Honras
+rtc.arquivo_areas=Comunidade Cr√©dito Comercial e Agroneg√≥cio

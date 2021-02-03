@@ -1,4 +1,4 @@
 rtc.usuarios=C069042,C103771,C116561,F580998,F729758,F759705,F958348
 rtc.roles=time
-rtc.teamAreaNome=FD01 - PreÁos e Õndices da ConstruÁ„o Civil
-rtc.arquivo_areas=Comunidade Fomento e DepÛsitos Judiciais
+rtc.teamAreaNome=FD01 - Pre√ßos e √çndices da Constru√ß√£o Civil
+rtc.arquivo_areas=Comunidade Fomento e Dep√≥sitos Judiciais

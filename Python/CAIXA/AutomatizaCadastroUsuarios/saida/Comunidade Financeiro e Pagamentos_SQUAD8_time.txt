@@ -1,4 +1,4 @@
 rtc.usuarios=C134275,F752388,F912841,F957603
 rtc.roles=time
-rtc.teamAreaNome=FP4 - Encaixes Obrigat., Compulsório e Fluxo
+rtc.teamAreaNome=FP4 - Encaixes Obrigat., CompulsÃ³rio e Fluxo
 rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

@@ -1,4 +1,4 @@
 rtc.usuarios=F757117,F914686,F918260,F940004,F972049,F990003
 rtc.roles=time
-rtc.teamAreaNome=evolução de jogos cobol
+rtc.teamAreaNome=evoluÃ§Ã£o de jogos cobol
 rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

@@ -1,4 +1,4 @@
 rtc.usuarios=C053068,C115057
 rtc.roles=lider_time
-rtc.teamAreaNome=FG15 - Obrigações Financeiras
+rtc.teamAreaNome=FG15 - ObrigaÃ§Ãµes Financeiras
 rtc.arquivo_areas=Comunidade Fundos de Governo
