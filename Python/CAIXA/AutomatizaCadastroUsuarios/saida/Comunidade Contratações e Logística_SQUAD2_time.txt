@@ -1,0 +1,4 @@
+rtc.usuarios=C015893,C096345,C099171,C125046
+rtc.roles=time
+rtc.teamAreaNome=CL02 - Pagamento ao Fornecedor
+rtc.arquivo_areas=Comunidade Contratações e Logística

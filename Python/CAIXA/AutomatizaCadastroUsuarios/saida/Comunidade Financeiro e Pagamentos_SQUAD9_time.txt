@@ -1,0 +1,4 @@
+rtc.usuarios=C134275,F752388,F912841,F957603
+rtc.roles=time
+rtc.teamAreaNome=FP5 - Fundos e Prog., TDA, Infos mand. BACEN
+rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

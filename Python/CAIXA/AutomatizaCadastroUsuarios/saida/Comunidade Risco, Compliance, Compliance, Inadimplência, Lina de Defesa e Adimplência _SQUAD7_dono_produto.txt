@@ -1,0 +1,4 @@
+rtc.usuarios=C073562
+rtc.roles=dono_produto
+rtc.teamAreaNome=RC07 - Avaliação e Provisionamento de Crédito
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

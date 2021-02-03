@@ -1,0 +1,4 @@
+rtc.usuarios=C089940
+rtc.roles=time
+rtc.teamAreaNome=FD12 - Sustent Fomento URB DTF OBR APG SMP
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

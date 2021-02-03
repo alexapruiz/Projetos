@@ -1,0 +1,4 @@
+rtc.usuarios=C025759
+rtc.roles=lider_time
+rtc.teamAreaNome=RC10 - Gestão de perdas  CAIXA
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

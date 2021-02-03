@@ -1,0 +1,4 @@
+rtc.usuarios=C126172
+rtc.roles=lider_time
+rtc.teamAreaNome=Certificados, cadastro e SISGR
+rtc.arquivo_areas=Comunidade Segurança

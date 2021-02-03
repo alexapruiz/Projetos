@@ -1,0 +1,4 @@
+rtc.usuarios=C082522
+rtc.roles=dono_produto
+rtc.teamAreaNome=AC2 - Débito
+rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

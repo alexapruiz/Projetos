@@ -1,0 +1,4 @@
+rtc.usuarios=C118707
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD03 - SIGDU/SIEGH - Engenharia
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

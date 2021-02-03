@@ -1,0 +1,4 @@
+rtc.usuarios=C117031
+rtc.roles=lider_time
+rtc.teamAreaNome=FG25 - FGHab
+rtc.arquivo_areas=Comunidade Fundos de Governo

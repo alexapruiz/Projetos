@@ -1,0 +1,4 @@
+rtc.usuarios=C070093,C095428,C148770
+rtc.roles=time
+rtc.teamAreaNome=PS4 - Ateste Bolsa Fam. SIGBF SIABF e Proj SIPBF
+rtc.arquivo_areas=Comunidade Programas Sociais

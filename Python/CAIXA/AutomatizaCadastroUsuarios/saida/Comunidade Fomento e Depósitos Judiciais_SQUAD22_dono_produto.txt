@@ -1,0 +1,4 @@
+rtc.usuarios=C053089
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD22 - Monit e Centralização de saldos do TJ de SC
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

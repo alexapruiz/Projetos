@@ -1,0 +1,4 @@
+rtc.usuarios=C102437
+rtc.roles=lider_time
+rtc.teamAreaNome=FG19 - Relacionamento, Conciliação e Conformidade
+rtc.arquivo_areas=Comunidade Fundos de Governo

@@ -1,0 +1,4 @@
+rtc.usuarios=C097876,F413231,F535795,F562822,F701724
+rtc.roles=time
+rtc.teamAreaNome=FG18 - Contábil
+rtc.arquivo_areas=Comunidade Fundos de Governo

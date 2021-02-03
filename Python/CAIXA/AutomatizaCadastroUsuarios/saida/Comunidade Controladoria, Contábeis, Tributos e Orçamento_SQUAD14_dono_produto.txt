@@ -1,0 +1,4 @@
+rtc.usuarios=C090366
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC8 - SICRS/SINEC
+rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

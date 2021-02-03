@@ -1,0 +1,4 @@
+rtc.usuarios=C024671,C077162,F638734,F981500
+rtc.roles=time
+rtc.teamAreaNome=[Barramentos] - Desenvolvimento SP
+rtc.arquivo_areas=Comunidade Estruturantes de TI

@@ -1,0 +1,4 @@
+rtc.usuarios=C115083
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG12 - Cadastro
+rtc.arquivo_areas=Comunidade Fundos de Governo

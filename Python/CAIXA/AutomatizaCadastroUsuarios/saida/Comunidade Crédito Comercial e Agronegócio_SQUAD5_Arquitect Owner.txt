@@ -1,0 +1,4 @@
+rtc.usuarios=C148696
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=SIAPI Negocial
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

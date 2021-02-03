@@ -1,0 +1,4 @@
+rtc.usuarios=C104649,C127247,C134549,C140961
+rtc.roles=time
+rtc.teamAreaNome=MP2 - Squad de Serviços
+rtc.arquivo_areas=Comunidade Meios de Pagamento

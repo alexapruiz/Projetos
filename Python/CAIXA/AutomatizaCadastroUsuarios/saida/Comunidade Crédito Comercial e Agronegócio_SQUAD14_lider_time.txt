@@ -1,0 +1,4 @@
+rtc.usuarios=C097043,F799508
+rtc.roles=lider_time
+rtc.teamAreaNome=SIEMP Sustentação
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

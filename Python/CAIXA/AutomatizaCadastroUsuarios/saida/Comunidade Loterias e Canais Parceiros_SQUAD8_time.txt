@@ -1,0 +1,4 @@
+rtc.usuarios=F625012,F628564,F643587,F672107,F696529,F704369,F711645,F914686
+rtc.roles=time
+rtc.teamAreaNome=loterias canais digitais
+rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

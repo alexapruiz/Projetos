@@ -1,0 +1,4 @@
+rtc.usuarios=F509823,F512227,F540036,F577142,F605694,F718566
+rtc.roles=time
+rtc.teamAreaNome=CC3 - Internet Banking 3
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

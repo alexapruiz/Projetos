@@ -1,0 +1,4 @@
+rtc.usuarios=C113753
+rtc.roles=lider_time
+rtc.teamAreaNome=IN08 - Corregedoria
+rtc.arquivo_areas=Comunidade Institucional

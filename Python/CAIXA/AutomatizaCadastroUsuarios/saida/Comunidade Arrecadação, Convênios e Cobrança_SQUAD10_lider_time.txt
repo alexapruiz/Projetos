@@ -1,0 +1,4 @@
+rtc.usuarios=C062702
+rtc.roles=lider_time
+rtc.teamAreaNome=AC9 - Transacional e Extrato Eletronico
+rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

@@ -11,7 +11,7 @@ papel = conexao3.cursor()
 matricula = conexao4.cursor()
 
 #SELECIONA AS COMUNIDADES
-comunidade.execute("SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios where comunidade = 'Comunidade Depósitos e Captação' ORDER BY COMUNIDADE")
+comunidade.execute("SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios ORDER BY COMUNIDADE")
 for reg_comunidade in comunidade:
     # PARA CADA COMUNIDADE ENCONTRADA, PESQUISA OS SQUADS
     ComandoSQL = "SELECT DISTINCT(SQUAD) as SQUAD FROM Comunidade_Usuarios WHERE COMUNIDADE = '" + str(reg_comunidade[0]) + "' ORDER BY SQUAD"
@@ -30,7 +30,7 @@ for reg_comunidade in comunidade:
                 arquivo_matriculas = arquivo_matriculas + reg_matricula[0] + ','
 
             nome_arquivo_saida = reg_comunidade[0] + '_SQUAD' + str(count_squad) + '_' + reg_papel[0] + '.txt'
-            arquivo_saida = open(os.getcwd() + '\\saida\\' + nome_arquivo_saida, "w")
+            arquivo_saida = open(os.getcwd() + '\\saida\\' + nome_arquivo_saida, "w", encoding="ANSI")
             arquivo_saida.write('rtc.usuarios=' + arquivo_matriculas[:-1] + '\n')
             arquivo_saida.write('rtc.roles=' + reg_papel[0]+ '\n')
             arquivo_saida.write('rtc.teamAreaNome=' + reg_squad[0]+ '\n')

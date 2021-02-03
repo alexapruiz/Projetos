@@ -1,0 +1,4 @@
+rtc.usuarios=C148738,C148754
+rtc.roles=time
+rtc.teamAreaNome=RC01 - Internalização e Novo Projeto SIGPL
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

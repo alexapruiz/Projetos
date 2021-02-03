@@ -1,0 +1,4 @@
+rtc.usuarios=F611855,F753227,F979856
+rtc.roles=time
+rtc.teamAreaNome=CC1 - Internet Banking 1
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

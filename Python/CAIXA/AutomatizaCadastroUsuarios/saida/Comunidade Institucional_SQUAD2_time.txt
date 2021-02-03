@@ -1,0 +1,4 @@
+rtc.usuarios=C092252,F704166,F768019
+rtc.roles=time
+rtc.teamAreaNome=IN03 - Site Institucional
+rtc.arquivo_areas=Comunidade Institucional

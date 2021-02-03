@@ -1,0 +1,4 @@
+rtc.usuarios=F677757,F912841,F957603
+rtc.roles=time
+rtc.teamAreaNome=FP3 - Execução Financeira
+rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

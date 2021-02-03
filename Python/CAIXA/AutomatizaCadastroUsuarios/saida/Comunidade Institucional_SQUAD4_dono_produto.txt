@@ -1,0 +1,4 @@
+rtc.usuarios=C072709
+rtc.roles=dono_produto
+rtc.teamAreaNome=IN05 - Produtos de Seguridade
+rtc.arquivo_areas=Comunidade Institucional

@@ -1,0 +1,4 @@
+rtc.usuarios=C051078,C100385,C104994,C115722,F542952,F574087,F601919,F603777,F695989
+rtc.roles=time
+rtc.teamAreaNome=FG30 - FCVS
+rtc.arquivo_areas=Comunidade Fundos de Governo

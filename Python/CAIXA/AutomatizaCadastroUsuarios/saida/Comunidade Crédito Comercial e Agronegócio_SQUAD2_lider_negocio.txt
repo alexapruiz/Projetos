@@ -1,0 +1,4 @@
+rtc.usuarios=C065363
+rtc.roles=lider_negocio
+rtc.teamAreaNome=Gestão
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

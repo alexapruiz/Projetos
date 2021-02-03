@@ -1,0 +1,4 @@
+rtc.usuarios=C126903
+rtc.roles=lider_time
+rtc.teamAreaNome=CI6 - PNC Sociais e Comerciais
+rtc.arquivo_areas=Comunidade Canais Próprios Interno

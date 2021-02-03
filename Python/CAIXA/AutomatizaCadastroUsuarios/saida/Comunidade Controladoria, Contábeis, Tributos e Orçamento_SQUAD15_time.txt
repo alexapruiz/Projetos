@@ -1,0 +1,4 @@
+rtc.usuarios=C046083,F621399,F634309,F926988,F945693,F948035
+rtc.roles=time
+rtc.teamAreaNome=CC9 - SICOF/SIPLO
+rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

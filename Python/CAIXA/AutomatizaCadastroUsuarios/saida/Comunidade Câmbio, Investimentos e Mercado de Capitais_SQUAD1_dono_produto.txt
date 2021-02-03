@@ -1,0 +1,4 @@
+rtc.usuarios=C068658
+rtc.roles=dono_produto
+rtc.teamAreaNome=CI01 - Ações On-Line - Sustentação Backoffice
+rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

@@ -1,0 +1,4 @@
+rtc.usuarios=F558039,F589916,F630881,F650979,F698476
+rtc.roles=time
+rtc.teamAreaNome=RC15 - Gestão de Produtos Compliance
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

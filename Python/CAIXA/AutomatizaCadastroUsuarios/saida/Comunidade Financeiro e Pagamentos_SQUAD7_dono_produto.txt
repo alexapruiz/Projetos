@@ -1,0 +1,4 @@
+rtc.usuarios=C092953
+rtc.roles=dono_produto
+rtc.teamAreaNome=FP3 - Execução Financeira
+rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

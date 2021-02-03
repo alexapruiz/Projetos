@@ -1,0 +1,4 @@
+rtc.usuarios=C070514,F566931,F570800,F666763,F743061,F747749
+rtc.roles=time
+rtc.teamAreaNome=FG24 - FEP
+rtc.arquivo_areas=Comunidade Fundos de Governo

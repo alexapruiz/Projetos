@@ -1,0 +1,4 @@
+rtc.usuarios=C091965,C093819,F750600,F901904
+rtc.roles=time
+rtc.teamAreaNome=FP2 - TED Clientes
+rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

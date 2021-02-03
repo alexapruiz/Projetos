@@ -1,0 +1,4 @@
+rtc.usuarios=F537141,F585960
+rtc.roles=time
+rtc.teamAreaNome=FG28 - Consultas Especializadas
+rtc.arquivo_areas=Comunidade Fundos de Governo

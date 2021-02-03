@@ -1,0 +1,4 @@
+rtc.usuarios=C110108
+rtc.roles=lider_solucao
+rtc.teamAreaNome=SICDT Motor de Evolução
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

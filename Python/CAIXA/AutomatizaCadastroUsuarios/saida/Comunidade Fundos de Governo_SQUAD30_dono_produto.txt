@@ -1,0 +1,4 @@
+rtc.usuarios=C085484
+rtc.roles=dono_produto
+rtc.teamAreaNome=FG9 - Cartório Caixa
+rtc.arquivo_areas=Comunidade Fundos de Governo

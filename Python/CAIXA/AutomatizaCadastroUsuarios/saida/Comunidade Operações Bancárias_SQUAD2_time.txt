@@ -1,0 +1,4 @@
+rtc.usuarios=C086611,C127107,C142001,F505867,F574747
+rtc.roles=time
+rtc.teamAreaNome=OB02 - SINAU
+rtc.arquivo_areas=Comunidade Operações Bancárias

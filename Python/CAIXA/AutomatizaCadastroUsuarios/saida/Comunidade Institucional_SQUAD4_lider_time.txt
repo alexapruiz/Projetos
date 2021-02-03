@@ -1,0 +1,4 @@
+rtc.usuarios=C074576,C129424
+rtc.roles=lider_time
+rtc.teamAreaNome=IN05 - Produtos de Seguridade
+rtc.arquivo_areas=Comunidade Institucional

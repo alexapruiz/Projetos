@@ -1,0 +1,4 @@
+rtc.usuarios=C052958,P507435,P770935,P914169
+rtc.roles=time
+rtc.teamAreaNome=OB05 - SITDF
+rtc.arquivo_areas=Comunidade Operações Bancárias

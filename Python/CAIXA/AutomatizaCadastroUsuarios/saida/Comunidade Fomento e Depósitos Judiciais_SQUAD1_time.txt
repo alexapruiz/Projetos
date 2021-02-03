@@ -1,0 +1,4 @@
+rtc.usuarios=C069042,C103771,C116561,F580998,F729758,F759705,F958348
+rtc.roles=time
+rtc.teamAreaNome=FD01 - Preços e Índices da Construção Civil
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

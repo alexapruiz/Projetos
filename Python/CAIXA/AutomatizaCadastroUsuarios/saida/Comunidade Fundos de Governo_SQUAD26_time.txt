@@ -1,0 +1,4 @@
+rtc.usuarios=C075479,F564900,F590407,F926041,F938859,F944634,F966658,F975586
+rtc.roles=time
+rtc.teamAreaNome=FG5 - Parceiros
+rtc.arquivo_areas=Comunidade Fundos de Governo

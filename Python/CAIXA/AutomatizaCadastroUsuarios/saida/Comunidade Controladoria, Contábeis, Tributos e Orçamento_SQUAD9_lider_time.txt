@@ -1,0 +1,4 @@
+rtc.usuarios=C086879
+rtc.roles=lider_time
+rtc.teamAreaNome=CC3 - SMCN
+rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

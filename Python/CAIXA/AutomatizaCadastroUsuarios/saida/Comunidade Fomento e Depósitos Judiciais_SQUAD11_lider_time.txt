@@ -1,0 +1,4 @@
+rtc.usuarios=C111312
+rtc.roles=lider_time
+rtc.teamAreaNome=FD11 - SIOPM - Portal GECRI operações de mercado
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

@@ -1,0 +1,4 @@
+rtc.usuarios=C094076,F620971,F797083,P572539
+rtc.roles=time
+rtc.teamAreaNome=FD15 - SITRR - Tarifas e Repasses do OGU
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

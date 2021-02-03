@@ -1,0 +1,4 @@
+rtc.usuarios=C148680
+rtc.roles=Apoio Funcional
+rtc.teamAreaNome=SICCR PF
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

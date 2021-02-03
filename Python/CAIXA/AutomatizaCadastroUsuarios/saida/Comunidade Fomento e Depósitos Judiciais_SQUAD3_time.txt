@@ -1,0 +1,4 @@
+rtc.usuarios=C016879,C062102,C134476,F612788,F917280,F958348
+rtc.roles=time
+rtc.teamAreaNome=FD03 - SIGDU/SIEGH - Engenharia
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

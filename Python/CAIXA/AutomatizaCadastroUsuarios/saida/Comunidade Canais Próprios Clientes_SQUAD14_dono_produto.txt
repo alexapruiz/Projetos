@@ -1,0 +1,4 @@
+rtc.usuarios=C051431
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC9 - CAIXA Mais
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

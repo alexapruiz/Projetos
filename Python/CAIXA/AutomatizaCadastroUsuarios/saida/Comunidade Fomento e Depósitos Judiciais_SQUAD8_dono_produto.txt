@@ -1,0 +1,4 @@
+rtc.usuarios=C092808
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD08 - SIGAF - Garantias de Fomento / PNAF
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

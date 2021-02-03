@@ -1,0 +1,4 @@
+rtc.usuarios=C089640
+rtc.roles=dono_produto
+rtc.teamAreaNome=HO3 - ORIGINAÇÃO -SQUAD C
+rtc.arquivo_areas=Comunidade Habitação

@@ -1,0 +1,4 @@
+rtc.usuarios=C075219
+rtc.roles=lider_time
+rtc.teamAreaNome=AC11 - Cobrança 2
+rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

@@ -1,0 +1,4 @@
+rtc.usuarios=C111348,C134469
+rtc.roles=lider_time
+rtc.teamAreaNome=FG11 - Conectividade Social
+rtc.arquivo_areas=Comunidade Fundos de Governo

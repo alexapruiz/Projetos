@@ -1,0 +1,4 @@
+rtc.usuarios=F599077,P614116
+rtc.roles=time
+rtc.teamAreaNome=IN15 - Representatividade Externa
+rtc.arquivo_areas=Comunidade Institucional

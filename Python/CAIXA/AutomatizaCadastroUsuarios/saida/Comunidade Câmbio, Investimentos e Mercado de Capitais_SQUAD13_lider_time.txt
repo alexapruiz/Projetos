@@ -1,0 +1,4 @@
+rtc.usuarios=C112465
+rtc.roles=lider_time
+rtc.teamAreaNome=CI13 - Dados/BI/ETL
+rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

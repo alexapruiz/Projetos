@@ -1,0 +1,4 @@
+rtc.usuarios=C088734,C112568,C120190,C131294,C139532
+rtc.roles=time
+rtc.teamAreaNome=CC6 - Internet Banking 6
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes
