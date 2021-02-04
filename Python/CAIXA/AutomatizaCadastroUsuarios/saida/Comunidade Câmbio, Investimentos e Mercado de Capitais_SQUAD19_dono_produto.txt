@@ -1,0 +1,4 @@
+rtc.usuarios=C065877
+rtc.roles=dono_produto
+rtc.teamAreaNome=CI19 - SIIFX 1
+rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

@@ -1,0 +1,4 @@
+rtc.usuarios=F595657,F778515
+rtc.roles=Arquitect Owner
+rtc.teamAreaNome=CC8 - Internet Banking 8 - Arquitetura e Testes
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

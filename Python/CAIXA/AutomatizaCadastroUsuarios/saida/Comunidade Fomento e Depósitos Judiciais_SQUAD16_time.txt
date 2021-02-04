@@ -1,0 +1,4 @@
+rtc.usuarios=C069924,C093833,C098792,C102996,C112269
+rtc.roles=time
+rtc.teamAreaNome=FD16 - SIF/PJE - Integ. CEF e Justiça do Trabalho
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

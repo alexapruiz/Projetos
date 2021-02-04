@@ -1,0 +1,4 @@
+rtc.usuarios=C081916
+rtc.roles=dono_produto
+rtc.teamAreaNome=RC08 - Gestão de Risco de Crédito 
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

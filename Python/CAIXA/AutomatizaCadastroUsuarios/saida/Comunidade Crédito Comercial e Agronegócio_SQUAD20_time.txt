@@ -1,0 +1,4 @@
+rtc.usuarios=C074256,C080470
+rtc.roles=time
+rtc.teamAreaNome=SIGEC Cessão
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

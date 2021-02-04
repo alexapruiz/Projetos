@@ -1,0 +1,4 @@
+rtc.usuarios=C043243,C101280,F527358,F597311,F651576,F676911,F744545,F758831,F916012,F962681,F985121,F995395,F995440,F995682,F996068
+rtc.roles=time
+rtc.teamAreaNome=CI15 - RJE legados (SIART, SIFIX, SIGPB)
+rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

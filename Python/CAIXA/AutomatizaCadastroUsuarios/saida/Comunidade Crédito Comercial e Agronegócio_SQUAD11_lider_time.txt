@@ -1,0 +1,4 @@
+rtc.usuarios=C074557
+rtc.roles=lider_time
+rtc.teamAreaNome=SICDC Crédito Direto CAIXA
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

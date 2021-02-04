@@ -1,0 +1,4 @@
+rtc.usuarios=C110821,C125513,C126051,F524437,F557764,F909003,F940010
+rtc.roles=time
+rtc.teamAreaNome=PS10 - Abono Salarial
+rtc.arquivo_areas=Comunidade Programas Sociais

@@ -1,0 +1,4 @@
+rtc.usuarios=C054131
+rtc.roles=dono_produto
+rtc.teamAreaNome=RC13 - Normas Caixa
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

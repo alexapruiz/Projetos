@@ -1,0 +1,4 @@
+rtc.usuarios=C100993,C104333,F512068,F512076
+rtc.roles=time
+rtc.teamAreaNome=FD10 - SIAVO - Controle Proj e desembolsos do FGTS
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

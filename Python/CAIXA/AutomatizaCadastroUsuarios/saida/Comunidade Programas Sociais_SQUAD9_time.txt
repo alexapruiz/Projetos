@@ -1,0 +1,4 @@
+rtc.usuarios=C110821,C125513,C126051
+rtc.roles=time
+rtc.teamAreaNome=PS5 - PROJ – Gestão Financ pagamentos sociais
+rtc.arquivo_areas=Comunidade Programas Sociais

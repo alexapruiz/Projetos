@@ -1,0 +1,4 @@
+rtc.usuarios=C056044,C060112,C077268,C095884,C104849,C140502,F565394,F603773,F610529,F648606,F667950,F705492,F716655,F757777,F794919,F956757
+rtc.roles=time
+rtc.teamAreaNome=PS11 - BEM e Seguro Desemprego
+rtc.arquivo_areas=Comunidade Programas Sociais

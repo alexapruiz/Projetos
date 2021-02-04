@@ -1,0 +1,4 @@
+rtc.usuarios=C148704
+rtc.roles=time
+rtc.teamAreaNome=Conformidade e monitoramento
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

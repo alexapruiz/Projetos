@@ -1,0 +1,4 @@
+rtc.usuarios=F567471,F568940,F588908,F627203,F636043,F661407,F705563,F916415
+rtc.roles=time
+rtc.teamAreaNome=RC17 - Risco de Mercado e Liqueidez
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

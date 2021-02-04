@@ -1,0 +1,4 @@
+rtc.usuarios=F625984
+rtc.roles=time
+rtc.teamAreaNome=FG7 - Conta e Lançamento/Remuneração e Saldo
+rtc.arquivo_areas=Comunidade Fundos de Governo

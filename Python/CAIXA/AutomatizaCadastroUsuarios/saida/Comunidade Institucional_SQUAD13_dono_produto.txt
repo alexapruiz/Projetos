@@ -1,0 +1,4 @@
+rtc.usuarios=C073561
+rtc.roles=dono_produto
+rtc.teamAreaNome=IN14 - Fale com o Presidente
+rtc.arquivo_areas=Comunidade Institucional

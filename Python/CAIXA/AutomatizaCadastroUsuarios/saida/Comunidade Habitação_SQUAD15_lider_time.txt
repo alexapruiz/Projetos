@@ -1,0 +1,4 @@
+rtc.usuarios=F981138
+rtc.roles=lider_time
+rtc.teamAreaNome=HO1 - ORIGINAÇÃO  - SQUAD A
+rtc.arquivo_areas=Comunidade Habitação

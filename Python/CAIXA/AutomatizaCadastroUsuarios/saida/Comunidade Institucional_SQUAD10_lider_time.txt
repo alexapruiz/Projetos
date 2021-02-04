@@ -1,0 +1,4 @@
+rtc.usuarios=C140932
+rtc.roles=lider_time
+rtc.teamAreaNome=IN11 - Fundo Socioambiental
+rtc.arquivo_areas=Comunidade Institucional

@@ -1,0 +1,4 @@
+rtc.usuarios=F563181,F563992,F568728,F630904,F634947,F648928,F684681,F711076,F711655,F779811
+rtc.roles=time
+rtc.teamAreaNome=novos Jogos
+rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

@@ -1,0 +1,4 @@
+rtc.usuarios=C140491,F533489,F627818,F702106,F715636,F750724,F768105,F791597,F797291,F799052,F908769,F935808
+rtc.roles=time
+rtc.teamAreaNome=FG15 - Obrigações Financeiras
+rtc.arquivo_areas=Comunidade Fundos de Governo

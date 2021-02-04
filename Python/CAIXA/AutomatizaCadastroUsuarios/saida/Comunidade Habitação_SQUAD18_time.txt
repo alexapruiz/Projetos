@@ -1,0 +1,4 @@
+rtc.usuarios=C086269
+rtc.roles=time
+rtc.teamAreaNome=HO4 - ORIGINAÇÃO – SQUAD D
+rtc.arquivo_areas=Comunidade Habitação

@@ -1,0 +1,4 @@
+rtc.usuarios=C028849
+rtc.roles=lider_time
+rtc.teamAreaNome=ABH3 - ADMINISTRAÇÃO - SQUAD C
+rtc.arquivo_areas=Comunidade Habitação

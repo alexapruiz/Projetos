@@ -1,0 +1,4 @@
+rtc.usuarios=F573448,F658838,F716915,F793196
+rtc.roles=time
+rtc.teamAreaNome=FG4 - PGFN
+rtc.arquivo_areas=Comunidade Fundos de Governo

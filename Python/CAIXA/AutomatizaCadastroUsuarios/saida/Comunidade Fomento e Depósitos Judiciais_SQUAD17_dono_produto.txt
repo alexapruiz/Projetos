@@ -1,0 +1,4 @@
+rtc.usuarios=C027319
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD17 - SIADJ - Repasse Ações Jud INSS, RCB e União
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

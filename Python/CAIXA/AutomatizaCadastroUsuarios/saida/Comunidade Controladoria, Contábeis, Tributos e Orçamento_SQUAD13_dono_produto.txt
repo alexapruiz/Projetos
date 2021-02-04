@@ -1,0 +1,4 @@
+rtc.usuarios=C101384
+rtc.roles=dono_produto
+rtc.teamAreaNome=CC7 -  SIGIP/SINAT
+rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

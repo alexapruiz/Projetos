@@ -1,0 +1,4 @@
+rtc.usuarios=C101465
+rtc.roles=dono_produto
+rtc.teamAreaNome=FD11 - SIOPM - Portal GECRI operações de mercado
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

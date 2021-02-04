@@ -1,0 +1,4 @@
+rtc.usuarios=C101275
+rtc.roles=dono_produto
+rtc.teamAreaNome=RC06 - Gestão de Capital
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

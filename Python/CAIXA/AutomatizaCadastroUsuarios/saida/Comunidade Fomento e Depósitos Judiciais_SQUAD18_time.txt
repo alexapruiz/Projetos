@@ -1,0 +1,4 @@
+rtc.usuarios=C112269,F538881,F554663,F617021,F680288,F716658,F792295,F939927
+rtc.roles=time
+rtc.teamAreaNome=FD18 - Depósito Judicial (legado) 
+rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

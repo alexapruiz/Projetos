@@ -1,0 +1,4 @@
+rtc.usuarios=F545285,F630958,F911116,F931875,F972964,F979688
+rtc.roles=time
+rtc.teamAreaNome=SIAPI Negocial
+rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

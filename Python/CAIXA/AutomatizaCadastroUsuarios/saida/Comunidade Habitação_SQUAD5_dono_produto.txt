@@ -1,0 +1,4 @@
+rtc.usuarios=C101027
+rtc.roles=dono_produto
+rtc.teamAreaNome=ABH5 - ADMINISTRAÇÃO - SQUAD E
+rtc.arquivo_areas=Comunidade Habitação

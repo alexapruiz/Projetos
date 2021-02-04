@@ -1,0 +1,4 @@
+rtc.usuarios=C093292
+rtc.roles=lider_time
+rtc.teamAreaNome=CI1 - SIGAT
+rtc.arquivo_areas=Comunidade Canais Próprios Interno

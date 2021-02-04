@@ -1,0 +1,4 @@
+rtc.usuarios=C024450,C089717,C111495,F581909,F598926,F598932,F624020,F707966,F719009,F721333,F752819,F763980,F770174,F777291,F793828,F798319,F911693,F978202
+rtc.roles=time
+rtc.teamAreaNome=CC12 - Auto Atendimento 3
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

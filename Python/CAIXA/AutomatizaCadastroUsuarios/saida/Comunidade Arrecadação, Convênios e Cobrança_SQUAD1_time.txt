@@ -1,0 +1,4 @@
+rtc.usuarios=C123316,C144435,F580763,F624581,F624586,F766755,F915829,F932468
+rtc.roles=time
+rtc.teamAreaNome=AC10 - Cobrança 1
+rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

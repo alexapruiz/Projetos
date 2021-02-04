@@ -1,0 +1,4 @@
+rtc.usuarios=C052958,F505867,F574747,F992918
+rtc.roles=time
+rtc.teamAreaNome=OB12 - SIGDA
+rtc.arquivo_areas=Comunidade Operações Bancárias

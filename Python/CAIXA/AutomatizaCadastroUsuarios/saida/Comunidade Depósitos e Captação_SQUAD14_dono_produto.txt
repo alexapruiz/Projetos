@@ -1,0 +1,4 @@
+rtc.usuarios=C071981
+rtc.roles=dono_produto
+rtc.teamAreaNome=DC14 - Squad 9
+rtc.arquivo_areas=Comunidade Depósitos e Captação

@@ -1,0 +1,4 @@
+rtc.usuarios=C070508
+rtc.roles=lider_time
+rtc.teamAreaNome=PS9 - Pagamento Bolsas Sociais
+rtc.arquivo_areas=Comunidade Programas Sociais

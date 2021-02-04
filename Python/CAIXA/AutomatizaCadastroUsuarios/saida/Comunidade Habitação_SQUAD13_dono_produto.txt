@@ -1,0 +1,4 @@
+rtc.usuarios=C088815
+rtc.roles=dono_produto
+rtc.teamAreaNome=HA7 - ADMINISTRAÇÃO – SQUAD F
+rtc.arquivo_areas=Comunidade Habitação

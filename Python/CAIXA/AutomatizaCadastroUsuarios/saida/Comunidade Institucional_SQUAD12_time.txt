@@ -1,0 +1,4 @@
+rtc.usuarios=F503254,F503314,F507889,F708859
+rtc.roles=time
+rtc.teamAreaNome=IN13 - Processos Corporativos
+rtc.arquivo_areas=Comunidade Institucional

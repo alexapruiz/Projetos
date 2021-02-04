@@ -1,0 +1,4 @@
+rtc.usuarios=C111476
+rtc.roles=lider_time
+rtc.teamAreaNome=CC12 - Auto Atendimento 3
+rtc.arquivo_areas=Comunidade Canais Próprios Clientes

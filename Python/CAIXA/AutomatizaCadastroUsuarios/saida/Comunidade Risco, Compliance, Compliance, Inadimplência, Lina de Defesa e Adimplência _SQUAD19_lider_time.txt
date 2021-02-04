@@ -1,0 +1,4 @@
+rtc.usuarios=C090272
+rtc.roles=lider_time
+rtc.teamAreaNome=RC19 - Controle Interno CAIXA
+rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

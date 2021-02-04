@@ -1,0 +1,4 @@
+rtc.usuarios=C083053
+rtc.roles=dono_produto
+rtc.teamAreaNome=AC7 - Arrecadação Iniciativa Privada
+rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança
