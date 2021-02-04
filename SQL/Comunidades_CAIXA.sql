@@ -1,10 +1,11 @@
+use CAIXA
+
 create table Comunidade_Usuarios
 (COMUNIDADE varchar(100),
 SQUAD varchar(50),
 MATRICULA char(7),
 PAPEL varchar(50))
 
-use CAIXA
 drop table Comunidade_Usuarios
 delete from Comunidade_Usuarios
 select * from Comunidade_Usuarios
@@ -29,5 +30,5 @@ SELECT DISTINCT(PAPEL) as PAPEL FROM Comunidade_Usuarios
 update Comunidade_Usuarios set PAPEL = 'agente_qualidade' where PAPEL = 'Agente de Qualidade'
 
 
-SELECT distinct(comunidade) FROM Comunidade_Usuarios where squad = 'CI03 - Ações on-line - Sustentação Frontoffice'
-SELECT * FROM Comunidade_Usuarios where comunidade = 'Comunidade'
+SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios order by Comunidade
+SELECT * FROM Comunidade_Usuarios where matricula = 'C083132'

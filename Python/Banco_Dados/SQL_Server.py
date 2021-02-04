@@ -1,10 +1,10 @@
 import pyodbc
 
-class BancoDeDados():
+class SQLServer():
     StringConexao = "DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=CAIXA;trustedconnection"
 
     def ConsultaSQL(ComandoSQL) -> object:
-        conn = pyodbc.connect(BancoDeDados.StringConexao)
+        conn = pyodbc.connect(SQLServer.StringConexao)
         cursor = conn.cursor()
         cursor.execute(ComandoSQL)
         return cursor
