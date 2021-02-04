@@ -2,7 +2,7 @@ import os
 import sys
 
 sys.path.append('c:\\Projetos\\Python\\Banco_Dados')
-from SQL_Server import SQLServer
+from BancodeDados import SQLServer
 
 #SELECIONA AS COMUNIDADES
 cursor_comunidades = SQLServer.ConsultaSQL("SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios ORDER BY COMUNIDADE")

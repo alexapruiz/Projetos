@@ -1,7 +1,7 @@
 import pyodbc
 
 class SQLServer():
-    StringConexao = "DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=CAIXA;trustedconnection"
+    StringConexao = "DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=CAIXA;Trustedconnection=yes"
 
     def ConsultaSQL(ComandoSQL) -> object:
         conn = pyodbc.connect(SQLServer.StringConexao)
