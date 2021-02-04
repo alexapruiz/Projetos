@@ -1,6 +1,6 @@
-import pyodbc
-
 class SQLServer():
+    import pyodbc
+
     StringConexao = "DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=CAIXA;Trustedconnection=yes"
 
     def ConsultaSQL(ComandoSQL) -> object:
@@ -15,3 +15,11 @@ class SQLServer():
         cursor.execute(ComandoSQL)
         conn.commit()
         return "Comando Executado com Sucesso!!!"
+
+class Banco_SQLite():
+    def ConsultaSQL(arquivo, ComandoSQL) -> object:
+        import sqlite3
+
+        conexao = sqlite3.connect(arquivo)
+        cursor = conexao.cursor()
+        return cursor
