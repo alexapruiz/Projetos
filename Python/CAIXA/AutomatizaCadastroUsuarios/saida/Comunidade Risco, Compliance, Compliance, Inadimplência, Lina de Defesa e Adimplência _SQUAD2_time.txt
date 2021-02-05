@@ -1,4 +1,0 @@
-rtc.usuarios=C055363,C148738,F617591,F631334,F684346,F702715,F710793,F723231
-rtc.roles=time
-rtc.teamAreaNome=RC02 - Prevenção a Lavagem de Dinheiro
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

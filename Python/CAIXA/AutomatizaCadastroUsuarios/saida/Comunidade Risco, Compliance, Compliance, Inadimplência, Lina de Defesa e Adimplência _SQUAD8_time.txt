@@ -1,4 +1,0 @@
-rtc.usuarios=C101686,C111244,C111752,F567025,F940083
-rtc.roles=time
-rtc.teamAreaNome=RC08 - Gestão de Risco de Crédito 
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

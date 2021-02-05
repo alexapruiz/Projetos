@@ -1,4 +1,0 @@
-rtc.usuarios=F507395,F569783,F598939,F955470
-rtc.roles=time
-rtc.teamAreaNome=RC06 - Gestão de Capital
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

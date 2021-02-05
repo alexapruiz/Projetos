@@ -1,4 +1,0 @@
-rtc.usuarios=C054153,C064872,C079590,C084329
-rtc.roles=time
-rtc.teamAreaNome=CI16 - Custódia Qualificada Sustentação/Manutenção
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais

@@ -1,4 +1,0 @@
-rtc.usuarios=C108789
-rtc.roles=dono_produto
-rtc.teamAreaNome=RC03 - Cobrança e Recuperação de Crédito
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

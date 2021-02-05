@@ -1,3 +1,4 @@
+
 def velocidade_media(distancia, tempo, 	*args):
     return (distancia / tempo) * int(args[0]) * int(args[2])
 

@@ -1,16 +1,20 @@
 class SQLServer():
-    import pyodbc
+    StringConexao=''
 
-    StringConexao = "DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=CAIXA;Trustedconnection=yes"
+    def __init__(self,DATABASE):
+        self.StringConexao = 'DRIVER=SQL Server;SERVER=NOVO\SQLEXPRESS;PORT=1433;DATABASE=' + DATABASE + ';Trustedconnection=yes'
 
-    def ConsultaSQL(ComandoSQL) -> object:
-        conn = pyodbc.connect(SQLServer.StringConexao)
+    def ConsultaSQL(self, ComandoSQL) -> object:
+        import pyodbc
+        conn = pyodbc.connect(self.StringConexao)
         cursor = conn.cursor()
         cursor.execute(ComandoSQL)
         return cursor
 
-    def ExecutaComandoSQL(ComandoSQL):
-        conn = pyodbc.connect(BancoDeDados.StringConexao)
+
+    def ExecutaComandoSQL(self, ComandoSQL):
+        import pyodbc
+        conn = pyodbc.connect(self.StringConexao)
         cursor = conn.cursor()
         cursor.execute(ComandoSQL)
         conn.commit()

@@ -1,4 +1,0 @@
-rtc.usuarios=C074348
-rtc.roles=dono_produto
-rtc.teamAreaNome=RC02 - Prevenção a Lavagem de Dinheiro
-rtc.arquivo_areas=Comunidade Risco, Compliance, Compliance, Inadimplência, Lina de Defesa e Adimplência 

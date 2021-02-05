@@ -1,4 +1,0 @@
-rtc.usuarios=C068422,C134551,F568359,F685665,F760461
-rtc.roles=time
-rtc.teamAreaNome=CC2 - SIGIP-DPI
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

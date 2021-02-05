@@ -1,4 +1,0 @@
-rtc.usuarios=C081887,F610701,F621399,F634309,F672727,F911466,F926988,F945693,F948035
-rtc.roles=time
-rtc.teamAreaNome=CC5 - SINAF-PCU/SINAF-WEB Velho
-rtc.arquivo_areas=Comunidade Controladoria, Contábeis, Tributos e Orçamento

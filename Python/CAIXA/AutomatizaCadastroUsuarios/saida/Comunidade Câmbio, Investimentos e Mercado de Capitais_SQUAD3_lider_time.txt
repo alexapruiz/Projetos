@@ -1,4 +1,0 @@
-rtc.usuarios=C098816
-rtc.roles=lider_time
-rtc.teamAreaNome=CI03 - Ações on-line - Sustentação Frontoffice
-rtc.arquivo_areas=Comunidade Câmbio, Investimentos e Mercado de Capitais
