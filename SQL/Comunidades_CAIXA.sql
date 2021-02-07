@@ -32,3 +32,9 @@ update Comunidade_Usuarios set PAPEL = 'agente_qualidade' where PAPEL = 'Agente 
 
 SELECT DISTINCT(COMUNIDADE) FROM Comunidade_Usuarios order by Comunidade
 SELECT * FROM Comunidade_Usuarios where matricula = 'C083132'
+
+
+--Stored Procedures
+exec COMUNIDADE_SEL_DISTINCT 'Comunidade Habitação' , 'ABH1 - ADMINISTRAÇÃO - SQUAD A' , 'dono_produto'
+
+

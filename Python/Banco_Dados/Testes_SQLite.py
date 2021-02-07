@@ -1,5 +1,4 @@
 import sys
-import sqlite3
 sys.path.append('c:\\Projetos\\Python\\Banco_Dados')
 from BancodeDados import Banco_SQLite
 

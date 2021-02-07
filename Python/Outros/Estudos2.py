@@ -18,5 +18,7 @@ while (acertou == False) and (qtde_chances > 0):
         print("Você errou. Tente novamente... ")
         qtde_chances = qtde_chances - 1
 
-print("")
-print("O número correto era : " + str(numero_secreto))
+
+if acertou == False:
+    print("")
+    print("O número correto era : " + str(numero_secreto))

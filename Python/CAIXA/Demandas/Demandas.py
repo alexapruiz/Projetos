@@ -1,8 +1,12 @@
 import csv
-from BancoDados import BancoDeDados
+import sys
 from matplotlib import pyplot as plt
 
-def calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
+sys.path.append('c:\\Projetos\\Python\\Banco_Dados')
+from BancodeDados import SQLServer
+
+
+def Calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
     if complexidade == "Baixa":
         return comp_baixa
     elif complexidade == "Média":
@@ -40,7 +44,8 @@ def DefinePeriodo(PRAZO_FINAL):
 
 def CarregaCSV():
     planilha = csv.DictReader(open("Demandas_BRQ_01_10_2020.csv", encoding='utf-8'), delimiter=';')
-    BancoDeDados.ExecutaComandoSQL("delete from demandas_brq")
+    CAIXA = SQLServer('CAIXA')
+    CAIXA.ExecutaComandoSQL("delete from demandas_brq")
 
     for linha in planilha:
         sql="INSERT INTO Demandas_BRQ (ID, RESUMO, STATUS, QTDE, COMPLEXIDADE, DATA_CRIACAO, PRAZO_FINAL, SOLICITANTE, PREPOSTO, SERVICO, UST, GRUPO) values ("
@@ -57,24 +62,25 @@ def CarregaCSV():
         sql += str(linha["UST"]) + ",'"
         sql += str(linha["Grupo SIGCT"]) + "')"
 
-        BancoDeDados.ExecutaComandoSQL(sql)
+        CAIXA.ExecutaComandoSQL(sql)
 
 def AtualizaRegistros():
-    cursor = BancoDeDados.ConsultaSQL("select D.ID, D.QTDE, D.COMPLEXIDADE,S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA, PRAZO_FINAL from Demandas_BRQ D,Servicos S where D.SERVICO = S.SERVICO ORDER BY D.PRAZO_FINAL")
+    CAIXA = SQLServer('CAIXA')
+    cursor = CAIXA.ConsultaSQL("select D.ID, D.QTDE, D.COMPLEXIDADE,S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA, PRAZO_FINAL from Demandas_BRQ D,Servicos S where D.SERVICO = S.SERVICO ORDER BY D.PRAZO_FINAL")
     reg_demanda = cursor.fetchone()
     while reg_demanda:
         UST_TOTAL = 0
         QTDE = int(reg_demanda[1])
 
         #Definir a complexidade
-        COMPLEXIDADE = calculacomplexidade(reg_demanda[2].strip(),reg_demanda[3],reg_demanda[4],reg_demanda[5])
+        COMPLEXIDADE = Calculacomplexidade(reg_demanda[2].strip(),reg_demanda[3],reg_demanda[4],reg_demanda[5])
         UST_TOTAL = COMPLEXIDADE * QTDE
 
         #Definir o período da demanda
         PERIODO = DefinePeriodo(str(reg_demanda[6])[:10])
 
         #Atualizar campo UST
-        BancoDeDados.ExecutaComandoSQL("UPDATE Demandas_BRQ set UST = " + str(UST_TOTAL) + " , PERIODO = '" + str(PERIODO) + "' where ID = " + str(reg_demanda[0]))
+        CAIXA.ExecutaComandoSQL("UPDATE Demandas_BRQ set UST = " + str(UST_TOTAL) + " , PERIODO = '" + str(PERIODO) + "' where ID = " + str(reg_demanda[0]))
         reg_demanda = cursor.fetchone()
 
 def CriaGrafico(Grupos,Valores):
@@ -98,7 +104,8 @@ def CriaGrafico(Grupos,Valores):
     #plt.show()
 
 def LeDados():
-    cursor = BancoDeDados.ConsultaSQL("select PERIODO, sum(UST) as USTs from Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY USTs")
+    CAIXA = SQLServer("CAIXA")
+    cursor = CAIXA.ConsultaSQL("select PERIODO, sum(UST) as USTs from Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY USTs")
     dados = cursor.fetchone()
     Grupos=[]
     Valores=[]
@@ -109,7 +116,7 @@ def LeDados():
 
     CriaGrafico(Grupos,Valores)
 
-#CarregaCSV()
-#AtualizaRegistros()
+CarregaCSV()
+AtualizaRegistros()
 LeDados()
-CriaGrafico()
+#CriaGrafico()

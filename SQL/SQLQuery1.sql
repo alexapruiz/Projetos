@@ -13,3 +13,7 @@ where	((peso / ((altura / 100.00) * (altura / 100.00))) < 16) and (peso < 40)
 order by IMC
 
 select * from Doenca where altura > 130 and peso < 40 order by peso
+
+SELECT	DISTINCT(COMUNIDADE)
+		FROM	Comunidade_Usuarios  
+		ORDER	BY COMUNIDADE
