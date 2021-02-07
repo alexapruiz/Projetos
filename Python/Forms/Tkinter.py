@@ -3,7 +3,10 @@ from tkinter import ttk
 import tkinter
 
 def Exibe():
-    Label1['text'] = 'Alex Ruiz'
+    nodeId = tree.focus()
+    print("Selecionado: ", tree.item(nodeId))
+    Label1['text'] = tree.item(nodeId).values(['Coluna1'])
+
 
 #Criando a janela
 janela = Tk()

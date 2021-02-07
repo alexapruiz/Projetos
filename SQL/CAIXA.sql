@@ -6,6 +6,22 @@ select * from Demandas_BRQ
 select * from Demandas_BRQ order by ID
 select * from Demandas_BRQ for xml PATH
 
+
+select	D.ID, D.QTDE, D.COMPLEXIDADE,
+		S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA
+from	Demandas_BRQ D , Servicos S
+where	D.SERVICO = S.SERVICO
+
+select * from Demandas_BRQ
+
+select	PERIODO, sum(UST) as USTs from	Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY PERIODO
+
+select * from Demandas_BRQ WHERE id = 12524545
+select * from servicos
+
+
+
+
 CREATE TABLE [dbo].[Demandas_BRQ](
 	[ID] [int] NOT NULL,
 	[RESUMO] [nchar](150) NULL,
@@ -41,32 +57,6 @@ insert into Servicos (SERVICO,COMPLEXIDADE_BAIXA,COMPLEXIDADE_MEDIA,COMPLEXIDADE
 insert into Servicos (SERVICO,COMPLEXIDADE_BAIXA,COMPLEXIDADE_MEDIA,COMPLEXIDADE_ALTA) values ('Criação / Manutenção de View',2,2,2)
 insert into Servicos (SERVICO,COMPLEXIDADE_BAIXA,COMPLEXIDADE_MEDIA,COMPLEXIDADE_ALTA) values ('Criação / Manutenção de VOB',8,8,8)
 insert into Servicos (SERVICO,COMPLEXIDADE_BAIXA,COMPLEXIDADE_MEDIA,COMPLEXIDADE_ALTA) values ('Criação / Manutenção de Artefatos',2,4,8)
-
-select	D.ID, D.QTDE, D.COMPLEXIDADE,
-		S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA
-from	Demandas_BRQ D , Servicos S
-where	D.SERVICO = S.SERVICO
-
-select * from Demandas_BRQ
-
-select	PERIODO, sum(UST) as USTs from	Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY PERIODO
-
-select * from Demandas_BRQ WHERE id = 12524545
-select * from servicos
-
-
-
-
-USE [CAIXA]
-GO
-
-/****** Object:  Table [dbo].[Demandas_BRQ]    Script Date: 07/12/2020 19:54:40 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 
 CREATE TABLE [dbo].[Demandas_BRQ](
 	[ID] [int] NOT NULL,
