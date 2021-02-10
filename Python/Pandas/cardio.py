@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 #Definindo uma lista para nomear as colunas
 colunas = ['id','idade','genero','altura','peso','pressao_min','pressao_max','colesterol','glicemia','fumante','alcool','atividade_fisica','doenca_coracao']
@@ -29,7 +30,7 @@ print(dados.head(5))
 
 #Tudo numa linha só
 print("Total: " + str(dados.count()[0]))
-print("Qtde de Pessoas Totalmente Saudáveis: " + str(dados[(dados.colesterol == 1) & (dados.glicemia == 1) & (dados.fumante == 0) & (dados.alcool == 0) & (dados.atividade_fisica == 1) & (dados.doenca_coracao == 0) & (dados.pressao_max <= 120)].count()[0]))
+print("Qtde de Pessoas Totalmente Saudáveis: " + str(dados[(dados.colesterol == 1) & (dados.glicemia == 1) & (dados.fumante == 0) & (dados.alcool == 0) & (dados.atividade_fisica == 1) & (dados.doenca_coracao == 0)].count()[0]))
 print("Qtde de Fumantes: " + str(dados[(dados.fumante == 1)].count()[0]))
 print("Qtde de Cardíacos: " + str(dados[(dados.doenca_coracao == 1)].count()[0]))
 print("Qtde de Fumantes E Cardíacos: " + str(dados[(dados.fumante == 1) & (dados.doenca_coracao == 1)].count()[0]))
@@ -43,7 +44,22 @@ print("Qtde de Cardíacos com Pressão Alta (acima de 15): " + str(dados[(dados.
 print("Qtde de Fumantes Saudáveis (Sem doenças / sintomas): " + str(dados[(dados.fumante == 1) & (dados.doenca_coracao == 0) & (dados.pressao_max <= 120) & (dados.colesterol == 1) & (dados.glicemia == 1) ].count()[0]))
 print('Idade Média: ' + str(dados['idade'].mean()))
 
-st.title("Exibindo dados do DataFrame através do StreamLit")
-st.sidebar.info("SideBar")
-st.sidebar.slider("Selecione um filtro")
-st.write(dados)
+a=[1,2,3]
+b=[2,4,6]
+c=[3,6,9]
+d=[4,8,12]
+
+eixo_X = ['Fumantes','Cardíacos','Sedentários']
+eixo_Y = [6169,34979,13739]
+
+plt.scatter(a,b, s=20,c='blue', marker='^')
+plt.scatter(a,c, s=20,c='red', marker='+')
+plt.scatter(b,c, s=20,c='green', marker='o')
+plt.scatter(c,d, s=20,c='black', marker='x')
+plt.xticks(a,eixo_X)
+plt.yticks(b,eixo_Y)
+plt.legend('leg 1', loc='upper left', frameon=True)
+plt.legend('leg 2', loc='upper left', frameon=True)
+plt.legend('leg 3', loc='upper left', frameon=True)
+plt.legend('leg 4', loc='upper left', frameon=True)
+plt.show()

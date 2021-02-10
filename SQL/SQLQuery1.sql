@@ -17,3 +17,6 @@ select * from Doenca where altura > 130 and peso < 40 order by peso
 SELECT	DISTINCT(COMUNIDADE)
 		FROM	Comunidade_Usuarios  
 		ORDER	BY COMUNIDADE
+
+
+select idade , count(0) as Total from Cardio group by idade order by Total desc
