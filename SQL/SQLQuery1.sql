@@ -18,5 +18,4 @@ SELECT	DISTINCT(COMUNIDADE)
 		FROM	Comunidade_Usuarios  
 		ORDER	BY COMUNIDADE
 
-
 select idade , count(0) as Total from Cardio group by idade order by Total desc
