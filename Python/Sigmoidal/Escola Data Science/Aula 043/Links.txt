@@ -1,0 +1,4 @@
+https://developers.google.com/machine-learning/crash-course/ml-intro
+https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)
+https://pt.wikipedia.org/wiki/Produto_escalar
+https://grouplens.org/datasets/movielens/
