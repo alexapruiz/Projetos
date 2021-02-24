@@ -1,0 +1,3 @@
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_gradients/py_gradients.html
+https://www.geeksforgeeks.org/top-hat-and-black-hat-transform-using-python-opencv/
+https://docs.opencv.org/master/d9/d61/tutorial_py_morphological_ops.html

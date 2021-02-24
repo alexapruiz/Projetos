@@ -1,0 +1,3 @@
+http://datahacker.rs/003-how-to-resize-translate-flip-and-rotate-an-image-with-opencv/
+https://ai.stanford.edu/~syyeung/cvweb/tutorial1.html
+https://analyticsindiamag.com/how-to-implement-bitwise-operations-on-images-using-opencv/
