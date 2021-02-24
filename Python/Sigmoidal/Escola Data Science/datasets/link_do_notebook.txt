@@ -1,0 +1,3 @@
+O link para o notebook do Colab usado na aula pode ser acessado em:
+
+https://colab.research.google.com/drive/1EhrYDYkpTiAtWgeo1ibiiLPkTj6MyDV0
