@@ -1,0 +1,2 @@
+https://debuggercafe.com/image-and-video-blurring-using-opencv-and-python/
+https://medium.com/swlh/anonymize-facial-data-on-video-blur-peoples-faces-using-opencv-14ce5ed1f1aa

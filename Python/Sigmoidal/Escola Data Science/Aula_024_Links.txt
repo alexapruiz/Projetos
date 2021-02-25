@@ -1,0 +1,5 @@
+https://docs.opencv.org/master/d3/dc1/tutorial_basic_linear_transform.html
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html
+https://towardsdatascience.com/extracting-regions-of-interest-from-images-dacfd05a41ba
+https://medium.com/@almutawakel.ali/opencv-filters-arithmetic-operations-2f4ff236d6aa
+http://datahacker.rs/004-how-to-smooth-and-sharpen-an-image-in-opencv/

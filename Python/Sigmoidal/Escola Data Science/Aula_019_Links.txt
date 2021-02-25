@@ -1,0 +1,2 @@
+https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+https://towardsdatascience.com/a-complete-guide-to-principal-component-analysis-pca-in-machine-learning-664f34fc3e5a

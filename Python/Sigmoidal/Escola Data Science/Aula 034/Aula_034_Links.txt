@@ -1,0 +1,3 @@
+https://towardsdatascience.com/web-scraping-nba-stats-4b4f8c525994
+https://towardsdatascience.com/nba-deep-dive-7f7558174672
+https://py.plainenglish.io/how-to-build-a-football-dataset-with-web-scraping-d4deffcaa9ca
