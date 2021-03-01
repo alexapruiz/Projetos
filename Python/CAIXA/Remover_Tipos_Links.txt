@@ -1,0 +1,32 @@
+1. Obter a URL da área de projeto
+
+	https://gid.caixa:9443/rm/web#action=com.ibm.rdm.web.pages.showAdminPage&componentURI=https%3A%2F%2Fgid.caixa%3A9443%2Frm%2Frm-projects%2F_eP_awpO3EeWNQtttUTw6zw%2Fcomponents%2F_agpm8Nr4EeaTiJjPR2CG_w&vvc.configuration=https%3A%2F%2Fgid.caixa%3A9443%2Frm%2Fcm%2Fstream%2F_aiL4ANr4EeaTiJjPR2CG_w
+
+	...Frm-projects%2F<UUID DA AREA DE PROJETO>...components%2F<UUID DO COMPONENTE>&vvc.configuration=<VVC CONFIGURATION>
+	
+	UUID DA AREA DE PROJETO = _eP_awpO3EeWNQtttUTw6zw
+	UUID DO COMPONENTE = _agpm8Nr4EeaTiJjPR2CG_w
+
+2. Substituir o ID da área e do componente na URL abaixo:
+
+	GET PROJECT AREA TYPE SYSTEM (RETORNA LINK TYPE):
+	https://gid.caixa:9443/rm/types?accept=*&private=true&resourceContext=https://gid.caixa:9443/rm/process/project-areas/_eP_awpO3EeWNQtttUTw6zw/components/_agpm8Nr4EeaTiJjPR2CG_w
+
+3. Executar a URL acima e obter o arquivo "Types.rdf"
+
+4. Abrir o arquivo Types.rdf e localizar a URL do tipo do link a ser removido
+
+5. Parâmetros que serão utilizados no "Restlet Client": OBS: O usuário que executar este procedimento precisa ser ADM da área
+
+	Méthod: DELETE
+	Scheme:
+	Vinculação - 
+	Integração - https://gid.caixa:9443/rm/types/_gJ6JwZO3EeWNQtttUTw6zw
+	Referência - 
+
+	Cabeçalhos:
+	DoorsRP-Request-Type			private
+	net.jazz.jfs.owning-context		https://gid.caixa:9443/rm/rm-projects/_eP_awpO3EeWNQtttUTw6zw/components/_agpm8Nr4EeaTiJjPR2CG_w
+	vvc.configuration				https%3A%2F%2Fgid.caixa%3A9443%2Frm%2Fcm%2Fstream%2F_aiL4ANr4EeaTiJjPR2CG_w <somente para GC habilitado>
+																						 
+	
