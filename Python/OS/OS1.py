@@ -19,4 +19,9 @@ class Tela :
 
 
 tela1 = Tela()
-tela1.iniciar ()
+tela1.iniciar()
+
+#
+#retorno = os.system("dir ")
+#print(retorno)
+#print(os.getcwd())

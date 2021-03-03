@@ -3,7 +3,10 @@ import pandas as pd
 base = pd.read_csv('census.csv')
 
 previsores = base.iloc[:, 0:14].values
+print(previsores)
+
 classe = base.iloc[:, 14].values
+print(classe)
                 
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.compose import ColumnTransformer
