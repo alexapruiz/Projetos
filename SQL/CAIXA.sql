@@ -73,3 +73,7 @@ CREATE TABLE [dbo].[Demandas_BRQ](
 	[GRUPO] [nchar](20) NULL,
 	[PERIODO] [nchar](10) NULL
 )
+
+select	*
+from	Comunidade_Usuarios 
+where	COMUNIDADE like 'Comunidade Hab%'
