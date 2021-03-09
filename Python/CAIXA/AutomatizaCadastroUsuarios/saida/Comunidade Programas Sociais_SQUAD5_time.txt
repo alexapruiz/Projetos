@@ -1,4 +1,0 @@
-rtc.usuarios=C095428
-rtc.roles=time
-rtc.teamAreaNome=PS17 - SIEPR
-rtc.arquivo_areas=Comunidade Programas Sociais

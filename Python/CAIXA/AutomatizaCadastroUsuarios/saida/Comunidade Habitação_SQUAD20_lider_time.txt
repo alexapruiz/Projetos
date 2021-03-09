@@ -1,4 +1,0 @@
-rtc.usuarios=C142783
-rtc.roles=lider_time
-rtc.teamAreaNome=HO6 - ORIGINAÇÃO – SQUAD LEGADOS
-rtc.arquivo_areas=Comunidade Habitação

@@ -1,4 +1,0 @@
-rtc.usuarios=C098311
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIBAN
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

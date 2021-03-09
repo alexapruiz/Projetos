@@ -1,4 +1,0 @@
-rtc.usuarios=C015893,C096345,C099171
-rtc.roles=time
-rtc.teamAreaNome=CL06 - Gestão Operacional 
-rtc.arquivo_areas=Comunidade Contratações e Logística

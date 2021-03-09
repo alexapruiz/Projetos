@@ -1,4 +1,0 @@
-rtc.usuarios=C055669,C066196,C066577,C092232
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIAPI Compliance
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

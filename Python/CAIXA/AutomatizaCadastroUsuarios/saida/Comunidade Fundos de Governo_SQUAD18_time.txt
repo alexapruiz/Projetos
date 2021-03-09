@@ -1,4 +1,0 @@
-rtc.usuarios=C111347,F743924
-rtc.roles=time
-rtc.teamAreaNome=FG25 - FGHab
-rtc.arquivo_areas=Comunidade Fundos de Governo

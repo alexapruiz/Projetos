@@ -6,20 +6,15 @@ select * from Demandas_BRQ
 select * from Demandas_BRQ order by ID
 select * from Demandas_BRQ for xml PATH
 
-
 select	D.ID, D.QTDE, D.COMPLEXIDADE,
 		S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA
 from	Demandas_BRQ D , Servicos S
 where	D.SERVICO = S.SERVICO
 
-select * from Demandas_BRQ
-
 select	PERIODO, sum(UST) as USTs from	Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY PERIODO
 
 select * from Demandas_BRQ WHERE id = 12524545
 select * from servicos
-
-
 
 
 CREATE TABLE [dbo].[Demandas_BRQ](
@@ -74,6 +69,13 @@ CREATE TABLE [dbo].[Demandas_BRQ](
 	[PERIODO] [nchar](10) NULL
 )
 
+--- Comunidades
+use CAIXA
+
 select	*
 from	Comunidade_Usuarios 
 where	COMUNIDADE like 'Comunidade Hab%'
+
+
+
+

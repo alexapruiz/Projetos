@@ -1,4 +1,0 @@
-rtc.usuarios=C069605
-rtc.roles=lider_time
-rtc.teamAreaNome=PS7 - Pagamento de Folhas Bolsa/Externas
-rtc.arquivo_areas=Comunidade Programas Sociais

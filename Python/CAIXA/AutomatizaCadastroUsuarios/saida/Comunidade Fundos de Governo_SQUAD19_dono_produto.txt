@@ -1,4 +1,0 @@
-rtc.usuarios=C078503
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG26 - Migração e Convivência
-rtc.arquivo_areas=Comunidade Fundos de Governo

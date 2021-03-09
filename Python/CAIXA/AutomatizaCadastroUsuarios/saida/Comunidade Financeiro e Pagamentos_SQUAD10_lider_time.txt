@@ -1,4 +1,0 @@
-rtc.usuarios=C101488,C111781
-rtc.roles=lider_time
-rtc.teamAreaNome=FP6 - SIHDG Macro Hedge
-rtc.arquivo_areas=Comunidade Financeiro e Pagamentos

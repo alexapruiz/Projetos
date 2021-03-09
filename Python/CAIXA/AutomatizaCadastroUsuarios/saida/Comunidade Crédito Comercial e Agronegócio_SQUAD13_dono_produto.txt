@@ -1,4 +1,0 @@
-rtc.usuarios=C046601,C076088
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIEMP Agronegócio, PF e PJ
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

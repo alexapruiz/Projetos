@@ -1,4 +1,0 @@
-rtc.usuarios=C127094,F916246,F980657
-rtc.roles=time
-rtc.teamAreaNome=[Core Bancário] SIAUT SICEX
-rtc.arquivo_areas=Comunidade Estruturantes de TI

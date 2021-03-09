@@ -1,4 +1,0 @@
-rtc.usuarios=C046235
-rtc.roles=dono_produto
-rtc.teamAreaNome=FD20 - Migração SIDEC x SIJAD
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

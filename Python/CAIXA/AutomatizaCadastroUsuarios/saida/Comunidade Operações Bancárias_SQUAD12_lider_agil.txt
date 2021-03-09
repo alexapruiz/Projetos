@@ -1,4 +1,0 @@
-rtc.usuarios=C075689
-rtc.roles=lider_agil
-rtc.teamAreaNome=OB12 - SIGDA
-rtc.arquivo_areas=Comunidade Operações Bancárias

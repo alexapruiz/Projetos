@@ -1,4 +1,0 @@
-rtc.usuarios=C091491,C101476,C108583,F564775,F664854,F910540,F966660
-rtc.roles=time
-rtc.teamAreaNome=FG23 - FCVS Garantias
-rtc.arquivo_areas=Comunidade Fundos de Governo

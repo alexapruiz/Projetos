@@ -1,4 +1,0 @@
-rtc.usuarios=C077268,F521945,F661111,F718588
-rtc.roles=time
-rtc.teamAreaNome=PS6 - Auxilio Emergencial
-rtc.arquivo_areas=Comunidade Programas Sociais

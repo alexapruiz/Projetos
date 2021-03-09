@@ -1,4 +1,0 @@
-rtc.usuarios=F522101,F545285,F602594,F930912,F933056
-rtc.roles=time
-rtc.teamAreaNome=SIAPI Compliance
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

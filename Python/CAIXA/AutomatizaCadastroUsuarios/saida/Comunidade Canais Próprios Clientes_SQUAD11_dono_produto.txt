@@ -1,4 +1,0 @@
-rtc.usuarios=C142063
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC6 - Internet Banking 6
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

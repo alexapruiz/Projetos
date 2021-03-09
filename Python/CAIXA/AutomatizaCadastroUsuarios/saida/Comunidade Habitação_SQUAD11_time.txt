@@ -1,4 +1,0 @@
-rtc.usuarios=C111772,C112697,C132779
-rtc.roles=time
-rtc.teamAreaNome=HA5 - ADMINISTRAÇÃO – SQUAD E1
-rtc.arquivo_areas=Comunidade Habitação

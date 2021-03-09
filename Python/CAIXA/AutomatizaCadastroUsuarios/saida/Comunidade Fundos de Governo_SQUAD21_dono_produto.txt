@@ -1,4 +1,0 @@
-rtc.usuarios=C029357
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG28 - Consultas Especializadas
-rtc.arquivo_areas=Comunidade Fundos de Governo

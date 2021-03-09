@@ -1,4 +1,0 @@
-rtc.usuarios=C055669,C066577,C092232
-rtc.roles=dono_produto
-rtc.teamAreaNome=SICDC Crédito Direto CAIXA
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=C065405,C091818,C096366,C144533,F529085,F561020,F562766,F585561,F587209,F610674,F713440,F738509,F906980,F918244,F926199,F951857
-rtc.roles=time
-rtc.teamAreaNome=DC18 - Squad 2
-rtc.arquivo_areas=Comunidade Depósitos e Captação

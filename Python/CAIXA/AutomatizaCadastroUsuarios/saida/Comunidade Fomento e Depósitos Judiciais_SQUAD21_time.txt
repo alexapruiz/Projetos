@@ -1,4 +1,0 @@
-rtc.usuarios=C058935,C067984,F536781,F578219,F581738,F613336,F921230,F960242,F979611
-rtc.roles=time
-rtc.teamAreaNome=FD21 - SIPCV/SIPOS - Convênios e Repasses
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

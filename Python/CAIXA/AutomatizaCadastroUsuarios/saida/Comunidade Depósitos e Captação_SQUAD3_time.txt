@@ -1,4 +1,0 @@
-rtc.usuarios=F536979,F550167,F598646,F780061
-rtc.roles=time
-rtc.teamAreaNome=DC03 - Squad C
-rtc.arquivo_areas=Comunidade Depósitos e Captação

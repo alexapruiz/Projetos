@@ -1,4 +1,0 @@
-rtc.usuarios=C134543
-rtc.roles=lider_time
-rtc.teamAreaNome=CL01 - Compras
-rtc.arquivo_areas=Comunidade Contratações e Logística

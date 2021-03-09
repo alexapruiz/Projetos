@@ -1,4 +1,0 @@
-rtc.usuarios=C101490
-rtc.roles=lider_solucao
-rtc.teamAreaNome=Auxílio Emergencial - Dados e Informações
-rtc.arquivo_areas=Comunidade Dados (Big Data, Analytics e Bi)

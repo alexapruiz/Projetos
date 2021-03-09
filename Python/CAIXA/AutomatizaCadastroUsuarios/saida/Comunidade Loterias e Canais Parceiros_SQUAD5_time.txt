@@ -1,4 +1,0 @@
-rtc.usuarios=F572154,F594146,F594929,F597466,F605472,F625965,F904311,F959727
-rtc.roles=time
-rtc.teamAreaNome=evolução de jogos java
-rtc.arquivo_areas=Comunidade Loterias e Canais Parceiros

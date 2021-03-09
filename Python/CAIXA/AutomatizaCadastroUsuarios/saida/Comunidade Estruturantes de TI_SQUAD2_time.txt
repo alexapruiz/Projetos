@@ -1,4 +1,0 @@
-rtc.usuarios=C103073,F525575
-rtc.roles=time
-rtc.teamAreaNome=[Barramentos] - Desenvolvimento RJ
-rtc.arquivo_areas=Comunidade Estruturantes de TI

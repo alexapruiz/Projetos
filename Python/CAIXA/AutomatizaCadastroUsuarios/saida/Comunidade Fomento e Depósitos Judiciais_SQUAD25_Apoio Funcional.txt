@@ -1,4 +1,0 @@
-rtc.usuarios=C074174
-rtc.roles=Apoio Funcional
-rtc.teamAreaNome=FD25 - Projeto Novo SIURB Acomp de Obras
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

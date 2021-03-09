@@ -1,4 +1,0 @@
-rtc.usuarios=F527755,F544869,F544882,F545285,F612381
-rtc.roles=time
-rtc.teamAreaNome=SIAPX Consignado
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

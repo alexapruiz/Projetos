@@ -1,4 +1,0 @@
-rtc.usuarios=C065343
-rtc.roles=dono_produto
-rtc.teamAreaNome=CC3 - Internet Banking 3
-rtc.arquivo_areas=Comunidade Canais Próprios Clientes

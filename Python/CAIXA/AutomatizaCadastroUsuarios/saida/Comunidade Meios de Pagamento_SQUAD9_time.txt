@@ -1,4 +1,0 @@
-rtc.usuarios=C142161
-rtc.roles=time
-rtc.teamAreaNome=MP8 - Fábrica Cartão de Débito 
-rtc.arquivo_areas=Comunidade Meios de Pagamento

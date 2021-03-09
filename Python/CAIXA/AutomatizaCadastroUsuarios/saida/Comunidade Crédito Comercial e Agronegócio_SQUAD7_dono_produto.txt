@@ -1,4 +1,0 @@
-rtc.usuarios=C066935,C077705
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIAPX Consignado
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

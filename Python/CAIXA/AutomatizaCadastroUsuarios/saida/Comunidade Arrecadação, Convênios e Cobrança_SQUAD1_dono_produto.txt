@@ -1,4 +1,0 @@
-rtc.usuarios=C124259
-rtc.roles=dono_produto
-rtc.teamAreaNome=AC10 - Cobrança 1
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

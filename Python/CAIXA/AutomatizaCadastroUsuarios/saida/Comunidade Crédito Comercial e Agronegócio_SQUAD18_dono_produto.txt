@@ -1,4 +1,0 @@
-rtc.usuarios=C071742,C075920
-rtc.roles=dono_produto
-rtc.teamAreaNome=SIFES Fundos Financeiros
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

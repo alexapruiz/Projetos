@@ -1,4 +1,0 @@
-rtc.usuarios=C108809
-rtc.roles=lider_time
-rtc.teamAreaNome=DC18 - Squad 2
-rtc.arquivo_areas=Comunidade Depósitos e Captação

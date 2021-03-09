@@ -1,4 +1,0 @@
-rtc.usuarios=C109000
-rtc.roles=lider_time
-rtc.teamAreaNome=AC10 - Cobrança 1
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

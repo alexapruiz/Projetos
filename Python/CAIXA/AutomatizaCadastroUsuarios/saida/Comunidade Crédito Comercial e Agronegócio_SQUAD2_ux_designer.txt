@@ -1,4 +1,0 @@
-rtc.usuarios=C055703
-rtc.roles=ux_designer
-rtc.teamAreaNome=Gestão
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

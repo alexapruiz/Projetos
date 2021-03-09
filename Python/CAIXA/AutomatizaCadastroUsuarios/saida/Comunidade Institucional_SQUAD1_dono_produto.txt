@@ -1,4 +1,0 @@
-rtc.usuarios=C106965
-rtc.roles=dono_produto
-rtc.teamAreaNome=IN01 - SAC e Ouvidoria
-rtc.arquivo_areas=Comunidade Institucional

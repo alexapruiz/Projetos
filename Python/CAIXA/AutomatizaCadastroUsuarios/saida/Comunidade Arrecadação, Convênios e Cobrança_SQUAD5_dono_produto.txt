@@ -1,4 +1,0 @@
-rtc.usuarios=C069995
-rtc.roles=dono_produto
-rtc.teamAreaNome=AC3 - PJ Pública e Conta Única
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

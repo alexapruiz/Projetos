@@ -1,4 +1,0 @@
-rtc.usuarios=C090246
-rtc.roles=dono_produto
-rtc.teamAreaNome=FD14 - SIARG - Acomp de Necessidades da Ponta
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

@@ -1,4 +1,0 @@
-rtc.usuarios=F739685,F756586,F914844
-rtc.roles=time
-rtc.teamAreaNome=CI9 - SITAG
-rtc.arquivo_areas=Comunidade Canais Próprios Interno

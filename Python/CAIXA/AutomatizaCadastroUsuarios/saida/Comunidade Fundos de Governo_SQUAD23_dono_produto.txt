@@ -1,4 +1,0 @@
-rtc.usuarios=C091063
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG3 - Inscrição em Dívida
-rtc.arquivo_areas=Comunidade Fundos de Governo

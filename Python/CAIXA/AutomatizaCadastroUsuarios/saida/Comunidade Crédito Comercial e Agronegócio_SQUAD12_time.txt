@@ -1,4 +1,0 @@
-rtc.usuarios=C148704,F538634,F568101,F703746,F972171
-rtc.roles=time
-rtc.teamAreaNome=SICDT Motor de Evolução
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

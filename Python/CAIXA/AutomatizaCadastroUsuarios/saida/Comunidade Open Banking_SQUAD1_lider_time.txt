@@ -1,4 +1,0 @@
-rtc.usuarios=C142858
-rtc.roles=lider_time
-rtc.teamAreaNome=[PIX] Pagamentos Instantâneos
-rtc.arquivo_areas=Comunidade Open Banking

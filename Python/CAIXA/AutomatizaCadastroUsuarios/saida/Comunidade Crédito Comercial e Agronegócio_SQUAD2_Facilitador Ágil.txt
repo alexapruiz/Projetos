@@ -1,4 +1,0 @@
-rtc.usuarios=C070345,C101214
-rtc.roles=Facilitador Ágil
-rtc.teamAreaNome=Gestão
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

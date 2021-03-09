@@ -1,4 +1,0 @@
-rtc.usuarios=C052958,P507435,P770935
-rtc.roles=time
-rtc.teamAreaNome=OB11 - SICEA
-rtc.arquivo_areas=Comunidade Operações Bancárias

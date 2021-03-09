@@ -1,4 +1,0 @@
-rtc.usuarios=C103886
-rtc.roles=dono_produto
-rtc.teamAreaNome=IN07 - Colegiados
-rtc.arquivo_areas=Comunidade Institucional

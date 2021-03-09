@@ -1,4 +1,0 @@
-rtc.usuarios=C082490
-rtc.roles=dono_produto
-rtc.teamAreaNome=HO2 - ORIGINAÇÃO - SQUAD B
-rtc.arquivo_areas=Comunidade Habitação

@@ -1,4 +1,0 @@
-rtc.usuarios=C079995,C101209,C101497
-rtc.roles=time
-rtc.teamAreaNome=HO2 - ORIGINAÇÃO - SQUAD B
-rtc.arquivo_areas=Comunidade Habitação

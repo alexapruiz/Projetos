@@ -1,4 +1,0 @@
-rtc.usuarios=C106233,C127266,F553996,F562977,F565258,F579760,F636156,F657565,F973583,F979726
-rtc.roles=time
-rtc.teamAreaNome=AC2 - Débito
-rtc.arquivo_areas=Comunidade Arrecadação, Convênios e Cobrança

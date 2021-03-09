@@ -1,4 +1,0 @@
-rtc.usuarios=C021828,C112557,F512068,F512076
-rtc.roles=time
-rtc.teamAreaNome=FD13 - SIOCG - Originação Negócio Governo
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

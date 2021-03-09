@@ -1,4 +1,0 @@
-rtc.usuarios=C052958,F505867,F518507,F574747,F992918
-rtc.roles=time
-rtc.teamAreaNome=OB03 - SICCV SIVIC
-rtc.arquivo_areas=Comunidade Operações Bancárias

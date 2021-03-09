@@ -1,4 +1,0 @@
-rtc.usuarios=C099404
-rtc.roles=lider_time
-rtc.teamAreaNome=Biometria e Identificação Positiva
-rtc.arquivo_areas=Comunidade Segurança

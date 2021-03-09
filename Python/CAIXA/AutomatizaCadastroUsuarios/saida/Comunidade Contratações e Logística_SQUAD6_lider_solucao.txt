@@ -1,4 +1,0 @@
-rtc.usuarios=C073309
-rtc.roles=lider_solucao
-rtc.teamAreaNome=CL06 - Gestão Operacional 
-rtc.arquivo_areas=Comunidade Contratações e Logística

@@ -1,4 +1,0 @@
-rtc.usuarios=C140607
-rtc.roles=lider_time
-rtc.teamAreaNome=HA7 - ADMINISTRAÇÃO – SQUAD F
-rtc.arquivo_areas=Comunidade Habitação

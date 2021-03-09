@@ -1,4 +1,0 @@
-rtc.usuarios=C148680
-rtc.roles=Apoio Funcional
-rtc.teamAreaNome=SICCR PJ
-rtc.arquivo_areas=Comunidade Crédito Comercial e Agronegócio

@@ -1,4 +1,0 @@
-rtc.usuarios=C086893
-rtc.roles=lider_time
-rtc.teamAreaNome=FG2 - Parcelamento
-rtc.arquivo_areas=Comunidade Fundos de Governo

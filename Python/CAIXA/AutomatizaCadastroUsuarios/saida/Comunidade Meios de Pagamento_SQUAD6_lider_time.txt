@@ -1,4 +1,0 @@
-rtc.usuarios=C106530
-rtc.roles=lider_time
-rtc.teamAreaNome=MP5 - Cartão de Crédito e SIGCS
-rtc.arquivo_areas=Comunidade Meios de Pagamento

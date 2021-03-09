@@ -1,4 +1,0 @@
-rtc.usuarios=C115057
-rtc.roles=lider_time
-rtc.teamAreaNome=FG17 - Saque Digital
-rtc.arquivo_areas=Comunidade Fundos de Governo

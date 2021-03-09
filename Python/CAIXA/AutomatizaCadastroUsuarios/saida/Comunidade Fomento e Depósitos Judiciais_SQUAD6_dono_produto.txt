@@ -1,4 +1,0 @@
-rtc.usuarios=C066284
-rtc.roles=dono_produto
-rtc.teamAreaNome=FD06 - SIAPF - Estudo, Contratação, Acomp de Oper
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais

@@ -1,4 +1,0 @@
-rtc.usuarios=C099099
-rtc.roles=dono_produto
-rtc.teamAreaNome=FG5 - Parceiros
-rtc.arquivo_areas=Comunidade Fundos de Governo

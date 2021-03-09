@@ -1,4 +1,0 @@
-rtc.usuarios=C074096
-rtc.roles=lider_time
-rtc.teamAreaNome=PS2 - Bolsa Família legado e Novo SIBEC
-rtc.arquivo_areas=Comunidade Programas Sociais

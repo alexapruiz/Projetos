@@ -1,4 +1,0 @@
-rtc.usuarios=C074174
-rtc.roles=Apoio Funcional
-rtc.teamAreaNome=FD12 - Sustent Fomento URB DTF OBR APG SMP
-rtc.arquivo_areas=Comunidade Fomento e Depósitos Judiciais
