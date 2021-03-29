@@ -6,6 +6,7 @@ PF2 = PessoaFisica('111.222.333-44', nome='Vitor Panin Ruiz', idade=13)
 
 PF1.setCPF = '123.456.789-00'
 print(PF1.getCPF())
+print(PF2.getCPF())
 
 #print(PF1.getNome())
 #print(PF1.getIdade())

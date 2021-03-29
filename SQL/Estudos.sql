@@ -1,15 +1,11 @@
-select count(0) as Fumantes from Doenca where fumante = 1
-select count(0) as Noa_Fumantes from Doenca where fumante = 0
+use ESTUDOS
+select * from Cardio
 
-select	* 
-from	Doenca 
-where	diabetes = 1
-and		cardiopatia = 0
+select	count(0) as total , cardiopatia
+from	cardio
+group by cardiopatia
 
-
-select	id, idade, peso, altura, (peso / ((altura / 100.00) * (altura / 100.00))) as IMC
-from	Doenca
-where	((peso / ((altura / 100.00) * (altura / 100.00))) < 16) and (peso < 40)
-order by IMC
-
-select * from Doenca where altura > 130 and peso < 40 order by peso
+select	*
+from	cardio
+where	pressao_max > 150
+and		cardiopatia = 1
