@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6ab98b-fd96-4ea7-a3e3-e9521e212690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/Analise_Credito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordCloud/WordCloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/maquina_preditiva.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/maquina_preditiva.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SQL/SQLQuery1.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +28,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.WordCloud">
     <configuration name="Analise_Credito" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,6 +46,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/Analise_Credito.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WordCloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WordCloud" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordCloud/WordCloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,27 +109,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Streamlit/Curso Cientista de Dados na Pratica/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="outlier_boxplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="D:/Cursos/Ciencia de Dados/IA Expert - Machine Learning e Data Science com Python de A a Z - ATUALIZADO/Secao 25 - Deteccao de outliers" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="D:/Cursos/Ciencia de Dados/IA Expert - Machine Learning e Data Science com Python de A a Z - ATUALIZADO/Secao 25 - Deteccao de outliers/outlier_boxplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +160,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.outlier_boxplot" />
       <item itemvalue="Python.outlier_dispersao" />
       <item itemvalue="Python.outlier_pyod" />
       <item itemvalue="Python.Analise_Credito" />
       <item itemvalue="Python.app" />
+      <item itemvalue="Python.WordCloud" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WordCloud" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.Analise_Credito" />
         <item itemvalue="Python.outlier_pyod" />
         <item itemvalue="Python.outlier_dispersao" />
-        <item itemvalue="Python.outlier_boxplot" />
       </list>
     </recent_temporary>
   </component>
