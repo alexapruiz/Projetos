@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b6ab98b-fd96-4ea7-a3e3-e9521e212690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO/Chamador.py" beforeDir="false" afterPath="$PROJECT_DIR$/OO/Chamador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,11 +159,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.WordCloud" />
-      <item itemvalue="Python.Geo" />
       <item itemvalue="Python.AD1" />
       <item itemvalue="Python.Chamador" />
+      <item itemvalue="Python.Geo" />
+      <item itemvalue="Python.WordCloud" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
