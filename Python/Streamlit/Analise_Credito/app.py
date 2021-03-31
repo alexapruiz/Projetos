@@ -29,8 +29,7 @@ def prediction(sexo, estado_civil, renda, emprestimo, historico_credito):
     emprestimo = emprestimo / 1000
 
     # Fazendo Predições
-    prediction = maquina_preditiva.predict(
-        [[sexo, estado_civil, renda, emprestimo, historico_credito]])
+    prediction = maquina_preditiva.predict([[sexo, estado_civil, renda, emprestimo, historico_credito]])
 
     if prediction == 0:
         pred = 'Rejeitado'
