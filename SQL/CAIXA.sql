@@ -13,9 +13,13 @@ where	D.SERVICO = S.SERVICO
 
 select	PERIODO, sum(UST) as USTs from	Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY PERIODO
 
-select * from Demandas_BRQ WHERE id = 12524545
-select * from servicos
+select	sum(UST) as USTs, PERIODO , FERRAMENTA
+from	Demandas_BRQ
+where	GRUPO = 'Grupo 2'
+group	by PERIODO , FERRAMENTA
+order	by PERIODO , FERRAMENTA , USTs
 
+select * from Demandas_BRQ where UST = 0
 
 CREATE TABLE [dbo].[Demandas_BRQ](
 	[ID] [int] NOT NULL,
@@ -31,6 +35,7 @@ CREATE TABLE [dbo].[Demandas_BRQ](
 	[UST] [smallint] NULL,
 	[GRUPO] [nchar](20) NULL,
 	[PERIODO] [nchar](10) NULL,
+	[FERRAMENTA] [nchar](10) NULL,
  CONSTRAINT [PK_Demandas_BRQ] PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC

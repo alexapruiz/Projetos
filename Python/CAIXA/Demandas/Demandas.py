@@ -14,38 +14,40 @@ def Calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
     elif complexidade == "Alta":
         return comp_alta
     else:
-        return 0
+        return comp_baixa
+
 
 def DefinePeriodo(PRAZO_FINAL):
     if (PRAZO_FINAL >= "2020-01-01") and (PRAZO_FINAL <= "2020-01-20"):
-        return "01/2020"
+        return "2020-01"
     elif (PRAZO_FINAL >= "2020-01-21") and (PRAZO_FINAL <= "2020-02-20"):
-        return "02/2020"
+        return "2020-02"
     elif (PRAZO_FINAL >= "2020-02-21") and (PRAZO_FINAL <= "2020-03-20"):
-        return "03/2020"
+        return "2020-03"
     elif (PRAZO_FINAL >= "2020-03-21") and (PRAZO_FINAL <= "2020-04-20"):
-        return "04/2020"
+        return "2020-04"
     elif (PRAZO_FINAL >= "2020-04-21") and (PRAZO_FINAL <= "2020-05-20"):
-        return "05/2020"
+        return "2020-05"
     elif (PRAZO_FINAL >= "2020-05-21") and (PRAZO_FINAL <= "2020-06-20"):
-        return "06/2020"
+        return "2020-06"
     elif (PRAZO_FINAL >= "2020-06-21") and (PRAZO_FINAL <= "2020-07-20"):
-        return "07/2020"
+        return "2020-07"
     elif (PRAZO_FINAL >= "2020-07-21") and (PRAZO_FINAL <= "2020-08-20"):
-        return "08/2020"
+        return "2020-08"
     elif (PRAZO_FINAL >= "2020-08-21") and (PRAZO_FINAL <= "2020-09-20"):
-        return "09/2020"
+        return "2020-09"
     elif (PRAZO_FINAL >= "2020-09-21") and (PRAZO_FINAL <= "2020-10-20"):
-        return "10/2020"
+        return "2020-10"
     elif (PRAZO_FINAL >= "2020-10-21") and (PRAZO_FINAL <= "2020-11-20"):
-        return "11/2020"
+        return "2020-11"
     elif (PRAZO_FINAL >= "2020-11-21") and (PRAZO_FINAL <= "2020-12-20"):
-        return "12/2020"
+        return "2020-12"
+
 
 def CarregaCSV():
     planilha = csv.DictReader(open("Demandas_BRQ_01_10_2020.csv", encoding='utf-8'), delimiter=';')
     CAIXA = SQLServer('CAIXA')
-    CAIXA.ExecutaComandoSQL("delete from demandas_brq")
+    CAIXA.ExecutaComandoSQL("truncate table demandas_brq")
 
     for linha in planilha:
         sql="INSERT INTO Demandas_BRQ (ID, RESUMO, STATUS, QTDE, COMPLEXIDADE, DATA_CRIACAO, PRAZO_FINAL, SOLICITANTE, PREPOSTO, SERVICO, UST, GRUPO) values ("
@@ -64,9 +66,26 @@ def CarregaCSV():
 
         CAIXA.ExecutaComandoSQL(sql)
 
+def DefineFerramenta(RESUMO):
+    if 'CCASE' in RESUMO:
+        return 'CCASE'
+    elif 'RDNG' in RESUMO:
+        return 'RDNG'
+    elif 'RTC' in RESUMO:
+        return 'RTC'
+    elif 'RQM' in RESUMO:
+        return 'RQM'
+    elif 'TESTE' in RESUMO:
+        return 'TESTE'
+    elif 'RFT' in RESUMO:
+        return 'RFT'
+    elif 'CLM' in RESUMO:
+        return 'CLM'
+
+
 def AtualizaRegistros():
     CAIXA = SQLServer('CAIXA')
-    cursor = CAIXA.ConsultaSQL("select D.ID, D.QTDE, D.COMPLEXIDADE,S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA, PRAZO_FINAL from Demandas_BRQ D,Servicos S where D.SERVICO = S.SERVICO ORDER BY D.PRAZO_FINAL")
+    cursor = CAIXA.ConsultaSQL("select D.ID, D.QTDE, D.COMPLEXIDADE,S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA, PRAZO_FINAL, RESUMO from Demandas_BRQ D,Servicos S where D.SERVICO = S.SERVICO ORDER BY D.PRAZO_FINAL")
     reg_demanda = cursor.fetchone()
     while reg_demanda:
         UST_TOTAL = 0
@@ -79,33 +98,19 @@ def AtualizaRegistros():
         #Definir o período da demanda
         PERIODO = DefinePeriodo(str(reg_demanda[6])[:10])
 
+        #Definir a ferramenta
+        FERRAMENTA = DefineFerramenta(reg_demanda[7])
+
         #Atualizar campo UST
-        CAIXA.ExecutaComandoSQL("UPDATE Demandas_BRQ set UST = " + str(UST_TOTAL) + " , PERIODO = '" + str(PERIODO) + "' where ID = " + str(reg_demanda[0]))
+        CAIXA.ExecutaComandoSQL("UPDATE Demandas_BRQ set UST = " + str(UST_TOTAL) + " , PERIODO = '" + str(PERIODO) + "', FERRAMENTA ='" + str(FERRAMENTA) + "' where ID = " + str(reg_demanda[0]))
         reg_demanda = cursor.fetchone()
 
-def CriaGrafico(Grupos,Valores):
-    #Grafico de barras verticais
-    #grupos = ['Produto A', 'Produto B', 'Produto C']
-    #valores = [1, 10, 100]
-    plt.bar(Grupos, Valores)
-    plt.show()
+        #Atualizar campo FERRAMENTA
 
-    #Pizza
-    #vendas = [3000, 2300, 1000, 500]
-    #labels = ['E-commerce', 'Loja Física', 'e-mail', 'Marketplace']
-    # define o nível de separabilidade entre as partes, ordem do vetor representa as partes
-    #explode = (0.1, 0, 0, 0)
-    # define o formato de visualização com saída em 1.1%%, sombras e a separação entre as partes
-    #plt.pie(vendas, labels=labels, autopct='%1.1f%%', shadow=True, explode=explode)
-    # inseri a legenda e a localização da legenda.
-    #plt.legend(labels, loc=3)
-    # define que o gráfico será plotado em circulo
-    #plt.axis('equal')
-    #plt.show()
 
 def LeDados():
     CAIXA = SQLServer("CAIXA")
-    cursor = CAIXA.ConsultaSQL("select PERIODO, sum(UST) as USTs from Demandas_BRQ where	PERIODO is not null group by PERIODO ORDER BY USTs")
+    cursor = CAIXA.ConsultaSQL("select PERIODO, sum(UST) as USTs from Demandas_BRQ where PERIODO is not null group by PERIODO ORDER BY USTs")
     dados = cursor.fetchone()
     Grupos=[]
     Valores=[]
@@ -114,9 +119,7 @@ def LeDados():
         Valores.append(str(dados[1]).strip())
         dados = cursor.fetchone()
 
-    CriaGrafico(Grupos,Valores)
 
 CarregaCSV()
 AtualizaRegistros()
 LeDados()
-#CriaGrafico()
