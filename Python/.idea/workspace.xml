@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6ab98b-fd96-4ea7-a3e3-e9521e212690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OS/SO2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.SO2">
+  <component name="RunManager" selected="Python.Demandas">
     <configuration name="Demandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +169,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demandas" />
         <item itemvalue="Python.SO2" />
         <item itemvalue="Python.auth" />
         <item itemvalue="Python.Form1" />
         <item itemvalue="Python.submission" />
-        <item itemvalue="Python.Demandas" />
       </list>
     </recent_temporary>
   </component>
