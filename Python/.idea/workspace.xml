@@ -4,7 +4,7 @@
     <list default="true" id="1b6ab98b-fd96-4ea7-a3e3-e9521e212690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/teste.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,19 +139,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="submission" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jogos/Kaggle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CAIXA/Demandas" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jogos/Kaggle/submission.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CAIXA/Demandas/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,18 +162,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Demandas" />
-      <item itemvalue="Python.submission" />
       <item itemvalue="Python.auth" />
       <item itemvalue="Python.SO2" />
       <item itemvalue="Python.Form1" />
+      <item itemvalue="Python.teste" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Demandas" />
+        <item itemvalue="Python.teste" />
         <item itemvalue="Python.SO2" />
         <item itemvalue="Python.auth" />
         <item itemvalue="Python.Form1" />
-        <item itemvalue="Python.submission" />
       </list>
     </recent_temporary>
   </component>
@@ -199,5 +199,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CAIXA/Demandas/teste.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

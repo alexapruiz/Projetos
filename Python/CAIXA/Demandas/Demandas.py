@@ -5,7 +5,6 @@ from matplotlib import pyplot as plt
 sys.path.append('c:\\Projetos\\Python\\Banco_Dados')
 from BancodeDados import SQLServer
 
-
 def Calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
     if complexidade == "Baixa":
         return comp_baixa
@@ -16,151 +15,13 @@ def Calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
     else:
         return comp_baixa
 
-
 def DefinePeriodo(PRAZO_FINAL):
-    # PERIODOS 2016
-    if (PRAZO_FINAL >= "2016-06-21") and (PRAZO_FINAL <= "2016-07-20"):
-        return "2016-07"
-    if (PRAZO_FINAL >= "2016-07-21") and (PRAZO_FINAL <= "2016-08-20"):
-        return "2016-08"
-    if (PRAZO_FINAL >= "2016-08-21") and (PRAZO_FINAL <= "2016-09-20"):
-        return "2016-09"
-    if (PRAZO_FINAL >= "2016-09-21") and (PRAZO_FINAL <= "2016-10-20"):
-        return "2016-10"
-    if (PRAZO_FINAL >= "2016-10-21") and (PRAZO_FINAL <= "2016-11-20"):
-        return "2016-11"
-    if (PRAZO_FINAL >= "2016-11-21") and (PRAZO_FINAL <= "2016-12-20"):
-        return "2016-12"
-
-    # PERIODOS 2017
-    if (PRAZO_FINAL >= "2016-12-21") and (PRAZO_FINAL <= "2017-01-20"):
-        return "2017-01"
-    if (PRAZO_FINAL >= "2017-01-21") and (PRAZO_FINAL <= "2017-02-20"):
-        return "2017-02"
-    if (PRAZO_FINAL >= "2017-02-21") and (PRAZO_FINAL <= "2017-03-20"):
-        return "2017-03"
-    if (PRAZO_FINAL >= "2017-03-21") and (PRAZO_FINAL <= "2017-04-20"):
-        return "2017-04"
-    if (PRAZO_FINAL >= "2017-04-21") and (PRAZO_FINAL <= "2017-05-20"):
-        return "2017-05"
-    if (PRAZO_FINAL >= "2017-05-21") and (PRAZO_FINAL <= "2017-06-20"):
-        return "2017-06"
-    if (PRAZO_FINAL >= "2017-06-21") and (PRAZO_FINAL <= "2017-07-20"):
-        return "2017-07"
-    if (PRAZO_FINAL >= "2017-07-21") and (PRAZO_FINAL <= "2017-08-20"):
-        return "2017-08"
-    if (PRAZO_FINAL >= "2017-08-21") and (PRAZO_FINAL <= "2017-09-20"):
-        return "2017-09"
-    if (PRAZO_FINAL >= "2017-09-21") and (PRAZO_FINAL <= "2017-10-20"):
-        return "2017-10"
-    if (PRAZO_FINAL >= "2017-10-21") and (PRAZO_FINAL <= "2017-11-20"):
-        return "2017-11"
-    if (PRAZO_FINAL >= "2017-11-21") and (PRAZO_FINAL <= "2017-12-20"):
-        return "2017-12"
-
-    # PERIODOS 2018
-    if (PRAZO_FINAL >= "2017-12-21") and (PRAZO_FINAL <= "2018-01-20"):
-        return "2018-01"
-    if (PRAZO_FINAL >= "2018-01-21") and (PRAZO_FINAL <= "2018-02-20"):
-        return "2018-02"
-    if (PRAZO_FINAL >= "2018-02-21") and (PRAZO_FINAL <= "2018-03-20"):
-        return "2018-03"
-    if (PRAZO_FINAL >= "2018-03-21") and (PRAZO_FINAL <= "2018-04-20"):
-        return "2018-04"
-    if (PRAZO_FINAL >= "2018-04-21") and (PRAZO_FINAL <= "2018-05-20"):
-        return "2018-05"
-    if (PRAZO_FINAL >= "2018-05-21") and (PRAZO_FINAL <= "2018-06-20"):
-        return "2018-06"
-    if (PRAZO_FINAL >= "2018-06-21") and (PRAZO_FINAL <= "2018-07-20"):
-        return "2018-07"
-    if (PRAZO_FINAL >= "2018-07-21") and (PRAZO_FINAL <= "2018-08-20"):
-        return "2018-08"
-    if (PRAZO_FINAL >= "2018-08-21") and (PRAZO_FINAL <= "2018-09-20"):
-        return "2018-09"
-    if (PRAZO_FINAL >= "2018-09-21") and (PRAZO_FINAL <= "2018-10-20"):
-        return "2018-10"
-    if (PRAZO_FINAL >= "2018-10-21") and (PRAZO_FINAL <= "2018-11-20"):
-        return "2018-11"
-    if (PRAZO_FINAL >= "2018-11-21") and (PRAZO_FINAL <= "2018-12-20"):
-        return "2018-12"
-
-    # PERIODOS 2019
-    if (PRAZO_FINAL >= "2018-12-21") and (PRAZO_FINAL <= "2019-01-20"):
-        return "2019-01"
-    if (PRAZO_FINAL >= "2019-01-21") and (PRAZO_FINAL <= "2019-02-20"):
-        return "2019-02"
-    if (PRAZO_FINAL >= "2019-02-21") and (PRAZO_FINAL <= "2019-03-20"):
-        return "2019-03"
-    if (PRAZO_FINAL >= "2019-03-21") and (PRAZO_FINAL <= "2019-04-20"):
-        return "2019-04"
-    if (PRAZO_FINAL >= "2019-04-21") and (PRAZO_FINAL <= "2019-05-20"):
-        return "2019-05"
-    if (PRAZO_FINAL >= "2019-05-21") and (PRAZO_FINAL <= "2019-06-20"):
-        return "2019-06"
-    if (PRAZO_FINAL >= "2019-06-21") and (PRAZO_FINAL <= "2019-07-20"):
-        return "2019-07"
-    if (PRAZO_FINAL >= "2019-07-21") and (PRAZO_FINAL <= "2019-08-20"):
-        return "2019-08"
-    if (PRAZO_FINAL >= "2019-08-21") and (PRAZO_FINAL <= "2019-09-20"):
-        return "2019-09"
-    if (PRAZO_FINAL >= "2019-09-21") and (PRAZO_FINAL <= "2019-10-20"):
-        return "2019-10"
-    if (PRAZO_FINAL >= "2019-10-21") and (PRAZO_FINAL <= "2019-11-20"):
-        return "2019-11"
-    if (PRAZO_FINAL >= "2019-11-21") and (PRAZO_FINAL <= "2019-12-20"):
-        return "2019-12"
-
-    # PERIODOS 2020
-    if (PRAZO_FINAL >= "2019-12-21") and (PRAZO_FINAL <= "2020-01-20"):
-        return "2020-01"
-    if (PRAZO_FINAL >= "2020-01-21") and (PRAZO_FINAL <= "2020-02-20"):
-        return "2020-02"
-    if (PRAZO_FINAL >= "2020-02-21") and (PRAZO_FINAL <= "2020-03-20"):
-        return "2020-03"
-    if (PRAZO_FINAL >= "2020-03-21") and (PRAZO_FINAL <= "2020-04-20"):
-        return "2020-04"
-    if (PRAZO_FINAL >= "2020-04-21") and (PRAZO_FINAL <= "2020-05-20"):
-        return "2020-05"
-    if (PRAZO_FINAL >= "2020-05-21") and (PRAZO_FINAL <= "2020-06-20"):
-        return "2020-06"
-    if (PRAZO_FINAL >= "2020-06-21") and (PRAZO_FINAL <= "2020-07-20"):
-        return "2020-07"
-    if (PRAZO_FINAL >= "2020-07-21") and (PRAZO_FINAL <= "2020-08-20"):
-        return "2020-08"
-    if (PRAZO_FINAL >= "2020-08-21") and (PRAZO_FINAL <= "2020-09-20"):
-        return "2020-09"
-    if (PRAZO_FINAL >= "2020-09-21") and (PRAZO_FINAL <= "2020-10-20"):
-        return "2020-10"
-    if (PRAZO_FINAL >= "2020-10-21") and (PRAZO_FINAL <= "2020-11-20"):
-        return "2020-11"
-    if (PRAZO_FINAL >= "2020-11-21") and (PRAZO_FINAL <= "2020-12-20"):
-        return "2020-12"
-
-    # PERIODOS 2021
-    if (PRAZO_FINAL >= "2020-12-21") and (PRAZO_FINAL <= "2021-01-20"):
-        return "2021-01"
-    if (PRAZO_FINAL >= "2021-01-21") and (PRAZO_FINAL <= "2021-02-20"):
-        return "2021-02"
-    if (PRAZO_FINAL >= "2021-02-21") and (PRAZO_FINAL <= "2021-03-20"):
-        return "2021-03"
-    if (PRAZO_FINAL >= "2021-03-21") and (PRAZO_FINAL <= "2021-04-20"):
-        return "2021-04"
-    if (PRAZO_FINAL >= "2021-04-21") and (PRAZO_FINAL <= "2021-05-20"):
-        return "2021-05"
-    if (PRAZO_FINAL >= "2021-05-21") and (PRAZO_FINAL <= "2021-06-20"):
-        return "2021-06"
-    if (PRAZO_FINAL >= "2021-06-21") and (PRAZO_FINAL <= "2021-07-20"):
-        return "2021-07"
-    if (PRAZO_FINAL >= "2021-07-21") and (PRAZO_FINAL <= "2021-08-20"):
-        return "2021-08"
-    if (PRAZO_FINAL >= "2021-08-21") and (PRAZO_FINAL <= "2021-09-20"):
-        return "2021-09"
-    if (PRAZO_FINAL >= "2021-09-21") and (PRAZO_FINAL <= "2021-10-20"):
-        return "2021-10"
-    if (PRAZO_FINAL >= "2021-10-21") and (PRAZO_FINAL <= "2021-11-20"):
-        return "2021-11"
-    if (PRAZO_FINAL >= "2021-11-21") and (PRAZO_FINAL <= "2021-12-20"):
-        return "2021-12"
+    if int(PRAZO_FINAL[8:10]) > 20:
+        if (int(PRAZO_FINAL[5:7]) < 12):
+            return PRAZO_FINAL[:4] + '-' + str('0' + str(int(PRAZO_FINAL[5:7]) + 1))[-2:]
+        else:
+            return str(int(PRAZO_FINAL[:4]) + 1) + '-' + str('01')
+    return PRAZO_FINAL[:-3]
 
 def CarregaCSV():
     planilha = csv.DictReader(open("Demandas_BRQ_de_2016_ate_202104.csv", encoding='utf-8'), delimiter=';')
@@ -199,7 +60,6 @@ def DefineFerramenta(RESUMO):
     elif 'CLM' in RESUMO:
         return 'CLM'
 
-
 def AtualizaRegistros():
     CAIXA = SQLServer('CAIXA')
     cursor = CAIXA.ConsultaSQL("select D.ID, D.QTDE, D.COMPLEXIDADE,S.COMPLEXIDADE_BAIXA, S.COMPLEXIDADE_MEDIA,S.COMPLEXIDADE_ALTA, PRAZO_FINAL, RESUMO from Demandas_BRQ D,Servicos S where D.SERVICO = S.SERVICO ORDER BY D.PRAZO_FINAL")
@@ -231,18 +91,5 @@ def AtualizaRegistros():
 
         reg_demanda = cursor.fetchone()
 
-def LeDados():
-    CAIXA = SQLServer("CAIXA")
-    cursor = CAIXA.ConsultaSQL("select PERIODO, sum(UST) as USTs from Demandas_BRQ where PERIODO is not null group by PERIODO ORDER BY USTs")
-    dados = cursor.fetchone()
-    Grupos=[]
-    Valores=[]
-    while dados:
-        Grupos.append(str(dados[0]).strip())
-        Valores.append(str(dados[1]).strip())
-        dados = cursor.fetchone()
-
-
 CarregaCSV()
 AtualizaRegistros()
-LeDados()

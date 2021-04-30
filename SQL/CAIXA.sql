@@ -19,7 +19,10 @@ where	GRUPO = 'Grupo 2'
 group	by PERIODO , FERRAMENTA
 order	by PERIODO , FERRAMENTA , USTs
 
-select * from Demandas_BRQ where UST = 0
+select PRAZO_FINAL, PERIODO from Demandas_BRQ order by PRAZO_FINAL
+
+select * from Demandas_BRQ
+
 
 DROP TABLE Demandas_BRQ
 go
