@@ -48,7 +48,6 @@ CREATE TABLE [dbo].[Demandas_BRQ](
 ) ON [PRIMARY]
 GO
 
-select * from Demandas_BRQ where PERIODO is null or PERIODO = 'None'
+select * from Demandas_BRQ where FERRAMENTA = 'None'
 
 truncate table Demandas_BRQ
-select * from Servicos

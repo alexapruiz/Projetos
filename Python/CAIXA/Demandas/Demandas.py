@@ -29,7 +29,7 @@ def CarregaCSV():
     CAIXA.ExecutaComandoSQL("truncate table demandas_brq")
 
     for linha in planilha:
-        sql="INSERT INTO Demandas_BRQ (ID, RESUMO, STATUS, QTDE, COMPLEXIDADE, DATA_CRIACAO, PRAZO_FINAL, SOLICITANTE, SERVICO, UST, GRUPO) values ("
+        sql="INSERT INTO Demandas_BRQ (ID, RESUMO, STATUS, QTDE, COMPLEXIDADE, DATA_CRIACAO, PRAZO_FINAL, PREPOSTO, SOLICITANTE, SERVICO, UST, GRUPO) values ("
         sql += str(linha["ID"]) + ",'"
         sql += str(linha["Resumo"])   + "','"
         sql += str(linha["Status"]) + "',"
@@ -37,6 +37,7 @@ def CarregaCSV():
         sql += str(linha["Complexidade"]) + "','"
         sql += str(linha["Data de Criação"]) + "','"
         sql += str(linha["Prazo Final"]) + "','"
+        sql += str(linha["Preposto 2605"]) + "','"
         sql += str(linha["Segmento Solicitante de Apoio a Ferramentas Rational"]) + "','"
         sql += str(linha["Serviço Especializado de Apoio a Ferramentas Rational"]) + "',"
         sql += str(linha["UST"]) + ",'"
@@ -45,20 +46,25 @@ def CarregaCSV():
         CAIXA.ExecutaComandoSQL(sql)
 
 def DefineFerramenta(RESUMO):
-    if 'CCASE' in RESUMO:
+    RESUMO = RESUMO.upper()
+    if ('CCASE' in RESUMO) or ('CLEARCASE' in RESUMO) or ('CCRC' in RESUMO) or ('VIEW' in RESUMO) or ('VOB' in RESUMO):
         return 'CCASE'
+    if 'GC' in RESUMO:
+        return 'GC'
     elif 'RDNG' in RESUMO:
         return 'RDNG'
-    elif 'RTC' in RESUMO:
+    elif ('RTC' in RESUMO) or ('WORKITEM' in RESUMO) or ('GID' in RESUMO):
         return 'RTC'
-    elif 'RQM' in RESUMO:
+    elif ('RQM' in RESUMO) or ('QUALITY' in RESUMO):
         return 'RQM'
-    elif 'TESTE' in RESUMO:
-        return 'TESTE'
     elif 'RFT' in RESUMO:
         return 'RFT'
     elif 'CLM' in RESUMO:
         return 'CLM'
+    elif ('TESTE' in RESUMO) or ('RTW' in RESUMO) or ('RPT' in RESUMO) or ('RIT' in RESUMO):
+        return 'TESTE'
+    else:
+        return 'GERAL'
 
 def AtualizaRegistros():
     CAIXA = SQLServer('CAIXA')
