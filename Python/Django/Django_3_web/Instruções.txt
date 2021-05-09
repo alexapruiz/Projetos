@@ -1,0 +1,33 @@
+Django na web (Udemy)
+
+https://docs.djangoproject.com/en/3.2/intro
+
+
+Criar pasta do projeto
+Criar ambiente virtual
+	virtualenv <nome do ambiente>
+Acessar o ambiente virtual
+	scripts\activate.bat
+Instalar o django
+	pip install django
+Criar um projeto em Django
+	Na raíz do projeto, executar: django-admin startproject Site1_D
+Iniciando o projeto
+	python manage.py runserver 8080
+Acessando o projeto
+	http://127.0.0.1:8080/
+Criando as tabelas no banco de dados
+	python manage.py migrate
+Criando a aplicação 'core'
+	python manage.py startapp core
+
+
+
+
+views
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def home(request):
+    return HttpResponse('Hello World')
