@@ -22,6 +22,7 @@ order	by PERIODO , FERRAMENTA , USTs
 select PRAZO_FINAL, PERIODO from Demandas_BRQ order by PRAZO_FINAL
 
 select * from Demandas_BRQ
+select * from Servicos
 
 
 DROP TABLE Demandas_BRQ

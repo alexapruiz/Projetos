@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 sys.path.append('c:\\Projetos\\Python\\Banco_Dados')
 from BancodeDados import SQLServer
 
-def Calculacomplexidade(complexidade,comp_baixa,comp_media,comp_alta):
+def CalculaComplexidade(complexidade,comp_baixa,comp_media,comp_alta):
     if complexidade == "Baixa":
         return comp_baixa
     elif complexidade == "Média":
@@ -24,7 +24,7 @@ def DefinePeriodo(PRAZO_FINAL):
     return PRAZO_FINAL[:-3]
 
 def CarregaCSV():
-    planilha = csv.DictReader(open("Demandas_BRQ_de_2016_ate_202104.csv", encoding='utf-8'), delimiter=';')
+    planilha = csv.DictReader(open("Demandas_05_06.csv", encoding='utf-8'), delimiter=';')
     CAIXA = SQLServer('CAIXA')
     CAIXA.ExecutaComandoSQL("truncate table demandas_brq")
 
@@ -60,6 +60,7 @@ def DefineFerramenta(RESUMO):
     elif 'RFT' in RESUMO:
         return 'RFT'
     elif 'CLM' in RESUMO:
+
         return 'CLM'
     elif ('TESTE' in RESUMO) or ('RTW' in RESUMO) or ('RPT' in RESUMO) or ('RIT' in RESUMO):
         return 'TESTE'
@@ -75,7 +76,7 @@ def AtualizaRegistros():
         QTDE = int(reg_demanda[1])
 
         #Definir a complexidade
-        COMPLEXIDADE = Calculacomplexidade(reg_demanda[2].strip(),reg_demanda[3],reg_demanda[4],reg_demanda[5])
+        COMPLEXIDADE = CalculaComplexidade(reg_demanda[2].strip(),reg_demanda[3],reg_demanda[4],reg_demanda[5])
         UST_TOTAL = COMPLEXIDADE * QTDE
 
         #Atualizar campo UST

@@ -1,5 +1,9 @@
 
-def velocidade_media(distancia, tempo, 	*args):
-    return (distancia / tempo) * int(args[0]) * int(args[2])
+#Testes com dicionários
+meu_dicionario = {'Alex' : 'Ruiz', 'Rubia' : 'Panin', 'Vitor e Bia' : 'Panin Ruiz'}
+#print(meu_dicionario['Vitor e Bia'])
 
-print(velocidade_media(100,1,4,33,0))
+servico1 = [2,4,8]
+servico2 = [4,8,12]
+
+print(servico1[1])

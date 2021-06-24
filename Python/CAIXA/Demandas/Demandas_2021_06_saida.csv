@@ -1,0 +1,18 @@
+ID;Resumo;Status;Quantidade;Complexidade;Data de Criação;Prazo Final;Serviço;UST;Grupo SIGCT
+17608455;SITAE: Criação de área RDNG e RQM;Validado;1;N/A;10/06/2021 17:25;16/06/2021 23:00;Criação e Configuração de Projeto;4;Grupo 2
+17554639;[TESTE] - Suportes Diversos e atendimentos telefônicos - (21/05/2021 - 20/06/2021);Entregue;1;N/A;26/05/2021 17:59;18/06/2021 23:00;Apoio à Solução de Problemas Relacionados às Ferramentas;12;Grupo 2
+17534425;[CCASE] - Suporte Atendimentos Telefônicos E Suportes Diversos (21/05/2021 - 03/06/2021);Entregue;1;Alta;21/05/2021 16:10;03/06/2021 18:00;Apoio à Solução de Problemas Relacionados às Ferramentas;12;Grupo 2
+17534313;[RTC] - Suporte Atendimentos Telefônicos E Suportes Diversos (21/05/2021 - 20/06/2021);Entregue;2;Alta;21/05/2021 15:46;20/06/2021 18:00;Apoio à Solução de Problemas Relacionados às Ferramentas;24;Grupo 2
+17606632;SISPB e SIAEF - Inclusão do atributo do Caminho Crítico;Entregue;1;Baixa;09/06/2021 18:15;11/06/2021 18:00;Criação / Manutenção de Atributos;1;Grupo 2
+17572709;[RDNG] - Suportes Diversos - Junho/2021;Validado;1;Baixa;31/05/2021 11:17;18/06/2021 18:00;Apoio à Solução de Problemas Relacionados às Ferramentas;4;Grupo 2
+17544606;RDNG e RQM - Criação de Áreas de Sistemas (PEDES) - 1° parte;Validado;20;Média;24/05/2021 15:10;18/06/2021 20:00;Criação/Manutenção de área de projeto;80;Grupo 2
+17533162;[RTC] - Manutenção de Usuários - Junho/2021;Validado;2;Alta;21/05/2021 11:12;20/06/2021 18:00;Manutenção em permissões/perfis de usuário;8;Grupo 2
+17482211;Criar área SIPPS no RQM;Entregue;1;Alta;07/05/2021 16:54;21/05/2021 12:00;Criação de área de projeto integrada/associação de áreas de projeto;4;Grupo 2
+17554505;Acesso área SICLI no RQM;Recebido;1;Alta;26/05/2021 17:36;31/05/2021 12:00;Manutenção em permissões/perfis de usuário;4;Grupo 2
+17572683;[GECEQ] - Concessão de Permissão de Acesso as áreas de Projetos no Rational Quality Manager;Entregue;1;Alta;31/05/2021 11:14;10/06/2021 23:00;Manutenção em permissões/perfis de usuário;4;Grupo 2
+17610194;Designação de Licenças;Entregue;1;Média;11/06/2021 14:49;15/06/2021 12:00;Não Informado;0;Não Definido
+17609864;[GECEQ] Criação de Área RDNG - SICET;Entregue;1;Baixa;11/06/2021 12:57;15/06/2021 22:00;Criação e Configuração de Projeto;4;Grupo 2
+17613535;RQM - Alteração do modelo de Estratégia de Testes dos sistemas SIMOC e SICCL;Validado;1;N/A;14/06/2021 13:58;18/06/2021 23:00;Apoio à Solução de Problemas Relacionados às Ferramentas;12;Grupo 2
+17589503;Auxílio configuração ClearCase;Validado;1;Baixa;04/06/2021 12:30;07/06/2021 18:00;Manutenção em Itens de Configuração (ex:Retirada de check-out);2;Grupo 2
+17620626;Suporte à usuária c033951;Validado;1;Média;17/06/2021 11:01;17/06/2021 18:00;Manutenção em Itens de Configuração (ex:Retirada de check-out);2;Grupo 2
+17576484;Clearcase - SEG_B2B - Inclusão de grupo;Validado;1;Baixa;01/06/2021 07:43;01/06/2021 12:00;Criação / Manutenção de VOB;8;Grupo 2

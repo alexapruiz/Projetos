@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6ab98b-fd96-4ea7-a3e3-e9521e212690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OO/Pilha/pilha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Outros/recursividade.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO/Chamador.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO/Pessoa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO/pessoa_fisica.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OO/pessoa_juridica.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/CentralMoveis.vbproj.ResolveComReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/CentralMoveis.vbproj.ResolveComReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/Interop.MSComDlg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/Interop.MSComDlg.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/Interop.MSFlexGridLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Debug/Interop.MSFlexGridLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/CentralMoveis.vbproj.ResolveComReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/CentralMoveis.vbproj.ResolveComReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/Interop.MSComDlg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/Interop.MSComDlg.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/Interop.MSFlexGridLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../VB6/CentralMoveis/Fontes/obj/Release/Interop.MSFlexGridLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/CAIXA/Demandas/Demandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_01_10_2020.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104 - Original.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/Demandas_BRQ_de_2016_ate_202104.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/arquivo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAIXA/Demandas/saida.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outros/Funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Outros/Funcoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL/CAIXA.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL/CAIXA.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +39,50 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.pilha">
-    <configuration name="Ping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Calcula_USTs_Demandas">
+    <configuration name="Calcula_USTs_Demandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CAIXA/Demandas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CAIXA/Demandas/Calcula_USTs_Demandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demandas_Sem_SQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CAIXA/Demandas" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CAIXA/Demandas/Demandas_Sem_SQL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Funcoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -56,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Outros/Ping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Outros/Funcoes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,48 +116,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chamador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modulos" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modulos/chamador.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="django-admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/Django_3_web/Env_Django/Scripts" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/Django_3_web/Env_Django/Scripts/django-admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,19 +167,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.django-admin" />
-      <item itemvalue="Python.Ping" />
-      <item itemvalue="Python.chamador" />
       <item itemvalue="Python.recursividade" />
       <item itemvalue="Python.pilha" />
+      <item itemvalue="Python.Demandas_Sem_SQL" />
+      <item itemvalue="Python.Calcula_USTs_Demandas" />
+      <item itemvalue="Python.Funcoes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Calcula_USTs_Demandas" />
+        <item itemvalue="Python.Funcoes" />
+        <item itemvalue="Python.Demandas_Sem_SQL" />
         <item itemvalue="Python.pilha" />
         <item itemvalue="Python.recursividade" />
-        <item itemvalue="Python.chamador" />
-        <item itemvalue="Python.Ping" />
-        <item itemvalue="Python.django-admin" />
       </list>
     </recent_temporary>
   </component>
